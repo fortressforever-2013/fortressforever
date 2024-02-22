@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "compositeflare_bothalpha/compositeflare_bothalpha"
+	"$translucent" "1"
+	"$additive" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

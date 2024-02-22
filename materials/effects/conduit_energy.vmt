@@ -1,0 +1,35 @@
+"Unlitgeneric"
+{
+	"$basetexture" "effects/conduit_energy"
+//	"$texture2" "effects/combineshield/comshieldwall"
+	"$translucent" "1"
+//	"$additive" 1
+	"$nodecal" 1
+
+	"Proxies"
+	{
+		"Sine" 
+	        {
+	        	// Notice there is no '$' on the proxy variables 
+	                "resultVar"    "$alpha" 
+	                "sineperiod"   4 
+	                "sinemin"      0.5 
+	                "sinemax"      1 
+	        } 
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .5
+			"texturescrollangle" 90
+		}
+
+
+	//	"TextureScroll"
+	//	{
+	//		"texturescrollvar" "$texture2transform"
+	//		"texturescrollrate" .04
+	//		"texturescrollangle" 20
+	//	}
+
+	}
+}

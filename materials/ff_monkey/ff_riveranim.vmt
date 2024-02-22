@@ -1,0 +1,23 @@
+"unlitGeneric"
+{
+	"$basetexture" "ff_monkey/ff_riveranim"
+"$translucent" "1"
+    "$nocull" "1"
+"$additive" "1"
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$baseTextureTransform"
+            "texturescrollrate" ".15"
+            "texturescrollangle" "270.00"
+        }
+    "AnimatedTexture" 
+         { 
+            "animatedTextureVar" "$basetexture" 
+            "animatedTextureFrameNumVar" "$frame" 
+            "animatedTextureFrameRate" "12" 
+         }
+   }
+
+}

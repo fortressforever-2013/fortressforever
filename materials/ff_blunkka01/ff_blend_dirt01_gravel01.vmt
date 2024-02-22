@@ -1,0 +1,11 @@
+"Worldvertextransition"
+{
+	"%tooltexture" "ff_blunkka01\ff_blend_dirt01_gravel01"
+	"%keywords" "ff"
+	"$basetexture" "ff_blunkka01\ff_dirt01"
+	"$basetexture2" "ff_blunkka01\ff_gravel01"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "gravel"
+	"$bumpmap" "ff_blunkka01\ff_dirt01_normal"
+	"$bumpmap2" "ff_blunkka01\ff_gravel01_normal"
+}

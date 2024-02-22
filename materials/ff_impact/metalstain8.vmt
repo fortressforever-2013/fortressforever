@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_impact/metalstain8"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "ff_impact/metalstain8_spec"
+	"$envmapcontrast" "1"
+	"$surfaceprop" "metal"
+	
+}

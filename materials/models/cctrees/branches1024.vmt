@@ -1,0 +1,7 @@
+"unlitGeneric"
+{
+	"$basetexture" "models/cctrees/branches1024"
+	"$model" 1
+	"$alphatest" 1
+	"$nocull" 1
+}

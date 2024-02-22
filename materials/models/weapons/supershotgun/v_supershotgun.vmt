@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/weapons/supershotgun/v_supershotgun"
+	"$bumpmap" 			"models/weapons/supershotgun/v_supershotgun_normal"
+	"$model" 			1
+	
+	//Self illumination settings for glowing sights
+	"$selfillum" 			1
+	"$selfillumtint"		"[0.42 1 0.27]"
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	1
+	"$envmapsaturation" 		.4
+	"$envmapcontrast" 		.7
+}

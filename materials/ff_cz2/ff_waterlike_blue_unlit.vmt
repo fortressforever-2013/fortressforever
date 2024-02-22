@@ -1,0 +1,39 @@
+"UnlitGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "dev/water"
+	//"$alpha" "0.75"
+	"$color" "{0 0 255}"
+
+	//"$translucent" "1"
+
+	"$surfaceprop" "no_decal"
+
+	"$bumpframe" "0"
+	"$texoffset" "[0 0]"
+	"$texscale" "0.5"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "20.00"
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texoffset"
+			"texturescrollrate" "0.025"
+			"texturescrollangle" "45.00"
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$texoffset"
+			"scaleVar" "$texscale"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

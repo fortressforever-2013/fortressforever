@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/barrelltop" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/barrelltop_ref" 
+} 

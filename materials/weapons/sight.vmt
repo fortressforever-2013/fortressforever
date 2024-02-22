@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/sight" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/sight_ref" 
+} 

@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "ff_pitfall/pf_metalstripe_blue"
+	"$bumpmap" "ff_pitfall/pf_metalstripe_normal"
+	"$surfaceprop" "metal"
+}

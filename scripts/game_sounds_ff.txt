@@ -1,0 +1,111 @@
+//
+//game sound definitions
+//
+
+"General.BurningObjectNoLoop"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		"^ambient/fire/fire_small_noloop.wav" 
+}
+
+"ingame.screenshot"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"volume" 	"VOL_NORM"
+	"wave"		"screenshot/camerashutter.wav"
+}
+
+"HudChat.TeamMessage"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/teamtalk.wav"
+}
+
+"Player.Hint"
+{
+	"channel"	"CHAN_ITEM"
+	"volume" 	"0.32"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/hint.wav"
+}
+
+
+//
+//menue button definitions
+//
+
+"VGUI_button.click"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ui/buttonclick.wav"
+}
+
+"VGUI_button.release"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ui/buttonclickrelease.wav"
+}
+
+"VGUI_button.rollover"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ui/buttonrollover.wav"
+}
+
+//
+// Context Menu sounds
+//
+
+"ContextMenu.Open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"common/null.wav"
+}
+
+"ContextMenu.Close"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"common/null.wav"
+}
+
+"ContextMenu.NextMenu"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/buttonclick.wav"
+}
+
+"ContextMenu.Select"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/buttonclick.wav"
+}

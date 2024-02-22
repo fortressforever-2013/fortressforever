@@ -1,0 +1,169 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Mon Jul 12 05:28:33 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"hostname"
+	{
+		"#Valve_Hostname"
+		{ STRING }
+		{ "Fortress Forever" }
+	}
+
+	"maxplayers"
+	{
+		"#Valve_Max_Players"
+		{ NUMBER 1 22 }
+		{ "16" }
+	}
+
+	"sv_password"
+	{
+		"#Valve_Server_Password"
+		{ STRING }
+		{ "" }
+	}
+
+	"mp_timelimit"
+	{
+		"#FF_Timelimit"
+		{ NUMBER 0 -1 }
+		{ "20" }
+	}
+
+	"mp_friendlyfire"
+	{
+		"#Valve_Friendly_Fire"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_lan"
+	{
+		"sv_lan"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_alltalk"
+	{
+		"sv_alltalk"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_cheats"
+	{
+		"sv_cheats"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cr_scout"
+	{
+		"cr_scout"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_sniper"
+	{
+		"cr_sniper"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_soldier"
+	{
+		"cr_soldier"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_demoman"
+	{
+		"cr_demoman"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_medic"
+	{
+		"cr_medic"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_hwguy"
+	{
+		"cr_hwguy"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_pyro"
+	{
+		"cr_pyro"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_spy"
+	{
+		"cr_spy"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_engineer"
+	{
+		"cr_engineer"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+
+	"cr_civilian"
+	{
+		"cr_civilian"
+		{ NUMBER -1 -1 }
+		{ "0" }
+	}
+}

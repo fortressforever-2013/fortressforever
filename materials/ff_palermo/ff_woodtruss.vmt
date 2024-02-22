@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_palermo/ff_woodtruss"
+	"$surfaceprop" "wood"
+//	"$bumpmap" "ff_palermo/ff_woodtruss_normal"
+	"$alphatest" 1
+}

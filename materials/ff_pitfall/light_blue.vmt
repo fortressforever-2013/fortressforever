@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "ff_pitfall/light_blue"
+	"$surfaceprop" "glass"
+	"$selfillum" 1
+}

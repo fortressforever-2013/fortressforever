@@ -1,0 +1,17 @@
+GAME MODE: Hunted
+
+Teams: 
+Blue Civilian escorted by Red Bodyguards vs Yellow Assassins
+
+Objectives:
+Bodyguards open garage from the towers and escort civilian to the escape area
+
+Scoring: 
+Bodyguard: 10 points per escape
+Assassin: 5 points per assassination
+
+Notes: 
+ - The Hunted only takes damage
+from sniper rifle, crowbar, knife,
+tranq, and sabotaged SGs and
+dispensers

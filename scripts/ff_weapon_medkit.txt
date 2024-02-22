@@ -1,0 +1,95 @@
+WeaponData
+{
+	// Weapon characteristics MELEE:
+	"CycleTime"			"0.4"		// Rate of fire
+	"Damage"			"20"		// Damage
+	"Range"				"32.0"		// Reach
+
+	"MeleeWeapon"			"1"
+
+	"primary_ammo"			"AMMO_CELLS"
+	"secondary_ammo"		"None"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_MEDKIT"
+	"viewmodel"			"models/weapons/medkit/v_medkit.mdl"
+	"playermodel"			"models/weapons/medkit/w_medkit.mdl"
+	
+	"anim_prefix"			"anim"
+	"PlayerAnimationExtension" "medkit"
+	"bucket"			"0"
+	"bucket_position"		"2"
+	
+	// Misc
+	"weight"			"10"
+	"item_flags"			"0"
+
+	"ITEM_FLAG_SELECTONEMPTY"	"1"
+	"ITEM_FLAG_NOAUTOSWITCHEMPTY"	"1"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"medkit.single_shot"
+		"special1"		"medkit.hit"
+		"special2"		"medkit.infect"
+		"button1"		"medkit.button1"
+		"button2"		"medkit.button2"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"c"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"c"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"R"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"c"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

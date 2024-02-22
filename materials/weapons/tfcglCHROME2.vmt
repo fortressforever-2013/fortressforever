@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/tfcglCHROME2" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/tfcglCHROME2_ref" 
+} 

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_monkey/ff_decal_calendar"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}

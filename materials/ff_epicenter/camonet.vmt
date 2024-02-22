@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$alphatest" 1
+	"$baseTexture" "ff_epicenter/camonet"
+	"$surfaceprop" "plaster"
+	"$nocull" 1
+	"$nodecal" 1
+	"%compileNonSolid" 1 
+	"%keywords" "france"
+}

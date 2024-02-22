@@ -1,0 +1,26 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_avanti/clouds"
+	"$nodecal" 1
+	"$translucent" "1"
+	"$nofog" "1"
+
+		"Proxies"
+
+		{
+
+			"TextureScroll"
+
+			{
+
+			"texturescrollvar" "$baseTextureTransform"
+
+			"texturescrollrate" 0.002
+
+			"texturescrollangle" 30.00
+
+			}
+
+		}
+
+}

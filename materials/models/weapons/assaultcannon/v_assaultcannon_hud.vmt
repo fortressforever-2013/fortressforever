@@ -1,0 +1,17 @@
+"Unlittwotexture"
+{
+	"$baseTexture"			"models/weapons/assaultcannon/v_assaultcannon_hud"
+	"$texture2" 			"models/weapons/shared/hud_scanlines"
+	"$model"			1
+	
+	"Proxies"
+	{
+		//This controls the animated lines scrolling up on the HUD
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$texture2transform"
+			"texturescrollrate" 	0.3
+			"texturescrollangle" 	90
+		}
+	}
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "ff_cz2/ff_cz2_cp_zone"
+	"$decal" 1
+	"$decalscale" 1
+	"%keywords" "FF,airexchange,c17industrial,wasteland"
+}

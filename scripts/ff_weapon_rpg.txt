@@ -1,0 +1,105 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"CycleTime"			"0.7"		// was .8 Rate of fire
+	"CycleDecrement"		"1"		// Number of bullets fired per cycle
+
+	"Damage"			"102"		// Damage per burst
+
+	"RecoilAmount"			"1"		// Amount of recoil
+
+	// Projectile weapons
+	"Speed"				"1000"		// 900 Speed for projectile to travel at, possibly wrong.  Old FF value = 800.
+	
+	// Hitscan weapons
+	"Bullets"			"-1"		// Bullets to shoot
+	"BulletSpread"			"-1"		// Spread of projectiles
+
+	"PreReloadTime"			".3"		// was .4 Time taken for the weapon to move to reload state
+	"ReloadTime"			"0.9"		// was 1.3 Time taken to reload a shell/rocket/etc
+	"PostReloadTime"		"1"		// Time taken to move weapon back to firing state
+
+	"SpinTime"			"-1"		// For AC
+
+	"clip_size"			"4"
+	
+	"primary_ammo"			"AMMO_ROCKETS"	
+	"secondary_ammo"		"None"		
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_RPG"
+	"viewmodel"			"models/weapons/rpg/v_rpg.mdl"
+	"playermodel"			"models/weapons/rpg/w_rpg.mdl"
+	
+	"anim_prefix"			"rpg"
+	"PlayerAnimationExtension" "rpg"
+	"bucket"			"4"
+	"bucket_position"		"0"
+
+	"weight"			"60"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"generic.empty"
+		"reload"		"rpg.reload"
+		"single_shot"		"rpg.single_shot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"q"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"8"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"q"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

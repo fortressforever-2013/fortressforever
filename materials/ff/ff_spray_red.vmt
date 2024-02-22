@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff/ff_spray_red"
+    "$decal" 1
+    "$decalscale" 0.50
+    "$translucent" 1
+}

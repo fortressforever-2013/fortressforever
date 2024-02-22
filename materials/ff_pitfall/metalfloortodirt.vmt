@@ -1,0 +1,5 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "ff_pitfall/metalfloortodirt"
+	"$surfaceprop" "metal"
+}

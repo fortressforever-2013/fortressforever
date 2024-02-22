@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/chrome_red" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/chrome_red_ref" 
+} 

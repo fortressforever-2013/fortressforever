@@ -1,0 +1,7 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/props/ff/flag_long_damaged_red"
+	"$surfaceprop" "carpet"
+	"$translucent" 1
+}
+

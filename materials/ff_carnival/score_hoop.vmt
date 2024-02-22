@@ -1,0 +1,32 @@
+"UnlitGeneric" 
+{
+ 	"$basetexture"	"ff_carnival/score_hoop"
+	"$additive" 1
+	"$surfaceprop" "no_decal"
+//	"$time" 0
+//	"$rotateme" "0.0"
+//	"$mycenter" "[256, 256]"
+//	"$multiplier" 100
+//	"Proxies"
+//	{
+//"Empty"
+//		"CurrentTime"
+//		{
+//			"resultVar" "$time"
+//		}
+//		"Multiply"
+//		{
+//			"srcVar1" "$time"
+//			"srcVar2" "$multiplier"
+//			"resultVar" "$rotateme"
+//		}
+//
+//		"TextureTransform"
+//		{
+//			"centerVar" "$mycenter"
+//			"rotateVar" "$rotateme"
+//			"resultVar" "$basetexturetransform"
+//		}
+//}
+//	}
+}

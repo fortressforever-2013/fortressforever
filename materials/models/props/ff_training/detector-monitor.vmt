@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\props\ff_training\detector-monitor"
+	"$surfaceprop" "glass"
+    	"%keywords" "FF"
+
+	"Proxies"
+	{
+
+		"AnimatedTexture"
+		{
+	        	"animatedtexturevar" "$basetexture"
+	         	"animatedtextureframenumvar" "$frame"
+	         	"animatedtextureframerate" "12"
+		}
+	}
+}

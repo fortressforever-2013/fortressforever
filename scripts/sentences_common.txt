@@ -1,0 +1,22 @@
+// Fortress Forever SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+
+
+////////////
+//  Test  //
+////////////
+VOX_TEST_COMMON vox/female/t e s t c o m m o n 
+
+
+///////////////////////////////////////
+//  ff_anticitizen common sentences  //
+///////////////////////////////////////
+AD_AC_CP1 vox/female/yellow team secured command point one
+AD_AC_CP2 vox/female/yellow team secured command point two
+AD_AC_HOLD vox/female/blue team holds blue base
+AD_AC_CAP vox/female/yellow team captured blue base
+
+AD_RADIO_1 npc/overwatch/radiovoice/on1 riot404 yellow citizen infection isnow inprogress on3 allunitsapplyforwardpressure off2
+AD_RADIO_2 npc/overwatch/radiovoice/on1 assault243 isnow inprogress on3 isolate cauterize level5anticivilactivity off2
+AD_RADIO_3 npc/overwatch/radiovoice/on1 highpriorityregion isnow infestedzone on3 preparetoinnoculate off2
+

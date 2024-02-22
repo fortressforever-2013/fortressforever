@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "ff_roasted\ff_roasted_tile_cement"
+	"$surfaceprop" "metal"
+}

@@ -1,0 +1,92 @@
+WeaponData
+{
+	// Weapon characteristics MELEE:
+	"CycleTime"			"0.4"		// Rate of fire
+	"Damage"			"50"		// Damage
+	"Range"				"32.0"		// Reach
+
+	"MeleeWeapon"			"1"
+
+	"ffencrypted"	"1" // required for the script to load
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_KNIFE"
+	"viewmodel"			"models/weapons/knife/v_knife.mdl"
+	"playermodel"			"models/weapons/knife/w_knife.mdl"
+	
+	"anim_prefix"			"anim"
+	"PlayerAnimationExtension" "knife"
+	"bucket"			"0"
+	"bucket_position"		"1"
+	
+	// Misc
+	"weight"			"10"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"special2"		"knife.slash"
+		"special1"		"knife.deploy"
+		"single_shot"		"knife.single_shot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"b"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"b"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"R"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"b"
+		}
+		"deathnotice_backstab"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"t"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

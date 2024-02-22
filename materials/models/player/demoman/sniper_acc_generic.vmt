@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/player/demoman/sniper_acc_generic"
+	"$model" 			1
+	"$halflambert" 1
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+}

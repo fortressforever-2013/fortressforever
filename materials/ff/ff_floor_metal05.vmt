@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+"%keywords" "FF"
+"$basetexture" "ff\ff_floor_metal05"
+"$surfaceprop" "metalgrate"
+"$Translucent" 1
+"$nocull" 1
+"%compilepassbullets" 1
+}

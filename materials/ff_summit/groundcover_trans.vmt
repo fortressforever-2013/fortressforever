@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "ff_summit/groundcover"
+ 	"$surfaceprop" "grass"
+	"$alphatest" 1
+}

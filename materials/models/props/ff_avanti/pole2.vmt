@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\ff_avanti\pole2"
+	$selfillum 1
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{ 
+	"$model" 1
+	"$surfaceprop" "bloodyflesh"
+	"$baseTexture" "models/gibs/ff_gibs"
+	"£halflambert" "1"
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "models/gibs/ff_gibs_spec"
+	"$envmaptint" "[.6 .5 .5]"
+} 

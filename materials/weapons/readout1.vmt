@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/readout1" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/readout1_ref" 
+} 

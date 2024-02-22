@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "wood/woodwall011a"
+	"$basetexture2" "nature/snowfloor001a"
+	"$surfaceprop" "snow"
+}

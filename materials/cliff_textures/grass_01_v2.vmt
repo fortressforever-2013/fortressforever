@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$baseTexture" "cliff_textures/grass_01_v2"
+	"$bumpmap" "cliff_textures/grass_01_normal"
+	"$surfaceprop" "grass"
+}

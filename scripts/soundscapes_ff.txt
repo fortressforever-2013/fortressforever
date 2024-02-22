@@ -1,0 +1,197 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+// General soundscapes
+
+// This soundscape enables automatic dsp
+
+"ff_automatic"
+{
+	"dsp"	"1"
+	"dsp_volume" "1.0"
+	"SOUNDMIXER" "Display_Mix"
+}
+
+// This soundscape enables automatic dsp at 50% mix - good if you have 
+// a lot of dialog that must be understood at any distance
+
+"ff_automatic_dialog"
+{
+	"dsp"	"1"
+	"dsp_volume" "0.5"
+	"SOUNDMIXER" "Voicetest_Mix"
+}
+
+//
+//Ghroths soundscape and soundmixer experiment, if the soundscapes below are worthy, then they can be moved to the <mapname>_soundscape.txt
+//
+
+//----------------------------------------------------------------
+// soundmixers.txt, referenced in soundscapes_ff via "SOUNDMIXER" "name"
+//----------------------------------------------------------------
+
+"ff_huntedsewers"
+{
+	"dsp"		"1"
+	"dsp_volume"	"1.0"
+	"SOUNDMIXER"	"huntedsewers_mix"
+
+	"playsoundscape"	
+	{
+		"name"		"ff_huntedsewers.water"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"ff_huntedsewers.air"
+		"volume"	"1.0"
+	}
+}
+
+"ff_huntedsewers.water"
+{
+	"dsp"		"15"
+	"dsp_volume"	"1.0"
+	"SOUNDMIXER"	"huntedsewers_mix"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"95"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"0"
+		"wave"		"ambient/water/water_run1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"1"
+		"wave"		"ambient/water/water_run1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"105"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"2"
+		"wave"		"ambient/water/water_run1.wav"
+	}
+}
+
+"ff_huntedsewers.air"
+{
+	"dsp"		"18"
+	"dsp_volume"	"1.0"
+	"SOUNDMIXER"	"huntedsewers_mix"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"95"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"3"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"4"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"105"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"5"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"6"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"95"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"7"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+}
+
+"ff_huntedsewers.distant"
+{
+	"dsp"		"15"
+	"dsp_volume"	"1.0"
+	"SOUNDMIXER"	"huntedsewers_mix"
+
+	"playrandom"
+	{
+		"volume"	"0.5,1.0"
+		"time"		"0.1,3.0"
+		"pitch"		"95,105"
+		"position"	"1"
+	
+	"rndwave"
+ 		{
+		"wave"		"ambient/water/distant_drip1.wav"
+		"wave"		"ambient/water/distant_drip2.wav"
+		"wave"		"ambient/water/distant_drip3.wav"
+		"wave"		"ambient/water/distant_drip4.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"95"
+		"soundlevel" "SNDLVL_NORM"
+		"position"	"0"
+		"wave"		"ambient/atmosphere/quiet_cellblock_amb.wav"
+	}
+
+}

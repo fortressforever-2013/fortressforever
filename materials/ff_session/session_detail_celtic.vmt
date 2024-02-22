@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ff_session/session_detail_celtic"
+	"$surfaceprop" "no_decal"
+	"$translucent" 1
+	"$additive" 1
+	"$nocull" 1
+
+	"%keywords" "ff_session"
+}

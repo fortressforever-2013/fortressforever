@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_roasted/ff_roasted_cement01_red"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "ff/ff_floor_cement01_normal"
+}

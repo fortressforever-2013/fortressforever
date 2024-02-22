@@ -1,0 +1,26 @@
+
+"UnlitTwoTexture"
+{
+	"$basetexture" "ff_monkey/ff_foamy_alpha"
+	"$texture2"    "ff_monkey/ff_foamy"
+	"$translucent" 1
+	"$nocull" 1
+//	"$color" (1,1,1)
+	"$alpha" 1
+
+	"$additive" 1
+//	"$ignorez" 1
+	
+	"Proxies"
+	{
+	
+		
+	"TextureScroll"
+		{
+			"texturescrollvar" 			"$texture2transform"
+			"texturescrollrate" ".15"
+			"texturescrollangle" "85"
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\ff_well\bridge2_grate"
+	"$translucent" 1
+}

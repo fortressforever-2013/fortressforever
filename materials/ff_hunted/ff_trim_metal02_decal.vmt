@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_hunted\ff_trim_metal02"
+	"$surfaceprop" "metal"
+	//"$bumpmap" "ff_hunted\ff_trim_metal02_normal"
+
+	"$decal" 1
+	"$decalscale" .25
+	"$translucent" 0
+}

@@ -1,0 +1,237 @@
+//==================================
+//Radio, For Fortress Forever
+//==================================
+
+//----------------
+//Flag Announcer
+//----------------
+
+	"vox.enemycap"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/enemycap.wav"
+	}
+	"vox.enemystole"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/enemystolenflag.wav"
+	}
+	"vox.enemyflagret"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/enemyflagreturn.wav"
+	}
+	"vox.yourcap"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/yourcap.wav"
+	}
+	"vox.yourstole"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/yourstolenflag.wav"
+	}
+	"vox.yourflagret"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/yourflagreturn.wav"
+	}
+
+// Security for shutdown maps
+
+	"vox.bluedown"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/blue_down.wav"
+	}
+	"vox.blueup"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/blue_up.wav"
+	}
+	"vox.reddown"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/red_down.wav"
+	}
+	"vox.redup"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"@radio/red_up.wav"
+	}
+//----------------
+//Call for Help, MEDIC! Engie! Saveeee meee
+//----------------
+
+	"medical.saveme"
+	{
+		"channel"		"CHAN_VOICE"
+		"volume"		"VOL_NORM"
+		"soundlevel"	        "SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"		"*radio/medic/medic1.wav"
+			"wave"		"*radio/medic/medic2.wav"
+			"wave"		"*radio/medic/medic3.wav"
+			"wave"		"*radio/medic/medic4.wav"
+			"wave"		"*radio/medic/medic5.wav"
+			"wave"		"*radio/medic/medic6.wav"
+			"wave"		"*radio/medic/medic7.wav"
+			"wave"		"*radio/medic/medic8.wav"
+			"wave"		"*radio/medic/medic9.wav"
+			"wave"		"*radio/medic/medic10.wav"
+			"wave"		"*radio/medic/medic11.wav"
+		}
+	}
+	"maintenance.saveme"
+	{
+		"channel"		"CHAN_VOICE"
+		"volume"		"VOL_NORM"
+		"soundlevel"	        "SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"		"*radio/medic/eng1.wav"
+			"wave"		"*radio/medic/eng2.wav"
+			"wave"		"*radio/medic/eng3.wav"
+			"wave"		"*radio/medic/eng4.wav"
+			"wave"		"*radio/medic/eng5.wav"
+			"wave"		"*radio/medic/eng6.wav"
+			"wave"		"*radio/medic/eng7.wav"
+		}
+	}
+	"infected.saveme"
+	{
+		"channel"		"CHAN_VOICE"
+		"volume"		"VOL_NORM"
+		"soundlevel"	        "SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"		"*radio/medic/unclean1.wav"
+			"wave"		"*radio/medic/unclean2.wav"
+			"wave"		"*radio/medic/unclean3.wav"
+			"wave"		"*radio/medic/unclean4.wav"
+			"wave"		"*radio/medic/unclean5.wav"
+			"wave"		"*radio/medic/unclean6.wav"
+			"wave"		"*radio/medic/unclean7.wav"
+		}
+	}
+	"ammo.saveme"
+	{
+		"channel"		"CHAN_VOICE"
+		"volume"		"VOL_NORM"
+		"soundlevel"	"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"		"*radio/medic/ammo1.wav"
+			"wave"		"*radio/medic/ammo2.wav"
+			"wave"		"*radio/medic/ammo3.wav"
+			"wave"		"*radio/medic/ammo4.wav"
+			"wave"		"*radio/medic/ammo5.wav"
+			"wave"		"*radio/medic/ammo6.wav"
+			"wave"		"*radio/medic/ammo7.wav"
+			"wave"		"*radio/medic/ammo8.wav"
+			"wave"		"*radio/medic/ammo9.wav"
+			"wave"		"*radio/medic/ammo10.wav"
+			"wave"		"*radio/medic/ammo11.wav"
+			"wave"		"*radio/medic/ammo12.wav"
+		}
+	}
+
+//----------------
+//Class Based Calls for Help
+//----------------
+
+	"scout.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/scout_saveme_01.wav"
+	}
+	"sniper.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/sniper_saveme_01.wav"
+	}
+	"soldier.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/soldier_saveme_01.wav"
+	}
+	"demoman.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/demoman_saveme_01.wav"
+	}
+	"medic.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/medic_saveme_01.wav"
+	}
+	"engineer.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/eng_saveme_01.wav"
+	}
+	"pyro.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/pyro_saveme_01.wav"
+	}
+	"spy.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/spy_saveme_01.wav"
+	}
+	"hwguy.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/hwguy_saveme_01.wav"
+	}
+	"civilian.saveme"
+	{
+		"channel"	"CHAN_VOICE"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_NORM"
+		"wave"		"*radio/medic/civ_saveme_01.wav"
+	}

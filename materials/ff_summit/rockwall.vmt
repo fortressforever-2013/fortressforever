@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_summit/rockwall"
+    "$bumpmap" "ff_summit/rockwall_normal"
+    "$surfaceprop" "rock"
+}

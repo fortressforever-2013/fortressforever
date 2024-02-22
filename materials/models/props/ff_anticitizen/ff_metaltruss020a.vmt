@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Metal/metaltruss020a"
+	"$surfaceprop" "metal"
+	"$bumpmap" "ff/ff_metaltruss020_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+	"%keywords" "c17industrial,wasteland"
+}

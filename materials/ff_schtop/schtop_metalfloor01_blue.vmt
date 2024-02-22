@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$bumpmap" "Metal/metalfloor003a_normal"
+	"$basetexture" "Metal/metalfloor003a"
+	"$color" "[0.7 0.7 1.0]"
+	"$surfaceprop" "metal"
+	
+	"%keywords" "ff_schtop"
+}

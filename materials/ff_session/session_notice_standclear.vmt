@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ff_session/session_notice_standclear"
+	"$translucent" 1
+	"$additive" 1
+	"$nocull" 1
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.5
+			"texturescrollangle" 180
+		}
+	}
+	
+	"%keywords" "ff_session"
+}

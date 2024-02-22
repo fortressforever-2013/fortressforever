@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/flags_reset"
+	"$translucent" 1
+}

@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/lenschrome1" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/lenschrome1_ref" 
+} 

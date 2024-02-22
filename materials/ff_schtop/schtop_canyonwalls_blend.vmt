@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "ff/ff_cliff_rock03"
+	"$surfaceprop" "rock"
+	//"$bumpmap" "ff/ff_cliff_rock03_normal"
+	
+	"$basetexture2" "ff_cz2/ff_path3_gravel"
+	"$surfaceprop2" "gravel"
+	
+	"%tooltexture" "ff/ff_cliff_rock03"
+}

@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"				"models\props\ff\ff_fence"
+	"$bumpmap" 			"models\props\ff\ff_fence_normspec"
+	"$model" 			1
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask"	1
+	"$envmaptint" 			"[.1 .1 .1]"
+}
+
+
+
+
+
+
+
+

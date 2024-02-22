@@ -1,0 +1,67 @@
+"Refract"
+{
+ 	//"$model" 1
+
+	"Refract_DX60"
+	{
+		"$fallbackmaterial" "effects/slowfield_view_dx60"
+	}
+	"Refract_DX80"
+	{
+		"$fallbackmaterial" "effects/slowfield_view_dx60"
+	}
+	$additive 1
+	"$refractamount" "0.2"
+ 	"$bluramount" ".2"
+	"$scale" "[1 1]"
+	"$refracttint" "[.6 .55 .37]"
+	"$dudvmap" "effects/cloak_dudv"
+ 	"$normalmap" "effects/cloak_normal"
+ 	"$surfaceprop" "no_decal"
+	"$dudvframe" "0"
+	"$bumpframe" "0"
+	"$suppress_decals" "1"	
+	"$slowamount" "0"
+	"$baserefract" "0.2"
+	"Proxies"
+	{
+		"SlowfieldSlow"
+		{
+			"resultVar" "$slowamount"
+		}
+		
+		"Multiply"
+		{
+			"srcVar1" "$baserefract"
+			"srcVar2" "$slowamount"
+			"resultVar" "$refractamount"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$refracttint"
+			"srcVar2" "$slowamount"
+			"resultVar" "$refracttint"
+		}
+		
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$dudvmap"
+			"animatedtextureframenumvar" "$dudvframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .07
+			"texturescrollangle" 33.00
+		}
+	}
+}

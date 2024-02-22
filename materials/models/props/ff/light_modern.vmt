@@ -1,0 +1,6 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/props/ff/light_modern"
+	"$selfillum" "1"
+}
+

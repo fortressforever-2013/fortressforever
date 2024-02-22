@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "ff_monkey/zo_monkeylight"
+	"$bumpmap" "ff_monkey/zo_monkeylight_normal"
+	"$surfaceprop" "Rock"
+	"$model" 1
+}

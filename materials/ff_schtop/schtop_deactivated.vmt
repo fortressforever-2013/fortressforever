@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ff_schtop/schtop_deactivated"
+	"$surfaceprop" "no_decal"
+	"$additive" 1
+	"$nocull" 1
+	
+	"%keywords" "ff_schtop"
+}

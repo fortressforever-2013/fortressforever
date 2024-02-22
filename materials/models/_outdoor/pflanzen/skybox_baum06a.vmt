@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models\_outdoor/pflanzen/skybox_baum06a"
+"$model" 1
+"$translucent" 1
+}

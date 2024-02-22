@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff/ff08_sign_flag_blue"
+    "$bumpmap" "ff/ff08_sign_512_normal"
+    "$surfaceprop" "metal"
+    "$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+}

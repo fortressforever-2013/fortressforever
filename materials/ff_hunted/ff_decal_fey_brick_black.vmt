@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_hunted/ff_decal_fey_brick_black"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}
+

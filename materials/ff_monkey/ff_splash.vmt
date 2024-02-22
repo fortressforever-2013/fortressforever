@@ -1,0 +1,36 @@
+
+"UnlitTwoTexture"
+{
+	"$basetexture" "ff_monkey/ff_wavesplash_alpha"
+	"$texture2"    "ff_monkey/ff_wavesplash"
+	"$translucent" 1
+	"$nocull" 1
+//	"$color" (1,1,1)
+	"$alpha" 1
+
+	"$additive" 1
+//	"$ignorez" 1
+	
+	"$myangle" 80
+	"Proxies"
+	{
+	
+		// This is a sine proxy 
+           	 	"Sine" 
+            		{ 
+                 	  // This is the data for the sine proxy 
+                   	// Notice there is no '$' on the proxy variables 
+	                   "resultVar"    "$myangle" 
+	                   "sineperiod"   3 
+	                   "sinemin"       0
+                	   "sinemax"      10
+          		  } 
+	"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 0.5
+			"texturescrollangle" "80+$myangle"
+		}
+	}
+
+}

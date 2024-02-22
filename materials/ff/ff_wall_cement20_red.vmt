@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+"%keywords" "FF"
+"$basetexture" "ff/ff_wall_cement20_red"
+"$surfaceprop" "concrete"
+"$bumpmap" "ff/ff_wall_cement20_normal"
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+}

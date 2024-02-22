@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 					"models/weapons/rpg/w_rpg"
+	//"$bumpmap" 						"models/weapons/rpg/v_rpg_grip_normal"
+	"$model" 						1
+	
+	//Environment Mapping
+	"$envmap" 						"env_cubemap"
+	//"$normalmapalphaenvmapmask" 	1
+	"$envmaptint" 					"[.05 .05 .05]"
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+}

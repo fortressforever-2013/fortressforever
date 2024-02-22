@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_cz2/ff_concretewall062a_trim_d"
+	"$decal" 1
+	"$decalscale" .25
+	"$translucent" 0
+}

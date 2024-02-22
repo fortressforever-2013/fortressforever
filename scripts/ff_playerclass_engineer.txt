@@ -1,0 +1,67 @@
+PlayerClassData
+{
+	"slot"				"9"
+	"classname"			"engineer"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Text
+	"printname"			"#FF_PLAYER_ENGINEER"
+	"description"			"#FF_HELP_ENGINEER"
+	"role"				"#FF_ROLE_ENGINEER"
+
+	// Model
+	"model"				"models/player/engineer/engineer.mdl"
+
+	// Health & Armour
+	"max_armour"			"50"
+	"initial_armour"		"25"
+	"armour_type"			"5" // this means 0.5
+	"health"			"80"
+
+	"speed"				"300" //315 was 5% boosted
+	
+	"firepower"			"55" // from 1 to 100
+	
+	// Weapns to automatically equip the class with
+	ArmamentsData
+	{
+		"weapon"	"ff_weapon_spanner"
+		"weapon"	"ff_weapon_railgun"
+		"weapon"	"ff_weapon_supershotgun"
+		"weapon"	"ff_weapon_deploydispenser"
+		"weapon"	"ff_weapon_deploysentrygun"
+
+		"skill"		"dispenser"
+		"skill"		"sentrygun"
+	}
+
+	"primary_classname"		"ff_grenade_normal"
+	"primary_initial"		"2"
+	"primary_max"			"4"
+
+	"secondary_classname"		"ff_grenade_emp"
+	"secondary_initial"		"1"
+	"secondary_max"			"2"
+
+	// Ammo amounts for the player
+	AmmoData
+	{
+		"AMMO_SHELLS"		"20"
+		"AMMO_NAILS"		"25"
+		"AMMO_CELLS"		"100"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+
+	MaxAmmoData
+	{
+		"AMMO_SHELLS"		"50"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"200"
+		"AMMO_ROCKETS"		"30"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+}

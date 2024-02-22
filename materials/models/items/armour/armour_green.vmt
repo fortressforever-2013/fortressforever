@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/armour/armour_green"
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+}

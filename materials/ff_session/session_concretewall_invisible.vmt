@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/concretewall010a"
+	"$alpha" 1.0
+	"$surfaceprop" "no_decal"
+	
+	"%keywords" "ff_session"
+}

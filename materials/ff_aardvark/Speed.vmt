@@ -1,0 +1,24 @@
+"LightmappedGeneric" 
+{ 
+      "$basetexture"	"ff_aardvark/Speed"
+	"$surfaceprop" "concrete"
+	"$unClamped" "1"
+
+	"Proxies" 
+     { 
+		"PlayerSpeed" 
+		{
+			"resultVar" "$unClamped"
+			"scale"   	0.01136
+		}	
+		"Clamp"
+		{
+			"srcVar1"	"$unClamped"
+			"min"		"0"
+			"max"		"20"
+			"resultVar" "$frame"
+		}
+
+	}
+	"%keywords" "ff_aardvark" 
+}

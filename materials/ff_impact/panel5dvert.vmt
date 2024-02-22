@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_impact/panel5dvert"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "ff_impact/panel5dverty2_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" "1"
+	"$envmapsaturation" 1
+	
+}

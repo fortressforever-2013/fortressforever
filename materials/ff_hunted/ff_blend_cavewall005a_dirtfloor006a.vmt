@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_hunted/ff_cavewall005a"
+	"$basetexture2" "ff_hunted/ff_dirtfloor006a"
+
+	"%tooltexture" "ff_hunted/ff_blend_cavewall005a_dirtfloor006a_tooltexture"
+
+	"$surfaceprop" "rock"
+	"$surfaceprop2" "dirt"
+
+	//"$bumpmap" "ff_hunted/ff_cavewall005a_normal"
+	//"$bumpmap2" "ff_hunted/ff_dirtfloor006a_normal"
+
+	//"$basetexturetransform" "center 0 0 scale 4 4 rotate 0 translate 0 0"
+	//"$basetexturetransform2" "center 0 0 scale .5 .5 rotate 0 translate 0 0"
+}

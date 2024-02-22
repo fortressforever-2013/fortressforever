@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/laserchrome" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/laserchrome_ref" 
+} 

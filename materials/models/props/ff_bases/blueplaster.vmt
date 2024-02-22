@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\ff_bases\blueplaster"
+	"$bumpmap" "models\props\ff_bases\redplaster_normal"
+	"$surfaceprop" "concrete"
+}

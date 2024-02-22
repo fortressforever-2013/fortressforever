@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_roasted/ff_roasted_tile_cement"
+	"$basetexture2" "nature/snowfloor001a"
+	"$surfaceprop" "snow"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff\ff_ground_dirt02"
+	"$surfaceprop" "grass"
+
+	%detailtype "grass03"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Concrete/concreteceiling001a"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown,c17industrial"
+}

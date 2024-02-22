@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_dustbowl/ff_sign_welcome"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}

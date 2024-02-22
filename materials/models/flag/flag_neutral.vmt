@@ -1,0 +1,74 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/flag/flag_neutral"
+	"$selfillum"			"1"
+	"$selfillumtint"		"[0 0 0]"
+
+	"$caes_speed_start"		"600.0"
+	"$caes_speed_range"		"200.0"
+	"$caes_tint_min"		"2.0"
+	"$caes_tint_range"		"14.0"
+	"$caes_tint_decay"		"0.1"
+
+	"$caes_tint"			"0.0"
+	"$caes_tint_last"		"0.0"
+
+	"Proxies" 
+	{
+		"PlayerSpeed" 
+		{
+			"resultVar"		"$caes_tint"
+			"scale"			"1.0"
+		}
+		"Subtract"
+		{
+			"srcVar1"		"$caes_tint"
+			"srcVar2"		"$caes_speed_start"
+			"resultVar"		"$caes_tint"
+		}
+		"Divide"
+		{
+			"srcVar1"		"$caes_tint"
+			"srcVar2"		"$caes_speed_range"
+			"resultVar"		"$caes_tint"
+		}
+		"Clamp"
+		{
+			"srcVar1"		"$caes_tint"
+			"min"			"0.0"
+			"max"			"1.0"
+			"resultVar"		"$caes_tint"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$caes_tint"
+			"srcVar2"		"$caes_tint_range"
+			"resultVar"		"$caes_tint"
+		}
+		"Add"
+		{
+			"srcVar1"		"$caes_tint"
+			"srcVar2"		"$caes_tint_min"
+			"resultVar"		"$caes_tint"
+		}
+		"Subtract"
+		{
+			"srcVar1"		"$caes_tint_last"
+			"srcVar2"		"$caes_tint_decay"
+			"resultVar"		"$caes_tint_last"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"		"$caes_tint_last"
+			"srcVar2"		"$caes_tint"
+			"lessEqualVar"	"$caes_tint"
+			"greaterVar"	"$caes_tint_last"
+			"resultVar"		"$caes_tint_last"
+		}
+		"Equals"
+		{
+			"srcVar1"		"$caes_tint_last"
+			"resultVar"		"$selfillumtint"
+		}
+	}
+}

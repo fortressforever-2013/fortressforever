@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "ff_epicenter/metal/metalfloor002_red"
+	"$surfaceprop" "metal"
+	"%keywords" "zauis,metal,floor"
+	"$bumpmap" "ff_epicenter/metal/metalfloor002_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" .8
+	"$envmaptint" "[ .25 .25 .25 ]"
+}

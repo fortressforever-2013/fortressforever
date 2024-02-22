@@ -1,0 +1,24 @@
+//"UnlitGeneric"
+"UnlitTwoTexture"
+{
+ 	"$model" "1"
+ //ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+ 	"$surfaceprop" "water"
+	"$basetexture" "dev/water"
+	"$texture2" "models/grenades/napalm/napalm_glass"
+	"$additive" 1
+	"$color" "[255 200 50]"
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 20.00
+		}
+	}
+}

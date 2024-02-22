@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff/ff_grate02"
+	"$translucent" 1
+	"$surfaceprop" "glass"
+	"$nocull" 1
+	
+	"%keywords" "ff_session"
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_impact\crackfloor"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "ff_impact\crackfloor_normal"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+}

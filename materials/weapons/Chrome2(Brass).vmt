@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/Chrome2(Brass)" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/Chrome2(Brass)_ref" 
+} 

@@ -1,0 +1,22 @@
+ff_cz2
+
+
+GAME MODE: Command Point (CP)
+Capture and control each command point.
+
+TEAMS: Red vs Blue
+
+OBJECTIVES:
+- Capture command points by standing on them.
+- Defend points from enemy captures.
+
+SCORING:
+- Command points farthest from your
+   base are worth more points, which
+   are rewarded every 15-30 seconds.
+- All Cap: 100 points are given for
+   capturing all command points, which
+   also resets players, flags, and CPs.
+
+Visit www.fortress-forever.com for
+additional information.

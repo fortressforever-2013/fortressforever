@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"				"models\props\ff\FF_Barrel_CZ2_5"
+	"$bumpmap" 			"models\props\ff\FF_Barrel_CZ2_normspec"
+	"$model" 			1
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask"	1
+	"$envmaptint" 			"[.5 .5 .5]"
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/props/ff/cactus3.vtf"
+   "$phong" 1
+   $phongexponent		1
+   $phongboost		.6
+   $phongfresnelranges	"[0 0.5 2]"
+   "$bumpmap" "models/props/ff/cactus3_normal.vtf"
+}

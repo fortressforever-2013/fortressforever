@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "ff_aardvark/blueline"
+    "$decal" 1
+    "$translucent" 1
+    "$alpha" 0.7
+}

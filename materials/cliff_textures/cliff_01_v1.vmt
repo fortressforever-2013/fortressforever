@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$baseTexture" "cliff_textures\cliff_01_v1"
+	"$bumpmap" "cliff_textures/cliff_01_normal"
+	"$surfaceprop" "rock"
+}

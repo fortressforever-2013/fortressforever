@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_monitor_tvnonoise_4"
+	"%tooltexture" "ff/ff_monitor"
+	"$surfaceprop" "glass"
+}

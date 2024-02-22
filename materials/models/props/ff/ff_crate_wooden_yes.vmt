@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props/ff/ff_crate_wooden_yes"
+	"$model" 			1
+}

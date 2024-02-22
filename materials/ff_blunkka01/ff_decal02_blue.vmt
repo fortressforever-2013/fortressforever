@@ -1,0 +1,9 @@
+"lightmappedgeneric"
+{
+"%keywords" "ff"
+"$basetexture" "ff_blunkka01\ff_decal02_blue"
+"$surfaceprop" "brick"
+"$decal" 1
+"$decalscale" 0.25
+"$translucent" 1
+}

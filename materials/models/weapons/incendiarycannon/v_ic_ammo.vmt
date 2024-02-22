@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/weapons/incendiarycannon/v_ic_ammo"
+//	"$bumpmap" 			"models/weapons/incendiarycannon/v_ic_ammo_normal"
+	"$model" 			"1"
+	
+//	"$normalmapalphaenvmapmask"	"1"
+	"$envmapcontrast" 		"1"
+	"$envmapsaturation" 		".7"
+	"$envmaptint" 			"[ 0.7 0.7 0.7 ]"
+}

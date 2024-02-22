@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_grate01"
+	"$translucent" 1
+                "$surfaceprop" "metal"
+}

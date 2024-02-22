@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\ff_push\push_skylight_big"
+	"$model" 			1
+	"$translucent" 			1
+
+	//Environment Mapping
+                "$envmapmask" "models\props\ff_push\skylight_mask"
+	"$envmap" 			"env_cubemap"
+	"$envmaptint"			"[0.5 0.5 0.5]"
+}

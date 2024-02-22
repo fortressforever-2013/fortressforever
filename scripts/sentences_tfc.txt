@@ -1,0 +1,100 @@
+// Fortress Forever SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+
+// --------- Canal Zone --------- //
+CZ_GOTCP1 vox/tfc/command point one secured
+CZ_LOSTCP1 vox/tfc/command point one is now hostile
+CZ_GOTCP2 vox/tfc/command point two secured
+CZ_LOSTCP2 vox/tfc/command point two is now hostile
+CZ_GOTCP3 vox/tfc/command point three secured
+CZ_LOSTCP3 vox/tfc/command point three is now hostile
+CZ_GOTCP4 vox/tfc/command point four secured
+CZ_LOSTCP4 vox/tfc/command point four is now hostile
+CZ_GOTCP5 vox/tfc/command point five secured
+CZ_LOSTCP5 vox/tfc/command point five is now hostile
+CZ_GOTALL vox/tfc/all command point secured _comma _comma _comma command point reset
+CZ_THEYGOTALL vox/tfc/enemy captured all command points _comma _comma _comma command points reset
+CZ_BCC_DET vox/tfc/blue command center detonation
+CZ_RCC_DET vox/tfc/red command center detonation
+
+// --------- Capture the Flag --------- //
+CTF_YOUCAP vox/tfc/you captured the enemy flag
+CTF_TEAMCAP vox/tfc/your team captured the flag
+CTF_THEYCAP vox/tfc/the enemy team captured the flag
+CTF_YOUGOTFLAG vox/tfc/you have the enemy flag
+CTF_YOUGOTFLAG2 vox/tfc/you have the enemy flag
+CTF_YOUGOTFLAG3 vox/tfc/you have the enemy flag
+CTF_YOUGOTFLAG4 vox/tfc/you have the enemy flag
+CTF_GOTFLAG vox/tfc/your team has the enemy flag
+CTF_GOTFLAG2 vox/tfc/your team has the enemy flag
+CTF_GOTFLAG3 vox/tfc/your team has the enemy flag
+CTF_GOTFLAG4 vox/tfc/your team has the enemy flag
+CTF_LOSTFLAG vox/tfc/the enemy has your flag
+CTF_LOSTFLAG2 vox/tfc/the enemy has your flag
+CTF_LOSTFLAG3 vox/tfc/the enemy has your flag
+CTF_LOSTFLAG4 vox/tfc/the enemy has your flag
+CTF_FLAGBACK vox/tfc/your flag has returned
+CTF_EFLAGBACK vox/tfc/the enemy flag has returned
+
+// --------- Hunted --------- //
+HTD_DOORS vox/tfc/escape door open
+
+// --------- The Rock --------- //
+RK_BYARDOPEN vox/tfc/blue yards has been breached
+RK_RYARDOPEN vox/tfc/red yards has been breached
+RK_KEYBACK vox/tfc/your key has returned
+RK_EKEYBACK vox/tfc/enemy key has returned
+RK_GOTKEY vox/tfc/your team has the enemy key
+RK_LOSTKEY vox/tfc/the enemy has your key
+RK_BSCORE vox/tfc/blue team scores _comma _comma _comma nerve_gas_released _comma _comma _comma secure protective suit immediately
+RK_RSCORE vox/tfc/red team scores  _comma _comma _comma nerve_gas_released _comma _comma _comma secure protective suit immediately
+RK_TAKEKEY vox/tfc/take key to enemy gas chamber
+FBALL_BSCORE vox/tfc/blue team scores
+FBALL_RSCORE vox/tfc/red team scores
+
+// --------- Attack/Defend --------- //
+AD_600SEC vox/tfc/ten minutes remaining
+AD_300SEC vox/tfc/five minutes remaining
+AD_120SEC vox/tfc/two minutes remaining
+AD_60SEC vox/tfc/sixty seconds remaining
+AD_30SEC vox/tfc/thirty seconds remaining
+AD_10SEC vox/tfc/ten
+AD_9SEC vox/tfc/nine
+AD_8SEC vox/tfc/eight
+AD_7SEC vox/tfc/seven
+AD_6SEC vox/tfc/six
+AD_5SEC vox/tfc/five
+AD_4SEC vox/tfc/four
+AD_3SEC vox/tfc/three
+AD_2SEC vox/tfc/two
+AD_1SEC vox/tfc/one
+AD_CP1 vox/tfc/blue team secured command point one
+AD_CP2 vox/tfc/blue team secured command point two
+AD_HOLD vox/tfc/red team holds red base
+AD_CAP vox/tfc/blue team captured red base
+AD_GATESOPEN vox/tfc/_comma
+AD_ATTACK vox/tfc/_comma
+AD_DEFEND vox/tfc/_comma
+
+// --------- Shutdown2 --------- //
+SD_REDDOWN vox/tfc/red security has been deactivated
+SD_REDUP vox/tfc/red security is now operating
+SD_BLUEDOWN vox/tfc/blue security has been deactivated
+SD_BLUEUP vox/tfc/blue security is now operating
+
+// --------- Push --------- //
+CTF_YOUSCORE vox/tfc/you captured the flag
+CTF_TEAMSCORE vox/tfc/your team captured the flag
+CTF_THEYSCORE vox/tfc/the enemy team captured the flag
+CTF_YOUHAVEBALL vox/tfc/you have the flag
+CTF_TEAMHASBALL vox/tfc/your team has the flag
+CTF_ENEMYHASBALL vox/tfc/the enemy has the flag
+CTF_BALLRETURN vox/tfc/the flag has returned
+
+// --------- Win --------- //
+WIN_BLUE vox/tfc/blue team wins
+WIN_RED vox/tfc/red team wins
+WIN_YELLOW vox/tfc/yellow team wins
+WIN_GREEN vox/tfc/green team wins
+WINNING_YOURTEAM vox/tfc/_comma
+WINNING_ENEMYTEAM vox/tfc/_comma

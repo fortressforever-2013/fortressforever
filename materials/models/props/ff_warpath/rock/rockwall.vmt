@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "nature/rockwall015a"
+
+
+	"%tooltexture" "ff_warpath/blendsanddirt001_tooltexture"
+	
+        	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$surfaceprop" "antlionsand"
+	"%keywords" "dirtroad"
+}
+
+

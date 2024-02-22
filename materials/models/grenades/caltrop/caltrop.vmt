@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{ 
+	"$baseTexture" "models/grenades/caltrop/caltrop" 
+	"$envmap" "env_cubemap"	
+	"$basealphaenvmapmask" 1	
+	"$model" 1
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+} 

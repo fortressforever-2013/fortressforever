@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_wall_brick14-2_red"
+	"$surfaceprop" "brick"
+	"$decal" 1
+	"$decalscale" 0.25
+}

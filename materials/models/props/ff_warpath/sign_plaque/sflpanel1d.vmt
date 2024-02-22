@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "ff_training/sflpanel1d"
+	"$surfaceprop" "metalpanel"
+}

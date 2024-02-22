@@ -1,0 +1,85 @@
+WeaponData
+{
+	// Weapon characteristics MELEE:
+	"CycleTime"			"0.4"		// Rate of fire
+	"Damage"			"30"		// Damage
+	"Range"				"32.0"		// Reach
+
+	"MeleeWeapon"			"1"
+
+	"ffencrypted"	"1" // required for the script to load
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_UMBRELLA"
+	"viewmodel"			"models/weapons/umbrella/v_umbrella.mdl"
+	"playermodel"			"models/weapons/umbrella/w_umbrella.mdl"
+	
+	"anim_prefix"			"anim"
+	"PlayerAnimationExtension" "umbrella"
+	"bucket"			"0"
+	"bucket_position"		"4"
+	
+	// Misc
+	"weight"			"10"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"umbrella.single_shot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"e"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"e"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"R"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"f"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

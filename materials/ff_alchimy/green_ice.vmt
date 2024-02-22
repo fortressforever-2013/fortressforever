@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$translucent" 1	
+	"$basetexture" "ff_alchimy/green_ice"
+	"$nocull" 1
+	"$surfaceprop" "ice"
+}
+
+

@@ -1,0 +1,60 @@
+whitelist
+{
+   //
+   // 3 modifiers are allowed on file specifications:
+   //
+   //   from_steam         - only check the Steam cache for the file (ignore anything on disk)
+   //   allow_from_disk      - allow the file to come from disk
+   //   check_crc         - used with allow_from_disk - server does CRC checks on the client's file to make sure it matches
+   //
+   //   The default modifier on all files is allow_from_disk. Thus, all files can come from disk and don't need CRC checks unless
+   //   allow_from_disk can be set at the same time as check_crc. Use the + character in between them to signify this: allow_from_disk+check_crc.
+
+
+   //
+   // Three types of file specifications:
+   //
+   //   1. directory/*.*         - refers to all files under the directory
+   //   2. directory/...         - refers to all files under the directory and all directories under that (recursively)
+   //   3. directory/filename      - refers to a single file
+   
+
+   //   
+   // By default, when in pure server mode, most content file types are only allowed to come from Steam.
+   //
+   materials/...										allow_from_disk
+   materials/effects/...								allow_from_disk+check_crc
+   models/...											allow_from_disk
+   models/player/...									allow_from_disk+check_crc
+   models/grenades/...									allow_from_disk+check_crc
+   models/projectiles/...								allow_from_disk+check_crc
+   models/flag/...										allow_from_disk+check_crc   
+   shaders/...											allow_from_disk+check_crc
+   sound/...											allow_from_disk
+   sound/sound/player/footsteps/...						allow_from_disk+check_crc
+   sound/buildable/sentry/sg_scan1						allow_from_disk+check_crc
+   sound/buildable/sentry/sg_scan2						allow_from_disk+check_crc
+   
+   //
+   // Allow custom player models. Don't do CRC checks on them because the clients may all
+   // have different custom models and the server won't have them all.
+   //   
+   //models/player/...         allow_from_disk
+   //materials/models/player/...   allow_from_disk
+
+   //
+   // Allow custom spray decals.
+   //
+   materials/temp/...         allow_from_disk
+   materials/vgui/logos/...   allow_from_disk
+   materials/vgui/logos/ui/...   allow_from_disk
+   
+   
+   //
+   // (Uncomment and edit these for mods).
+   // Allow mod resources to come from disk.
+   //
+   // materials/mymod/...      allow_from_disk+check_crc
+   // models/mymod/...         allow_from_disk+check_crc
+   // sound/mymod/...         allow_from_disk+check_crc
+} 

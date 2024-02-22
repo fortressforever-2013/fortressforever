@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_hunted/ff_roof_metal01"
+	"$surfaceprop" "metal"
+	"%keywords" "FF"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "ff_hunted/ff_roof_metal01_normal"
+	"$normalmapalphaenvmapmask" 1
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 1
+	//"$envmaptint" "[ .3 .3 .3 ]"
+}

@@ -1,0 +1,428 @@
+HudData
+{
+	TextureData
+	{
+		/////////////// BACKGROUND LAYER ///////////////
+		
+		"playerScoreBoxBG1"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"c"
+		}
+		"locationBoxBG1"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"a"
+		}
+		"locationBoxBG2"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"y"
+		}
+		"healthBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"c"
+		}
+		"armourBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"e"
+		}
+		"weaponBoxBG1"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"g"
+		}
+		"weaponBoxBG2"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"w"
+		}
+		"ammoCarriedBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"i"
+		}
+		"ammoLoadedBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"k"
+		}
+		"grenPrimaryBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"m"
+		}
+		"grenSecondaryBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"o"
+		}
+		"CellCountBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"m"
+		}
+		"CooldownBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"s"
+		}
+		"SpyDisguiseBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	">"
+		}
+		"SpyDisguiseBoxBG2"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"]"
+		}
+		"SpyDisguiseBoxBG3"
+		{
+			"font"		"HUD_BackGround"
+			"character"	","
+		}
+		"RoundInfoBoxBG"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"q"
+		}
+		"Gren1TimerBGBox"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"u"
+		}
+		"Gren2TimerBGBox"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"u"
+		}
+		
+		/////////////// FOREGROUND LAYER ///////////////
+		
+		"playerScoreBoxFG1"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"d"
+		}
+		"locationBoxFG1"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"b"
+		}
+		"locationBoxFG2"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"z"
+		}
+		"healthBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"K"
+		}
+		"armourBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"L"
+		}
+		"weaponBoxFG1"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"h"
+		}
+		"weaponBoxFG2"
+		{
+			"font"		"HUD_BackGround"
+			"character"	"x"
+		}
+		"ammoCarriedBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"j"
+		}
+		"ammoLoadedBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"l"
+		}
+		"grenPrimaryBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"n"
+		}
+		"grenSecondaryBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"p"
+		}
+		"CellCountBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"n"
+		}
+		"CooldownBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"t"
+		}
+		"SpyDisguiseBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"<"
+		}
+		"SpyDisguiseBoxFG2"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"["
+		}
+		"SpyDisguiseBoxFG3"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	";"
+		}
+		"RoundInfoBoxFG"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"r"
+		}
+		"Gren1TimerFGBox"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"v"
+		}
+		"Gren2TimerFGBox"
+		{
+			"font"		"HUD_ForeGround"
+			"character"	"v"
+		}
+		
+		/////////////// OLD STUFF  ///////////////
+		"Health"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"f"
+		}
+		"Armor"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"f"
+		}
+		"Location"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"f"
+		}
+		"Gren1"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"f"
+		}
+		"Gren2"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"f"
+		}
+		"Ammo"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"f"
+		}
+		"BuildTimer"
+		{
+			"font"		"WeaponIconSelected"
+			"character"	"f"
+		}
+		"Gren1Timer"
+		{
+			"font"		"WeaponIconSelected"
+			"character"	"f"
+		}
+		"Gren2Timer"
+		{
+			"font"		"WeaponIconSelected"
+			"character"	"f"
+		}
+		
+		/////////// Temporarily here until a home found for it
+		
+		"death_worldspawn"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"M"
+		}
+		"death_door"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"N"
+		}
+		"death_world"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"O"
+		}
+		"death_miniturret"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"P"
+		}
+		
+		"death_trigger_hurt"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"O"
+		}
+		"d_skull"
+		{
+			"font"		"StatusGlyphs"
+			"character"	"R"
+		}
+
+		/////////// 	Special trigger_hurt death notices.  To add a new type, just match the postfix (e.g. _fall) to the DMG_ type 
+		///////////	the trigger hurt uses and then update the string appending code in CHudDeathNotice::FireGameEvent() -> Defrag
+		"death_trigger_hurt_fall"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"M"
+		}		
+		"death_trigger_hurt_drown"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"8"
+		}
+		"death_trigger_hurt_shock"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"Q"
+		}
+		"voice_player"
+		{
+			"file"		"voice/icntlk_sv"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		"voice_self"
+		{
+			"file"		"voice/icntlk_local"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		"death_burndeath_level1"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"@"
+		}
+		"death_burndeath_level2"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"#"
+		}
+		"death_burndeath_level3"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"$"
+		}
+		"death_sentrygun_level1"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"Z"
+		}
+		"death_sentrygun_level2"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"A"
+		}
+		"death_sentrygun_level3"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"B"
+		}
+		"death_sentrygun_level1_det"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"C"
+		}
+		"death_sentrygun_level2_det"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"D"
+		}
+		"death_sentrygun_level3_det"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"E"
+		}
+		"death_objective"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"+"
+		}
+		"death_objective2"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"_"
+		}
+		"death_headcrush"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"L"
+		}
+		"death_flag"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"F"
+		}
+		"death_railgun_bounce1"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"w"
+		}
+		"death_railgun_bounce2"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"x"
+		}
+		"death_airshot"
+		{
+			"font"		"StatusGlyphsSmall"
+			"character"	"G"
+		}
+		"build_sentrygun"
+		{
+			"file"		"vgui/hud_buildable_sentry"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		"build_dispenser"
+		{
+			"file"		"vgui/hud_buildable_dispenser"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		"build_detpack"
+		{
+			"file"		"vgui/hud_buildable_detpack"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		"build_jumppad"
+		{
+			"file"		"vgui/hud_buildable_jumppad"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+	}
+}

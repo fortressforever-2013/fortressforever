@@ -1,0 +1,9 @@
+"lightmappedgeneric"
+{
+"%keywords" "ff"
+"$basetexture" "ff_blunkka01\ff_ground_dirt01"
+"$surfaceprop" "dirt"
+"$bumpmap" "ff_blunkka01\ff_ground_dirt01_normal"
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+}

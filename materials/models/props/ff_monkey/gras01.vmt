@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color2"				"[1 1 1]"
+	"$baseTexture"			"models/props/ff_monkey/gras01"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alpha"				1
+}

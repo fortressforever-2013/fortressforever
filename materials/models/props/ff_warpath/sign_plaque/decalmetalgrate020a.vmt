@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	// original shader: decalbasetimeslightmapalphablend
+	"$translucent" 1
+	"$basetexture" "decals/decalmetalgrate020a"
+	"%keywords" "c17downtown"
+}

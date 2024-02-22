@@ -1,0 +1,106 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"CycleTime"			"0.1"		// Rate of fire
+	"CycleDecrement"	"1"			// Number of bullets fired per cycle
+	"ReloadClip" 		"1"     	// Reload entire clip at once?
+
+	"Damage"			"8"		// Damage per burst
+
+	"RecoilAmount"			"0.4"		// Amount of recoil
+
+	// Projectile weapons
+	"Speed"				"-1"		// Speed for projectile to travel at
+	
+	// Hitscan weapons
+	"Bullets"			"1"		// Bullets to shoot
+	"BulletSpread"			"0.01"		// Spread of projectiles
+
+	"PreReloadTime"			"0.6"		// Time taken for the weapon to move to reload state
+	"ReloadTime"			"0.5"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"		"1"		// Time taken to move weapon back to firing state
+
+	"SpinTime"			"-1"		// For AC
+
+	"clip_size"			"50"
+	
+	
+	"primary_ammo"			"AMMO_SHELLS"
+	"secondary_ammo"		"None"
+
+	"ffencrypted"	"1" // required for the script to load
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_TOMMYGUN"
+	"viewmodel"			"models/weapons/tommygun/v_tommygun.mdl"
+	"playermodel"			"models/weapons/tommygun/w_tommygun.mdl"
+	
+	"anim_prefix"			"anim"
+	"PlayerAnimationExtension" "autorifle"
+	"bucket"			"2"
+	"bucket_position"		"1"
+
+	"weight"			"40"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"generic.empty"
+		"single_shot"		"tommygun.single_shot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"u"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"u"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"4"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"v"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

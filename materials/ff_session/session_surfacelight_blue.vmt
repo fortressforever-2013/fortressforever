@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Metal/metalceiling005a"
+	"$color" "[0.2 0.2 1.2]"
+	"$bumpmap" "Metal/metalceiling005a_normal"
+	"$surfaceprop" "glass"
+	
+	"%keywords" "ff_session"
+}

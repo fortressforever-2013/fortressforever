@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"				"models\props\ff\ff_door_256x112x24_blue"
+	"$bumpmap" 			"models\props\ff\ff_door_256x112x24_normspec"
+	"$model" 			1
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask"	1
+	"$envmaptint" 			"[.3 .3 .4]"
+}

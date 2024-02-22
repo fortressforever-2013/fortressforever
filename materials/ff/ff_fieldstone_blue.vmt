@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_fieldstone_blue"
+	"$surfaceprop" "boulder"
+	"$bumpmap" "ff/ff_fieldstone_normal"
+}

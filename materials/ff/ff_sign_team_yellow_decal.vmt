@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff\ff_sign_team_yellow"
+	"$surfaceprop" "metal"
+	"$decal" 1
+	"$decalscale" 0.25
+}

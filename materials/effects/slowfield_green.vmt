@@ -1,0 +1,48 @@
+"Refract"
+{
+	"Refract_dx80"
+	{
+		"$fallbackmaterial" "effects/slowfield_dx60"
+	}
+
+	"Refract_dx70"
+	{
+		"$fallbackmaterial" "effects/slowfield_dx60"
+	}
+	"Refract_dx60"
+	{
+		"$fallbackmaterial" "effects/slowfield_dx60"
+	}
+	$additive 1
+	"$model" 1
+ 	"$refractamount" "0.2"		//this along with animated framerates I think will be best to tweak to alter visibility
+ 	"$bluramount" "1"
+	"$scale" "[.25 .25]"
+	"$refracttinttexture" "effects/slowring"
+	"$refracttint" "[.6 .9 .56]"
+	"$dudvmap" "effects/cloak_dudv"
+ 	"$normalmap" "effects/cloak_normal"
+ 	"$surfaceprop" "water"
+	"$dudvframe" "0"
+	"$bumpframe" "0"
+//	"$nocull" "1"
+
+//	$envmap env_cubemap
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$dudvmap"
+			"animatedtextureframenumvar" "$dudvframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}

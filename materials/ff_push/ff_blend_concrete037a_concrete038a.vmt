@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "concrete\concretefloor037a"
+	"$basetexture2" "concrete\concretefloor038a"
+	"%tooltexture" "ff_push\blend_concrete037a_concrete038a_tooltexture"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "concrete"
+}

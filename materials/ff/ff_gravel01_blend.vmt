@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture2" "ff/ff_sidewalk01_darkest"
+	"$basetexture" "ff/ff_gravel01"
+
+	"$surfaceprop" "gravel"
+}

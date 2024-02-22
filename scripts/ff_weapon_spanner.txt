@@ -1,0 +1,95 @@
+WeaponData
+{
+	// Weapon characteristics MELEE:
+	"CycleTime"			"0.4"		// Rate of fire
+	"Damage"			"30"		// Damage
+	"Range"				"32.0"		// Reach
+	"DeployDelay"			"0.15"		// Delay before you can shoot when you first pull the weapon out
+
+	"MeleeWeapon"			"1"
+
+	"primary_ammo"			"AMMO_CELLS"
+	"secondary_ammo"		"None"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_SPANNER"
+	"viewmodel"			"models/weapons/spanner/v_spanner.mdl"
+	"playermodel"			"models/weapons/spanner/w_spanner.mdl"
+	
+	"anim_prefix"			"anim"
+	"PlayerAnimationExtension" "spanner"
+	"bucket"			"0"
+	"bucket_position"		"3"
+	
+	// Misc
+	"weight"			"10"
+	"item_flags"			"0"
+
+	"ITEM_FLAG_SELECTONEMPTY"	"1"
+	"ITEM_FLAG_NOAUTOSWITCHEMPTY"	"1"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"special1"		"Spanner.HitSG"
+		"special2"		"Spanner.HitDispenser"
+		"special3"		"Spanner.SpecialHit"
+		"single_shot"		"spanner.single_shot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"d"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"d"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"6"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"d"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

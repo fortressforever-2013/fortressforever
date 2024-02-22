@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "metal/metalfloor003a"
+	"$basetexture2" "nature/gravelfloor004a"
+	"$detail" "overlays/macro01a"
+	"$detailscale" .1
+	"%tooltexture" "metal/metalfloor003a"
+	"%keywords" "ff_dropdown"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+}
+
+
+

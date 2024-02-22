@@ -1,0 +1,62 @@
+PlayerClassData
+{
+	"slot"				"2"
+	"classname"			"sniper"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Text
+	"printname"			"#FF_PLAYER_SNIPER"
+	"description"			"#FF_HELP_SNIPER"
+	"role"				"#FF_ROLE_SNIPER"
+
+	// Model
+	"model"				"models/player/sniper/sniper.mdl"
+
+	// Health & Armour
+	"max_armour"			"50"
+	"initial_armour"		"25"
+	"armour_type"			"3" // this means 0.3
+	"health"			"90"
+
+	"speed"				"300" //boosted 5% was 315
+	
+	"firepower"			"90" // from 1 to 100
+	
+	// Weapns to automatically equip the class with
+	ArmamentsData
+	{
+		"weapon"	"ff_weapon_crowbar"
+		"weapon"	"ff_weapon_sniperrifle"
+		"weapon"	"ff_weapon_autorifle"
+	}
+
+	"primary_classname"		"ff_grenade_normal"
+	"primary_initial"		"2"
+	"primary_max"			"4"
+
+	"secondary_classname"		"None"
+	"secondary_initial"		"-1"
+	"secondary_max"			"-1"
+
+	// Ammo amounts for the player
+	AmmoData
+	{
+		"AMMO_SHELLS"		"60"
+		"AMMO_NAILS"		"60"
+		"AMMO_CELLS"		"0"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+
+	MaxAmmoData
+	{
+		"AMMO_SHELLS"		"75"
+		"AMMO_NAILS"		"75"
+		"AMMO_CELLS"		"30"
+		"AMMO_ROCKETS"		"25"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+}

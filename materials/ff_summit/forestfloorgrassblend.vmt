@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$baseTexture2" "ff_summit/forestfloor"
+	"$basetexture" "nature/grassfloor002a"
+	"%detailtype" "summit_forest_floor_02"
+ 	"$surfaceprop" "grass"
+	"$blendmodulatetexture" "ff_summit/forestfloor_blendmod"
+}

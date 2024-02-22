@@ -1,0 +1,7 @@
+"unLitGeneric"
+{
+	"$basetexture" "models/cctrees/tree3_cardb"
+	"$model" 1
+	"$alphatest" 1
+	"$nocull" 1
+}

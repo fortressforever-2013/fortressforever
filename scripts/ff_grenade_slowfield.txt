@@ -1,0 +1,26 @@
+WeaponData
+{
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"grenade"
+		{
+				"font"		"GrenadeIcons"
+				"character"	"S"
+		}
+		
+		"ammo"
+		{
+				"font"		"GrenadeAmmoIcons"
+				"character"	"S"
+		}
+
+		// yeah admittedly this is unlikely
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"S"
+		}
+	}
+	"printname" 	"#FF_WPNHUD_SLOWFIELD"
+}

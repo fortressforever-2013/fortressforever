@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/tfgl_butt" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/tfgl_butt_ref" 
+} 

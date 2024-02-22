@@ -1,0 +1,61 @@
+PlayerClassData
+{
+	"slot"				"10"
+	"classname"			"civilian"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Text
+	"printname"			"#FF_PLAYER_CIVILIAN"
+	"description"			"#FF_HELP_CIVILIAN"
+	"role"				"#FF_ROLE_CIVILIAN"
+
+	// Model
+	"model"				"models/player/civilian/civilian.mdl"
+
+	// Health & Armour
+	"max_armour"			"50"
+	"initial_armour"		"25"
+	"armour_type"			"3" // this means 0.3
+	"health"			"75"
+
+	"speed"				"230" //5% boosted was 241
+	
+	"firepower"			"10" // from 1 to 100
+	
+	// Weapns to automatically equip the class with
+	ArmamentsData
+	{
+		//"weapon"	"ff_weapon_tommygun"
+		"weapon"	"ff_weapon_umbrella"
+	}
+
+	"primary_classname"		"None"
+	"primary_initial"		"-1"
+	"primary_max"			"-1"
+
+	"secondary_classname"		"None"
+	"secondary_initial"		"-1"
+	"secondary_max"			"-1"
+
+	// Ammo amounts for the player
+	AmmoData
+	{
+		"AMMO_SHELLS"		"0"
+		"AMMO_NAILS"		"0"
+		"AMMO_CELLS"		"0"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+
+	MaxAmmoData
+	{
+		"AMMO_SHELLS"		"150"
+		"AMMO_NAILS"		"0"
+		"AMMO_CELLS"		"0"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+}

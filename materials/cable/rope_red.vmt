@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"cable\rope_red"
+	"$bumpmap"			"cable\cablenormalmap"
+	"$selfillum"			"1"
+	"$selfillumtint"		"[0.5 0.5 0.5]"
+}

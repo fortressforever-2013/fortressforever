@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+"%keywords" "FF, ff_monkey, trim"
+"$basetexture" "ff_monkey/ff_trim_metal16"
+"$surfaceprop" "metal"
+"$decal" 1
+"$decalscale" 0.25
+}
+
+
+
+

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_trim_metal22_blue"
+	"$surfaceprop" "metal"
+	"$bumpmap" "ff/ff_trim_metal22_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}
+
+
+
+

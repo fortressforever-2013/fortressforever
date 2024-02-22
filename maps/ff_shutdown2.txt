@@ -1,0 +1,5 @@
+SHUTDOWN CAPTURE THE FLAG
+
+Objectives:
+# Temporarily de-activate the enemy team's security systems by making your way to the security generator room and touching the switch.  
+# Once the lasers are de-activated, enter the flag room and steal the enemy flag!  Return the enemy flag to your base to capture.  The capture point is in the middle of the battlements.

@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "skybox/stormydaysdn"
+	"$nofog" 1
+	$ignorez 1
+}

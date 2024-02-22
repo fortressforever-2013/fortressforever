@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\ff_shutdown2\pillar"
+	"$model" 1
+	"$surfaceprop" "metal"
+	"$bumpmap" "models\props\ff_shutdown2\pillar_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$selfillum" 1
+}

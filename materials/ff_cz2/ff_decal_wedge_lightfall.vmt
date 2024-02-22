@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+	"%keywords" "FF"
+	"$basetexture"	"ff_cz2/ff_decal_wedge_lightfall"
+	"$additive" "1"
+	"$decal" "1"
+	"$decalscale" "0.5"
+	"$translucent" 1
+
+}

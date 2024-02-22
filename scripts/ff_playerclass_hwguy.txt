@@ -1,0 +1,63 @@
+PlayerClassData
+{
+	"slot"				"6"
+	"classname"			"hwguy"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Text
+	"printname"			"#FF_PLAYER_HWGUY"
+	"description"			"#FF_HELP_HWGUY"
+	"role"				"#FF_ROLE_HWGUY"
+
+	// Model
+	"model"				"models/player/hwguy/hwguy.mdl"
+
+	// Health & Armour
+	"max_armour"			"300"
+	"initial_armour"		"150"
+	"armour_type"			"8" // this means 0.8
+	"health"			"100"
+
+	"speed"				"230" //5% add was 241
+	
+	"firepower"			"85" // from 1 to 100
+	
+	// Weapns to automatically equip the class with
+	ArmamentsData
+	{
+		"weapon"	"ff_weapon_crowbar"
+		"weapon"	"ff_weapon_supershotgun"
+		"weapon"	"ff_weapon_assaultcannon"
+	}
+
+	"primary_classname"		"ff_grenade_normal"
+	"primary_initial"		"2"
+	"primary_max"			"4"
+
+	"secondary_classname"		"ff_grenade_slowfield"
+	"secondary_initial"		"1"
+	"secondary_max"			"2"
+
+
+	// Ammo amounts for the player
+	AmmoData
+	{
+		"AMMO_SHELLS"		"200"
+		"AMMO_NAILS"		"0"
+		"AMMO_CELLS"		"30"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+
+	MaxAmmoData
+	{
+		"AMMO_SHELLS"		"200"
+		"AMMO_NAILS"		"200"
+		"AMMO_CELLS"		"50"
+		"AMMO_ROCKETS"		"25"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+}

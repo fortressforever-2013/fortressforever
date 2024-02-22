@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_epicenter/concrete/concretewall065c_blue"
+	"$surfaceprop" "concrete"
+}

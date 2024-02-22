@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/PBomb" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/PBomb_ref" 
+} 

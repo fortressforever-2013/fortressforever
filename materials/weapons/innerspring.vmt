@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/innerspring" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/innerspring_ref" 
+} 

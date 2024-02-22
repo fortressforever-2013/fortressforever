@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "_rt_Camera"
+	"%tooltexture" "ff/ff_monitor"
+	"$surfaceprop" "glass"
+}

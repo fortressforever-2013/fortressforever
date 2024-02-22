@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "ff_monkey/ff_ground_sand01"
+	"$basetexture2" "nature/sandfloor010a"
+
+	"$detail" "overlays/macro01a"
+	"$detailscale" .1
+
+	"%tooltexture" "nature/blendsandsand008b_tooltexture"
+	
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$surfaceprop" "antlionsand"
+	"$surfaceprop2" "antlionsand"
+	"%keywords" "coastline"
+}
+

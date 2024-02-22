@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/ff_build_needammo"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$$alphatest" "1"
+	"$ignorez"	"1"
+
+
+}

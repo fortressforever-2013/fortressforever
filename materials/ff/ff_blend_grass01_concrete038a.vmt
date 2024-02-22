@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff\ff_ground_grass01"
+	"$basetexture2" "concrete\concretefloor038a"
+	"%tooltexture" "ff\ff_blend_grass01_concrete038a_tooltexture"
+	"$surfaceprop" "grass"
+	"$surfaceprop2" "concrete"
+
+	%detailtype "FFgrass01"
+}

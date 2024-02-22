@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "glyphs/ff_damage_pitt"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+	"$ignorez"	"1"
+	
+	//"$color"	"[0 255 0]"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod"		"0.4"
+			"sinemin"			"0.5"
+			"sinemax"			"2.0"
+			"timeoffset"		"0.0"
+			"resultVar"			"$alpha"
+		}
+	}
+}

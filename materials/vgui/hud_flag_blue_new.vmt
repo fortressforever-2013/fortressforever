@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/hud_flag_blue_new"
+	"$translucent" 1
+}

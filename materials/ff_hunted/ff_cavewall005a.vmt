@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_hunted/ff_cavewall005a"
+	"$surfaceprop" "concrete"
+	//"$bumpmap" "Nature/cavewall005a_normal"
+}

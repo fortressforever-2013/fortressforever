@@ -1,0 +1,18 @@
+"Rift_dx6"
+{
+	"$model" 1
+	"$basetexture" "models/props/ff_hunted/escape_portal_entrance"
+	"$translucent" 1
+	"$texture2" "models/effects/dx7portalrift"
+	"$nocull" 1
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$texture2"
+			"animatedtextureframenumvar" "$frame2"
+			"animatedtextureframerate" 15
+		}
+	}
+}

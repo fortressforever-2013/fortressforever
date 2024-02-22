@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 		"models/flag/flag_green_glow"
+	"$bumpmap" 			"effects/chaos_glow_normal"
+	"$model" 			1
+	"$additive"			1
+	"$translucent" 		1
+	
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$envmaptint"			"[0 1 0]"
+	
+	//Local Variables
+	"$defaultTint" 			"[0.1 0.9 0.1]"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 		"$basetexturetransform"
+			"texturescrollrate" 		.2
+			"texturescrollangle" 		180
+		}
+		
+		"TextureScroll"
+		{
+			"texturescrollvar" 		"$bumptransform"
+			"texturescrollrate" 		.1
+			"texturescrollangle" 		0
+		}
+		
+		"Equals"
+		{
+			"srcVar1"			"$defaultTint"
+			"resultVar"			"$color2"
+		}
+	}
+}

@@ -1,0 +1,75 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/weapons/assaultcannon/v_assaultcannon"
+	"$bumpmap" 			"models/weapons/assaultcannon/v_assaultcannon_normal"
+	"$model" 			1
+	"$selfillum" 			1
+//	"$selfillumtint"	"[1 .1 .1]"	
+	"$selfillumtint"	"[0 0 0]"	
+
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	1
+	"$envmapsaturation" 		.4
+	"$envmapcontrast" 		.7
+
+//Phong
+	"$phong" "1"
+
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 3 6]"
+	"$phongexponenttexture" "models\weapons\assaultcannon\v_assaultcannon_exp"
+	"$phongalbedotint" "1"
+
+//Local Variables
+	"$overheat"			0
+	"$multiplier"			.01
+	//Add a little green/yellow
+	"$multiplier2"			.002
+	//Serves to keep the barrels from glowing too soon
+	"$minOverheat"			0
+	"$maxOverheat"			100
+	"$overheatDelay"			60
+	
+
+	"Proxies"
+	{	
+		//How hot it is
+		"CurrentCharge"
+		{
+			"resultVar"		"$overheat"
+		}
+		
+		"Subtract"
+		{
+			"srcVar1"			"$overheat"
+			"srcVar2"			"$overheatDelay"	
+			"resultVar"		"$overheat"
+		}
+		"Clamp"
+		{
+			"min"		"$minOverheat"
+			"max"		"$maxOverheat"
+			"srcVar1"		"$overheat"
+			"resultVar"	"$overheat"
+		}
+		//combine overheat with multiplier
+		"Multiply"
+		{
+			"srcVar1"		"$overheat"
+			"srcVar2"		"$multiplier"
+			"resultVar"	"$selfillumtint[0]"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$overheat"
+			"srcVar2"		"$multiplier2"
+			"resultVar"	"$selfillumtint[1]"
+		}
+		
+	}
+
+
+
+
+}

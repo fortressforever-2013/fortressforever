@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "concrete/concretewall013d"
+	"$decal" 1
+	"$decalscale" .25
+	"$translucent" 0
+}

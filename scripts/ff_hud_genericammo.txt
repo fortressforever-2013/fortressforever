@@ -1,0 +1,48 @@
+StatusIconData
+{
+	TextureData
+	{
+		"AMMO_NAILS"
+		{
+			"font"		"WeaponIconsSmall"
+			"character"	"5"
+		}
+
+		"AMMO_SHELLS"
+		{
+			"font"		"WeaponIconsSmall"
+			"character"	"1"
+		}
+
+		"AMMO_ROCKETS"
+		{
+			"font"		"WeaponIconsSmall"
+			"character"	"8"
+		}
+
+		"AMMO_CELLS"
+		{
+			"font"		"WeaponIconsSmall"
+			"character"	"6"
+		}
+
+		"AMMO_DETPACK"
+		{
+			"font"		"WeaponIconsSmall"
+			"character"	"9"
+		}
+
+		"AMMO_MANCANNON"
+		{
+			"font"		"WeaponIconsSmall"
+			"character"	"9"
+		}
+
+		"AMMO_RADIOTAG"
+		{
+			"font"		"WeaponIconsSmall"
+			"character"	"3"
+		}
+	}
+
+}

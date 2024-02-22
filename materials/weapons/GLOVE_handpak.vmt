@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/GLOVE_handpak" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/GLOVE_handpak_ref" 
+} 

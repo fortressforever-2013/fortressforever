@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\ff_hunted\fudecs"
+	"$surfaceprop" "metalvehicle"
+}

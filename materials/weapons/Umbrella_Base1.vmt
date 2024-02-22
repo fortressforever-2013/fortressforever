@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/Umbrella_Base1" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/Umbrella_Base1_ref" 
+} 

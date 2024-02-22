@@ -1,0 +1,267 @@
+////////////////////////////////////////////////
+//	FF_2FORT SOUNDSCAPES
+//
+//	INDOORS
+//	OUTDOORS
+//	INDOORS_OUTDOORSAUDIBLE
+//	BASEMENT
+//	WATER
+//
+////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////
+//	INDOORS
+//	Basic ambience with metal scratching sounds.
+////////////////////////////////////////////////
+
+"ff_2fort.indoors"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"wave"		"ambient/atmosphere/ambience5.wav"
+		"volume"	"1.0"
+		"pitch"		"100"
+	}
+	
+	"playrandom"
+	{
+		"time"		"3, 10"
+		"volume"	"0.05,0.15"
+		"pitch"		"95,105"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/metal_rattle1.wav"
+			"wave"	"ambient/materials/metal_rattle2.wav"
+			"wave"	"ambient/materials/metal_rattle3.wav"
+		}		
+	}
+}
+
+
+////////////////////////////////////////////////
+//	OUTDOORS
+//	Outdoor wind ambience with random gusts.
+//	Also has random low-volume train sounds and
+//	some slightly louder wildlife sound effects.
+////////////////////////////////////////////////
+
+
+"ff_2fort.outdoors"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"volume"	"0.8"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"d1_canals.util_windgusts"
+		"volume"	"1.0"
+	}
+	
+	"playrandom"
+	{
+		"time"		"45, 90"		
+		"volume"	"0.1, 0.3"
+		"pitch"		"50, 120"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/machines/train_rumble.wav"
+			"wave"	"ambient/alarms/train_horn_distant1.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 30"		
+		"volume"	"0.3, 0.6"
+		"pitch"		"80, 120"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/coast/coastbird1.wav"
+			"wave"	"ambient/levels/coast/coastbird2.wav"
+			"wave"	"ambient/levels/coast/coastbird3.wav"
+			"wave"	"ambient/levels/coast/coastbird4.wav"
+			"wave"	"ambient/levels/coast/coastbird5.wav"
+			"wave"	"ambient/levels/coast/coastbird6.wav"
+			"wave"	"ambient/levels/canals/critter2.wav"
+			"wave"	"ambient/levels/canals/critter6.wav"
+			"wave"	"ambient/levels/canals/critter7.wav"
+		}
+	}	
+}
+
+////////////////////////////////////////////////
+//	INDOORS OUTDOORSAUDIBLE
+//	Indoor soundscape with a quieter outdoor
+//	soundscape playing in the background.
+////////////////////////////////////////////////
+
+"ff_2fort.indoors_outdoorsaudible"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"wave"		"ambient/atmosphere/ambience5.wav"
+		"volume"	"0.9"
+		"pitch"		"100"
+	}
+	
+	"playrandom"
+	{
+		"time"		"3, 10"
+		"volume"	"0.05,0.15"
+		"pitch"		"95,105"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/metal_rattle1.wav"
+			"wave"	"ambient/materials/metal_rattle2.wav"
+			"wave"	"ambient/materials/metal_rattle3.wav"
+		}		
+	}
+	
+	"playlooping"
+	{
+		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"volume"	"0.5"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"d1_canals.util_windgusts"
+		"volume"	"0.4"
+	}
+	
+	"playrandom"
+	{
+		"time"		"45, 90"		
+		"volume"	"0.1, 0.3"
+		"pitch"		"50, 120"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/machines/train_rumble.wav"
+			"wave"	"ambient/alarms/train_horn_distant1.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 30"		
+		"volume"	"0.1, 0.4"
+		"pitch"		"80, 120"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/coast/coastbird1.wav"
+			"wave"	"ambient/levels/coast/coastbird2.wav"
+			"wave"	"ambient/levels/coast/coastbird3.wav"
+			"wave"	"ambient/levels/coast/coastbird4.wav"
+			"wave"	"ambient/levels/coast/coastbird5.wav"
+			"wave"	"ambient/levels/coast/coastbird6.wav"
+			"wave"	"ambient/levels/canals/critter2.wav"
+			"wave"	"ambient/levels/canals/critter6.wav"
+			"wave"	"ambient/levels/canals/critter7.wav"
+		}
+	}	
+}
+
+////////////////////////////////////////////////
+//	BASEMENT
+//	Underground background sounds and metal stresses.
+////////////////////////////////////////////////
+
+"ff_2fort.basement"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/corridor.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/drone2lp.wav"
+		"position"	"0"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"coast.util_metalstress"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"coast.util_shackmetal"
+		"volume"	"0.3"
+	}
+	
+	"playrandom"
+	{
+		"time"		"30, 60"		
+		"volume"	"0.25, 0.50"
+		"pitch"		"50, 120"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/rustypipes1.wav"
+			"wave"	"ambient/materials/rustypipes2.wav"
+			"wave"	"ambient/materials/rustypipes3.wav"
+			"wave"	"ambient/materials/shuffle1.wav"
+		}
+	}
+}
+
+////////////////////////////////////////////////
+//	WATER
+//	Some runnign water sounds and random dripping.
+////////////////////////////////////////////////
+
+"ff_2fort.water"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"wave"		"ambient/water/corridor_water.wav"
+		"volume"	"0.8"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"volume"	"0.3"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"d1_canals.util_drip"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"d1_canals.util_fardrips"
+		"volume"	"1.0"
+	}
+}

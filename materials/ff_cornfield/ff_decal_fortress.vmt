@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_cornfield/ff_decal_fortress"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}

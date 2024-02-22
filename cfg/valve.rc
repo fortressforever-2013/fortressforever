@@ -1,0 +1,23 @@
+// load the base configuration
+//exec default.cfg
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+//disable this for now.
+//startupmenu
+
+hostname "Insert witty phrase here!"
+sv_password "gazellenegation"
+
+mp_prematch 0
+mp_forcerespawn 0
+

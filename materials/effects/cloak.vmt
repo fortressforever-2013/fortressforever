@@ -1,0 +1,55 @@
+"Refract"
+{
+	
+
+	"Refract_dx80"
+	{
+		"$fallbackmaterial" "effects/cloak_dx60"
+	}
+
+	"Refract_dx70"
+	{
+		"$fallbackmaterial" "effects/cloak_dx60"
+	}
+	"Refract_dx60"
+	{
+		"$fallbackmaterial" "effects/cloak_dx60"
+	}
+	"$model" 1
+ 	"$refractamount" "0.5"		//this along with animated framerates I think will be best to tweak to alter visibility
+ 	"$bluramount" ".1"
+	"$scale" "[.5 .5]"
+	"$dudvmap" "effects/cloak_dudv"
+ 	"$normalmap" "effects/cloak_normal"
+ 	"$surfaceprop" "water"
+	"$dudvframe" "0"
+	"$bumpframe" "0"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$dudvmap"
+			"animatedtextureframenumvar" "$dudvframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+		"FF_SpyCloakProxy"
+		{
+			"resultVar"	"$refractamount"
+		}
+	}
+}

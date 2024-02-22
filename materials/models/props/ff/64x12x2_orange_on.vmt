@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props/ff/64x12x2_orange_on"
+	"$model" 			1
+	"$selfillum" 			1
+}

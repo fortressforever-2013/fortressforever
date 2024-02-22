@@ -1,0 +1,217 @@
+//==================================
+//Grenade sounds for Fortress Forever
+//==================================
+
+//----------------
+//Generic Grenade
+//----------------
+
+	"Grenade.Prime"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/ax1.wav"
+	}
+
+
+//----------------
+//Fragmentation Grenade, your basic death in a ball
+//----------------
+
+	"NormalGrenade.Bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/bounce.wav"
+	}
+	
+//----------------
+//Hover Turret
+//----------------
+
+	"HoverTurret.Shoot"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/HoverTurret/hoverturret_laser.wav"
+	}
+	"HoverTurret.Scan"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/HoverTurret/hoverturret_scan.wav"
+	}
+
+//----------------
+//MIRV Grenade
+//----------------
+
+	"MirvGrenade.Bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/mirv/mirv_bounce.wav"
+	}
+	"MirvletGrenade.Bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/mirv/mirvlet_bounce.wav"
+	}
+
+
+//----------------
+//Concussion Grenade, how far can you go?!
+//----------------
+
+	"ConcussionGrenade.Explode"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_85dB"
+                "pitch"		        "PITCH_NORM"
+		"rndwave"
+		{
+			"wave"		"^grenades/concussion/conc1.wav"
+			"wave"		"^grenades/concussion/conc2.wav"
+		}
+	}
+	"ConcussionGrenade.Bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/bounce.wav"
+	}
+
+//----------------
+//EMP Grenade
+//----------------
+
+	"empGrenade.Explode"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_140dB"
+                "pitch"		        "PITCH_NORM"
+		"wave"		"^grenades/emp/emp_explosion.wav"
+	}
+	"empGrenade.Bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/bounce.wav"
+	}
+
+//----------------
+//Nail Grenade
+//----------------
+
+	"NailGrenade.Shoot"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"0.6"
+        "pitch"		    "PITCH_NORM"
+		"wave"			"grenades/nail/nail_shoot1.wav"
+
+	}
+	"NailGrenade.Bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"0.8"
+		"wave"			"grenades/bounce.wav"
+	}
+	"NailGrenade.LaserLoop"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch" 		"PITCH_NORM"
+		"wave"			"grenades/nail/nail_laserloop.wav"
+	}
+	"NailGrenade.LaserDeploy"
+	{
+		"channel"		"CHAN_ITEM"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch" 		"PITCH_NORM"
+		"wave"			"grenades/nail/laser_deploy.wav"
+	}
+
+//----------------
+//Slowfield
+//----------------
+
+	"Slowfield.LaserLoop"
+	{
+		"channel"		"CHAN_AUTO"
+		"volume"		"1"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch" 		"PITCH_NORM"
+		"wave"			"grenades/slowfield/slowfield_laserloop.wav"
+	}
+	"Slowfield.SlowLoop"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch" 		"PITCH_NORM"
+		"wave"			"grenades/slowfield/slowfield_loop.wav"
+	}
+	"Slowfield.Explode"
+	{
+		"channel"		"CHAN_ITEM"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch" 		"PITCH_NORM"
+		"wave"			"grenades/slowfield/slowfield_explode.wav"
+	}	
+
+//----------------
+//Napalm Grenade
+//----------------
+
+	"Napalm.Explode"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+		"soundlevel"	        "SNDLVL_140dB"
+                "pitch"		        "PITCH_NORM"
+		"wave"		"^grenades/napalm/napalm_explode.wav"
+	}
+	"NapalmGrenade.Bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/napalm/napalm_bounce.wav"
+	}
+
+//----------------
+//Gas Grenade, insert pun here
+//----------------
+
+	"GasGrenade.Explode"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.6"
+                "pitch"		        "PITCH_NORM"
+		"wave"		"grenades/gas/gas_explode.wav"
+	}
+	"GasGrenade.bounce"
+	{
+		"channel"		"CHAN_WEAPON"
+		"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.8"
+		"wave"		"grenades/bounce.wav"
+	}

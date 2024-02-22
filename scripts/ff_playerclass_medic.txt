@@ -1,0 +1,62 @@
+PlayerClassData
+{
+	"slot"				"5"
+	"classname"			"medic"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Text
+	"printname"			"#FF_PLAYER_MEDIC"
+	"description"			"#FF_HELP_MEDIC"
+	"role"				"#FF_ROLE_MEDIC"
+
+	// Model
+	"model"				"models/player/medic/medic.mdl"
+
+	// Health & Armour
+	"max_armour"			"100"
+	"initial_armour"		"50"
+	"armour_type"			"6" // this means 0.6
+	"health"			"90"
+
+	"speed"				"320"  //5% boosted was 336
+	
+	"firepower"			"50" // from 1 to 100
+
+	// Weapns to automatically equip the class with
+	ArmamentsData
+	{
+		"weapon"	"ff_weapon_medkit"
+		"weapon"	"ff_weapon_supershotgun"
+		"weapon"	"ff_weapon_supernailgun"
+	}
+
+	"primary_classname"		"ff_grenade_normal"
+	"primary_initial"		"2"
+	"primary_max"			"4"
+
+	"secondary_classname"		"ff_grenade_concussion"
+	"secondary_initial"		"2"
+	"secondary_max"			"3"
+
+	// Ammo amounts for the player
+	AmmoData
+	{
+		"AMMO_SHELLS"		"50"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"0"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+
+	MaxAmmoData
+	{
+		"AMMO_SHELLS"		"75"
+		"AMMO_NAILS"		"150"
+		"AMMO_CELLS"		"50"
+		"AMMO_ROCKETS"		"25"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+}

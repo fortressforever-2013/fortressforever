@@ -1,0 +1,43 @@
+"Refract"
+{
+	
+
+	"Refract_dx80"
+	{
+		"$fallbackmaterial" "effects/rain_on_glass_dx60"
+	}
+
+	"Refract_dx70"
+	{
+		"$fallbackmaterial" "effects/rain_on_glass_dx60"
+	}
+	"Refract_dx60"
+	{
+		"$fallbackmaterial" "effects/rain_on_glass_dx60"
+	}
+ 	"$refractamount" "0.5"	
+// 	"$bluramount" ".1"
+//	"$scale" "[.5 .5]"
+//	"$dudvmap" "effects/rain_on_glass_dudv"
+ 	"$normalmap" "effects/rain_on_glass_normal"
+ 	"$surfaceprop" "no_decal"
+	"$dudvframe" "0"
+	"$bumpframe" "0"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$dudvmap"
+			"animatedtextureframenumvar" "$dudvframe"
+			"animatedtextureframerate" 15.00
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 15.00
+		}
+	}
+}

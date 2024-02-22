@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props/ff/glass"
+	"$model" 			1
+	"$translucent"			1	
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$envmaptint"			"[0.5 0.5 0.5]"
+}

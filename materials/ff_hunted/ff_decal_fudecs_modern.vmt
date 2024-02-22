@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_hunted/ff_decal_fudecs_modern"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}
+

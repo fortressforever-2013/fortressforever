@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/weapons/grenadelauncher/v_grenadelauncher"
+	"$bumpmap" 			"models/weapons/grenadelauncher/v_grenadelauncher_normal"
+	"$model" 			1
+	
+	//Self illumination settings for glowing sights
+	"$selfillum" 			1
+	"$selfillumtint"		"[0.42 1 0.27]"
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	1
+	"$envmapsaturation"		0.7
+	"$envmapcontrast"		0.5
+}

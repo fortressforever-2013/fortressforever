@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "concrete/concretefloor038b"
+	"$basetexture2" "nature/snowfloor001a"
+	"$surfaceprop" "snow"
+	"$blendmodulatetexture" "nature/snowmodulate"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_grate03"
+	"$alphatest" 1
+                "$surfaceprop" "metal"
+}
+

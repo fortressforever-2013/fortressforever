@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/concretewall041d"
+	"$surfaceprop" "concrete"
+	"$color" "[1.0 0.3 0.3]"
+	"$bumpmap" "concrete/concretewall041a_normal"
+	
+	"%keywords" "ff_session"
+}

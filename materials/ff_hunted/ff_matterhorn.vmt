@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_hunted/ff_matterhorn"
+	"$surfaceprop" "no_decal"
+	"$translucent" "1"
+}

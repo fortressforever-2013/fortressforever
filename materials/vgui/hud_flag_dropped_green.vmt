@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/hud_flag_dropped_green"
+	"$translucent" 1
+                "$alpha" 1.0
+}

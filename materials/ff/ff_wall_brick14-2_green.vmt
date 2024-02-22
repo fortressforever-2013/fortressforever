@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+"%keywords" "FF"
+"$basetexture" "ff/ff_wall_brick14-2_green"
+"$surfaceprop" "brick"
+"$bumpmap" "ff/ff_wall_brick14_normal"
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+}

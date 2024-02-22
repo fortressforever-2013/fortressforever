@@ -1,0 +1,108 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"CycleTime"			"0.5"		// Rate of fire
+	"CycleDecrement"		"1"		// Number of bullets fired per cycle
+
+	"Damage"			"24"		// Damage per burst
+
+	"RecoilAmount"			"0.5"		// Amount of recoil
+
+	// Projectile weapons
+	"Speed"				"-1"		// Speed for projectile to travel at
+	
+	// Hitscan weapons
+	"Bullets"			"6"		// Bullets to shoot
+	"BulletSpread"			"0.03"		// Spread of projectiles
+
+	"PreReloadTime"			"0.4"		// Time taken for the weapon to move to reload state
+	"ReloadTime"			"0.25"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"		"1"		// Time taken to move weapon back to firing state
+
+	"SpinTime"			"-1"		// For AC
+
+	"clip_size"			"8"
+	
+	"primary_ammo"			"AMMO_SHELLS"
+	"secondary_ammo"		"None"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_SHOTGUN"
+	"viewmodel"			"models/weapons/shotgun/v_shotgun.mdl"
+	"playermodel"			"models/weapons/shotgun/w_shotgun.mdl"
+	
+	"anim_prefix"			"anim"
+
+	// This is the pose we want the model to be in for testin purposes
+	"PlayerAnimationExtension" "shotgun"
+	"bucket"			"1"
+	"bucket_position"		"0"
+
+	"weight"			"20"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"generic.empty"
+		"single_shot"		"shotgun.single_shot"
+		"reload"		"shotgun.reload"
+		"cock"			"shotgun.cock"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"g"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"g"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"1"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"g"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-13 -3 -13"
+			Maxs	"26 10 -3"
+		}
+		World
+		{
+			Mins	"-9 -8 -5"
+			Maxs	"28 9 9"
+		}
+	}
+}

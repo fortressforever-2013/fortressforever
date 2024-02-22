@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+ 	"$surfaceprop" "no_decal"
+	"$basetexture" "effects/rain_on_glass_dx60"
+//	"$alpha" "1"
+	"$translucent" "1"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 15.00
+		}
+
+	}
+}

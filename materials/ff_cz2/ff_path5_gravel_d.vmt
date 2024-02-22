@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_cz2/ff_path5_gravel"
+	"$decal" 1
+	"$decalscale" .25
+	"$translucent" 0
+}

@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/medkit_bezel1" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/medkit_bezel1_ref" 
+} 

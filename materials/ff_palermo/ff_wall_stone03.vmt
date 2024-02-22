@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_palermo/ff_wall_stone03"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "ff_palermo/ff_wall_stone03_normal"
+}

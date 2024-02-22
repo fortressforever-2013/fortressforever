@@ -1,0 +1,6 @@
+Steal the enemy flag while protecting your own:
+[1] Deactivate enemy security system
+[2] Take enemy flag
+[3] Bring to capture point in your base
+SCORING: 10 points per flag capture
+Based on original TFC map by Koochy ;D

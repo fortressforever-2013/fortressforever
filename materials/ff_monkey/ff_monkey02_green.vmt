@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_monkey/ff_monkey02_green"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "stone/stonewall006a_normal.tga"
+}

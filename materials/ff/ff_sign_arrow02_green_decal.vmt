@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff\ff_sign_arrow02_green"
+	"$surfaceprop" "default"
+	"$decal" 1
+	"$decalscale" 0.125
+	"$selfillum" "1"
+}

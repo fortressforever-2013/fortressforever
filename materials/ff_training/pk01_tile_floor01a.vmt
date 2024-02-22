@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_training/pk01_tile_floor01a"
+	"$bumpmap" "ff_training/pk01_tile_floor01_normal"
+	
+	"$normalmapalphaenvmapmask" 1 
+	"$envmap" "env_cubemap"
+	
+	"$surfaceprop" "metal"
+	
+	"%keywords" "pk01"
+}

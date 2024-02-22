@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\ff_dustbowl\ff_woodensign_3"
+	"$surfaceprop" "wood"
+
+}

@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/Spanner1" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/Spanner1_ref" 
+} 

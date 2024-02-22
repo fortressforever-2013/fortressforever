@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/railgun_main" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/railgun_main_ref" 
+} 

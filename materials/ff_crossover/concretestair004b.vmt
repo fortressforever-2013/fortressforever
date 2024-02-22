@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "ff_crossover/concretestair004b"
+	"$surfaceprop" "concrete"
+}

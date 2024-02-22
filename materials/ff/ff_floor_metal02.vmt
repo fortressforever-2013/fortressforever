@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+"%keywords" "FF"
+"$basetexture" "ff\ff_floor_metal02"
+"$surfaceprop" "metal"
+"$bumpmap" "ff\ff_floor_metal02_normal"
+}

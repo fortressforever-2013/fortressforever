@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props/ff/ff_bench2"
+	"$model" 			1
+                "$translucent" "1"
+}

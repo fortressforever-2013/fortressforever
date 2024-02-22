@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\ff_avanti\pillar_dirty"
+	"$model" 			1
+	"$translucent" 			1
+}

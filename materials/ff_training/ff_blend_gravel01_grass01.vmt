@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"%tooltexture" "ff_training\ff_blend_gravel01_grass01_tooltexture"
+
+	"$basetexture" "ff_training\ff_ground_gravel01"
+	"$basetexture2" "ff_training\ff_ground_grass01"
+
+	"$surfaceprop" "gravel"
+	"$surfaceprop2" "grass"
+
+	"$bumpmap" "ff_training\ff_ground_gravel01_normal"
+	//"$bumpmap2" "ff_training\ff_ground_grass01_normal"
+	
+
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+}

@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/12gauge_receiver" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/12gauge_receiver_ref" 
+} 

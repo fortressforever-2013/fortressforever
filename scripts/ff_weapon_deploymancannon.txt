@@ -1,0 +1,86 @@
+WeaponData
+{
+	"clip_size"			"-1"		
+	"clip2_size"			"-1"		
+	"default_clip"			"200"		
+	"default_clip2"			"-1"		
+	
+	"primary_ammo"			"AMMO_MANCANNON"
+	"secondary_ammo"		"None"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_MANCANNON"
+	"viewmodel"			"models/weapons/emptyhanded/v_emptyhanded.mdl"
+	"playermodel"			"models/weapons/crowbar/w_crowbar.mdl"
+	
+	"anim_prefix"			"anim"
+	"PlayerAnimationExtension" 	"detpack"
+	"bucket"			"4"
+	"bucket_position"		"0"
+	
+	// Misc
+	"weight"			"0"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"generic.empty"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"W"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"W"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"W"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"W"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

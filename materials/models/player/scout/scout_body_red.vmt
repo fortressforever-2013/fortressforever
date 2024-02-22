@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 					"models/player/scout/scout_body_red"
+	"$bumpmap" 						"models/player/scout/scout_body_normal"
+	"$model" 						"1"
+
+	//Environment Mapping
+	"$envmap" 						"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint" 					"[0.3 0.3 0.3]"
+
+	//Phong
+	"$phong" 						"1"
+	"$phongboost" 					"1"
+	"$phongfresnelranges"			"[1 3 8]"
+	"$phongexponenttexture" 		"models/player/scout/scout_body_exp"
+	"$phongalbedotint" 				"1"
+	"$selfillum" 					"1"
+//ELMO
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+}

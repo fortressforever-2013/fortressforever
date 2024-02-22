@@ -1,0 +1,8 @@
+"Unlitgeneric"
+{
+	"$basetexture" "sprites/ff_sprite_teammate"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$spriteorientation" "vp_facing_upright"
+
+}

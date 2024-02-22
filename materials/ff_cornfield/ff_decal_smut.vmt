@@ -1,0 +1,9 @@
+"DecalModulate"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_cornfield/ff_decal_smut"
+
+    "$decalscale" 0.5"
+}
+
+Note that neither the

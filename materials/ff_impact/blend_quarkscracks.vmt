@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_impact/impactquarks"
+	"$basetexture2" "ff_impact/crackfloor"
+	
+	"$bumpmap" "ff_impact/impactquarks2_normal"
+	"$bumpmap2" "ff_impact/crackfloor_normal"
+
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "concrete"
+
+	"%tooltexture" "ff_impact\blend_quarkscracks_tooltexture"
+}

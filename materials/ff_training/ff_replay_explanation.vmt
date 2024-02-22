@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ff_training/ff_replay_explanation"
+	
+	"$translucent" "1"
+	"$playerdistance" "0"
+	"$additive" 1
+	"$alpharesult" "1"
+}

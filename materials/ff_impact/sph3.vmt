@@ -1,0 +1,41 @@
+"Refract"
+ {
+
+	"$refractamount" ".1"
+	"$refracttint" "{255 255 255}"
+	"$scale" "[.1 .1]"
+	"$basetexture" "ff_impact/sph3"
+	"$normalmap" "ff_impact/sph3_normal"
+	"$envmaptint" "[.5 .5 .5]"
+
+"Proxies"
+ {
+  
+  "TextureScroll"
+  		{
+   			"texturescrollvar" "$bumptransform"
+   			"texturescrollrate" .01
+   			"texturescrollangle" 0
+  		}
+
+ 
+  "Sine" 
+            { 
+                   "resultVar"    "$refractamount" 
+                   "sineperiod"   "6" 
+                   "sinemin"      ".01" 
+                   "sinemax"      ".2" 
+            } 
+
+   "Sine" 
+            { 
+                   "resultVar"    "$refracttint" 
+                   "sineperiod"   "17" 
+                   "sinemin"      "0.5" 
+                   "sinemax"      "1.7" 
+            } 
+
+ }
+
+
+ }

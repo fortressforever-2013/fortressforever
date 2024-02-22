@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_palermo/ff_decal_cafe_palermo"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}
+

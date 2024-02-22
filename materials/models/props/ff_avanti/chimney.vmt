@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\props\ff_avanti/chimney"
+	"$bumpmap" "models\props\ff_avanti/chimney_normal"
+
+}

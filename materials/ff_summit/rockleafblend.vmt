@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ff_summit/shale"
+	"$basetexture2" "ff_summit/forestfloor2"
+ 	"$bumpmap" "ff_summit/shale_normal"
+ 	"$bumpmap2" "ff_summit/flat_normal"
+ //	"$normalmapalphaenvmapmask" 1
+    	"$surfaceprop" "rock"
+//	"$envmap"	"env_cubemap"
+//envmaptint and masks won't work with blendmod :(
+//	"$envmaptint" "[.5 .5 .5]"
+//	"$basetexture2noenvmap" 1
+	"$blendmodulatetexture" "ff_summit/forestfloor2_blendmod"
+}

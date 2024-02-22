@@ -1,0 +1,116 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"CycleTime"			"0.8"		// Rate of fire
+	"CycleDecrement"		"1"		// Number of bullets fired per cycle
+
+	"Damage"			"45"		// Damage per burst
+
+	// for the sniper rifle, this is multiplied by the charge time (1 to 7 seconds)
+	"RecoilAmount"			"0"		// Amount of recoil
+
+	// Projectile weapons
+	"Speed"				"-1"		// Speed for projectile to travel at
+	
+	// Hitscan weapons
+	"Bullets"			"1"		// Bullets to shoot
+	"BulletSpread"			"0"		// Spread of projectiles
+
+	"PreReloadTime"			"-1"		// Time taken for the weapon to move to reload state
+	"ReloadTime"			"-1"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"		"-1"		// Time taken to move weapon back to firing state
+
+	"SpinTime"			"-1"		// For AC
+
+	"clip_size"			"-1"
+	"clip2_size"			"-1"
+	"default_clip"			"60"
+	"default_clip2"			"-1"	
+	
+	"primary_ammo"			"AMMO_NAILS"
+	"secondary_ammo"		"None"
+
+	"ffencrypted"	"1" // required for the script to load
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#FF_WPNHUD_SNIPERRIFLE"
+	"viewmodel"			"models/weapons/sniperrifle/v_sniperrifle.mdl"
+	"playermodel"			"models/weapons/sniperrifle/w_sniperrifle.mdl"
+	
+	"anim_prefix"			"anim"
+	"PlayerAnimationExtension" "sniperrifle"
+	"bucket"			"1"
+	"bucket_position"		"1"
+
+	"weight"			"50"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"generic.empty"
+		"single_shot"		"SniperRifle.single_shot"
+		"double_shot"		"SniperRifle.charged_shot"
+		"special1"		"SniperRifle.zoom_in"
+		"special2"		"SniperRifle.zoom_out"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"k"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"k"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"3"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"deathnotice"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"k"
+		}
+		"deathnotice_headshot"
+		{
+				"font"		"StatusGlyphsSmall"
+				"character"	"e"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

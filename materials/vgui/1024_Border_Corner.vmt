@@ -1,0 +1,7 @@
+"Unlitgeneric"
+{
+	"$baseTexture" 			"vgui/1024_Border_Corner.vmt"
+	"$translucent" 			1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

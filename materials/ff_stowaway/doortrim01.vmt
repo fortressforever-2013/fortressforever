@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_stowaway/doortrim01"
+	//"$translucent" 1
+	"$surfaceprop" "metal"
+}

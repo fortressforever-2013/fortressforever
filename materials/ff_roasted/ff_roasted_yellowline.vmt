@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+    "%keywords" "FF"
+    "$basetexture" "ff_roasted/ff_roasted_yellowline"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}
+

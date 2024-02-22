@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_avanti\ff_trim_cement04-2_yellow"
+	"$surfaceprop" "concrete"
+	//"$bumpmap" "ff_avanti\ff_trim_cement04_normal"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+}

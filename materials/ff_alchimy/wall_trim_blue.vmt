@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_alchimy\wall_trim_blue"
+	"$surfaceprop" "Tile"
+						
+	//what can we type into the material browser's keyword field to immediately find this material?
+	"%keywords"	"alchimy,wall,walls,trim,blue"
+}

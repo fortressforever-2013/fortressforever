@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+     "%keywords" "FF"
+     "$BaseTexture" "cliff_textures/cliff_03_v2"
+     "$BaseTexture2" "cliff_textures/grass_01_v2"
+     "$surfaceprop" "rock"
+     "$surfaceprop2" "grass"
+     "$bumpmap" "cliff_textures/cliff_03_normal"
+     "$bumpbasetexture2withbumpmap" "cliff_textures/grass_01_normal"
+}

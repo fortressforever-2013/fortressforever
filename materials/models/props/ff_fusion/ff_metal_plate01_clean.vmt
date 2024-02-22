@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_metal_plate01_clean"
+	"$surfaceprop" "metal"
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_dustbowl\ff_wall_wood08-2"
+	"$surfaceprop" "wood"
+	"$bumpmap" "ff_dustbowl\ff_wall_wood08-2_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}

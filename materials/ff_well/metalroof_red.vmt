@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+"%keywords" "FF"
+"$basetexture" "ff_well\metalroof_red"
+"$surfaceprop" "metal"
+"$bumpmap" "ff_well\metalroof_normal"
+"$envmap" "env_cubemap"
+"$envmapcontrast" 1
+"$envmapsaturation" 1
+"$envmaptint" "[ .6 .6 .6 ]"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/hud_door_open"
+	"$translucent" 1
+                "$alpha" 1.0
+}

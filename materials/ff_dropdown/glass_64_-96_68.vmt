@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/ff_dropdown/GLASS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ff_fatties_b1/c64_-96_68"
+	}
+}
+
+
+

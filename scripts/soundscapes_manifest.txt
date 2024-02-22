@@ -1,0 +1,31 @@
+soundscapes_manifest
+{
+	// Generic FF soundscapes
+	"file"		"scripts/soundscapes_ff.txt"
+
+	// Map-specific FF soundscapes (no need to list map soundscapes here anymore)
+	// Place in "maps" folder with the filename as <mapname>_soundscapes.txt
+	//"file"		"maps/ff_dev_test_sounds_soundscapes.txt"
+	//"file"		"maps/ff_hunted_soundscapes.txt"
+
+	// Put your map's soundscape txt file in "FortressForever\maps" and give it the
+	// EXACT SAME NAME AS YOUR MAP's FILENAME followed by _soundscapes.txt
+	// IE:	FortressForever\maps\<mapname>_soundscapes.txt
+	// IE:  FortressForever\maps\ff_2fort_soundscapes.txt
+
+
+	//////////////////////////////////////////////////////
+	// HL2 soundscapes (located in "source engine.gcf") //
+	//////////////////////////////////////////////////////
+
+	"file"		"scripts/soundscapes.txt"
+	"file"		"scripts/soundscapes_canals.txt"
+	"file"		"scripts/soundscapes_klab.txt"
+	"file"		"scripts/soundscapes_elab.txt"
+	"file"		"scripts/soundscapes_streetwar.txt"
+	"file"		"scripts/soundscapes_citadel.txt"
+	"file"		"scripts/soundscapes_town.txt"
+	"file"		"scripts/soundscapes_coast.txt"
+	"file"		"scripts/soundscapes_prison.txt"
+	"file"		"scripts/soundscapes_trainyard.txt"
+}

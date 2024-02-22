@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/tfcgl_mech" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/tfcgl_mech_ref" 
+} 

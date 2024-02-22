@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 					"models/v_arms/v_pyroArms_red"
+	"$bumpmap" 					"models/v_arms/v_pyroArms_normal"
+}

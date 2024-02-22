@@ -1,0 +1,6 @@
+"vertexlitgeneric" 
+{ 
+	"$baseTexture" "weapons/sboxback" 
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "weapons/sboxback_ref" 
+} 

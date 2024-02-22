@@ -1,0 +1,56 @@
+"Refract"
+{
+ 	"$model" "1"
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+	
+	"Refract_DX60"
+	{
+		"$fallbackmaterial" "models/buildable/detpack/detpack_dx60"
+	}
+
+ 	"$refractamount" ".2"
+ 	"$bluramount" "1"
+	"$scale" "[1 1]"
+	"$dudvmap" "dev/water_dudv"
+ 	"$normalmap" "dev/water_normal"
+ 	"$surfaceprop" "water"
+	"$dudvframe" "0"
+	"$bumpframe" "0"
+
+	"$TeamColorBlue" "[0.3 0.5 1]"
+	"$TeamColorRed" "[1 0.4 0.4]"	
+	"$TeamColorYellow" "[1 1 0.3]"
+	"$TeamColorGreen" "[0.3 1 0.3]"
+
+	"$refracttinttexture" "models/buildable/detpack/detpack_glass"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$dudvmap"
+			"animatedtextureframenumvar" "$dudvframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+
+		"Refract_TeamColor"
+		{		
+		}
+	}
+}

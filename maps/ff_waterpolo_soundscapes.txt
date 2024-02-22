@@ -1,0 +1,55 @@
+// Ramp Room, Front Door, and Resups
+"waterpolo.center"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/water/rumble_rain_nowind.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient/water/lake_water.wav"
+		"pitch"		"100"
+	}
+
+	// Wind gusts (based on cliffe's cs_assault settings)
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	"0.3,0.4"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_snippet1.wav"
+			"wave"	"ambient/wind/wind_snippet2.wav"
+			"wave"	"ambient/wind/wind_snippet3.wav"
+			"wave"	"ambient/wind/wind_snippet4.wav"
+			"wave"	"ambient/wind/wind_snippet5.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.4,0.6"
+		"pitch"		"90,110"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/weather/thunder1.wav"
+			"wave"	"ambient/weather/thunder2.wav"
+			"wave"	"ambient/weather/thunder3.wav"
+			"wave"	"ambient/weather/thunder4.wav"
+			"wave"	"ambient/weather/thunder5.wav"
+		}
+	}
+
+}

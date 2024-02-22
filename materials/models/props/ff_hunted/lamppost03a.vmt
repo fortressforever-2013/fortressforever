@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_c17/lamppost03a"
+         
+	"$surfaceprop" "metal"
+}
+

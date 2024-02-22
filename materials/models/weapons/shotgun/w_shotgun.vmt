@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/weapons/shotgun/w_shotgun"
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+}
+

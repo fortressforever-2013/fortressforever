@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_wall_metal01_yellow"
+	"$surfaceprop" "metal_bouncy"
+	"$bumpmap" "ff/ff_wall_metal01_normal"
+}

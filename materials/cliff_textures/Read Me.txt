@@ -1,0 +1,15 @@
+Textures were made by : Hipshot http://www.zfight.com/
+I seen them at http://www.mapcore.net/forums/viewtopic.php?t=3053
+and he said they were free to use.
+All I did was make them into vtf and create the vmt files so they could be
+used in Source maps.
+
+
+Give credit to Hipshot, http://www.zfight.com/
+
+How To Install:
+
+Put the cliff_textures folder into your mod directory materials folder
+
+Example:
+C:\Program Files\Steam\SteamApps\username\counter-strike source\cstrike\materials

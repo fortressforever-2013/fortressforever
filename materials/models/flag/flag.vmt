@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$color2"				"[1 1 1]"
+	"$baseTexture"				"models/flag/flag"
+	"$selfIllum"			50
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				""
+}

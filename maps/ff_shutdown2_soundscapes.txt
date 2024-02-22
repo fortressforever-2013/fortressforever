@@ -1,0 +1,240 @@
+// Shutdown2 soundscape file
+// Author: Defrag 
+// Some sections based on existing valve soundscapes but modified
+
+// Flag Room
+"shutdown2.flagroom"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.6"
+
+	// General ambient noise
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/ff_ambience.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.3,0.5"
+		"pitch"		"90,100"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/metal4.wav"
+			"wave"	"ambient/materials/rustypipes1.wav"
+			"wave"	"ambient/materials/rustypipes2.wav"
+		}
+	}
+
+}
+
+// Front door
+"shutdown2.frontdoor"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.5"
+	"playsoundscape"
+	{
+		"name"	"shutdown2.ramproom"
+		"volume"	"0.7"
+	}
+	"playsoundscape"
+	{
+		"name"	"shutdown2.yard"
+		"volume"	"0.3"
+	}
+}
+
+// Lift / Elevator
+"shutdown2.lift"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	"playsoundscape"
+	{
+		"name"	"shutdown2.topramp"
+		"volume"	"0.5"
+	}
+	"playsoundscape"
+	{
+		"name"	"shutdown2.flagroom"
+		"volume"	"0.5"
+	}
+}
+
+// Plank
+"shutdown2.plank"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	"playsoundscape"
+	{
+		"name"	"shutdown2.ramproom"
+		"volume"	"0.2"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"shutdown2.flagroom"
+		"volume"	"0.6"
+	}
+
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	"0.5, 0.8"
+		"pitch"		"100"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/rock1.wav"
+			"wave"	"ambient/materials/rock2.wav"
+			"wave"	"ambient/materials/rock3.wav"
+			"wave"	"ambient/materials/rock4.wav"
+			"wave"	"ambient/materials/rock5.wav"
+		}
+	}
+}
+
+// Ramp Room
+"shutdown2.ramproom"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.6"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/tone_alley.wav"
+	}
+}
+
+// Respawn Lower
+"shutdown2.respawnlower"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+	"playsoundscape"
+	{
+		"name"	"shutdown2.ramproom"
+		"volume"	"0.6"
+	}
+}
+// Respawn Upper
+"shutdown2.respawnupper"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	"playsoundscape"
+	{
+		"name"	"shutdown2.topramp"
+		"volume"	"0.6"
+	}
+}
+
+// Switch Room
+"shutdown2.switchroom"
+{
+	"playsoundscape"
+	{
+		"name"	"shutdown2.topramp"
+		"volume"	"1.0"
+	}
+
+}
+
+// Top Ramp
+"shutdown2.topramp"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	"playsoundscape"
+	{
+		"name"	"shutdown2.ramproom"
+		"volume"	"0.2"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"shutdown2.flagroom"
+		"volume"	"0.6"
+	}
+}
+
+// Train Tunnel
+"shutdown2.traintunnel"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.8"
+
+
+	"playsoundscape"
+	{
+		"name"	"shutdown2.ramproom"
+		"volume"	"0.2"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.05"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/ff_ambience.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient/water/drip_loop1.wav"
+	}
+
+}
+
+// Yard between two bases
+"shutdown2.yard"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	// constant wind base
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+	}
+
+	// Wind gusts (based on cliffe's cs_assault settings)
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	"0.3,0.4"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_snippet1.wav"
+			"wave"	"ambient/wind/wind_snippet2.wav"
+			"wave"	"ambient/wind/wind_snippet3.wav"
+			"wave"	"ambient/wind/wind_snippet4.wav"
+			"wave"	"ambient/wind/wind_snippet5.wav"
+		}
+	}
+}

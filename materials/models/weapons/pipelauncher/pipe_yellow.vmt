@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/weapons/pipelauncher/pipe_yellow"
+	"$selfillum"			"1"
+	"$selfillumtint"		"[1 1 1]"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod"		"0.4"
+			"sinemin"			"1"
+			"sinemax"			"12"
+			"timeoffset"		"0.0"
+			"resultVar"			"$selfillumtint"
+		}
+	}
+}

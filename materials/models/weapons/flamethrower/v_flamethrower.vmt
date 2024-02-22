@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/weapons/flamethrower/v_flamethrower"
+	"$bumpmap" 			"models/weapons/flamethrower/v_flamethrower_normal"
+	"$model" 			1
+	"$alphatest"			1
+	"$translucent" 			1
+
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	1
+	"$envmapsaturation" 		.4
+	"$envmapcontrast" 		.7
+}

@@ -1,0 +1,21 @@
+"Refract"
+{
+	"$bluramount" "2"
+ 	"$refractamount" "0.1"
+ 	"$dudvmap" "models/shadertest/shader3_dudv"
+	"$normalmap" "effects/tranq"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .4 .4]"
+	"$REFRACTTINT" "{230 240 250}"
+	"$scale" "[1 1]"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .3
+			"texturescrollangle" -90
+		}
+	}
+
+}

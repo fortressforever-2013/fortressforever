@@ -1,0 +1,58 @@
+// game sounds for the ff_waterpolo map
+
+"ff_waterpolo.bizwarn"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*misc/bizwarn.wav"
+}
+
+"ff_waterpolo.bloop"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*misc/bloop.wav"
+}
+
+"ff_waterpolo.buzwarn"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*misc/buzwarn.wav"
+}
+
+"ff_waterpolo.dadeda"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*misc/dadeda.wav"
+}
+
+"ff_waterpolo.deeoo"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*misc/deeoo.wav"
+}
+
+"ff_waterpolo.doop"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*misc/doop.wav"
+}
+
+"ff_waterpolo.woop"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*misc/woop.wav"
+}
+

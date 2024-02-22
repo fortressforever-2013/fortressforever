@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_credits"
+	"$surfaceprop" "no_decal"
+	"$selfillum" "1"
+	"$decal" 1
+	"$decalscale" 1
+}

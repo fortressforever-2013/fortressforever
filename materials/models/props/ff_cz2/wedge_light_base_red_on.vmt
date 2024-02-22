@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props/ff_cz2/wedge_light_base_red_on"
+	"$model" 			1
+	"$selfillum" 			1
+}

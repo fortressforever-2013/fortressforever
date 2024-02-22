@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/weapons/incendiarycannon/v_ic_display"
+	"$bumpmap"			"models/weapons/incendiarycannon/v_ic_display_normal"
+	"$model"			"1"
+	"$selfillum"			"1"
+	"$selfillumtint"		"[ 1 1 1 ]"
+	"$envmap"			"env_cubemap"
+	"$envmapcontrast" 		"0.3"
+	"$envmapsaturation" 		"0.2"
+	"$envmaptint" 			"[ 0.3 0.3 0.3 ]"
+//	"$normalmapalphaenvmapmask"	"1"
+	"Proxies"
+	{
+		//This controls what ammo reading the HUD displays
+		"CurrentAmmo"
+		{
+			"resultVar"		"$frame"
+		}
+	}
+}

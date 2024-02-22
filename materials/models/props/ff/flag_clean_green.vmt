@@ -1,0 +1,5 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/props/ff/flag_clean_green"
+	"$surfaceprop" "carpet"
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/METAL/METALFLOOR001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ff_fatties_b1/c64_-96_68"
+	}
+}
+
+
+

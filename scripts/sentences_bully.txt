@@ -1,0 +1,100 @@
+// Fortress Forever SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+
+// --------- Canal Zone --------- //
+CZ_GOTCP1 bully/CZ_GOTCP1
+CZ_LOSTCP1 bully/CZ_LOSTCP1
+CZ_GOTCP2 bully/CZ_GOTCP2
+CZ_LOSTCP2 bully/CZ_LOSTCP2
+CZ_GOTCP3 bully/CZ_GOTCP3
+CZ_LOSTCP3 bully/CZ_LOSTCP3
+CZ_GOTCP4 bully/CZ_GOTCP4
+CZ_LOSTCP4 bully/CZ_LOSTCP4
+CZ_GOTCP5 bully/CZ_GOTCP5
+CZ_LOSTCP5 bully/CZ_LOSTCP5
+CZ_GOTALL bully/CZ_GOTALL _comma _comma _comma _comma CZ_POINTSRESET
+CZ_THEYGOTALL bully/CZ_THEYGOTALL _comma _comma _comma _comma CZ_POINTSRESET
+CZ_BCC_DET bully/CZ_BCC_DET
+CZ_RCC_DET bully/CZ_RCC_DET
+
+// --------- Capture the Flag --------- //
+CTF_YOUCAP bully/CTF_YOUCAP
+CTF_TEAMCAP bully/CTF_TEAMCAP
+CTF_THEYCAP bully/CTF_THEYCAP
+CTF_YOUGOTFLAG bully/CTF_YOUGOTFLAG
+CTF_YOUGOTFLAG2 bully/CTF_YOUGOTFLAG2
+CTF_YOUGOTFLAG3 bully/CTF_YOUGOTFLAG3
+CTF_YOUGOTFLAG4 bully/CTF_YOUGOTFLAG4
+CTF_GOTFLAG bully/CTF_GOTFLAG
+CTF_GOTFLAG2 bully/CTF_GOTFLAG2
+CTF_GOTFLAG3 bully/CTF_GOTFLAG3
+CTF_GOTFLAG4 bully/CTF_GOTFLAG4
+CTF_LOSTFLAG bully/CTF_LOSTFLAG
+CTF_LOSTFLAG2 bully/CTF_LOSTFLAG2
+CTF_LOSTFLAG3 bully/CTF_LOSTFLAG3
+CTF_LOSTFLAG4 bully/CTF_LOSTFLAG4
+CTF_FLAGBACK bully/CTF_FLAGBACK
+CTF_EFLAGBACK bully/CTF_EFLAGBACK
+
+// --------- Hunted --------- //
+HTD_DOORS bully/HTD_DOORS
+
+// --------- The Rock --------- //
+RK_BYARDOPEN bully/RK_BYARDOPEN
+RK_RYARDOPEN bully/RK_RYARDOPEN
+RK_KEYBACK vox/female/your key has returned
+RK_EKEYBACK vox/female/enemy key has returned
+RK_GOTKEY vox/female/your team has the enemy key
+RK_LOSTKEY vox/female/the enemy has your key
+RK_BSCORE vox/female/blue team scores _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
+RK_RSCORE vox/female/red team scores  _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
+RK_TAKEKEY vox/female/take key to enemy gas chamber
+FBALL_BSCORE vox/female/blue team scores
+FBALL_RSCORE vox/female/red team scores
+
+// --------- Attack/Defend --------- //
+AD_600SEC bully/AD_600SEC
+AD_300SEC bully/AD_300SEC
+AD_120SEC bully/AD_120SEC
+AD_60SEC bully/AD_60SEC
+AD_30SEC bully/AD_30SEC
+AD_10SEC bully/AD_10SEC
+AD_9SEC bully/AD_9SEC
+AD_8SEC bully/AD_8SEC
+AD_7SEC bully/AD_7SEC
+AD_6SEC bully/AD_6SEC
+AD_5SEC bully/AD_5SEC
+AD_4SEC bully/AD_4SEC
+AD_3SEC bully/AD_3SEC
+AD_2SEC bully/AD_2SEC
+AD_1SEC bully/AD_1SEC
+AD_CP1 bully/AD_CP1
+AD_CP2 bully/AD_CP2
+AD_HOLD bully/AD_HOLD
+AD_CAP bully/AD_CAP
+AD_GATESOPEN bully/AD_GATESOPEN
+AD_ATTACK bully/AD_ATTACK
+AD_DEFEND bully/AD_DEFEND
+
+// --------- Shutdown2 --------- //
+SD_REDDOWN bully/SD_REDDOWN
+SD_REDUP bully/SD_REDUP
+SD_BLUEDOWN bully/SD_BLUEDOWN
+SD_BLUEUP bully/SD_BLUEUP
+
+// --------- Push --------- //
+CTF_YOUSCORE bully/CTF_YOUSCORE
+CTF_TEAMSCORE bully/CTF_TEAMSCORE
+CTF_THEYSCORE bully/CTF_THEYSCORE
+CTF_YOUHAVEBALL bully/CTF_YOUHAVEBALL
+CTF_TEAMHASBALL bully/CTF_TEAMHASBALL
+CTF_ENEMYHASBALL bully/CTF_ENEMYHASBALL
+CTF_BALLRETURN bully/CTF_BALLRETURN
+
+// --------- Win --------- //
+WIN_BLUE bully/WIN_BLUE
+WIN_RED bully/WIN_RED
+WIN_YELLOW bully/WIN_YELLOW
+WIN_GREEN bully/WIN_GREEN
+WINNING_YOURTEAM bully/WINNING_YOURTEAM
+WINNING_ENEMYTEAM bully/WINNING_ENEMYTEAM

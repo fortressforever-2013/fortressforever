@@ -1,0 +1,165 @@
+// The Well soundscape file
+// Author: Mervaka
+// Some sections based on existing valve soundscapes but modified
+
+"ff.drips1"
+{
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,120"
+		"time"		"0.5, 5.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/water/ff_distant_drip1.wav"
+			"wave"	"ambient/water/ff_distant_drip2.wav"
+			"wave"	"ambient/water/ff_distant_drip3.wav"
+			"wave"	"ambient/water/ff_distant_drip4.wav"
+		}
+	}
+}
+
+// Yard between two bases
+"Well.yard"
+{
+	// DSP: 0 : "Normal (off)"
+	"dsp"		"1"
+	"dsp_volume" "0.4"
+
+	// constant wind base
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+	}
+
+	// Wind gusts (based on cliffe's cs_assault settings)
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	"0.3,0.4"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_snippet1.wav"
+			"wave"	"ambient/wind/wind_snippet2.wav"
+			"wave"	"ambient/wind/wind_snippet3.wav"
+			"wave"	"ambient/wind/wind_snippet4.wav"
+			"wave"	"ambient/wind/wind_snippet5.wav"
+		}
+	}
+}
+
+// Large Open Flag Room
+"Well.flagroom"
+{
+	// DSP: // 1 : "Generic"
+	"dsp"		"1"
+	"dsp_volume" "0.6"
+
+	// constant ambient base
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/ff_ambience.wav"
+	}
+	"playsoundscape"
+	{
+		"name"	"ff.drips1"
+		"volume"	"1.0"
+	}
+
+}
+
+// Centre Bunker
+"Well.bunker"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.5"
+
+	"playsoundscape"
+	{
+		"name"	"Well.yard"
+		"volume"	"0.6"
+	}
+}
+
+// Ramp Room, Front Door, and Resups
+"Well.front"
+{
+	// DSP: 0 : "Normal (off)"
+	"dsp"		"1"
+	"dsp_volume" "0.5"
+	// General ambient noise
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/push/inside_amb1.wav"
+	}
+
+	// constant ambient base
+	"playlooping"
+	{
+		"volume"	"0.02"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/ff_ambience.wav"
+	}
+
+// wind blowing through warehouse
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		
+		"rndwave"
+		{
+			"ambient/wind/windgust.wav"
+			"ambient/wind/wind_moan1.wav"
+			"ambient/wind/wind_moan2.wav"
+			"ambient/wind/wind_moan4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.3,0.5"
+		"pitch"		"90,100"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/metal4.wav"
+			"wave"	"ambient/materials/rustypipes1.wav"
+			"wave"	"ambient/materials/rustypipes2.wav"
+		}
+	}
+}
+
+// Attic
+"Well.4bags"
+{
+	// DSP: 0 : "Normal (off)"
+	"dsp"		"1"
+	"dsp_volume" "0.5
+"
+	"playsoundscape"
+	{
+		"name"	"Well.front"
+		"volume"	"1.0"
+	}
+	// constant ambient base
+
+	"playsoundscape"
+	{
+		"name"	"ff.drips1"
+		"volume"	"0.1"
+	}
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props/ff_cz2/ff_cz2_sign_arrow4"
+	"$bumpmap" 			"models/props/ff_cz2/ff_cz2_sign_normspec"
+	"$model" 			1
+	"$selfillum" 			1
+
+
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask"	1
+	"$envmaptint" 			"[.6 .6 .6]"
+}
+

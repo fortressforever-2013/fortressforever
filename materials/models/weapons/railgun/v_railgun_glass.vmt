@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/weapons/railgun/v_railgun_glass"
+	"$bumpmap" 			"models/weapons/railgun/v_railgun_glass_normal"
+	"$model" 			1
+	"$translucent"			1
+	"$additive"			1
+	
+	//Environment Mapping
+	"$envmap" 			"env_cubemap"
+	"$envmaptint" 			"[0.2  0.2 0.5]"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 		"$basetexturetransform"
+			"texturescrollrate" 		.2
+			"texturescrollangle" 		180
+		}
+		
+		"TextureScroll"
+		{
+			"texturescrollvar" 		"$bumptransform"
+			"texturescrollrate" 		.1
+			"texturescrollangle" 		0
+		}
+	}
+}

@@ -1,0 +1,100 @@
+// Fortress Forever SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+
+// --------- Canal Zone --------- //
+CZ_GOTCP1 vox/robot/command point one secured
+CZ_LOSTCP1 vox/robot/command point one is now hostile
+CZ_GOTCP2 vox/robot/command point two secured
+CZ_LOSTCP2 vox/robot/command point two is now hostile
+CZ_GOTCP3 vox/robot/command point three secured
+CZ_LOSTCP3 vox/robot/command point three is now hostile
+CZ_GOTCP4 vox/robot/command point four secured
+CZ_LOSTCP4 vox/robot/command point four is now hostile
+CZ_GOTCP5 vox/robot/command point five secured
+CZ_LOSTCP5 vox/robot/command point five is now hostile
+CZ_GOTALL vox/robot/all command points secured _comma _comma _comma command points reset
+CZ_THEYGOTALL vox/robot/enemy captured all command points _comma _comma _comma command points reset
+CZ_BCC_DET vox/robot/blue command center detonation
+CZ_RCC_DET vox/robot/red command center detonation
+
+// --------- Capture the Flag --------- //
+CTF_YOUCAP vox/robot/you captured the enemy flag
+CTF_TEAMCAP vox/robot/your team captured the flag
+CTF_THEYCAP vox/robot/the enemy team captured the flag
+CTF_YOUGOTFLAG vox/robot/you have the enemy flag
+CTF_YOUGOTFLAG2 vox/robot/you have the enemy flag
+CTF_YOUGOTFLAG3 vox/robot/you have the enemy flag
+CTF_YOUGOTFLAG4 vox/robot/you have the enemy flag
+CTF_GOTFLAG vox/robot/your team has the enemy flag
+CTF_GOTFLAG2 vox/robot/your team has the enemy flag
+CTF_GOTFLAG3 vox/robot/your team has the enemy flag
+CTF_GOTFLAG4 vox/robot/your team has the enemy flag
+CTF_LOSTFLAG vox/robot/the enemy has your flag
+CTF_LOSTFLAG2 vox/robot/the enemy has your flag
+CTF_LOSTFLAG3 vox/robot/the enemy has your flag
+CTF_LOSTFLAG4 vox/robot/the enemy has your flag
+CTF_FLAGBACK vox/robot/your flag has returned
+CTF_EFLAGBACK vox/robot/the enemy flag has returned
+
+// --------- Hunted --------- //
+HTD_DOORS vox/robot/escape door open
+
+// --------- The Rock --------- //
+RK_BYARDOPEN vox/robot/blue yard has been breached
+RK_RYARDOPEN vox/robot/red yard has been breached
+RK_KEYBACK vox/robot/your key has returned
+RK_EKEYBACK vox/robot/enemy key has returned
+RK_GOTKEY vox/robot/your team has the enemy key
+RK_LOSTKEY vox/robot/the enemy has your key
+RK_BSCORE vox/robot/blue team scores _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
+RK_RSCORE vox/robot/red team scores  _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
+RK_TAKEKEY vox/robot/take key to enemy gas chamber
+FBALL_BSCORE vox/robot/blue team scores
+FBALL_RSCORE vox/robot/red team scores
+
+// --------- Attack/Defend --------- //
+AD_600SEC vox/robot/ten minutes remaining
+AD_300SEC vox/robot/five minutes remaining
+AD_120SEC vox/robot/two minutes remaining
+AD_60SEC vox/robot/sixty seconds remaining
+AD_30SEC vox/robot/thirty seconds remaining
+AD_10SEC vox/robot/ten
+AD_9SEC vox/robot/nine
+AD_8SEC vox/robot/eight
+AD_7SEC vox/robot/seven
+AD_6SEC vox/robot/six
+AD_5SEC vox/robot/five
+AD_4SEC vox/robot/four
+AD_3SEC vox/robot/three
+AD_2SEC vox/robot/two
+AD_1SEC vox/robot/one
+AD_CP1 vox/robot/blue team secured command point one
+AD_CP2 vox/robot/blue team secured command point two
+AD_HOLD vox/robot/red team holds red base
+AD_CAP vox/robot/blue team captured red base
+AD_GATESOPEN vox/robot/_comma
+AD_ATTACK vox/robot/_comma
+AD_DEFEND vox/robot/_comma
+
+// --------- Shutdown2 --------- //
+SD_REDDOWN vox/robot/red security has been deactivated
+SD_REDUP vox/robot/red security has been reactivated
+SD_BLUEDOWN vox/robot/blue security has been deactivated
+SD_BLUEUP vox/robot/blue security has been reactivated
+
+// --------- Push --------- //
+CTF_YOUSCORE vox/robot/you captured the ball
+CTF_TEAMSCORE vox/robot/your team captured the ball
+CTF_THEYSCORE vox/robot/the enemy team captured the ball
+CTF_YOUHAVEBALL vox/robot/you have the ball
+CTF_TEAMHASBALL vox/robot/your team has the ball
+CTF_ENEMYHASBALL vox/robot/the enemy has the ball
+CTF_BALLRETURN vox/robot/the ball has returned
+
+// --------- Win --------- //
+WIN_BLUE vox/robot/blue team wins
+WIN_RED vox/robot/red team wins
+WIN_YELLOW vox/robot/yellow team wins
+WIN_GREEN vox/robot/green team wins
+WINNING_YOURTEAM vox/robot/_comma
+WINNING_ENEMYTEAM vox/robot/_comma

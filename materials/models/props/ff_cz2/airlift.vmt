@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models\props\ff_cz2\airlift"
+	"$envmap" "env_cubemap"	
+	"$bumpmap" "models\props\ff_cz2\airliftnormal"
+	"$normalmapalphaenvmapmask" 1
+
+	"$model" 1
+	"$selfIllum"			1
+	"$translucent"			0
+	"$alpha"			1
+
+
+	"$envmapcontrast" .50
+	"$envmapsaturation"0.9
+	"$envmaptint" "[ 1 1 1 ]"
+        "$halflambert" 0
+}

@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff\ff_ground_dirt02"
+	"$basetexture2" "ff\ff_cliff_rock02d"
+	"%tooltexture" "ff\ff_blend_dirt02_rock02d_tooltexture"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "rock"
+	"$bumpmap2" "ff\ff_cliff_rock02_normal"
+}

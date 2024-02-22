@@ -1,0 +1,47 @@
+"Refract"
+{
+ 	"$model" 1
+
+	"Refract_DX60"
+	{
+		"$fallbackmaterial" "models/grenades/napalm/napalm_dx60"
+	}
+
+ 	"$refractamount" ".2"
+ 	"$bluramount" ".5"
+	
+	"$scale" "[1 1]"
+	"$dudvmap" "dev/water_dudv"
+ 	"$normalmap" "dev/water_normal"
+ 	"$surfaceprop" "water"
+	"$dudvframe" "0"
+	"$bumpframe" "0"
+	"$refracttint" "{70 40 0}"
+	"$REFRACTTINTTEXTURE" "models/grenades/napalm/napalm_glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1 .5 0]"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$dudvmap"
+			"animatedtextureframenumvar" "$dudvframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+
+	}
+}

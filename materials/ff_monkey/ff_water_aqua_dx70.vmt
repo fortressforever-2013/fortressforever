@@ -1,0 +1,55 @@
+"LightmappedGeneric"
+{
+
+	"$abovewater" "1"
+	"%compilewater" "1"
+
+	"$basetexture" "dev/water"
+
+
+	"$bottommaterial" "ff_monkey/ff_water_aqua_dx70_beneath"
+
+
+	"$surfaceprop" "water"
+
+	"$color" "{10 200 255}"
+	"$scale" "[1 1]"
+	"$translucent" "1"
+	//"$additive" "1"
+	"$nocull" "1"
+
+
+	"$texoffset" "[0 0]"
+	"$texscale" "0.5"
+
+	"$fogenable" "1"
+	"$fogcolor" "{10 200 255}"
+	"$fogstart" "0"
+	"$fogend" "330"
+
+
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "20.00"
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texoffset"
+			"texturescrollrate" "0.025"
+			"texturescrollangle" "45.00"
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$texoffset"
+			"scaleVar" "$texscale"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

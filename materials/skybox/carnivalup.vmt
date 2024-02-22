@@ -1,0 +1,6 @@
+"UnlitGeneric"
+ {
+ 	"$baseTexture" "skybox/carnivalup"
+	"$nofog" 1
+	$ignorez 1
+ }

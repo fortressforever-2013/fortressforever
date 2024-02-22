@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_cz2/ff_interiorlight02b"
+	"$surfaceprop" "glass"
+	"$selfillum" 1
+}

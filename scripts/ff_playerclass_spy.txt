@@ -1,0 +1,68 @@
+PlayerClassData
+{
+	"slot"				"8"
+	"classname"			"spy"
+
+	"ffencrypted"	"1" // required for the script to load
+	
+	// Text
+	"printname"			"#FF_PLAYER_SPY"
+	"description"			"#FF_HELP_SPY"
+	"role"				"#FF_ROLE_SPY"
+
+	// Model
+	"model"				"models/player/spy/spy.mdl"
+
+	// Health & Armour
+	"max_armour"			"100"
+	"initial_armour"		"25"
+	"armour_type"			"6" // this means 0.6
+	"health"			"90"
+
+	"speed"				"300" //315 was 5% boosted
+	
+	"firepower"			"50" // from 1 to 100
+	
+	// Weapns to automatically equip the class with
+	ArmamentsData
+	{
+		"weapon"	"ff_weapon_knife"
+		"weapon"	"ff_weapon_tranq"
+		"weapon"	"ff_weapon_supershotgun"
+		"weapon"	"ff_weapon_nailgun"
+
+		"skill"		"cloak"
+		"skill"		"scloak"
+		"skill"   	"smartcloak"
+		"skill"		"disguise"
+	}
+
+	"primary_classname"		"ff_grenade_normal"
+	"primary_initial"		"2"
+	"primary_max"			"4"
+
+	"secondary_classname"		"None"
+	"secondary_initial"		"0"
+	"secondary_max"			"0"
+
+	// Ammo amounts for the player
+	AmmoData
+	{
+		"AMMO_SHELLS"		"40"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"10"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+
+	MaxAmmoData
+	{
+		"AMMO_SHELLS"		"40"
+		"AMMO_NAILS"		"100"
+		"AMMO_CELLS"		"30"
+		"AMMO_ROCKETS"		"15"
+		"AMMO_DETPACK"		"0"
+		"AMMO_MANCANNON"	"0"
+	}
+}

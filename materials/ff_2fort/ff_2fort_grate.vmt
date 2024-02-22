@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_grate02"
+	"$translucent" 1
+	"$surfaceprop" "chainlink"
+}

@@ -1,0 +1,100 @@
+// Fortress Forever SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+
+// --------- Canal Zone --------- //
+CZ_GOTCP1 vox/female/command point one secured
+CZ_LOSTCP1 vox/female/command point one is now hostile
+CZ_GOTCP2 vox/female/command point two secured
+CZ_LOSTCP2 vox/female/command point two is now hostile
+CZ_GOTCP3 vox/female/command point three secured
+CZ_LOSTCP3 vox/female/command point three is now hostile
+CZ_GOTCP4 vox/female/command point four secured
+CZ_LOSTCP4 vox/female/command point four is now hostile
+CZ_GOTCP5 vox/female/command point five secured
+CZ_LOSTCP5 vox/female/command point five is now hostile
+CZ_GOTALL vox/female/all command points secured _comma _comma _comma command points reset
+CZ_THEYGOTALL vox/female/enemy captured all command points _comma _comma _comma command points reset
+CZ_BCC_DET vox/female/blue command center detonation
+CZ_RCC_DET vox/female/red command center detonation
+
+// --------- Capture the Flag --------- //
+CTF_YOUCAP vox/female/you captured the enemy flag
+CTF_TEAMCAP vox/female/your team captured the flag
+CTF_THEYCAP vox/female/the enemy team captured the flag
+CTF_YOUGOTFLAG vox/female/you have the enemy flag
+CTF_YOUGOTFLAG2 vox/female/you have the enemy flag
+CTF_YOUGOTFLAG3 vox/female/you have the enemy flag
+CTF_YOUGOTFLAG4 vox/female/you have the enemy flag
+CTF_GOTFLAG vox/female/your team has the enemy flag
+CTF_GOTFLAG2 vox/female/your team has the enemy flag
+CTF_GOTFLAG3 vox/female/your team has the enemy flag
+CTF_GOTFLAG4 vox/female/your team has the enemy flag
+CTF_LOSTFLAG vox/female/the enemy has your flag
+CTF_LOSTFLAG2 vox/female/the enemy has your flag
+CTF_LOSTFLAG3 vox/female/the enemy has your flag
+CTF_LOSTFLAG4 vox/female/the enemy has your flag
+CTF_FLAGBACK vox/female/your flag has returned
+CTF_EFLAGBACK vox/female/the enemy flag has returned
+
+// --------- Hunted --------- //
+HTD_DOORS vox/female/escape door open
+
+// --------- The Rock --------- //
+RK_BYARDOPEN vox/female/blue yard has been breached
+RK_RYARDOPEN vox/female/red yard has been breached
+RK_KEYBACK vox/female/your key has returned
+RK_EKEYBACK vox/female/enemy key has returned
+RK_GOTKEY vox/female/your team has the enemy key
+RK_LOSTKEY vox/female/the enemy has your key
+RK_BSCORE vox/female/blue team scores _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
+RK_RSCORE vox/female/red team scores  _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
+RK_TAKEKEY vox/female/take key to enemy gas chamber
+FBALL_BSCORE vox/female/blue team scores
+FBALL_RSCORE vox/female/red team scores
+
+// --------- Attack/Defend --------- //
+AD_600SEC vox/female/ten minutes remaining
+AD_300SEC vox/female/five minutes remaining
+AD_120SEC vox/female/two minutes remaining
+AD_60SEC vox/female/sixty seconds remaining
+AD_30SEC vox/female/thirty seconds remaining
+AD_10SEC vox/female/ten
+AD_9SEC vox/female/nine
+AD_8SEC vox/female/eight
+AD_7SEC vox/female/seven
+AD_6SEC vox/female/six
+AD_5SEC vox/female/five
+AD_4SEC vox/female/four
+AD_3SEC vox/female/three
+AD_2SEC vox/female/two
+AD_1SEC vox/female/one
+AD_CP1 vox/female/blue team secured command point one
+AD_CP2 vox/female/blue team secured command point two
+AD_HOLD vox/female/red team holds red base
+AD_CAP vox/female/blue team captured red base
+AD_GATESOPEN vox/female/_comma
+AD_ATTACK vox/female/_comma
+AD_DEFEND vox/female/_comma
+
+// --------- Shutdown2 --------- //
+SD_REDDOWN vox/female/red security has been deactivated
+SD_REDUP vox/female/red security has been reactivated
+SD_BLUEDOWN vox/female/blue security has been deactivated
+SD_BLUEUP vox/female/blue security has been reactivated
+
+// --------- Push --------- //
+CTF_YOUSCORE vox/female/you captured the ball
+CTF_TEAMSCORE vox/female/your team captured the ball
+CTF_THEYSCORE vox/female/the enemy team captured the ball
+CTF_YOUHAVEBALL vox/female/you have the ball
+CTF_TEAMHASBALL vox/female/your team has the ball
+CTF_ENEMYHASBALL vox/female/the enemy has the ball
+CTF_BALLRETURN vox/female/the ball has returned
+
+// --------- Win --------- //
+WIN_BLUE vox/female/blue team wins
+WIN_RED vox/female/red team wins
+WIN_YELLOW vox/female/yellow team wins
+WIN_GREEN vox/female/green team wins
+WINNING_YOURTEAM vox/female/_comma
+WINNING_ENEMYTEAM vox/female/_comma

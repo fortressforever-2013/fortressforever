@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_wall_cement12-5_blue"
+	"$basetexture2" "ff/ff_wall_cement12-5_red"
+
+
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "concrete"
+
+	"%tooltexture" "ff\ff_blend_cement12-5_blue_cement12-5_red_tooltexture"
+}

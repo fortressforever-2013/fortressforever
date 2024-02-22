@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\ff_monkey\plant11"
+	"$alphatest" 1
+}

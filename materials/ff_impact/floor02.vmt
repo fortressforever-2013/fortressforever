@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_impact/floor02"
+	"$bumpmap" "ff_impact/floor02_normal"
+}

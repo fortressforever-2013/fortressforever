@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_dustbowl\ff_wall_wood08"
+	"$surfaceprop" "wood"
+	"$bumpmap" "ff_dustbowl\ff_wall_wood08_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .05 .05 .05 ]"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props/ff/tele_effects"
+	"$model" 1
+	"$nocull" 1
+	"$additive" 1
+}

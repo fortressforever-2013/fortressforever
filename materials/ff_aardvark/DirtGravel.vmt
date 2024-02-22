@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/dirtfloor012a"
+	"$basetexture2" "nature/gravelfloor002a"
+
+	"%tooltexture" "nature/gravelfloor002a"
+
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+	"%keywords" "aardvark"
+}

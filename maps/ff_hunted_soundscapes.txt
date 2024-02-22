@@ -1,0 +1,64 @@
+"ff_hunted.FrontRoad"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/town_ambience.wav"
+	}
+	"playrandom"
+	{
+		"time"		"0.0,15.0"
+		"volume"	"0.1"
+		"pitch"		"50,100"
+		"rndwave"
+		{
+			"wave"		"ambient/materials/metal4.wav"
+			"wave"		"ambient/atmosphere/metallic1.wav"
+		}
+	}
+}
+
+"ff_hunted.BodyguardTunnelTop"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.05"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/indoor2.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"50"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ff_hunted.FrontRoad"
+		"volume"	".5"
+	}
+}
+
+"ff_hunted.BodyguardTunnel"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/indoor2.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"50"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+	}
+}

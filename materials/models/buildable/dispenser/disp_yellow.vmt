@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models/buildable/dispenser/disp_yellow"
+	"$bumpmap" 			"models/buildable/dispenser/disp_normspec"
+	"$model" 1
+
+	
+	"$envmap" 			"env_cubemap"	
+	"$normalmapalphaenvmapmask" 	1
+//	"$envmapcontrast" 		.50
+//	"$envmapsaturation"		0.9
+	"$envmaptint" "[0.5 0.5 0.5]"
+//ELMO
+	"$selfillum" "1"
+	"$selfillumtint" "[1.5 1.5 1.5]"
+//ELMO
+}

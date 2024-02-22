@@ -1,0 +1,5 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/props/ff/light_spot2"
+	"$selfillum" "1"
+}

@@ -1,0 +1,10 @@
+//"VertexLitGeneric"
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_genesis\genesis_wall_tile_1_reflect_512"
+	"$surfaceprop" "metal"
+	"$bumpmap" "ff_genesis\genesis_wall_tile_1_normal_256"
+	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .25 .25 .25 ]"
+}

@@ -1,0 +1,90 @@
+"Options"
+{
+	"heading"
+	{
+		"caption"	"#GameUI_OptimisationsHeading"
+	}
+
+		//"ragdolls1"
+		//{
+		//	"caption"	"#GameUI_RagdollLifetime"
+		//	"cvar"		"cl_ragdolltime"
+		//	"type"		"discrete"
+		//	"values"
+		//	{
+		//		"20.0"	"#GameUI_Normal"
+		//		"5.0"	"#GameUI_Quick"
+		//		"0"		"#GameUI_None"
+		//	}
+		//}
+
+		"ragdolls2"
+		{
+			"caption"	"#GameUI_RagdollSleepAfterTime"
+			"cvar"		"ragdoll_sleepaftertime"
+			"type"		"discrete"
+			"values"
+			{
+				"3.5"	"#GameUI_Normal"
+				"0.5"	"#GameUI_Quick"
+				"0"		"#GameUI_Instant"
+			}
+		}
+
+		"gibs"
+		{
+			"caption"	"#GameUI_GibCount"
+			"cvar"		"cl_gib_count"
+			"type"		"discrete"
+			"values"
+			{
+				"6"		"#GameUI_Normal"
+				"12"	"#GameUI_Many"
+				"24"	"#GameUI_Lots"
+				"0"		"#GameUI_None"
+			}
+		}
+
+		"r_dynamic_ff"
+		{
+			"caption"	"#GameUI_DynamicLights"
+			"cvar"	"r_dynamic_ff"
+		}
+
+		"cl_phys_props_enable"
+		{
+			"caption"	"#GameUI_DisablePhysicsProps"
+			"cvar"	"cl_phys_props_enable"
+		}
+
+		"cl_reduced_explosions"
+		{
+			"caption"	"#GameUI_HigherFPSExplosions"
+			"cvar"	"cl_reduced_explosions"
+		}
+
+		"r_WaterDrawReflection"
+		{
+			"caption"	"#GameUI_WaterReflections"
+			"cvar"	"r_WaterDrawReflection"
+		}
+
+		"r_WaterDrawRefraction"
+		{
+			"caption"	"#GameUI_WaterRefraction"
+			"cvar"	"r_WaterDrawRefraction"
+		}
+
+		"r_3dsky"
+		{
+			"caption"	"#GameUI_Draw3DSkyBox"
+			"cvar"	"r_3dsky"
+		}
+
+		"r_drawflecks"
+		{
+			"caption"	"#GameUI_DrawFlecks"
+			"cvar"	"r_drawflecks"
+		}
+}
+	

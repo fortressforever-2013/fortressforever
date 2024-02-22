@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_impact\stripewall"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "ff_impact\stripewall_normal"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+}

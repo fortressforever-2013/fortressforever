@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/weapons/pipelauncher/pipe_blue"
+	"$selfillum"			"1"
+	"$selfillumtint"		"[16 16 16]"
+}

@@ -1,0 +1,23 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "ff_shutdown2/ff_anim_electricity_blue"
+	"$surfaceprop" "glass"
+	"$alphatest" 1 
+	"$additive" "1"
+	"$selfillum" "1"
+	"nocull" "1"
+	"$nodecal" 1
+
+    	"%keywords" "FF"
+
+	"Proxies"
+	{
+
+		"AnimatedTexture"
+		{
+	        	"animatedtexturevar" "$basetexture"
+	         	"animatedtextureframenumvar" "$frame"
+	         	"animatedtextureframerate" "30"
+		}
+	}
+}

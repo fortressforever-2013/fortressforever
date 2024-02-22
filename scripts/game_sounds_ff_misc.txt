@@ -1,0 +1,545 @@
+//==================================
+//Misc Sounds, mostly Flags
+//==================================
+
+//----------------
+//Flag Related
+//----------------
+
+	"yourteam.flagcap"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/flagcap.wav"
+	}
+	"yourteam.flagreturn"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/flagreturn.wav"
+	}
+	"yourteam.flagstolen"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/flagstolen.wav"
+	}
+	"yourteam.drop"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/flagdrop.wav"
+	}
+	"otherteam.flagcap"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/enemyflagcap.wav"
+	}
+	"otherteam.flagreturn"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/enemyflagreturn.wav"
+	}
+	"otherteam.flagstolen"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/buzwarn.wav"
+	}
+	"otherteam.drop"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"@)misc/enemyflagdrop.wav"
+	}
+
+//----------------
+// useful vox sounds from HL that need to be remade
+//----------------
+
+	"misc.bizwarn"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/bizwarn.wav"
+	}
+	"misc.bloop"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/bloop.wav"
+	}
+	"misc.buzwarn"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/buzwarn.wav"
+	}
+	"misc.dadeda"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/dadeda.wav"
+	}
+	"misc.deeoo"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/deeoo.wav"
+	}
+	"misc.doop"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/doop.wav"
+	}
+	"misc.woop"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.6"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/woop.wav"
+	}
+
+//----------------
+// Unagi Power!
+//----------------
+
+	"misc.unagi"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.8"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		"*misc/unagi.wav"
+	}
+
+	"misc.unagi_spatial"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"0.8"
+		"soundlevel" 	"SNDLVL_NONE"
+		"wave"		")misc/unagi.wav"
+	}
+
+//----------------
+// thunder
+//----------------
+
+	"misc.thunder"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"VOL_NORM"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"		"*ambient/levels/labs/teleport_postblast_thunder1.wav"
+	}
+
+//----------------
+// cz2
+//----------------
+
+	"ff_cz2.cc_alarm"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"VOL_NORM"
+		"pitch"		"PITCH_NORM"
+		"soundlevel"	"SNDLVL_180dB"
+		"CompatibilityAttenuation"	"1.0"
+
+		"wave"		"ambient/alarms/city_siren_loop2.wav"
+	}
+
+	"ff_cz2.teleport_enter"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"VOL_NORM"
+		"pitch"		"96,112"
+		"soundlevel"	"SNDLVL_GUNFIRE"
+		"CompatibilityAttenuation"	"1.0"
+
+		"rndwave"
+		{
+			"wave"		")ambient/machines/teleport1.wav"
+			"wave"		")ambient/machines/teleport3.wav"
+			"wave"		")ambient/machines/teleport4.wav"
+		}
+	}
+
+	"ff_cz2.teleport_exit"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"VOL_NORM"
+		"pitch"		"176,192"
+		"soundlevel"	"SNDLVL_GUNFIRE"
+		"CompatibilityAttenuation"	"1.0"
+
+		"wave"		")ambient/explosions/explode_9.wav"
+	}
+
+	"ff_cz2.blue_cap_loop"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"VOL_NORM"
+		"pitch"		"90"
+		"soundlevel"	"SNDLVL_65dB"
+
+		"wave"		"ambient/machines/machine_whine1.wav"
+	}
+
+
+	"ff_cz2.red_cap_loop"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"VOL_NORM"
+		"pitch"		"110"
+		"soundlevel"	"SNDLVL_65dB"
+
+		"wave"		"ambient/machines/machine_whine1.wav"
+	}
+
+//--------------------------------
+// begin game sounds for ff_hunted
+//--------------------------------
+
+"ff_hunted.thunder"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ambient/levels/labs/teleport_postblast_thunder1.wav"
+}
+
+"ff_hunted.cheer"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ff_hunted/CrowdCheer.wav"
+}
+
+"ff_hunted.dying_bird"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"@ff_hunted\dying_bird_1.wav"
+		"wave"		"@ff_hunted\dying_bird_2.wav"
+		"wave"		"@ff_hunted\dying_bird_3.wav"
+	}
+}
+
+"ff_hunted.dying_bird_full"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ff_hunted\dying_bird_full.wav"
+}
+
+"ff_hunted.i_am_the_werewolf"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ff_hunted\i_am_the_werewolf.wav"
+}
+
+"ff_hunted.i_fight_vampires"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ff_hunted\i_fight_vampires.wav"
+}
+
+"ff_hunted.werewolf_howling"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ff_hunted\werewolf_howling.wav"
+}
+
+"ff_hunted.werewolf_movies"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ff_hunted\werewolf_movies.wav"
+}
+
+"ff_hunted.werewolves_howling"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@ff_hunted\werewolves_howling.wav"
+}
+
+//--------------------
+// UNAGI POWER, UNAGI!
+//--------------------
+
+"ff_hunted.unagi"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"soundlevel" 	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		"@misc/unagi.wav"
+}
+
+"ff_hunted.unagi_spatial"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel" 	"SNDLVL_NONE"
+	"pitch"		"95,105"
+	"wave"		")misc/unagi.wav"
+}
+
+
+//------------------------------
+// end game sounds for ff_hunted
+//------------------------------
+
+//------------------------------
+// waterpolo
+//------------------------------
+
+
+"ff_waterpolo.psychotic_goalie"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.25"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_45dB"
+
+	"wave"			"npc/zombie_poison/pz_breathe_loop2.wav"
+}
+
+//----------------
+// gridiron... here until valve fixes map-specific sound scripting
+//----------------
+
+
+"gridiron.pass"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/pass.wav"
+}
+
+"gridiron.recovered"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/recovered.wav"
+}
+
+"gridiron.whistle"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/whistle.wav"
+}
+
+"gridiron.fumble"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/fumble.wav"
+}
+
+"gridiron.intercepted"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/intercepted.wav"
+}
+
+"gridiron.tdred"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/tdred.wav"
+}
+
+"gridiron.tdredx"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/tdredx.wav"
+}
+
+"gridiron.tdblue"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/tdblue.wav"
+}
+
+"gridiron.tdbluex"
+{
+"channel""CHAN_VOICE"
+"volume""VOL_NORM"
+"soundlevel" "SNDLVL_NONE"
+"wave""@#gridiron/tdbluex.wav"
+}
+
+
+// anticitizen sounds from HL2 copypasta
+
+"ff_anticitizen.warningbell1"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		")ff_anticitizen/warningbell1.wav"
+}
+
+"ff_anticitizen.beam_shoot"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/portal_beam_shoot6.wav"
+}
+
+"ff_anticitizen.explode_4"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/explode_4.wav"
+}
+
+"ff_anticitizen.explode_3"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/explode_3.wav"
+}
+
+"ff_anticitizen.shutdown"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/thumper_shutdown1.wav"
+}
+
+"ff_anticitizen.winddown"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/teleport_postblast_winddown1.wav"
+}
+
+"ff_anticitizen.suckin"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/teleport_preblast_suckin1.wav"
+}
+
+"ff_anticitizen.3minutestosingularity"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/fcitadel_3minutestosingularity.wav"
+}
+
+"ff_anticitizen.2minutestosingularity"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/fcitadel_2minutestosingularity.wav"
+}
+
+"ff_anticitizen.1minutetosingularity"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/fcitadel_1minutetosingularity.wav"
+}
+
+"ff_anticitizen.45sectosingularity"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/fcitadel_45sectosingularity.wav"
+}
+
+"ff_anticitizen.30sectosingularity"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/fcitadel_30sectosingularity.wav"
+}
+
+"ff_anticitizen.15sectosingularity"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/fcitadel_15sectosingularity.wav"
+}
+
+"ff_anticitizen.10sectosingularity"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel" 	"SNDLVL_100dB"
+	"wave"		"*ff_anticitizen/fcitadel_10sectosingularity.wav"
+}
+
+"ff_palermo_bell"
+{
+	"channel" "CHAN_AUTO"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_120dB"
+	"wave"	"ambient/churchbell.wav"
+}

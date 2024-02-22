@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_logo_512_square_emboss_blue"
+	"$surfaceprop" "metal"
+                "$bumpmap" "ff\ff_logo_512_square_emboss_blue_normal"
+
+}
