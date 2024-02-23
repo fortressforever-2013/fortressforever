@@ -76,6 +76,7 @@
 			// Add the HL2 directory as a game search path.  This is also where where writes
 			// to the "game" path go.
 			game+game_write		hl2mp
+			game+game_write		|gameinfo_path|hl2_lostcoast
 
 			// Where the game's binaries are
 			gamebin				hl2mp/bin

@@ -1,0 +1,9 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "Models/extras/speech_info"
+	"$model" 1
+
+//	"$envmap" "lostcoast/CustomCubeMaps/simplespec"
+//	"$envmaptint" "[0.9 0.9 0.9]"
+//	"$envmapcontrast" ".3"
+}

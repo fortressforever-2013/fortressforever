@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/Combine_Helicopter/combine_helicopter01"
+	//"$surfaceprop" "metal"
+	//"$nocull" 1
+	"$envmap" "env_cubemap"	
+	"$envmaptint" "[ .1 .1 .1]"
+	"$basealphaenvmapmask" 1
+	//"$envmapmask" "Models/Combine_Helicopter/combine_helicopter02_mask"
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.1 .1 .1]"
+ 		}
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/extras/lambda_info"
+	"$selfillum" "1"
+	"$envmap" "lostcoast/CustomCubeMaps/simplespec"
+//	"$envmaptint" "[0.9 0.9 0.9]"
+//	"$envmapcontrast" ".3"
+}

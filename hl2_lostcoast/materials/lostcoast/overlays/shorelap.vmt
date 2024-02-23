@@ -1,0 +1,29 @@
+//"UnlitGeneric"
+//"LightmappedGeneric"
+"UnlitTwoTexture"
+{
+	"$basetexture" "lostcoast/overlays/shorewave001a"
+	"$texture2"    "lostcoast/overlays/shorelap"
+	"$additive" 1
+	"$decal" 1
+//	"$ignorez" 1
+
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" ".09"
+			"texturescrollangle" 90
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$texture2"
+			"animatedtextureframenumvar" "$frame2"
+			"animatedtextureframerate" 16
+		}
+
+}
+
+}
