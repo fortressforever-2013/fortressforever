@@ -672,7 +672,7 @@ function update_progressbar( player, percent )
 	RemoveHudItem( player, "Progress_text" )
 	local max_width = 124
 	local bar_width = percent * max_width
-	AddHudIcon( player, "hud_statusbar_blue_active.vtf", "Progress_bar", -62, 80, SimulateFloat(bar_width), 16, 3 )
+	AddHudIcon( player, "hud_statusbar_blue_active.vtf", "Progress_bar", -62, 80, bar_width, 16, 3 )
 	AddHudText( player, "Progress_text", tostring(math.floor(percent * 100 + 0.5)).."% of target speed", 0, 84, 4 )
 end
 
