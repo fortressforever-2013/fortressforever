@@ -350,21 +350,21 @@ end
 function CapResupply( player, scale, givethegoodshit )
 
 	-- give the player health and armor
-	if cap_resupply.health ~= nil and cap_resupply.health ~= 0 then player:AddHealth( cap_resupply.health * scale ) end
-	if cap_resupply.armor ~= nil and cap_resupply.armor ~= 0 then player:AddArmor( cap_resupply.armor * scale ) end
+	if cap_resupply.health ~= nil and cap_resupply.health ~= 0 then player:AddHealth( NormalizeInt( cap_resupply.health * scale ) ) end
+	if cap_resupply.armor ~= nil and cap_resupply.armor ~= 0 then player:AddArmor( NormalizeInt( cap_resupply.armor * scale ) ) end
 
 	-- give the player ammo
-	if cap_resupply.nails ~= nil and cap_resupply.nails ~= 0 then player:AddAmmo( Ammo.kNails, cap_resupply.nails * scale ) end
-	if cap_resupply.shells ~= nil and cap_resupply.shells ~= 0 then player:AddAmmo( Ammo.kShells, cap_resupply.shells * scale ) end
-	if cap_resupply.rockets ~= nil and cap_resupply.rockets ~= 0 then player:AddAmmo( Ammo.kRockets, cap_resupply.rockets * scale ) end
-	if cap_resupply.cells ~= nil and cap_resupply.cells ~= 0 then player:AddAmmo( Ammo.kCells, cap_resupply.cells * scale ) end
+	if cap_resupply.nails ~= nil and cap_resupply.nails ~= 0 then player:AddAmmo( Ammo.kNails, NormalizeInt( cap_resupply.nails * scale ) ) end
+	if cap_resupply.shells ~= nil and cap_resupply.shells ~= 0 then player:AddAmmo( Ammo.kShells, NormalizeInt( cap_resupply.shells * scale ) ) end
+	if cap_resupply.rockets ~= nil and cap_resupply.rockets ~= 0 then player:AddAmmo( Ammo.kRockets, NormalizeInt( cap_resupply.rockets * scale ) ) end
+	if cap_resupply.cells ~= nil and cap_resupply.cells ~= 0 then player:AddAmmo( Ammo.kCells, NormalizeInt( cap_resupply.cells * scale ) ) end
 
 	if givethegoodshit then
 		-- give the player the good shit
-		if cap_resupply.detpacks ~= nil and cap_resupply.detpacks ~= 0 then player:AddAmmo( Ammo.kDetpack, cap_resupply.detpacks * scale ) end
-		if cap_resupply.mancannons ~= nil and cap_resupply.mancannons ~= 0 then player:AddAmmo( Ammo.kManCannon, cap_resupply.mancannons * scale ) end
-		if cap_resupply.gren1 ~= nil and cap_resupply.gren1 ~= 0 then player:AddAmmo( Ammo.kGren1, cap_resupply.gren1 * scale ) end
-		if cap_resupply.gren2 ~= nil and cap_resupply.gren2 ~= 0 then player:AddAmmo( Ammo.kGren2, cap_resupply.gren2 * scale ) end
+		if cap_resupply.detpacks ~= nil and cap_resupply.detpacks ~= 0 then player:AddAmmo( Ammo.kDetpack, NormalizeInt( cap_resupply.detpacks * scale ) ) end
+		if cap_resupply.mancannons ~= nil and cap_resupply.mancannons ~= 0 then player:AddAmmo( Ammo.kManCannon, NormalizeInt( cap_resupply.mancannons * scale ) ) end
+		if cap_resupply.gren1 ~= nil and cap_resupply.gren1 ~= 0 then player:AddAmmo( Ammo.kGren1, NormalizeInt( cap_resupply.gren1 * scale ) ) end
+		if cap_resupply.gren2 ~= nil and cap_resupply.gren2 ~= 0 then player:AddAmmo( Ammo.kGren2, NormalizeInt( cap_resupply.gren2 * scale ) ) end
 	end
 
 end

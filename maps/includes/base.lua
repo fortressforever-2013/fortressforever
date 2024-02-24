@@ -254,11 +254,11 @@ function info_ff_script:getbloatsize() return 12 end
 info_ff_teamspawn = baseclass:new({})
 function info_ff_teamspawn:validspawn() return true end
 
-function SimulateFloat(x)
+function NormalizeInt(x)
 	if x == nil then return end
 	if type( x ) ~= "number" then return end
 	
-	if x == 0 then return end
+	if x == 0 then return x end
 	
 	if ( x > 0 and x < 1 ) then return math.ceil(x) end
 	
