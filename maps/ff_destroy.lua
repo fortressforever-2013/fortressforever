@@ -186,7 +186,9 @@ base_jump = trigger_ff_script:new({ pushz = 0 })
 function base_jump:ontouch( trigger_entity )
 	if IsPlayer( trigger_entity ) then
 		local player = CastToPlayer( trigger_entity )
-		player:SetVelocity( Vector(player:GetVelocity().x, player:GetVelocity().y, self.pushz) )
+		local playerVel = player:GetVelocity()
+		playerVel.z = self.pushz
+		player:SetVelocity( playerVel )
 	end
 end
 
