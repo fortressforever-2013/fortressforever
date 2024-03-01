@@ -1,15 +1,12 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/player/civilian/civilian_body_yellow"
-	//"$bumpmap" 			"models/player/civilian/civilian_body_normal"
-	"$model" 			1
+VertexLitGeneric{
+$baseTexture models/player/civilian/civilian_body_yellow
+//$bumpmap models/player/civilian/civilian_body_normal
 
-	//Environment Mapping
-//	"$envmap" 			"env_cubemap"
-	//"$normalmapalphaenvmapmask" 	1
-//	"$envmaptint" 			"[0.3 0.3 0.3]"
+//Environment Mapping
+//$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
+//$envmaptint "[0.3 0.3 0.3]"
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
