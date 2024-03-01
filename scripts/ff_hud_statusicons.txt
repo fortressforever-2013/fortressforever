@@ -1,106 +1,85 @@
-StatusIconData
-{
-	TextureData
-	{
-		"concussion"
-		{
-			"font"		"StatusGlyphs"
+StatusIconData{
+	TextureData{
+		"concussion"{
+			"font"	"StatusGlyphs"
 			"character"	"1"
 		}
 
-		"infection"
-		{
-			"font"		"StatusGlyphs"
+		"infection"{
+			"font"	"StatusGlyphs"
 			"character"	"2"
 		}
 
-		"leginjury"
-		{
-			"font"		"StatusGlyphs"
+		"leginjury"{
+			"font"	"StatusGlyphs"
 			"character"	"3"
 		}
 
-		"caltropped"
-		{
-			"font"		"StatusGlyphs"
+		"caltropped"{
+			"font"	"StatusGlyphs"
 			"character"	"4"
 		}
 
-		"tranquilized"
-		{
-			"font"		"StatusGlyphs"
+		"tranquilized"{
+			"font"	"StatusGlyphs"
 			"character"	"5"
 		}
 
-		"hallucinations"
-		{
-			"font"		"StatusGlyphs"
+		"hallucinations"{
+			"font"	"StatusGlyphs"
 			"character"	"6"
 		}
 
-		"burning"
-		{
-			"font"		"StatusGlyphs"
+		"burning"{
+			"font"	"StatusGlyphs"
 			"character"	"7"
 		}
 
-		"drowning"
-		{
-			"font"		"StatusGlyphs"
+		"drowning"{
+			"font"	"StatusGlyphs"
 			"character"	"8"
 		}
 
-		"radiation"
-		{
-			"font"		"StatusGlyphs"
+		"radiation"{
+			"font"	"StatusGlyphs"
 			"character"	"9"
 		}
 
-		"cold"
-		{
-			"font"		"StatusGlyphs"
+		"cold"{
+			"font"	"StatusGlyphs"
 			"character"	"0"
 		}
-		"immune"
-		{
-			"font"		"StatusGlyphs"
+		"immune"{
+			"font"	"StatusGlyphs"
 			"character"	"-"
 		}
-		"radiotag"
-		{
-			"font"		"StatusGlyphs"
+		"radiotag"{
+			"font"	"StatusGlyphs"
 			"character"	"="
 		}
-		"burning1"
-		{
-			"font"		"StatusGlyphs"
+		"burning1"{
+			"font"	"StatusGlyphs"
 			"character"	"@"
 		}
-		"burning2"
-		{
-			"font"		"StatusGlyphs"
+		"burning2"{
+			"font"	"StatusGlyphs"
 			"character"	"#"
 		}
-		"burning3"
-		{
-			"font"		"StatusGlyphs"
+		"burning3"{
+			"font"	"StatusGlyphs"
 			"character"	"$"
 		}
-    		"lockedon"
-		{
-			"font"		"StatusGlyphs"
+		"lockedon"{
+			"font"	"StatusGlyphs"
 			"character"	"&"
 		}
-    		"sliding"
-		{
-			"font"		"StatusGlyphs"
+		"sliding"{
+			"font"	"StatusGlyphs"
 			"character"	"*"
 		}
-    		"slowmotion"
-		{
-			"font"		"StatusGlyphs"
+		"slowmotion"{
+			"font"	"StatusGlyphs"
 			"character"	"("
 		}
 	}
-
 }

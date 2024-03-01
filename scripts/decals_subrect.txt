@@ -3,20 +3,19 @@
 //   where weight is used to randomly selected a decal to apply from within the group
 
 // This is just an entry to map material types to "impact.xxx"
-"TranslationData"
-{
-	"-"			""  // don't decal this surface
+"TranslationData"{
+	"-"	""	// don't decal this surface
 
-	"C"			"Impact.Concrete"
-	"M"			"Impact.Metal"
-	"W"			"Impact.Wood"
-	"Y"			"Impact.Glass"
-	"F"			"Impact.Flesh"
-	"B"			"Impact.BloodyFlesh"
-	"H"			"Impact.AlienFlesh"
-	"A"			"Impact.Antlion"
-	"N"			"Impact.Sand"
-	"V"			"Impact.Metal"
+	"C"	"Impact.Concrete"
+	"M"	"Impact.Metal"
+	"W"	"Impact.Wood"
+	"Y"	"Impact.Glass"
+	"F"	"Impact.Flesh"
+	"B"	"Impact.BloodyFlesh"
+	"H"	"Impact.AlienFlesh"
+	"A"	"Impact.Antlion"
+	"N"	"Impact.Sand"
+	"V"	"Impact.Metal"
 
 // These might be translated in the future
 	//CHAR_TEX_DIRT		'D'
@@ -29,8 +28,7 @@
 	//CHAR_TEX_FOLIAGE	'O'
 }
 
-"Impact.Concrete"
-{
+"Impact.Concrete"{
 	"decals/concrete/shot1_subrect" "1"
 	"decals/concrete/shot2_subrect" "1"
 	"decals/concrete/shot3_subrect" "1"
@@ -38,8 +36,7 @@
 	"decals/concrete/shot5_subrect" "1"
 }
 
-"Impact.Metal"
-{
+"Impact.Metal"{
 	"decals/metal/shot1_subrect" "1"
 	"decals/metal/shot2_subrect" "1"
 	"decals/metal/shot3_subrect" "1"
@@ -47,8 +44,7 @@
 	"decals/metal/shot5_subrect" "1"
 }
 
-"Impact.Wood"
-{
+"Impact.Wood"{
 	"decals/wood/shot1_subrect" "1"
 	"decals/wood/shot2_subrect" "1"
 	"decals/wood/shot3_subrect" "1"
@@ -56,8 +52,7 @@
 	"decals/wood/shot5_subrect" "1"
 }
 
-"Impact.Glass"
-{
+"Impact.Glass"{
 	"decals/glass/shot1_subrect" "1"
 	"decals/glass/shot2_subrect" "1"
 	"decals/glass/shot3_subrect" "1"
@@ -66,27 +61,21 @@
 }
 
 
-"Impact.Flesh"
-{
+"Impact.Flesh"{
 	"decals/flesh/blood1_subrect" "1"
 	"decals/flesh/blood2_subrect" "1"
 	"decals/flesh/blood3_subrect" "1"
 	"decals/flesh/blood4_subrect" "1"
 	"decals/flesh/blood5_subrect" "1"
 }
-
-
-"Impact.BloodyFlesh"
-{
+"Impact.BloodyFlesh"{
 	"decals/bloodyflesh/blood1_subrect" "1"
 	"decals/bloodyflesh/blood2_subrect" "1"
 	"decals/bloodyflesh/blood3_subrect" "1"
 	"decals/bloodyflesh/blood4_subrect" "1"
 	"decals/bloodyflesh/blood5_subrect" "1"
 }
-
-"Impact.AlienFlesh"
-{
+"Impact.AlienFlesh"{
 	"decals/alienflesh/shot1_subrect" "1"
 	"decals/alienflesh/shot2_subrect" "1"
 	"decals/alienflesh/shot3_subrect" "1"
@@ -94,8 +83,7 @@
 	"decals/alienflesh/shot5_subrect" "1"
 }
 
-"Impact.Antlion"
-{
+"Impact.Antlion"{
 	"decals/antlion/shot1_subrect" "1"
 	"decals/antlion/shot2_subrect" "1"
 	"decals/antlion/shot3_subrect" "1"
@@ -104,22 +92,19 @@
 }
 
 // Sand does not have model versions of the decals.
-"Impact.Sand"
-{
+"Impact.Sand"{
 	"decals/sand/shot1_subrect" "1"
 	"decals/sand/shot2_subrect" "1"
 	"decals/sand/shot3_subrect" "1"
 	"decals/sand/shot4_subrect" "1"
 }
 
-"Scorch"
-{
+"Scorch"{
 	"decals/scorch1_subrect" "1"
 	"decals/scorch2_subrect" "1"
 }
 
-"Blood"
-{
+"Blood"{
 	"decals/blood1_subrect" "1"
 	"decals/blood2_subrect" "1"
 	"decals/blood3_subrect" "1"
@@ -127,9 +112,7 @@
 	"decals/blood5_subrect" "1"
 	"decals/blood6_subrect" "1"
 }
-
-"YellowBlood"
-{
+"YellowBlood"{
 	"decals/yblood1_subrect" "1"
 	"decals/yblood2_subrect" "1"
 	"decals/yblood3_subrect" "1"
@@ -138,15 +121,13 @@
 	"decals/yblood6_subrect" "1"
 }
 
-"GlassBreak"
-{
+"GlassBreak"{
 	"decals/break1_subrect" "1"
 	"decals/break2_subrect" "1"
 	"decals/break3_subrect" "1"
 }
 
-"BigShot"
-{
+"BigShot"{
 	"decals/bigshot1_subrect" "1"
 	"decals/bigshot2_subrect" "1"
 	"decals/bigshot3_subrect" "1"
@@ -154,147 +135,119 @@
 	"decals/bigshot5_subrect" "1"
 }
 
-"BulletProof"
-{
+"BulletProof"{
 	"decals/bproof1_subrect" "1"
 }
 
-"SmallScorch"
-{
+"SmallScorch"{
 	"decals/smscorch1_subrect" "1"
 	"decals/smscorch2_subrect" "1"
 	"decals/smscorch3_subrect" "1"
 }
-
-"FadingScorch"
-{
+"FadingScorch"{
 	"decals/scorchfade_subrect" "1"
 }
 
-"BeerSplash"
-{
+"BeerSplash"{
 	"decals/beersplash_subrect" "1"
 }
 
-"ManhackCut"
-{
+"ManhackCut"{
 	"decals/manhackcut_subrect" "1"
 	"decals/manhackcut2_subrect" "1"
 	"decals/manhackcut3_subrect" "1"
 }
 
-"RedGlowFade"
-{	
+"RedGlowFade"{	
 	"decals/redglowfade" "1"
 }
 
-"CombineBallFade"
-{	
+"CombineBallFade"{	
 	"decals/combineballfade" "1"
 }
-
-"CombineBallFade2"
-{	
+"CombineBallFade2"{	
 	"decals/combineballfade2" "1"
 }
-
-"CombineBallFade3"
-{	
+"CombineBallFade3"{	
 	"decals/combineballfade3" "1"
 }
 
-"PlasmaGlowFade"
-{	
+"PlasmaGlowFade"{	
 	 "decals/plasmaglowfade" "1"
 }
 
-"Splash"
-{ 
+"Splash"{ 
 	"decals/decalsplash" "1"
 }
 
-"ExplosiveGunshot"
-{
+"ExplosiveGunshot"{
 	"decals/concrete/shot1_subrect" "1"
 }
 
-"Fire"
-{
+"Fire"{
 	"sprites/fire_floor" "1"
 }
 
 // Currently a model version of this decal doesn't exist.
-"Antion.Unburrow"
-{
+"Antion.Unburrow"{
 	"decals/unburrow_subrect" "1"
 }
 
-"Extinguish"
-{
+"Extinguish"{
 	"decals/extinguish1_subrect" "1"
 	"decals/extinguish2_subrect" "1"
 }
 
 // Currently a model version of these decals don't exist.
-"Splash.Large"
-{
+"Splash.Large"{
 	"decals/splash1_subrect" "1"
 	"decals/splash2_subrect" "1"
 	"decals/splash3_subrect" "1"
 }
 
 // Currently a model version of these decals don't exist.
-"Splash.Small"
-{
+"Splash.Small"{
 	"decals/splash1_subrect" "1"
 	"decals/splash1_subrect" "1"
 	"decals/splash1_subrect" "1"
 }
 
 // Currently a model version of this decal doesn't exit.
-"Rollermine.Crater"
-{
+"Rollermine.Crater"{
 	"decals/rollermine_crater_subrect" "1"
 }
 
-"BirdPoop"
-{
+"BirdPoop"{
 	"decals/decal_birdpoop001_subrect" "1"
 	"decals/decal_birdpoop002_subrect" "1"
 	"decals/decal_birdpoop003_subrect" "1"
 	"decals/decal_birdpoop004_subrect" "1"
 }
 
-"PaintSplatBlue"
-{
+"PaintSplatBlue"{
 	"decals/decal_paintsplatterblue001_subrect" "1"
 }
 
-"PaintSplatGreen"
-{
+"PaintSplatGreen"{
 	"decals/decal_paintsplattergreen001_subrect" "1"
 }
 
-"PaintSplatPink"
-{
+"PaintSplatPink"{
 	"decals/decal_paintsplatterpink001_subrect" "1"
 }
 
-"LaserBurn"
-{
+"LaserBurn"{
 	"decals/laserburn1" "1"
 	"decals/laserburn2" "1"
 	"decals/laserburn3" "1"
 }
 
 // Currently a model version doesn't exist and it is not in a decal page.
-"Antlion.Splat"
-{
+"Antlion.Splat"{
 	"decals/antlion/antlion_splat" "1"
 }
 
-"Models"
-{
+"Models"{
 	// World Model specific decal precache.
 	"decals/concrete/shot1" "1"
 	"decals/concrete/shot2" "1"
