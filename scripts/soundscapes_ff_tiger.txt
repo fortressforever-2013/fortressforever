@@ -2,36 +2,29 @@
 //written by Nezumi.
 
 //outside
-"outside"
-{
+"outside"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	".4"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/town_ambience.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/town_ambience.wav"
 	}
 
-	"playrandom"
-	{
-		"time"		"4.0, 4.2"
+	"playrandom"{
+		"time"	"4.0, 4.2"
 		"volume"	"0.3, 0.5"
-		"pitch"		"80, 120"
-		"rndwave"
-		{
+		"pitch"	"80, 120"
+		"rndwave"{
 			"wave"	"ambient/water/distant_wave1.wav"
 			"wave"	"ambient/water/distant_wave2.wav"
 			"wave"	"ambient/water/distant_wave3.wav"
 		}
 	}
-
-	"playrandom"
-	{
-		"time"		"8.0, 15.0"
+	"playrandom"{
+		"time"	"8.0, 15.0"
 		"volume"	"0.2, 0.4"
-		"pitch"		"80, 100"
-		"rndwave"
-		{
+		"pitch"	"80, 100"
+		"rndwave"{
 			"wave"	"ambient/wind/wind_hit1.wav"
 			"wave"	"ambient/wind/wind_hit2.wav"
 			"wave"	"ambient/wind/wind_hit3.wav"
@@ -40,36 +33,29 @@
 }
 
 //light house
-"lhouse"
-{
+"lhouse"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	".3"
-		"pitch"		"100"
-		"wave"		"ambient/wind/wasteland_wind.wav"
+		"pitch"	"100"
+		"wave"	"ambient/wind/wasteland_wind.wav"
 	}
 
-	"playrandom"
-	{
-		"time"		"4.0, 4.2"
+	"playrandom"{
+		"time"	"4.0, 4.2"
 		"volume"	"0.1, 0.3"
-		"pitch"		"60, 100"
-		"rndwave"
-		{
+		"pitch"	"60, 100"
+		"rndwave"{
 			"wave"	"ambient/water/distant_wave1.wav"
 			"wave"	"ambient/water/distant_wave2.wav"
 			"wave"	"ambient/water/distant_wave3.wav"
 		}
 	}
-
-	"playrandom"
-	{
-		"time"		"12.0, 20.0"
+	"playrandom"{
+		"time"	"12.0, 20.0"
 		"volume"	"0.1, 0.2"
-		"pitch"		"80, 100"
-		"rndwave"
-		{
+		"pitch"	"80, 100"
+		"rndwave"{
 			"wave"	"ambient/wind/wind_hit1.wav"
 			"wave"	"ambient/wind/wind_hit2.wav"
 			"wave"	"ambient/wind/wind_hit3.wav"
@@ -78,29 +64,24 @@
 }
 
 //red base tunnels.
-"rtun"
-{
+"rtun"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.3"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/undercity_loop1.wav"
 	}
-
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"1"
-		"pitch"		"80"
+		"pitch"	"80"
 		"position"	"1"
-		"wave"		"ambient/water/lake_water.wav"
+		"wave"	"ambient/water/lake_water.wav"
 	}
 
-	"playrandom"
-	{
-		"time"		"1.0, 5.0"
+	"playrandom"{
+		"time"	"1.0, 5.0"
 		"volume"	"0.3, 0.6"
-		"pitch"		"80, 110"
+		"pitch"	"80, 110"
 		"rndwave"	
 		{
 			"wave"	"ambient/water/distant_drip1.wav"
@@ -112,80 +93,63 @@
 }
 
 //red spawn room
-"rspawn"
-{
+"rspawn"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.6"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/undercity_loop1.wav"
 	}
-
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	".3"
-		"pitch"		"100"
+		"pitch"	"100"
 		"position"	"0"
-		"wave"		"ambient/levels/canals/dam_water_loop2.wav"
+		"wave"	"ambient/levels/canals/dam_water_loop2.wav"
 	}
-
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.6"
-		"pitch"		"100"
+		"pitch"	"100"
 		"position"	"1"
-		"wave"		"ambient/atmosphere/pipe1.wav"
+		"wave"	"ambient/atmosphere/pipe1.wav"
 	}
-
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 		"position"	"2"
-		"wave"		"ambient/atmosphere/pipe1.wav"
+		"wave"	"ambient/atmosphere/pipe1.wav"
 	}
-
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.6"
-		"pitch"		"100"
+		"pitch"	"100"
 		"position"	"3"
-		"wave"		"ambient/levels/canals/generator_ambience_loop1.wav"
+		"wave"	"ambient/levels/canals/generator_ambience_loop1.wav"
 	}
 }
 
 //warehouses
-"whouse"
-{
+"whouse"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	".2"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor2.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/indoor2.wav"
 	}
 
-	"playrandom"
-	{
-		"time"		"4.0, 4.2"
+	"playrandom"{
+		"time"	"4.0, 4.2"
 		"volume"	"0.1, 0.2"
-		"pitch"		"60, 100"
-		"rndwave"
-		{
+		"pitch"	"60, 100"
+		"rndwave"{
 			"wave"	"ambient/water/distant_wave1.wav"
 			"wave"	"ambient/water/distant_wave2.wav"
 			"wave"	"ambient/water/distant_wave3.wav"
 		}
 	}
-
-	"playrandom"
-	{
-		"time"		"12.0, 20.0"
+	"playrandom"{
+		"time"	"12.0, 20.0"
 		"volume"	"0.1, 0.2"
-		"pitch"		"80, 100"
-		"rndwave"
-		{
+		"pitch"	"80, 100"
+		"rndwave"{
 			"wave"	"ambient/wind/wind_hit1.wav"
 			"wave"	"ambient/wind/wind_hit2.wav"
 			"wave"	"ambient/wind/wind_hit3.wav"
@@ -194,36 +158,29 @@
 }
 
 //laundry tunnels
-"ltun"
-{
+"ltun"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/laundry_amb.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/laundry_amb.wav"
 	}
 
-	"playrandom"
-	{
-		"time"		"4.0, 4.2"
+	"playrandom"{
+		"time"	"4.0, 4.2"
 		"volume"	"0.1, 0.2"
-		"pitch"		"60, 100"
-		"rndwave"
-		{
+		"pitch"	"60, 100"
+		"rndwave"{
 			"wave"	"ambient/water/distant_wave1.wav"
 			"wave"	"ambient/water/distant_wave2.wav"
 			"wave"	"ambient/water/distant_wave3.wav"
 		}
 	}
-
-	"playrandom"
-	{
-		"time"		"12.0, 20.0"
+	"playrandom"{
+		"time"	"12.0, 20.0"
 		"volume"	"0.1, 0.2"
-		"pitch"		"80, 100"
-		"rndwave"
-		{
+		"pitch"	"80, 100"
+		"rndwave"{
 			"wave"	"ambient/wind/wind_hit1.wav"
 			"wave"	"ambient/wind/wind_hit2.wav"
 			"wave"	"ambient/wind/wind_hit3.wav"
@@ -232,41 +189,33 @@
 }
 
 //blue tunnels
-"btun"
-{
+"btun"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.3"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/tunnel1.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/tunnel1.wav"
 	}
-
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.3"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/underground.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/underground.wav"
 	}
 	
 }
 
 //blue spawn
-"bspawn"
-{
+"bspawn"{
 	"dsp"	"1"
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.3"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 	}
-
-	"playlooping"
-	{
+	"playlooping"{
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 		"position"	"1"
-		"wave"		"ambient/atmosphere/pipe1.wav"
+		"wave"	"ambient/atmosphere/pipe1.wav"
 	}
 }
