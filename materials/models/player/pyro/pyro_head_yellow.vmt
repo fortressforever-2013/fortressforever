@@ -1,5 +1,5 @@
 Patch{
-include materials/models/player/pyro/pyro_red_blue.vmt
+include materials/models/player/pyro/pyro_head_blue.vmt
 replace{
 $baseTexture models/player/pyro/pyro_head_yellow
 }
