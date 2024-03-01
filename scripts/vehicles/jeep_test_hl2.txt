@@ -1,63 +1,56 @@
 // This is a test jeep type vehicle for the wasteland
 
-"vehicle"
-{
+"vehicle"{
 	"wheelsperaxle"	"2"
-	"body"
-	{
+	"body"{
 		"countertorquefactor"	"1"
 		"massCenterOverride"	"0 0 0"
-		"massoverride"		"800"		// kg
-		"addgravity"		"0.33"
+		"massoverride"	"800"		// kg
+		"addgravity"	"0.33"
 	}
-	"engine"
-	{
-		"horsepower"		"350"
-		"maxrpm"		"3000"
-		"maxspeed"		"35"		// mph
+	"engine"{
+		"horsepower"	"350"
+		"maxrpm"	"3000"
+		"maxspeed"	"35"		// mph
 		"maxReverseSpeed"	"20"		// mph
 		"autotransmission"	"1"
-		"axleratio"		"4.56"
-		"gear"			"1.86"		// 1st gear
-		"gear"			"1.59"		// 2nd gear
-		"gear"			"1.17"		// 3rd gear
-		"gear"			"1.0"		// 4th gear
-		"gear"			"0.84"		// 5th gear
-		"shiftuprpm"		"1500"
-		"shiftdownrpm"		"300"
+		"axleratio"	"4.56"
+		"gear"	"1.86"		// 1st gear
+		"gear"	"1.59"		// 2nd gear
+		"gear"	"1.17"		// 3rd gear
+		"gear"	"1.0"		// 4th gear
+		"gear"	"0.84"		// 5th gear
+		"shiftuprpm"	"1500"
+		"shiftdownrpm"	"300"
 	
-		"boost"
-		{
-//			"force"		"1.5"	// 1.5 car body mass * gravity * inches / second ^ 2
+		"boost"{
+//			"force"	"1.5"	// 1.5 car body mass * gravity * inches / second ^ 2
 			"duration"	"1.0"	// 1 second of boost
-			"delay"		"15"	// 15 seconds before you can use it again
+			"delay"	"15"	// 15 seconds before you can use it again
 			"torqueboost"	"1"	// enable "sprint" mode of vehicle, not	force type booster			
 			"maxspeed"	"50"	// maximum turbo speed
-			"force"		"2.5"	// use for value as a boost factor
+			"force"	"2.5"	// use for value as a boost factor
 		}
 	}
-	"steering"
-	{
-		"degrees"		"26"
-		"fastdampen"		"0.35"
-		"slowcarspeed"		"0"
-		"fastcarspeed"		"40"
+	"steering"{
+		"degrees"	"26"
+		"fastdampen"	"0.35"
+		"slowcarspeed"	"0"
+		"fastcarspeed"	"40"
 		"slowsteeringrate"	"4"		
 		"faststeeringrate"	"2"
 		"steeringRestFactor"	"1.5"
-		"turnbrake"		"0.25"
+		"turnbrake"	"0.25"
 
-		"skidallowed"		"1"
-		"dustcloud"		"1"
+		"skidallowed"	"1"
+		"dustcloud"	"1"
 	}
 
 	// front axle
-	"axle"
-	{
-		"wheel"
-		{
+	"axle"{
+		"wheel"{
 			"radius"	"18"
-			"mass"		"100"
+			"mass"	"100"
 			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
 			"rotdamping"	"0.0"
@@ -65,13 +58,12 @@
 			"skidmaterial"	"slidingrubbertire"
 			"brakematerial" "brakingrubbertire"
 		}
-		"suspension"
-		{
-			"springConstant"		"80"
-			"springDamping"			"4"
-			"stabilizerConstant"		"110"
+		"suspension"{
+			"springConstant"	"80"
+			"springDamping"	"4"
+			"stabilizerConstant"	"110"
 			"springDampingCompression"	"4"
-			"maxBodyForce"			"250"
+			"maxBodyForce"	"250"
 		}
 
 		"torquefactor"	"0.8"
@@ -79,191 +71,159 @@
 	}
 
 	// rear axle
-	"axle"
-	{
-		"wheel"
-		{
+	"axle"{
+		"wheel"{
 			"radius"	"20"
-			"mass"		"100"
-			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
+			"mass"	"100"
+			"inertia"	"0.5"	// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
 			"rotdamping"	"0.0"
 			"material"	"jeeptire"
 			"skidmaterial"	"slidingrubbertire"
 			"brakematerial" "brakingrubbertire"
 		}
-		"suspension"
-		{
-			"springConstant"		"80"
-			"springDamping"			"4"
-			"stabilizerConstant"		"110"
+		"suspension"{
+			"springConstant"	"80"
+			"springDamping"	"4"
+			"stabilizerConstant"	"110"
 			"springDampingCompression"	"4"
-			"maxBodyForce"			"250"
+			"maxBodyForce"	"250"
 		}
 		"torquefactor"	"0.2"
 		"brakefactor"	"0.5"
 	}
 }
 
-"vehicle_sounds"
-{
+"vehicle_sounds"{
 	// List gears in order from lowest speed to highest speed
 
-	"gear"
-	{
-		"max_speed"		"0.3"
+	"gear"{
+		"max_speed"	"0.3"
 		"speed_approach_factor" "1.0"
 	}
 
-	"gear"
-	{
-		"max_speed"		"0.5"
+	"gear"{
+		"max_speed"	"0.5"
 		"speed_approach_factor" "0.07"
 	}
-	"gear"
-	{
-		"max_speed"		"0.75"
+	"gear"{
+		"max_speed"	"0.75"
 		"speed_approach_factor" "0.07"
 	}
-	"gear"
-	{
-		"max_speed"		"0.90"
+	"gear"{
+		"max_speed"	"0.90"
 		"speed_approach_factor" "0.035"
 	}
-	"gear"
-	{
-		"max_speed"		"0.95"
+	"gear"{
+		"max_speed"	"0.95"
 		"speed_approach_factor" "0.015"
 	}
-	"gear"
-	{
-		"max_speed"		"2.0"
+	"gear"{
+		"max_speed"	"2.0"
 		"speed_approach_factor" "0.03"
 	}
-	"state"
-	{
-		"name"		"SS_START_WATER"
-		"sound"		"ATV_start_in_water"
+	"state"{
+		"name"	"SS_START_WATER"
+		"sound"	"ATV_start_in_water"
 	}
 
-	"state"
-	{
-		"name"		"SS_START_IDLE"
-		"sound"		"ATV_engine_start"
+	"state"{
+		"name"	"SS_START_IDLE"
+		"sound"	"ATV_engine_start"
 	}
-	"state"
-	{
-		"name"		"SS_SHUTDOWN_WATER"
-		"sound"		"ATV_stall_in_water"
+	"state"{
+		"name"	"SS_SHUTDOWN_WATER"
+		"sound"	"ATV_stall_in_water"
 	}
-	"state"
-	{
-		"name"		"SS_IDLE"
-		"sound"		"ATV_engine_idle"
+	"state"{
+		"name"	"SS_IDLE"
+		"sound"	"ATV_engine_idle"
 	}
-	"state"
-	{
-		"name"		"SS_REVERSE"
-		"sound"		"ATV_reverse"
+	"state"{
+		"name"	"SS_REVERSE"
+		"sound"	"ATV_reverse"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_0"
-		"sound"		"ATV_rev"
+	"state"{
+		"name"	"SS_GEAR_0"
+		"sound"	"ATV_rev"
 		"min_time"	"0.75"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_0_RESUME"
-		"sound"		"ATV_engine_idle"
+	"state"{
+		"name"	"SS_GEAR_0_RESUME"
+		"sound"	"ATV_engine_idle"
 		"min_time"	"0.75"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_1"
-		"sound"		"ATV_firstgear"
+	"state"{
+		"name"	"SS_GEAR_1"
+		"sound"	"ATV_firstgear"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_1_RESUME"
-		"sound"		"ATV_firstgear_noshift"
+	"state"{
+		"name"	"SS_GEAR_1_RESUME"
+		"sound"	"ATV_firstgear_noshift"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_2"
-		"sound"		"ATV_secondgear"
+	"state"{
+		"name"	"SS_GEAR_2"
+		"sound"	"ATV_secondgear"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_2_RESUME"
-		"sound"		"ATV_secondgear_noshift"
+	"state"{
+		"name"	"SS_GEAR_2_RESUME"
+		"sound"	"ATV_secondgear_noshift"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_3"
-		"sound"		"ATV_thirdgear"
+	"state"{
+		"name"	"SS_GEAR_3"
+		"sound"	"ATV_thirdgear"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_3_RESUME"
-		"sound"		"ATV_thirdgear_noshift"
+	"state"{
+		"name"	"SS_GEAR_3_RESUME"
+		"sound"	"ATV_thirdgear_noshift"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_4"
-		"sound"		"ATV_fourthgear"
+	"state"{
+		"name"	"SS_GEAR_4"
+		"sound"	"ATV_fourthgear"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_GEAR_4_RESUME"
-		"sound"		"ATV_fourthgear_noshift"
+	"state"{
+		"name"	"SS_GEAR_4_RESUME"
+		"sound"	"ATV_fourthgear_noshift"
 		"min_time"	"0.5"
 	}
-	"state"
-	{
-		"name"		"SS_SLOWDOWN_HIGHSPEED"
-		"sound"		"ATV_throttleoff_fastspeed"
+	"state"{
+		"name"	"SS_SLOWDOWN_HIGHSPEED"
+		"sound"	"ATV_throttleoff_fastspeed"
 	}
-	"state"
-	{
-		"name"		"SS_SLOWDOWN"
-		"sound"		"ATV_throttleoff_slowspeed"
+	"state"{
+		"name"	"SS_SLOWDOWN"
+		"sound"	"ATV_throttleoff_slowspeed"
 	}
-	"state"
-	{
-		"name"		"SS_TURBO"
-		"sound"		"ATV_turbo_on"
+	"state"{
+		"name"	"SS_TURBO"
+		"sound"	"ATV_turbo_on"
 		"min_time"	"2.5"
 	}
-	"state"
-	{
-		"name"		"SS_SHUTDOWN"
-		"sound"		"ATV_engine_stop"
+	"state"{
+		"name"	"SS_SHUTDOWN"
+		"sound"	"ATV_engine_stop"
 	}
-	"crashsound"
-	{
-		"min_speed"			"350"
+	"crashsound"{
+		"min_speed"	"350"
 		"min_speed_change"	"250"
-		"sound"				"ATV_impact_medium"
-		"gear_limit"		"1"
+		"sound"	"ATV_impact_medium"
+		"gear_limit"	"1"
 	}
-	"crashsound"
-	{
-		"min_speed"			"450"
+	"crashsound"{
+		"min_speed"	"450"
 		"min_speed_change"	"350"
-		"sound"				"ATV_impact_heavy"
+		"sound"	"ATV_impact_heavy"
 	}
 
-	
-	"skid_lowfriction"		"ATV_skid_lowfriction"
+	"skid_lowfriction"	"ATV_skid_lowfriction"
 	"skid_normalfriction"	"ATV_skid_normalfriction"
-	"skid_highfriction"		"ATV_skid_highfriction"
+	"skid_highfriction"	"ATV_skid_highfriction"
 }
