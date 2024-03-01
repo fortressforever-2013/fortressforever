@@ -1,24 +1,17 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/player/pyro/pyro_head_blue"
-	"$bumpmap" 			"models/player/pyro/pyro_head_normal"
-	"$model" 			1
-
-	//Environment Mapping	
-	"$envmap" 			"env_cubemap"
-	"$normalmapalphaenvmapmask" 	"1"
-	"$envmapmaskscale"		".3"
-	"$envmapsaturation"		".5"	
-
-
-	"$phong" "1"
-	"$phongboost" "2"
-	"$phongfresnelranges" "[1 3 8]"
-	//"$phongexponent" "5"
-	"$phongalbedotint" "1"
-	"$phongexponenttexture" "models/player/pyro/pyro_head_exp"
+VertexLitGeneric{
+$baseTexture models/player/pyro/pyro_head_blue
+$bumpmap models/player/pyro/pyro_head_normal
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapmaskscale .3
+$envmapsaturation .5
+$phong 1
+$phongboost 2
+$phongfresnelranges "[1 3 8]"
+//$phongexponent 5
+$phongalbedotint 1
+$phongexponenttexture models/player/pyro/pyro_head_exp
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
