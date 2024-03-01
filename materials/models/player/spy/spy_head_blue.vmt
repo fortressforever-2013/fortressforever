@@ -1,15 +1,11 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/player/spy/spy_head_blue"
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-	$halflambert 1
-	"$bumpmap" 			"models/player/spy/spy_head_normal"
-	"$model" 			1
-	
-	//Phong
-	"$phong" "1"
-	"$phongfresnelranges"	"[1 2 5]"
-	"$phongexponenttexture" "models/player/spy/spy_head_exp"
-	"$phongboost" 2
+VertexLitGeneric{
+$baseTexture models/player/spy/spy_head_blue
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
+$halflambert 1
+$bumpmap models/player/spy/spy_head_normal
+$phong 1
+$phongfresnelranges "[1 2 5]"
+$phongexponenttexture models/player/spy/spy_head_exp
+$phongboost 2
 }
