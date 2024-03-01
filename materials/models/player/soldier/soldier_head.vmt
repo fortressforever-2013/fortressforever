@@ -1,15 +1,10 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/player/soldier/soldier_head_blue"
-	//"$bumpmap" 			"models/player/soldier/soldier_head_normal"
-	"$model" 			1
-
-	//Environment Mapping
-//	"$envmap" 			"env_cubemap"
-	//"$normalmapalphaenvmapmask" 	1
-//	"$envmaptint" 			"[0.3 0.3 0.3]"
+VertexLitGeneric{
+$baseTexture models/player/soldier/soldier_head_blue
+//$bumpmap models/player/soldier/soldier_head_normal
+//$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
+//$envmaptint "[0.3 0.3 0.3]"
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
