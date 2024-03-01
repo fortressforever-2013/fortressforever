@@ -1,9 +1,6 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/player/demoman/demoman_acc_generic"
-	"$model" 			1
+VertexLitGeneric{
+$baseTexture models/player/demoman/demoman_acc_generic
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
