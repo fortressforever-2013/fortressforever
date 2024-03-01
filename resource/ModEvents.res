@@ -25,15 +25,12 @@
 //   time	: firing server time
 //   eventid	: holds the event ID
 
-"ffevents"
-{
-	"player_sayteam"
-	{
+"ffevents"{
+	"player_sayteam"{
 		"userid" "short"
 		"text" "string"
 	}
-	"player_death"				// a game event, name may be 32 charaters long
-	{
+	"player_death"{	// a game event, name may be 32 charaters long{
 		// this extents the original player_death by a new 
 		// field "headshot", all other fields remains the same
 		"userid"	"short"
@@ -45,40 +42,33 @@
 	}
 	
 	// From here down are events necessary for bot support.
-	"player_changeclass"
-	{		
+	"player_changeclass"{		
 		"userid"	"short"
 		"oldclass"	"short"
 		"newclass"	"short"
 	}
 
-	"build_dispenser"
-	{
+	"build_dispenser"{
 		"userid"	"short"	// who built it
 	}
 
-	"build_sentrygun"
-	{
+	"build_sentrygun"{
 		"userid"	"short"
 	}
 
-	"build_detpack"
-	{
+	"build_detpack"{
 		"userid"	"short"
 	}
 
-	"build_mancannon"
-	{
+	"build_mancannon"{
 		"userid"	"short"
 	}
 	
-	"detpack_detonated"
-	{
+	"detpack_detonated"{
 		"userid"	"short"
 	}
 
-	"sentrygun_killed"
-	{
+	"sentrygun_killed"{
 		"userid"	"short" // owner
 		"attacker"	"short"
 		"weapon"	"string"
@@ -87,137 +77,115 @@
 		"killersglevel"	"short"
 	}
 
-	"dispenser_killed"
-	{
+	"dispenser_killed"{
 		"userid"	"short" // owner
 		"attacker"	"short"
 		"weapon"	"string"
 		"killersglevel"	"short"
 	}
 	
-	"mancannon_detonated"
-	{
+	"mancannon_detonated"{
 		"userid"	"short" // owner
 	}
 	
-	"mancannon_killed"
-	{
+	"mancannon_killed"{
 		"userid"	"short" // owner
 		"attacker"	"short"
 		"weapon"	"string"
 		"killersglevel"	"short"
 	}
 	
-	"sentrygun_upgraded"
-	{
+	"sentrygun_upgraded"{
 		"userid"	"short" // upgrader
 		"sgownerid"	"short" // owner
-		"level"		"short"
+		"level"	"short"
 	}
 
-	"disguised"
-	{
+	"disguised"{
 		"userid"	"short"
-		"team"		"short"
-		"class"		"short"
+		"team"	"short"
+		"class"	"short"
 	}
 	
-	"disguise_lost"
-	{
+	"disguise_lost"{
 		"userid"	"short"
 		"attackerid" "short"
 	}
 	
-	"cloak_lost"
-	{
+	"cloak_lost"{
 		"userid"	"short"
 		"attackerid" "short"
 	}
 	
-	"uncloaked"
-	{
+	"uncloaked"{
 		"userid"	"short"
 	}
 	
-	"cloaked"
-	{
+	"cloaked"{
 		"userid"	"short"
 	}
 	
-	"dispenser_enemyused"
-	{
+	"dispenser_enemyused"{
 		"userid"	"short" // owner
 		"enemyid"	"short"
 	}
 	
-	"dispenser_detonated"
-	{
+	"dispenser_detonated"{
 		"userid"	"short"
 	}
 	
-	"dispenser_dismantled"
-	{
+	"dispenser_dismantled"{
 		"userid"	"short"
 	}
 	
-	"dispenser_sabotaged"
-	{
+	"dispenser_sabotaged"{
 		"userid"	"short" // owner
 		"saboteur"	"short" // who done it?
 	}
 	
-	"sentry_detonated"
-	{
+	"sentry_detonated"{
 		"userid"	"short"
-		"level"		"short"
+		"level"	"short"
 	}
 	
-	"sentry_dismantled"
-	{
+	"sentry_dismantled"{
 		"userid"	"short"
-		"level"		"short"
+		"level"	"short"
 	}
 	
-	"sentry_sabotaged"
-	{
+	"sentry_sabotaged"{
 		"userid"	"short" // owner
 		"saboteur"	"short" // who done it?
 	}
-	"player_additem"
-	{
+	"player_additem"{
 		"userid"	"short"
-		"item"		"string"
+		"item"	"string"
 	}
-	"player_removeitem"
-	{
+	"player_removeitem"{
 		"userid"	"short"
-		"item"		"string"
+		"item"	"string"
 	}
-	"player_removeallitems"
-	{
+	"player_removeallitems"{
 		"userid"	"short"
 	}
-	"ff_restartround"
-	{
+	"ff_restartround"{
 	}
-	"objective_event"
-	{
-		"userid"			"short" 	// entity index of the player
-		//"eventname" 		"string"
-		"eventtext" 		"string"
+	"objective_event"{
+		"userid"	"short" 	// entity index of the player
+		//"eventname"	"string"
+		"eventtext"	"string"
 	}
-	"luaevent"
-	{
-		"userid"			"short" 	// entity index of the first player
-		"userid2" 		"short" 	// entity index of the 2nd player
-		"eventname" 			"string" 	// name for the event - like flag_cap, flag_drop, etc - something stats programs could use
+	"luaevent"{
+		"userid"	"short" 	// entity index of the first player
+		"userid2"	"short" 	// entity index of the 2nd player
+		"eventname"	"string" 	// name for the event - like flag_cap, flag_drop, etc - something stats programs could use
 
 		// These next ones are just brainstorming...
-		"key0"		"string"
-		"value0"		"string"
-		"key1"		"string"
-		"value1"		"string"
-		"key2"		"string"
-		"value2"		"string"
+		"key0"	"string"
+		"value0"	"string"
+		"key1"	"string"
+		"value1"	"string"
+		"key2"	"string"
+		"value2"	"string"
 	}
 }
