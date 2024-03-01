@@ -1,62 +1,53 @@
-"GameMenu"
-{
-	"1"
-	{
+"GameMenu"{
+	"1"{
 		"label" "#GameUI_GameMenu_ResumeGame"
 		"command" "ResumeGame"
 		"OnlyInGame" "1"
 	}
-	"2"
-	{
+	"2"{
 		"label" "#GameUI_GameMenu_Disconnect"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
 	}
-	"3"
-	{
+	"3"{
 		"label" "#GameUI_GameMenu_PlayerList"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 	}
-	"4"
-	{
+	"4"{
 		"label" "#GameUI_GameMenu_FindServers"
 		"command" "OpenServerBrowser"
 	}
-	"5"
-	{
+	"5"{
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
-	"6"
-	{
+	"6"{
 		"label" "#GameUI_GameMenu_Training"
 		"command" "engine ff_training"
 	}
-	"7"
-	{
+	"7"{
+		"label" ""
+		"command" ""
+	}
+	"8"{
 		"label" "#GameUI_GameMenu_Friends"
 		"command" "OpenFriendsDialog"
 	}
-	"8"
-	{
+	"9"{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
 	}
-	"9"
-	{
+	"10"{
 		"label" "#GameUI_GameMenu_FFOptions"
 		"command" "engine ff_options"
 	}
-//	"10"
-//	{
+//	"11"{
 //		"label" "#GameUI_GameMenu_MP3Player"
 //		"command" "engine mp3"
 //	}
-	"11"
-	{
+	"12"{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
 	}
 }
-
