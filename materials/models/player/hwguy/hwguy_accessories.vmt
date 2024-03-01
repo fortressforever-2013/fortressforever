@@ -1,10 +1,6 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/player/hwguy/hwguy_accessories"
-	"$model" 			1
-
+VertexLitGeneric{
+$baseTexture models/player/hwguy/hwguy_accessories
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
