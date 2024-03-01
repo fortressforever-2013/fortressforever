@@ -1,55 +1,35 @@
-"Refract"
-{
-	"Refract_DX60"
-	{
+Refract{
+	Refract_DX60{}
+	Refract_DX80{}
+	Refract_DX70{}
+$model 1
+$refractamount 0	//this along with animated framerates I think will be best to tweak to alter visibility
+$bluramount .1
+$scale "[.5 .5]"
+$dudvmap dev/water_dudv
+$normalmap dev/water_normal
+$surfaceprop flesh
+$dudvframe 0
+$bumpframe 0
 
-	}
-
-	"Refract_DX80"
-	{
-
-	}
-
-	"Refract_DX70"
-	{
-
-	}
-
-	"$model" 1
- 	"$refractamount" "0"		//this along with animated framerates I think will be best to tweak to alter visibility
- 	"$bluramount" ".1"
-	"$scale" "[.5 .5]"
-	"$dudvmap" "dev/water_dudv"
- 	"$normalmap" "dev/water_normal"
- 	"$surfaceprop" "flesh"
-	"$dudvframe" "0"
-	"$bumpframe" "0"
-
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$dudvmap"
-			"animatedtextureframenumvar" "$dudvframe"
-			"animatedtextureframerate" 30.00
-		}
-
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$normalmap"
-			"animatedtextureframenumvar" "$bumpframe"
-			"animatedtextureframerate" 30.00
-		}
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" .05
-			"texturescrollangle" 45.00
-		}
-		"FF_PlayerVelocityProxy"
-		{
-			"resultVar"	"$refractamount"
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $dudvmap
+animatedtextureframenumvar $dudvframe
+animatedtextureframerate 30
+}
+AnimatedTexture{
+animatedtexturevar $normalmap
+animatedtextureframenumvar $bumpframe
+animatedtextureframerate 30
+}
+TextureScroll{
+texturescrollvar "$bumptransform"
+texturescrollrate .05
+texturescrollangle 45
+}
+FF_PlayerVelocityProxy{
+resultVar $refractamount
+}
+}
 }
