@@ -5,304 +5,256 @@
 //----------------
 //Sentry Gun
 //----------------
-
-	"Sentry.Fire"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"Sentry.Fire"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.5"
-                "pitch"		        "95,105"
-
-		"rndwave"
-		{
-		        "wave"		"buildable/sentry/sg_fire1.wav"
-			"wave"		"buildable/sentry/sg_fire2.wav"
-                        "wave"		"buildable/sentry/sg_fire3.wav"
+		"pitch"	"95,105"
+		"rndwave"{
+			"wave"	"buildable/sentry/sg_fire1.wav"
+			"wave"	"buildable/sentry/sg_fire2.wav"
+			"wave"	"buildable/sentry/sg_fire3.wav"
 		}
 	}
-	"Sentry.RocketFire"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"Sentry.RocketFire"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.4"
-                "pitch"		        "95,105"
-		"wave"		"buildable/sentry/sg_rpg1.wav"
+		"pitch"	"95,105"
+		"wave"	"buildable/sentry/sg_rpg1.wav"
 	}
-	"Sentry.eject"
-	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
+	"Sentry.eject"{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/sentry/sg_eject1.wav"
+		"wave"	"buildable/sentry/sg_eject1.wav"
 	}
-	"Sentry.scan"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Sentry.scan"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.5"
-
-		"rndwave"
-		{
-		        "wave"		"buildable/sentry/sg_scan1.wav"
-			"wave"		"buildable/sentry/sg_scan2.wav"
+		"rndwave"{
+			"wave"	"buildable/sentry/sg_scan1.wav"
+			"wave"	"buildable/sentry/sg_scan2.wav"
 		}
 	}
-	"Sentry.spot"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"Sentry.spot"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.5"
-		"wave"		"buildable/sentry/sg_spot.wav"
+		"wave"	"buildable/sentry/sg_spot.wav"
 	}
-	"Sentry.unbuild"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Sentry.unbuild"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/sentry/sg_unbuild.wav"
+		"wave"	"buildable/sentry/sg_unbuild.wav"
 	}
-	"sentry.aim"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"sentry.aim"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/sentry/sg_aim.wav"
+		"wave"	"buildable/sentry/sg_aim.wav"
 	}
-	"Sentry.explode"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-		"soundlevel"		"SNDLVL_140dB"
-		"pitch"			"PITCH_NORM"
-		"wave"		"^buildable/sentry/sg_explode.wav"
+	"Sentry.explode"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_140dB"
+		"pitch"	"PITCH_NORM"
+		"wave"	"^buildable/sentry/sg_explode.wav"
 	}
-	"Sentry.One"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Sentry.One"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		")buildable/sentry/sg_build1.wav"
+		"wave"	")buildable/sentry/sg_build1.wav"
 	}
-	"Sentry.two"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Sentry.two"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/sentry/sg_build2.wav"
+		"wave"	"buildable/sentry/sg_build2.wav"
 	}
-	"Sentry.three"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Sentry.three"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/sentry/sg_build3.wav"
+		"wave"	"buildable/sentry/sg_build3.wav"
 	}
-	"Sentry.SabotageActivate"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Sentry.SabotageActivate"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.5"
-		"wave"		"buildable/sentry/sg_sabotageactivate.wav"
+		"wave"	"buildable/sentry/sg_sabotageactivate.wav"
 	}
-	"Sentry.SabotageFinish"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Sentry.SabotageFinish"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.5"
-		"wave"		"buildable/sentry/sg_sabotagefinish.wav"
+		"wave"	"buildable/sentry/sg_sabotagefinish.wav"
 	}
-	"Sentry.CloakDetection"
-	{
-		"channel"		"CHAN_AUTO"
-		"volume"		"1.0"
-		"soundlevel"		"SNDLVL_GUNFIRE"
+	"Sentry.CloakDetection"{
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_GUNFIRE"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/sentry/sg_cloakdetection.wav"
+		"wave"	"buildable/sentry/sg_cloakdetection.wav"
 	}
-	"Sentry.CloakSonar"
-	{
-		"channel"		"CHAN_AUTO"
-		"volume"		"1.0"
-		"soundlevel"		"SNDLVL_GUNFIRE"
+	"Sentry.CloakSonar"{
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_GUNFIRE"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		")buildable/sentry/sg_cloaksonar.wav"
+		"wave"	")buildable/sentry/sg_cloaksonar.wav"
 	}
 //----------------
 //Respawn Turret
 //----------------
-
-	"RespawnTurret.Fire"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"RespawnTurret.Fire"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.5"
-                "pitch"		        "95,105"
-
-		"rndwave"
-		{
-		        "wave"		"^buildable/respawnturret/rt_fire1.wav"
+		"pitch"	"95,105"
+		"rndwave"{
+			"wave"	"^buildable/respawnturret/rt_fire1.wav"
 		}
 	}
-	"RespawnTurret.Alert"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"0.8"
+	"RespawnTurret.Alert"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"0.8"
 		"CompatibilityAttenuation"	"0.8"
-                "pitch"		        "95,105"
-		"wave"		"buildable/respawnturret/rt_alert1.wav"
+		"pitch"	"95,105"
+		"wave"	"buildable/respawnturret/rt_alert1.wav"
 	}
-	"RespawnTurret.Ping"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"RespawnTurret.Ping"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.8"
-		"wave"		"buildable/respawnturret/rt_ping1.wav"
+		"wave"	"buildable/respawnturret/rt_ping1.wav"
 	}
-	"RespawnTurret.Deploy"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"RespawnTurret.Deploy"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.8"
-                "pitch"		        "95,105"
-		"wave"		"buildable/respawnturret/rt_deploy1.wav"
+		"pitch"	"95,105"
+		"wave"	"buildable/respawnturret/rt_deploy1.wav"
 	}
-	"RespawnTurret.Retire"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"RespawnTurret.Retire"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"0.8"
-		"wave"		"buildable/respawnturret/rt_retire1.wav"
+		"wave"	"buildable/respawnturret/rt_retire1.wav"
 	}
 
 //----------------
 //Dispenser
 //----------------
-
-	"Dispenser.build"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Dispenser.build"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/dispenser/disp_build.wav"
+		"wave"	"buildable/dispenser/disp_build.wav"
 	}
-	"Dispenser.unbuild"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Dispenser.unbuild"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/dispenser/disp_unbuild.wav"
+		"wave"	"buildable/dispenser/disp_unbuild.wav"
 	}
-	"Dispenser.explode"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-		"soundlevel"		"SNDLVL_140dB"
-		"pitch"			"PITCH_NORM"
-		"wave"		"^buildable/dispenser/disp_explode.wav"
-	}	
-  "Dispenser.omnomnom" 
-	{
-		"channel"		"CHAN_BODY"
-		"volume"		"1.0"
+	"Dispenser.explode"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_140dB"
+		"pitch"	"PITCH_NORM"
+		"wave"	"^buildable/dispenser/disp_explode.wav"
+	}
+	"Dispenser.omnomnom"{
+		"channel"	"CHAN_BODY"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/dispenser/disp_omnomnom.wav"
+		"wave"	"buildable/dispenser/disp_omnomnom.wav"
 	}
 
 //----------------
 //Detpack, BOOOM
 //----------------
-
-	"Detpack.Build"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"Detpack.Build"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/detpack/detpack_drop.wav"
+		"wave"	"buildable/detpack/detpack_drop.wav"
 	}
-	"Detpack.Defuse"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"Detpack.Defuse"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		")buildable/detpack/detpack_defuse.wav"
+		"wave"	")buildable/detpack/detpack_defuse.wav"
 	}
-	"Detpack.Timer"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"Detpack.Timer"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		")buildable/detpack/detpack_timer1.wav"
+		"wave"	")buildable/detpack/detpack_timer1.wav"
 	}
-	"Detpack.FiveSeconds"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"Detpack.FiveSeconds"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		")buildable/detpack/detpack_timer1.wav"
+		"wave"	")buildable/detpack/detpack_timer1.wav"
 	}
-	"Detpack.TimerTwo"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"Detpack.TimerTwo"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/detpack/detpack_timer2.wav"
+		"wave"	"buildable/detpack/detpack_timer2.wav"
 	}
-	"Detpack.Explode"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-		"soundlevel"		"SNDLVL_180dB"
-		"pitch"			"PITCH_NORM"
+	"Detpack.Explode"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"pitch"	"PITCH_NORM"
 		"CompatibilityAttenuation"	"1.0"
-	        "wave"		"^buildable/detpack/detpack_Explode1.wav"
+		"wave"	"^buildable/detpack/detpack_Explode1.wav"
 	}
-
-
 
 //----------------
 //Jump Pad, BOING?
 //----------------
-	"JumpPad.WarmUp"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"JumpPad.WarmUp"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/jumppad/jumppad_warmup.wav"
+		"wave"	"buildable/jumppad/jumppad_warmup.wav"
 	}
-	"JumpPad.PowerDown"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"JumpPad.PowerDown"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"buildable/jumppad/jumppad_powerdown.wav"
+		"wave"	"buildable/jumppad/jumppad_powerdown.wav"
 	}
-	"JumpPad.Fire"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"JumpPad.Fire"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		")buildable/jumppad/jumppad_fire.wav"
+		"wave"	")buildable/jumppad/jumppad_fire.wav"
 	}
-	"JumpPad.Heal"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"JumpPad.Heal"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave" 			")buildable/jumppad/jumppad_heal.wav"
+		"wave"	")buildable/jumppad/jumppad_heal.wav"
 	}
-	"JumpPad.Build"
-	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
+	"JumpPad.Build"{
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"			"buildable/jumppad/jumppad_build.wav"
+		"wave"	"buildable/jumppad/jumppad_build.wav"
 	}
-	"JumpPad.Explode"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
+	"JumpPad.Explode"{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
 		"soundlevel"	"SNDLVL_180dB"
-		"pitch"			"PITCH_NORM"
+		"pitch"	"PITCH_NORM"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"			"buildable/jumppad/jumppad_explode.wav"
+		"wave"	"buildable/jumppad/jumppad_explode.wav"
 	}

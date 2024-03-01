@@ -5,323 +5,267 @@
 //----------------
 //Flag Related
 //----------------
-
-	"yourteam.flagcap"
-	{
+	"yourteam.flagcap"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/flagcap.wav"
+		"wave"	"@)misc/flagcap.wav"
 	}
-	"yourteam.flagreturn"
-	{
+	"yourteam.flagreturn"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/flagreturn.wav"
+		"wave"	"@)misc/flagreturn.wav"
 	}
-	"yourteam.flagstolen"
-	{
+	"yourteam.flagstolen"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/flagstolen.wav"
+		"wave"	"@)misc/flagstolen.wav"
 	}
-	"yourteam.drop"
-	{
+	"yourteam.drop"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/flagdrop.wav"
+		"wave"	"@)misc/flagdrop.wav"
 	}
-	"otherteam.flagcap"
-	{
+	"otherteam.flagcap"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/enemyflagcap.wav"
+		"wave"	"@)misc/enemyflagcap.wav"
 	}
-	"otherteam.flagreturn"
-	{
+	"otherteam.flagreturn"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/enemyflagreturn.wav"
+		"wave"	"@)misc/enemyflagreturn.wav"
 	}
-	"otherteam.flagstolen"
-	{
+	"otherteam.flagstolen"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/buzwarn.wav"
+		"wave"	"@)misc/buzwarn.wav"
 	}
-	"otherteam.drop"
-	{
+	"otherteam.drop"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"@)misc/enemyflagdrop.wav"
+		"wave"	"@)misc/enemyflagdrop.wav"
 	}
 
 //----------------
 // useful vox sounds from HL that need to be remade
 //----------------
-
-	"misc.bizwarn"
-	{
+	"misc.bizwarn"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/bizwarn.wav"
+		"wave"	"*misc/bizwarn.wav"
 	}
-	"misc.bloop"
-	{
+	"misc.bloop"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/bloop.wav"
+		"wave"	"*misc/bloop.wav"
 	}
-	"misc.buzwarn"
-	{
+	"misc.buzwarn"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/buzwarn.wav"
+		"wave"	"*misc/buzwarn.wav"
 	}
-	"misc.dadeda"
-	{
+	"misc.dadeda"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/dadeda.wav"
+		"wave"	"*misc/dadeda.wav"
 	}
-	"misc.deeoo"
-	{
+	"misc.deeoo"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/deeoo.wav"
+		"wave"	"*misc/deeoo.wav"
 	}
-	"misc.doop"
-	{
+	"misc.doop"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/doop.wav"
+		"wave"	"*misc/doop.wav"
 	}
-	"misc.woop"
-	{
+	"misc.woop"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.6"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/woop.wav"
+		"wave"	"*misc/woop.wav"
 	}
 
 //----------------
 // Unagi Power!
 //----------------
-
-	"misc.unagi"
-	{
+	"misc.unagi"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.8"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		"*misc/unagi.wav"
+		"wave"	"*misc/unagi.wav"
 	}
-
-	"misc.unagi_spatial"
-	{
+	"misc.unagi_spatial"{
 		"channel"	"CHAN_AUTO"
 		"volume"	"0.8"
 		"soundlevel" 	"SNDLVL_NONE"
-		"wave"		")misc/unagi.wav"
+		"wave"	")misc/unagi.wav"
 	}
 
 //----------------
 // thunder
 //----------------
-
-	"misc.thunder"
-	{
+	"misc.thunder"{
 		"channel"	"CHAN_STATIC"
 		"volume"	"VOL_NORM"
 		"soundlevel"	"SNDLVL_NONE"
-		"wave"		"*ambient/levels/labs/teleport_postblast_thunder1.wav"
+		"wave"	"*ambient/levels/labs/teleport_postblast_thunder1.wav"
 	}
 
 //----------------
 // cz2
 //----------------
-
-	"ff_cz2.cc_alarm"
-	{
+	"ff_cz2.cc_alarm"{
 		"channel"	"CHAN_AUTO"
 		"volume"	"VOL_NORM"
-		"pitch"		"PITCH_NORM"
+		"pitch"	"PITCH_NORM"
 		"soundlevel"	"SNDLVL_180dB"
 		"CompatibilityAttenuation"	"1.0"
 
-		"wave"		"ambient/alarms/city_siren_loop2.wav"
+		"wave"	"ambient/alarms/city_siren_loop2.wav"
 	}
-
-	"ff_cz2.teleport_enter"
-	{
+	"ff_cz2.teleport_enter"{
 		"channel"	"CHAN_AUTO"
 		"volume"	"VOL_NORM"
-		"pitch"		"96,112"
+		"pitch"	"96,112"
 		"soundlevel"	"SNDLVL_GUNFIRE"
 		"CompatibilityAttenuation"	"1.0"
-
-		"rndwave"
-		{
-			"wave"		")ambient/machines/teleport1.wav"
-			"wave"		")ambient/machines/teleport3.wav"
-			"wave"		")ambient/machines/teleport4.wav"
+		"rndwave"{
+			"wave"	")ambient/machines/teleport1.wav"
+			"wave"	")ambient/machines/teleport3.wav"
+			"wave"	")ambient/machines/teleport4.wav"
 		}
 	}
-
-	"ff_cz2.teleport_exit"
-	{
+	"ff_cz2.teleport_exit"{
 		"channel"	"CHAN_AUTO"
 		"volume"	"VOL_NORM"
-		"pitch"		"176,192"
+		"pitch"	"176,192"
 		"soundlevel"	"SNDLVL_GUNFIRE"
 		"CompatibilityAttenuation"	"1.0"
-
-		"wave"		")ambient/explosions/explode_9.wav"
+		"wave"	")ambient/explosions/explode_9.wav"
 	}
 
-	"ff_cz2.blue_cap_loop"
-	{
+	"ff_cz2.blue_cap_loop"{
 		"channel"	"CHAN_AUTO"
 		"volume"	"VOL_NORM"
-		"pitch"		"90"
+		"pitch"	"90"
 		"soundlevel"	"SNDLVL_65dB"
-
-		"wave"		"ambient/machines/machine_whine1.wav"
+		"wave"	"ambient/machines/machine_whine1.wav"
 	}
-
-
-	"ff_cz2.red_cap_loop"
-	{
+	"ff_cz2.red_cap_loop"{
 		"channel"	"CHAN_AUTO"
 		"volume"	"VOL_NORM"
-		"pitch"		"110"
+		"pitch"	"110"
 		"soundlevel"	"SNDLVL_65dB"
-
-		"wave"		"ambient/machines/machine_whine1.wav"
+		"wave"	"ambient/machines/machine_whine1.wav"
 	}
 
 //--------------------------------
 // begin game sounds for ff_hunted
 //--------------------------------
-
-"ff_hunted.thunder"
-{
+"ff_hunted.thunder"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.3"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ambient/levels/labs/teleport_postblast_thunder1.wav"
+	"pitch"	"95,105"
+	"wave"	"@ambient/levels/labs/teleport_postblast_thunder1.wav"
 }
-
-"ff_hunted.cheer"
-{
+"ff_hunted.cheer"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted/CrowdCheer.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted/CrowdCheer.wav"
 }
-
-"ff_hunted.dying_bird"
-{
+"ff_hunted.dying_bird"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"rndwave"
-	{
-		"wave"		"@ff_hunted\dying_bird_1.wav"
-		"wave"		"@ff_hunted\dying_bird_2.wav"
-		"wave"		"@ff_hunted\dying_bird_3.wav"
+	"pitch"	"95,105"
+	"rndwave"{
+		"wave"	"@ff_hunted\dying_bird_1.wav"
+		"wave"	"@ff_hunted\dying_bird_2.wav"
+		"wave"	"@ff_hunted\dying_bird_3.wav"
 	}
 }
-
-"ff_hunted.dying_bird_full"
-{
+"ff_hunted.dying_bird_full"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\dying_bird_full.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\dying_bird_full.wav"
 }
 
-"ff_hunted.i_am_the_werewolf"
-{
+"ff_hunted.i_am_the_werewolf"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\i_am_the_werewolf.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\i_am_the_werewolf.wav"
 }
 
-"ff_hunted.i_fight_vampires"
-{
+"ff_hunted.i_fight_vampires"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\i_fight_vampires.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\i_fight_vampires.wav"
 }
 
-"ff_hunted.werewolf_howling"
-{
+"ff_hunted.werewolf_howling"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\werewolf_howling.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\werewolf_howling.wav"
 }
 
-"ff_hunted.werewolf_movies"
-{
+"ff_hunted.werewolf_movies"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\werewolf_movies.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\werewolf_movies.wav"
 }
 
-"ff_hunted.werewolves_howling"
-{
+"ff_hunted.werewolves_howling"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\werewolves_howling.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\werewolves_howling.wav"
 }
 
 //--------------------
 // UNAGI POWER, UNAGI!
 //--------------------
-
-"ff_hunted.unagi"
-{
+"ff_hunted.unagi"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.8"
 	"soundlevel" 	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@misc/unagi.wav"
+	"pitch"	"95,105"
+	"wave"	"@misc/unagi.wav"
 }
-
-"ff_hunted.unagi_spatial"
-{
+"ff_hunted.unagi_spatial"{
 	"channel"	"CHAN_AUTO"
 	"volume"	"0.8"
 	"soundlevel" 	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		")misc/unagi.wav"
+	"pitch"	"95,105"
+	"wave"	")misc/unagi.wav"
 }
 
 
@@ -332,212 +276,165 @@
 //------------------------------
 // waterpolo
 //------------------------------
-
-
-"ff_waterpolo.psychotic_goalie"
-{
-	"channel"		"CHAN_AUTO"
-	"volume"		"0.25"
-	"pitch"			"PITCH_NORM"
-	"soundlevel"		"SNDLVL_45dB"
-
-	"wave"			"npc/zombie_poison/pz_breathe_loop2.wav"
+"ff_waterpolo.psychotic_goalie"{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.25"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_45dB"
+	"wave"	"npc/zombie_poison/pz_breathe_loop2.wav"
 }
 
 //----------------
 // gridiron... here until valve fixes map-specific sound scripting
 //----------------
-
-
-"gridiron.pass"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/pass.wav"
+"gridiron.pass"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/pass.wav"
 }
-
-"gridiron.recovered"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/recovered.wav"
+"gridiron.recovered"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/recovered.wav"
 }
-
-"gridiron.whistle"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/whistle.wav"
+"gridiron.whistle"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/whistle.wav"
 }
-
-"gridiron.fumble"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/fumble.wav"
+"gridiron.fumble"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/fumble.wav"
 }
-
-"gridiron.intercepted"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/intercepted.wav"
+"gridiron.intercepted"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/intercepted.wav"
 }
-
-"gridiron.tdred"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/tdred.wav"
+"gridiron.tdred"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/tdred.wav"
 }
-
-"gridiron.tdredx"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/tdredx.wav"
+"gridiron.tdredx"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/tdredx.wav"
 }
-
-"gridiron.tdblue"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/tdblue.wav"
+"gridiron.tdblue"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/tdblue.wav"
 }
-
-"gridiron.tdbluex"
-{
-"channel""CHAN_VOICE"
-"volume""VOL_NORM"
-"soundlevel" "SNDLVL_NONE"
-"wave""@#gridiron/tdbluex.wav"
+"gridiron.tdbluex"{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"@#gridiron/tdbluex.wav"
 }
-
 
 // anticitizen sounds from HL2 copypasta
-
-"ff_anticitizen.warningbell1"
-{
+"ff_anticitizen.warningbell1"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		")ff_anticitizen/warningbell1.wav"
+	"wave"	")ff_anticitizen/warningbell1.wav"
 }
 
-"ff_anticitizen.beam_shoot"
-{
+"ff_anticitizen.beam_shoot"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/portal_beam_shoot6.wav"
+	"wave"	"*ff_anticitizen/portal_beam_shoot6.wav"
 }
 
-"ff_anticitizen.explode_4"
-{
+"ff_anticitizen.explode_4"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/explode_4.wav"
+	"wave"	"*ff_anticitizen/explode_4.wav"
 }
-
-"ff_anticitizen.explode_3"
-{
+"ff_anticitizen.explode_3"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/explode_3.wav"
+	"wave"	"*ff_anticitizen/explode_3.wav"
 }
 
-"ff_anticitizen.shutdown"
-{
+"ff_anticitizen.shutdown"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/thumper_shutdown1.wav"
+	"wave"	"*ff_anticitizen/thumper_shutdown1.wav"
 }
 
-"ff_anticitizen.winddown"
-{
+"ff_anticitizen.winddown"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/teleport_postblast_winddown1.wav"
+	"wave"	"*ff_anticitizen/teleport_postblast_winddown1.wav"
 }
 
-"ff_anticitizen.suckin"
-{
+"ff_anticitizen.suckin"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/teleport_preblast_suckin1.wav"
+	"wave"	"*ff_anticitizen/teleport_preblast_suckin1.wav"
 }
 
-"ff_anticitizen.3minutestosingularity"
-{
+"ff_anticitizen.3minutestosingularity"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/fcitadel_3minutestosingularity.wav"
+	"wave"	"*ff_anticitizen/fcitadel_3minutestosingularity.wav"
 }
-
-"ff_anticitizen.2minutestosingularity"
-{
+"ff_anticitizen.2minutestosingularity"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/fcitadel_2minutestosingularity.wav"
+	"wave"	"*ff_anticitizen/fcitadel_2minutestosingularity.wav"
 }
-
-"ff_anticitizen.1minutetosingularity"
-{
+"ff_anticitizen.1minutetosingularity"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/fcitadel_1minutetosingularity.wav"
+	"wave"	"*ff_anticitizen/fcitadel_1minutetosingularity.wav"
 }
-
-"ff_anticitizen.45sectosingularity"
-{
+"ff_anticitizen.45sectosingularity"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/fcitadel_45sectosingularity.wav"
+	"wave"	"*ff_anticitizen/fcitadel_45sectosingularity.wav"
 }
-
-"ff_anticitizen.30sectosingularity"
-{
+"ff_anticitizen.30sectosingularity"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/fcitadel_30sectosingularity.wav"
+	"wave"	"*ff_anticitizen/fcitadel_30sectosingularity.wav"
 }
-
-"ff_anticitizen.15sectosingularity"
-{
+"ff_anticitizen.15sectosingularity"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/fcitadel_15sectosingularity.wav"
+	"wave"	"*ff_anticitizen/fcitadel_15sectosingularity.wav"
 }
-
-"ff_anticitizen.10sectosingularity"
-{
+"ff_anticitizen.10sectosingularity"{
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel" 	"SNDLVL_100dB"
-	"wave"		"*ff_anticitizen/fcitadel_10sectosingularity.wav"
+	"wave"	"*ff_anticitizen/fcitadel_10sectosingularity.wav"
 }
 
-"ff_palermo_bell"
-{
+"ff_palermo_bell"{
 	"channel" "CHAN_AUTO"
 	"volume" "1.0"
 	"soundlevel" "SNDLVL_120dB"

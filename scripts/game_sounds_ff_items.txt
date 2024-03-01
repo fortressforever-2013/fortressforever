@@ -5,51 +5,43 @@
 //----------------
 //Pick Me up!
 //----------------
-
-	"Armorkit.touch"
-	{
+	"Armorkit.touch"{
 		"channel"	"CHAN_STATIC"
-		"volume"		"1.0"
-		"soundlevel"	        "SNDLVL_NORM"
-		"wave"		"player/Objects/armor1.wav"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM"
+		"wave"	"player/Objects/armor1.wav"
 	}
-	"Backpack.touch"
-	{
+	"Backpack.touch"{
 		"channel"	"CHAN_STATIC"
-		"volume"		"1.0"
-		"soundlevel"	        "SNDLVL_NORM"
-		"wave"		"player/Objects/ammo1.wav"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM"
+		"wave"	"player/Objects/ammo1.wav"
 	}
 
 //----------------
 //Toss me! (Don't tell the Elf)
 //----------------
-
-	"Item.toss"
-	{
+	"Item.toss"{
 		"channel"	"CHAN_STATIC"
-		"volume"		"1.0"
-		"soundlevel"	        "SNDLVL_NORM"
-		"wave"		"player/Objects/itemtoss1.wav"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM"
+		"wave"	"player/Objects/itemtoss1.wav"
 	}
-	"Flag.toss"
-	{
+	"Flag.toss"{
 		"channel"	"CHAN_STATIC"
-		"volume"		"1.0"
-		"soundlevel"	        "SNDLVL_NORM"
-		"wave"		"misc/flagdrop.wav"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM"
+		"wave"	"misc/flagdrop.wav"
 	}
-	"Flag.FloatDeploy"
-	{
+	"Flag.FloatDeploy"{
 		"channel"	"CHAN_STATIC"
-		"volume"		"1.0"
-		"soundlevel"	        "SNDLVL_NORM"
-		"wave"		"weapons/assaultcannon/overheat.wav"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM"
+		"wave"	"weapons/assaultcannon/overheat.wav"
 	}
-	"Flag.FloatBubbles"
-	{
+	"Flag.FloatBubbles"{
 		"channel"	"CHAN_STATIC"
-		"volume"		"1.0"
-		"soundlevel"	        "SNDLVL_NORM"
-		"wave"		"Items/bubbles.wav"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM"
+		"wave"	"Items/bubbles.wav"
 	}
