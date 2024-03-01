@@ -1,5 +1,5 @@
 Patch{
-include materials/models/player/medic/medic/head_blue.vmt
+include materials/models/player/medic/medic_head_blue.vmt
 replace{
 $baseTexture models/player/medic/medic_head_yellow
 }
