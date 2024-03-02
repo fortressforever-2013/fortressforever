@@ -1,10 +1,8 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_logo_square_emboss_red"
-	"$surfaceprop" "metal"
-                "$bumpmap" "ff\ff_logo_512_square_emboss_red_normal"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.2 .2 .2]"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff/ff_logo_square_emboss_red
+$surfaceprop metal
+$bumpmap ff\ff_logo_512_square_emboss_red_normal
+$envmap env_cubemap
+$envmaptint "[.2 .2 .2]"
 }
-
