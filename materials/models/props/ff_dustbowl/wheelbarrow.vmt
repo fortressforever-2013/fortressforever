@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_dustbowl\wheelbarrow"
+VertexLitGeneric{
+$basetexture models\props\ff_dustbowl\wheelbarrow
 }

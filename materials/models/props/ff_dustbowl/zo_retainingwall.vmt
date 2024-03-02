@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_dustbowl\zo_retainingwall"
+VertexLitGeneric{
+$basetexture models\props\ff_dustbowl\zo_retainingwall
 }

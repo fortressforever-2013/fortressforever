@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_dustbowl\minecart"
+VertexLitGeneric{
+$basetexture models\props\ff_dustbowl\minecart
 }

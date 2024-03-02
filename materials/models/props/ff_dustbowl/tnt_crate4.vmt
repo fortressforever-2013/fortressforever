@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_dustbowl\tnt_crate4"
+VertexLitGeneric{
+$basetexture models\props\ff_dustbowl\tnt_crate4
 }

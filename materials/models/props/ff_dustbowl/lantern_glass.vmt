@@ -1,10 +1,8 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/props/ff_dustbowl/lantern_glass"
-	"$model" 			1
-	"$translucent"			1	
-	
-	//Environment Mapping
-	"$envmap" 			"env_cubemap"
-	"$envmaptint"			"[0.5 0.5 0.5]"
+VertexLitGeneric{
+$baseTexture models/props/ff_dustbowl/lantern_glass
+$translucent 1
+
+//Environment Mapping
+$envmap env_cubemap
+$envmaptint "[0.5 0.5 0.5]"
 }
