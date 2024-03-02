@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\items/jumppad/jumppad_light"
-	"$translucent" 1
+VertexLitGeneric{
+$baseTexture models\items/jumppad/jumppad_light
+$translucent 1
 }

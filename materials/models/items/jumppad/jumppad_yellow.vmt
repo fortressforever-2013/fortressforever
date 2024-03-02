@@ -1,9 +1,6 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\items/jumppad/jumppad_yellow"
-	"$bumpmap" "models\items/jumppad/jumppad_normal"
-//ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+Patch{
+include materials/models/items/jumppad/jumppad.vmt
+replace{
+$baseTexture models/items/jumppad/jumppad_yellow
+}
 }
