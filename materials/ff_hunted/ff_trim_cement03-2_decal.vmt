@@ -1,11 +1,9 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_hunted\ff_trim_cement03-2"
-	"$surfaceprop" "concrete"
-	//"$bumpmap" "ff_hunted\ff_trim_cement03-2_normal"
-
-	"$decal" 1
-	"$decalscale" .25
-	"$translucent" 0
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_hunted\ff_trim_cement03-2
+$surfaceprop concrete
+//$bumpmap ff_hunted\ff_trim_cement03-2_normal
+$decal 1
+$decalscale .25
+$translucent 0
 }

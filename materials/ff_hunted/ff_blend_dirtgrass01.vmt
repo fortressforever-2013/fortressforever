@@ -1,17 +1,12 @@
-"WorldVertexTransition"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_hunted/ff_dirtfloor012a"
-	"$basetexture2" "ff_hunted/ff_dirtfloor006a"
-
-	"%tooltexture" "ff_hunted/ff_blend_dirtgrass01_tooltexture"
-
-	"$surfaceprop" "dirt"
-	"$surfaceprop2" "dirt"
-
-	//"$bumpmap" "ff_hunted/ff_dirtfloor012a_normal"
-	//"$bumpmap2" "ff_hunted/ff_dirtfloor006a_normal"
-
-	//"$basetexturetransform" "center 0 0 scale 4 4 rotate 0 translate 0 0"
-	//"$basetexturetransform2" "center 0 0 scale .5 .5 rotate 0 translate 0 0"
+WorldVertexTransition{
+%keywords FF
+$basetexture ff_hunted/ff_dirtfloor012a
+$basetexture2 ff_hunted/ff_dirtfloor006a
+%tooltexture ff_hunted/ff_blend_dirtgrass01_tooltexture
+$surfaceprop dirt
+$surfaceprop2 dirt
+//$bumpmap ff_hunted/ff_dirtfloor012a_normal
+//$bumpmap2 ff_hunted/ff_dirtfloor006a_normal
+//$basetexturetransform "center 0 0 scale 4 4 rotate 0 translate 0 0"
+//$basetexturetransform2 "center 0 0 scale .5 .5 rotate 0 translate 0 0"
 }

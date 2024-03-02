@@ -1,7 +1,6 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "Models\props_wasteland\cargo_container03"
-	"$surfaceprop" "metal"
-	"$bumpmap" "Models\props_wasteland\cargo_container01_normal"
+LightmappedGeneric{
+%keywords FF
+$basetexture Models\props_wasteland\cargo_container03
+$surfaceprop metal
+$bumpmap Models\props_wasteland\cargo_container01_normal
 }

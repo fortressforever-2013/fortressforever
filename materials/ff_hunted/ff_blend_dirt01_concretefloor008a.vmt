@@ -1,10 +1,9 @@
-"WorldVertexTransition"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_ground_dirt01_dark"
-	"$basetexture2" "concrete/concretefloor008a"
-	"%tooltexture" "ff\ff_blend_grass03_dirt02_tooltexture"
-	"$surfaceprop" "dirt"
-	"$surfaceprop2" "concrete"
-	"$bumpmap" "ff/ff_ground_dirt01_normal"
+WorldVertexTransition{
+%keywords FF
+$basetexture ff/ff_ground_dirt01_dark
+$basetexture2 concrete/concretefloor008a
+%tooltexture ff\ff_blend_grass03_dirt02_tooltexture
+$surfaceprop dirt
+$surfaceprop2 concrete
+$bumpmap ff/ff_ground_dirt01_normal
 }

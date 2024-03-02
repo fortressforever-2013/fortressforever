@@ -1,9 +1,7 @@
-"LightmappedGeneric"
-{
-    "%keywords" "FF"
-    "$basetexture" "ff_hunted/ff_decal_fey_cement_black"
-    "$decal" 1
-    "$decalscale" 0.25
-    "$translucent" 1
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_hunted/ff_decal_fey_cement_black
+$decal 1
+$decalscale 0.25
+$translucent 1
 }
-

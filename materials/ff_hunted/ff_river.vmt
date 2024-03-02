@@ -1,20 +1,14 @@
-UnLitGeneric
-{
-	"$basetexture"	"ff_hunted\ff_river"
-	"$translucent"	"1"
-	"$nocull"	"1"
-	"$surfaceprop" "water"
+UnlitGeneric{
+$basetexture ff_hunted\ff_river
+$translucent 1
+$nocull 1
+$surfaceprop water
 
-
-
-
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$baseTextureTransform"
-			"texturescrollrate" .15
-			"texturescrollangle" 270.00
-		}
-	}
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate .15
+texturescrollangle 270
+}
+}
 }

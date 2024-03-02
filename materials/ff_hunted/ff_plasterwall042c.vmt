@@ -1,13 +1,11 @@
-// envmaptint_fix
-"LightmappedGeneric"
-{
-	"$basetexture" "Plaster/plasterwall042c"
-	"$surfaceprop" "plaster"
-	"%keywords" "c17downtown,wasteland"
-	"$bumpmap" "plaster/plasterwall042c_normal"
-	//"$envmap" "env_cubemap"
-	//"$normalmapalphaenvmapmask" 1
-	//"$envmapcontrast" 1
-	//"$envmapsaturation" 1
-	//"$envmaptint" "[ .56 .56 .56 ]"
+LightmappedGeneric{
+$basetexture Plaster/plasterwall042c
+$surfaceprop plaster
+%keywords c17downtown,wasteland
+$bumpmap plaster/plasterwall042c_normal
+//$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
+//$envmapcontrast 1
+//$envmapsaturation 1
+//$envmaptint "[.56 .56 .56]"
 }

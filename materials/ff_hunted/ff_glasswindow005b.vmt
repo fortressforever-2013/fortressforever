@@ -1,8 +1,6 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	// Original shader: BaseTimesLightmapSelfIllum
-	"$basetexture" "ff_hunted/ff_glasswindow005b"
-	"$selfillum" 1
-	"$surfaceprop" "glass"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_hunted/ff_glasswindow005b
+$selfillum 1
+$surfaceprop glass
 }

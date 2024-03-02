@@ -1,11 +1,8 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	// Original shader: BaseTimesLightmap
-	"$basetexture" "Glass/glasswindow005a"
-	"$surfaceprop" "glass"
-
-	"$envmap" "env_cubemap"
-	"$envmapmask" "ff_hunted/ff_glasswindow005a_mask"
-	"$envmaptint" "[1 1 1]"
+LightmappedGeneric{
+%keywords FF
+$basetexture Glass/glasswindow005a
+$surfaceprop glass
+$envmap env_cubemap
+$envmapmask ff_hunted/ff_glasswindow005a_mask
+$envmaptint "[1 1 1]"
 }

@@ -1,9 +1,8 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "Nature/cliffface001a"
-	"$surfaceprop" "rock"
-	//"$bumpmap" "Nature/cliffface001a_normal"
-	//"$parallaxmap" "Nature/cliffface001a_height"
-	//"$parallaxmapscale" ".025"
+LightmappedGeneric{
+%keywords FF
+$basetexture Nature/cliffface001a
+$surfaceprop rock
+//$bumpmap Nature/cliffface001a_normal
+//$parallaxmap Nature/cliffface001a_height
+//$parallaxmapscale .025
 }

@@ -1,17 +1,12 @@
-"WorldVertexTransition"
-{
-	"%keywords" "FF"
-	"$basetexture" "nature/cliffface002a"
-	"$basetexture2" "ff_hunted/ff_cavewall005a"
-
-	"%tooltexture" "ff_hunted/ff_blend_cliffface002a_cavewall005a_tooltexture"
-
-	"$surfaceprop" "rock"
-	"$surfaceprop2" "rock"
-
-	//"$bumpmap" "nature/cliffface002a_normal"
-	//"$bumpmap2" "ff_hunted/ff_cavewall005a_normal"
-
-	//"$basetexturetransform" "center 0 0 scale 2 2 rotate 0 translate 0 0"
-	//"$basetexturetransform2" "center 0 0 scale .5 .5 rotate 0 translate 0 0"
+WorldVertexTransition{
+%keywords FF
+$basetexture nature/cliffface002a
+$basetexture2 ff_hunted/ff_cavewall005a
+%tooltexture ff_hunted/ff_blend_cliffface002a_cavewall005a_tooltexture
+$surfaceprop rock
+$surfaceprop2 rock
+//$bumpmap nature/cliffface002a_normal
+//$bumpmap2 ff_hunted/ff_cavewall005a_normal
+//$basetexturetransform "center 0 0 scale 2 2 rotate 0 translate 0 0"
+//$basetexturetransform2 "center 0 0 scale .5 .5 rotate 0 translate 0 0"
 }
