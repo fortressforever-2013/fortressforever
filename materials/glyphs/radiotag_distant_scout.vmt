@@ -1,8 +1,6 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "glyphs/radiotag_distant_scout"
-	"$translucent" "1"
-	"$vertexcolor" "1"
-	"$ignorez"	"1"
-
+UnlitGeneric{
+$basetexture glyphs/radiotag_distant_scout
+$translucent 1
+$vertexcolor 1
+$ignorez 1
 }

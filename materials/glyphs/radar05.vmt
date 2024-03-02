@@ -1,5 +1,4 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "glyphs/radar05"
-	"$translucent" 1
+LightmappedGeneric{
+$basetexture glyphs/radar05
+$translucent 1
 }

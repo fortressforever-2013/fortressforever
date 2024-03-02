@@ -1,8 +1,6 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "glyphs/objective_icon_obscured"
-	"$translucent" "1"
-	"$vertexcolor" "1"
-	"$ignorez"	"1"
-
+UnlitGeneric{
+$basetexture glyphs/objective_icon_obscured
+$translucent 1
+$vertexcolor 1
+$ignorez 1
 }
