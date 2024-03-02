@@ -1,9 +1,6 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\grenades\emp\emp_map"
-	"$model" 1
+VertexLitGeneric{
+$baseTexture models\grenades\emp\emp_map
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }

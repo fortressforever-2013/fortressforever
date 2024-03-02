@@ -1,11 +1,9 @@
-"VertexLitGeneric"
-{
-	"$model" "1"
+VertexLitGeneric{
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
-	"$baseTexture"		"models\grenades\napalm\napalm"
-	"$envmap" "env_cubemap"	
-	"$envmapmask" "models\grenades\napalm\napalm_envmapmask"	
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
+
+$baseTexture models\grenades\napalm\napalm
+$envmap env_cubemap
+$envmapmask models\grenades\napalm\napalm_envmapmask
 }
