@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "buildable\sg/sentrygun_aimsphere"
+VertexLitGeneric{
+$baseTexture models/buildable/sg/sentrygun_aimsphere
 }

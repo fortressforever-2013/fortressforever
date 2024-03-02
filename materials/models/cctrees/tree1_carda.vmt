@@ -1,7 +1,6 @@
-"unLitGeneric"
-{
-	"$basetexture" "models/cctrees/tree1_carda"
-	"$model" 1
-	"$alphatest" 1
-	"$nocull" 1
+UnlitGeneric{
+$basetexture models/cctrees/tree1_carda
+$model 1
+$alphatest 1
+$nocull 1
 }

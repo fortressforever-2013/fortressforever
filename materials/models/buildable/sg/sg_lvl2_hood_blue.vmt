@@ -1,17 +1,14 @@
-"VertexLitGeneric"
-{
-	"$baseTexture"			"models/buildable/sg/sg_lvl2_hood_blue"
-	"$bumpmap"			"models/buildable/sg/sg_lvl2_hood_normspec"
-	"$model" 			1
-	
-	//Environment Mapping
-	"$envmap" 			"env_cubemap"	
-	"$normalmapalphaenvmapmask" 	1
-	"$envmapcontrast" 		.50
-	"$envmapsaturation"		0.9
-	"$envmaptint" "[0.8 0.8 0.8]"
+VertexLitGeneric{
+$baseTexture models/buildable/sg/sg_lvl2_hood_blue
+$bumpmap models/buildable/sg/sg_lvl2_hood_normspec
+
+//Environment Mapping
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapcontrast .50
+$envmapsaturation 0.9
+$envmaptint "[0.8 0.8 0.8]"
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }

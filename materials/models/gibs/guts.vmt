@@ -1,10 +1,8 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/gibs/guts"
-	"$model" "1"
+VertexLitGeneric{
+$baseTexture models/gibs/guts
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
-	"$surfaceprop"	"bloodyflesh"
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
+
+$surfaceprop bloodyflesh
 }

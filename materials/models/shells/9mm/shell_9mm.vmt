@@ -1,8 +1,6 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models/shells/9mm/shell_9mm"
+vertexlitgeneric{
+$baseTexture models/shells/9mm/shell_9mm
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }

@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/editor/ff_script_helper"
-	"$translucent" "1"
+VertexLitGeneric{
+$basetexture models/editor/ff_script_helper
+$translucent 1
 }

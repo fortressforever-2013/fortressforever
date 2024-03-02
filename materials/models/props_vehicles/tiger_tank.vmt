@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props_vehicles/tiger_tank"
+VertexLitGeneric{
+$baseTexture models\props_vehicles/tiger_tank
 }

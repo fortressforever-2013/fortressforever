@@ -1,6 +1,4 @@
-"VertexLitGeneric"
-{
-"$baseTexture" "models\_outdoor/pflanzen/baum01f"
-"$model" 1
-"$alphatest" 1
+VertexLitGeneric{
+$baseTexture models\_outdoor/pflanzen/baum01f
+$alphatest 1
 }

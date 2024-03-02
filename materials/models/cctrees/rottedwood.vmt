@@ -1,5 +1,4 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/cctrees/rottedwood"
-	"$surfaceprop" "Wood_Solid"
+VertexlitGeneric{
+$basetexture models/cctrees/rottedwood
+$surfaceprop Wood_Solid
 }

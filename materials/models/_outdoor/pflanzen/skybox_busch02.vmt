@@ -1,6 +1,4 @@
-"VertexLitGeneric"
-{
-"$baseTexture" "models\_outdoor/pflanzen/skybox_busch02"
-"$model" 1
-"$translucent" 1
+VertexLitGeneric{
+$baseTexture models\_outdoor/pflanzen/skybox_busch02
+$translucent 1
 }

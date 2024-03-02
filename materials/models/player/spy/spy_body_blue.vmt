@@ -6,6 +6,6 @@ $halflambert 1
 $bumpmap models/player/spy/spy_body_normal
 $phong 1
 $phongfresnelranges "[1 2 5]"
-$phongexponenttexture odels/player/spy/spy_body_exp
+$phongexponenttexture models/player/spy/spy_body_exp
 $phongboost 2
 }

@@ -1,33 +1,25 @@
-//"UnlitGeneric"
-"UnlitTwoTexture"
-{
- 	"$model" "1"
+UnlitTwoTexture{	//UnlitGeneric
+$model 1
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
- 	"$surfaceprop" "water"
-	"$basetexture" "dev/water"
-	"$texture2" "models/buildable/detpack/detpack_glass"
-	"$additive" 1
-	"$color" "[0 0 1]"
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
+$surfaceprop water
+$basetexture dev/water
+$texture2 models/buildable/detpack/detpack_glass
+$additive 1
+$color "[0 0 1]"
 
-	"$TeamColorBlue" "[0 0 1]"
-	"$TeamColorRed" "[1 0 0]"	
-	"$TeamColorYellow" "[1 1 0]"
-	"$TeamColorGreen" "[0 1 0]"
-	
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$basetexture"
-			"animatedtextureframenumvar" "$frame"
-			"animatedtextureframerate" 20.00
-		}
+$TeamColorBlue "[0 0 1]"
+$TeamColorRed "[1 0 0]"
+$TeamColorYellow "[1 1 0]"
+$TeamColorGreen "[0 1 0]"
 
-		"Color_TeamColor"
-		{
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 20
+}
+Color_TeamColor{}
+}
 }

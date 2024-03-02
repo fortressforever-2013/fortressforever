@@ -1,14 +1,10 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/projectiles/nail/nail"
-	"$model" 				"1"
-
-	//Environment Mapping
-	"$envmap" 				"env_cubemap"
-	"$envmaptint"			"[.7 .5 .5]"
-	"$envmapsaturation" 	"0.1"
-	"$envmapcontrast" 		"1"
-
-	"$selfillum"			"1"
-	"$selfillumtint"		"[16 8 4]"
+VertexLitGeneric{
+$baseTexture models/projectiles/nail/nail
+$envmap env_cubemap
+$envmaptint "[.7 .5 .5]"
+$envmapsaturation 0.1
+$envmapcontrast 1
+//ELMO
+$selfillum 1
+$selfillumtint "[16 8 4]"
 }

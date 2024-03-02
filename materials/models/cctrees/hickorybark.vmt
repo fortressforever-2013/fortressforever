@@ -1,6 +1,5 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/cctrees/hickorybark"
-	"$bumpmap" "models/cctrees/hickorybark_normal"
-	"$surfaceprop" "Wood_Solid"
+VertexlitGeneric{
+$basetexture models/cctrees/hickorybark
+$bumpmap models/cctrees/hickorybark_normal
+$surfaceprop Wood_Solid
 }

@@ -1,6 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/cctrees/treebarkwrapping256512"
-	"$model" 1
-	"$surfaceprop" "wood"
+VertexLitGeneric{
+$basetexture models/cctrees/treebarkwrapping256512
+$surfaceprop wood
 }
