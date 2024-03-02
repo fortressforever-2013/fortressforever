@@ -1,4 +1,3 @@
-"Vertexlitgeneric"
-{
-	"$basetexture" "models/props/ff/light_spot_off"
+VertexLitGeneric{
+$basetexture models/props/ff/light_spot_off
 }

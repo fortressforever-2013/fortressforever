@@ -1,5 +1,3 @@
-"Vertexlitgeneric"
-{
-	"$basetexture" "models/props/ff/light_modern_off"
+VertexLitGeneric{
+$basetexture models/props/ff/light_modern_off
 }
-

@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/props/ff/light_security_yellow_off"
+VertexLitGeneric{
+$basetexture models/props/ff/light_security_yellow_off
 }

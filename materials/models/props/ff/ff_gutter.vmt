@@ -1,6 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture"	"models\props\ff\ff_gutter"
+VertexLitGeneric{
+$basetexture models\props\ff\ff_gutter
 }
-
-

@@ -1,6 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/props/ff/ff_pedestal1_red"
-	"$model" 			1
+VertexLitGeneric{
+$baseTexture models/props/ff/ff_pedestal1_red
 }
-

@@ -1,6 +1,3 @@
-"Vertexlitgeneric"
-{
-	"$basetexture" "models/props/ff/ff_handrail1_white"
+VertexLitGeneric{
+$basetexture models/props/ff/ff_handrail1_white
 }
-
-
