@@ -1,6 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\items\ball\football"
-	"$bumpmap" 			"models/items/ball/football_normal"
-                "$model" "1"
+VertexLitGeneric{
+$basetexture models\items\ball\football
+$bumpmap models/items/ball/football_normal
 }
