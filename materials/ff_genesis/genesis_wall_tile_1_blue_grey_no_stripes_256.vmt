@@ -1,10 +1,9 @@
-//"VertexLitGeneric"
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_genesis\genesis_wall_tile_1_blue_grey_no_stripes_256"
-	"$surfaceprop" "metal"
-	"$bumpmap" "ff_genesis\genesis_wall_tile_1_no_stripes_normal_256"
-	"$envmap" "env_cubemap"
-//	"$normalmapalphaenvmapmask" 1
-	"$envmaptint" "[ .05 .05 .05 ]"
+//VerteixLitGeneric
+LightmappedGeneric{
+$basetexture ff_genesis\genesis_wall_tile_1_blue_grey_no_stripes_256
+$surfaceprop metal
+$bumpmap ff_genesis\genesis_wall_tile_1_no_stripes_normal_256
+$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
+$envmaptint "[.05 .05 .05]"
 }

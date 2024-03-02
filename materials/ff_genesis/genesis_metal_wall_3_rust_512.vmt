@@ -1,10 +1,9 @@
-//"VertexLitGeneric"
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_genesis\genesis_metal_wall_3_rust_512"
-	"$surfaceprop" "metal"
-	"$bumpmap" "ff_genesis\genesis_metal_wall_3_normal_512"
-	"$envmap" "env_cubemap"
-//	"$normalmapalphaenvmapmask" 1
-	"$envmaptint" "[ .05 .05 .05 ]"
+//VerteixLitGeneric
+LightmappedGeneric{
+$basetexture ff_genesis\genesis_metal_wall_3_rust_512
+$surfaceprop metal
+$bumpmap ff_genesis\genesis_metal_wall_3_normal_512
+$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
+$envmaptint "[.05 .05 .05]"
 }
