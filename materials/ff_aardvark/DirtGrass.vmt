@@ -1,11 +1,8 @@
-"WorldVertexTransition"
-{
-	"$basetexture" "nature/dirtfloor012a"
-	"$basetexture2" "nature/grassfloor002a"
-
-	"%tooltexture" "nature/grassfloor002a"
-
-	"$surfaceprop" "dirt"
-	"$surfaceprop2" "dirt"
-	"%keywords" "aardvark"
+WorldVertexTransition{
+$basetexture nature/dirtfloor012a
+$basetexture2 nature/grassfloor002a
+%tooltexture nature/grassfloor002a
+$surfaceprop dirt
+$surfaceprop2 dirt
+%keywords aardvark
 }

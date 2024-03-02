@@ -1,28 +1,21 @@
-// envmaptint_fix
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_aardvark/metalwall077aRED4"
-	"$surfaceprop" "metal"
-	"%keywords" "aardvark"
+LightmappedGeneric{
+$basetexture ff_aardvark/metalwall077aRED4
+$surfaceprop metal
+%keywords aardvark
 
-	// NOTE: Even though env_cubemap is here, it will turned off for DX6
-	// because $multipass 1 isn't defined
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[ .75 .2 .2 ]"
-	"$envmapcontrast" 1
-	"$envmapsaturation" 1
+// NOTE: Even though env_cubemap is here, it will turned off for DX6
+// because $multipass 1 isn't defined
+$envmap env_cubemap
+$envmaptint "[.75 .2 .2]"
+$envmapcontrast 1
+$envmapsaturation 1
 
-	"LightmappedGeneric_DX9"
-	{
-		"$bumpmap" "metal/metalwall077a_normal"
-		"$nodiffusebumplighting" 1
-		"$normalmapalphaenvmapmask" 1
-	}
-
-	"LightmappedGeneric_DX8"
-	{
-		"$bumpmap" "metal/metalwall077a_normal"
-		"$nodiffusebumplighting" 1
-		"$normalmapalphaenvmapmask" 1
-	}
+LightmappedGeneric_DX9{
+$bumpmap metal/metalwall077a_normal
+$nodiffusebumplighting 1
+$normalmapalphaenvmapmask 1}
+LightmappedGeneric_DX8{
+$bumpmap metal/metalwall077a_normal
+$nodiffusebumplighting 1
+$normalmapalphaenvmapmask 1}
 }

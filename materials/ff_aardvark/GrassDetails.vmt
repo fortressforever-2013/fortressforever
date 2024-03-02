@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "nature/grassfloor002a"
-	"%detailtype" "redgrass"	
-	"%keywords" "aardvark" 
+LightmappedGeneric{
+$basetexture nature/grassfloor002a
+%detailtype redgrass
+%keywords aardvark
 }

@@ -1,4 +1,3 @@
-"UnlitGeneric"
-{
-	"$basetexture"		"cable\rope_y"
+UnlitGeneric{
+$basetexture cable\rope_y
 }

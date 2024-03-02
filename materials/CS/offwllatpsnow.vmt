@@ -1,6 +1,4 @@
-LightmappedGeneric
-{
-	"$basetexture"	"cs\offwllatpsnow"
-	"$surfaceprop" "snow"
-
+LightmappedGeneric{
+$basetexture cs\offwllatpsnow
+$surfaceprop snow
 }

@@ -1,7 +1,5 @@
-"LightmappedGeneric"
-{
-	// Original shader: BaseTimesLightmap
-	"$basetexture" "ff_aardvark/metalwall001_red_a"
-	"$surfaceprop" "metal"
-	"%keywords" "zauis,metal"
+LightmappedGeneric{
+$basetexture ff_aardvark/metalwall001_red_a
+$surfaceprop metal
+%keywords zauis,metal
 }

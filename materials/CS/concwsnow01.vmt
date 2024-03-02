@@ -1,6 +1,4 @@
-LightmappedGeneric
-{
-	"$basetexture"	"cs\concwsnow01"
-	"$surfaceprop" "concrete"
-
+LightmappedGeneric{
+$basetexture cs\concwsnow01
+$surfaceprop concrete
 }

@@ -1,10 +1,9 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_aardvark/OrangeGlass"
-	"$envmap" "env_cubemap"
-	"$surfaceprop" "glass"
-	"$envmapmask" "glass/glasswindow070c_mask"
-	"$envmaptint" "[.6 .5 .3]"
-	"$additive" "1"
-	"%keywords" "aardvark"
+LightmappedGeneric{
+$basetexture ff_aardvark/OrangeGlass
+$envmap env_cubemap
+$surfaceprop glass
+$envmapmask glass/glasswindow070c_mask
+$envmaptint "[.6 .5 .3]"
+$additive 1
+%keywords aardvark
 }

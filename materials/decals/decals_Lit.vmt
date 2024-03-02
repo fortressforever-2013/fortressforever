@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"$decal" 1
-	"$basetexture" "Decals/decals_lit"
-	"$translucent" 	1
+LightmappedGeneric{
+$decal 1
+$basetexture Decals/decals_lit
+$translucent 1
 }

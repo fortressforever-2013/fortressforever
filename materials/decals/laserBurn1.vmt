@@ -1,9 +1,7 @@
-"LightmappedGeneric"
-{
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
-	// Original shader: DecalBaseTimesLightmapAlphaBlend
-	"$translucent" 1
-	"$basetexture" "Decals/laserBurn1"
-	"$decal" 1
+LightmappedGeneric{
+$vertexcolor 1
+$vertexalpha 1
+$translucent 1
+$basetexture Decals/laserBurn1
+$decal 1
 }

@@ -1,8 +1,6 @@
-LightmappedGeneric
-{
-	"$basetexture"	"CS\decals\prodstainb"
-	"$translucent" "1"
-	"$decal" "1"
-	"$CS\decalscale" "0.250"
-
+LightmappedGeneric{
+$basetexture CS\decals\prodstainb
+$translucent 1
+$decal 1
+$decalscale 0.250
 }

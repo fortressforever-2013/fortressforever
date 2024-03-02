@@ -1,9 +1,7 @@
-LightmappedGeneric
-{
-	"$basetexture"	"CS\snow02"
-	"$translucent" "1"
-	"$decal" "1"
-	"$decalscale" "0.250"
-	"$surfaceprop" "snow"
-
+LightmappedGeneric{
+$basetexture CS\snow02
+$translucent 1
+$decal 1
+$decalscale 0.250
+$surfaceprop snow
 }

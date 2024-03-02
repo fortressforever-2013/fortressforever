@@ -1,7 +1,5 @@
-"VertexLitGeneric"
-{
-	"$alphatest" 			1
-	"$baseTexture"			"ff_2fort/canal_bridge02"
-	"$model" 1
-	//"$nocull" 1
+VertexLitGeneric{
+$alphatest 1
+$baseTexture ff_2fort/canal_bridge02
+//$nocull 1
 }

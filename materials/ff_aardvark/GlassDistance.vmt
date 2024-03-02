@@ -1,4 +1,3 @@
-"UnLitGeneric"
-{
-	"$basetexture" "ff_aardvark/GlassDistance"
+UnLitGeneric{
+$basetexture ff_aardvark/GlassDistance
 }
