@@ -1,7 +1,6 @@
-"UnlitGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_monitor_tvnonoise_3"
-	"%tooltexture" "ff/ff_monitor"
-	"$surfaceprop" "glass"
+UnlitGeneric{
+%keywords FF
+$basetexture ff/ff_monitor_tvnonoise_3
+%tooltexture ff/ff_monitor
+$surfaceprop glass
 }

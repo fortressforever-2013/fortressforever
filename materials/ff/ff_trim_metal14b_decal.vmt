@@ -1,8 +1,7 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_trim_metal14b"
-	"$surfaceprop" "metal"
-	"$decal" 1
-	"$decalscale" 0.25
+LightmappedGeneric{
+%keywords FF
+$basetexture ff/ff_trim_metal14b
+$surfaceprop metal
+$decal 1
+$decalscale 0.25
 }

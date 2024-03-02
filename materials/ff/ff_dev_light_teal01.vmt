@@ -1,7 +1,6 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_dev_whitegrid"
-	"$alpha" "0.8"
-	"$color" "{160 224 255}"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff/ff_dev_whitegrid
+$alpha 0.8
+$color "{160 224 255}"
 }
