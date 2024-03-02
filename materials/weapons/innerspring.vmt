@@ -1,6 +1,5 @@
-"vertexlitgeneric" 
-{ 
-	"$baseTexture" "weapons/innerspring" 
-	"$envmap" "env_cubemap" 
-	"$envmapmask" "weapons/innerspring_ref" 
-} 
+VertexLitGeneric{
+$baseTexture weapons/innerspring
+$envmap env_cubemap
+$envmapmask weapons/innerspring_ref
+}

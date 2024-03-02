@@ -1,6 +1,5 @@
-"vertexlitgeneric" 
-{ 
-	"$baseTexture" "weapons/nailgun_main" 
-	"$envmap" "env_cubemap" 
-	"$envmapmask" "weapons/nailgun_main_ref" 
-} 
+VertexLitGeneric{
+$baseTexture weapons/nailgun_main
+$envmap env_cubemap
+$envmapmask weapons/nailgun_main_ref
+}

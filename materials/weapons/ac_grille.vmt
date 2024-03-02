@@ -1,6 +1,5 @@
-"vertexlitgeneric" 
-{ 
-	"$baseTexture" "weapons/ac_grille" 
-	"$envmap" "env_cubemap" 
-	"$envmapmask" "weapons/ac_grille_ref" 
-} 
+VertexLitGeneric{
+$baseTexture weapons/ac_grille
+$envmap env_cubemap
+$envmapmask weapons/ac_grille_ref
+}
