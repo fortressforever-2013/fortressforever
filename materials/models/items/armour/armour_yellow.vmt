@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/items/armour/armour_yellow"
+VertexLitGeneric{
+$basetexture models/items/armour/armour_yellow
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
