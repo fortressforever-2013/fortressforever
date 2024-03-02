@@ -1,6 +1,5 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "concrete/concretewall065a"
-	"$surfaceprop" "concrete"
-	"%keywords" "airexchange"
+vertexlitgeneric{
+$basetexture concrete/concretewall065a
+$surfaceprop concrete
+%keywords airexchange
 }

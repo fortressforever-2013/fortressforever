@@ -1,6 +1,4 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_avanti\railing_sandstone"
-	"$model" 			1
-	"$translucent" 			1
+VertexLitGeneric{
+$baseTexture models\props\ff_avanti\railing_sandstone
+$translucent 1
 }

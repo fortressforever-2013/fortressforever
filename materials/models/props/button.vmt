@@ -1,6 +1,5 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\button"
-	"$surfaceprop" "metal"
-	"$selfillum"	"1"
+VertexLitGeneric{
+$basetexture models\props\button
+$surfaceprop metal
+$selfillum 1
 }

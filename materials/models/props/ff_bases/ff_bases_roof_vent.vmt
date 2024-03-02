@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_bases\ff_bases_roof_vent"
+VertexLitGeneric{
+$baseTexture models\props\ff_bases\ff_bases_roof_vent
 }

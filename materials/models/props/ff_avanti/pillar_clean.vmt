@@ -1,6 +1,4 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_avanti\pillar_clean"
-	"$model" 			1
-	"$translucent" 			1
+VertexLitGeneric{
+$baseTexture models\props\ff_avanti\pillar_clean
+$translucent 1
 }

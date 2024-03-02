@@ -1,8 +1,6 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "models\props\ff_cornfield\zo_cornskin"
-	"$surfaceprop" "grass"
-	"$model" "1"
-	"$alphatest" "1" 
-	"$nocull" "1"
+UnlitGeneric{
+$baseTexture models\props\ff_cornfield\zo_cornskin
+$surfaceprop grass
+$alphatest 1 
+$nocull 1
 }

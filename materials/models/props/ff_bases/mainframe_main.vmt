@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_bases\mainframe_main"
+VertexLitGeneric{
+$baseTexture models\props\ff_bases\mainframe_main
 }

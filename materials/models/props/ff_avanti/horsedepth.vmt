@@ -1,5 +1,4 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models\props\ff_avanti/horse"
-	"$bumpmap" "models\props\ff_avanti/horsezmap"
+VertexLitGeneric{
+$baseTexture models\props\ff_avanti/horse
+$bumpmap models\props\ff_avanti/horsezmap
 }

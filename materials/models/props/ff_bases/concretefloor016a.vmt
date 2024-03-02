@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	// Original shader: BaseTimesLightmap
-	"$basetexture" "Concrete/concretefloor016a"
-	"$surfaceprop" "concrete"
-	"%keywords" "c17downtown"
-	"$bumpmap" "concrete\concretefloor016a_normal"
+VertexLitGeneric{
+$basetexture Concrete/concretefloor016a
+$surfaceprop concrete
+%keywords c17downtown
+$bumpmap concrete\concretefloor016a_normal
 }

@@ -1,4 +1,3 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models\props\ff_avanti/phonepole"
+VertexLitGeneric{
+$baseTexture models\props\ff_avanti/phonepole
 }

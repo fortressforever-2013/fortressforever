@@ -1,6 +1,5 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_bases\redplaster"
-	"$bumpmap" "models\props\ff_bases\redplaster_normal"
-	"$surfaceprop" "concrete"
+VertexLitGeneric{
+$basetexture models\props\ff_bases\redplaster
+$bumpmap models\props\ff_bases\redplaster_normal
+$surfaceprop concrete
 }

@@ -1,4 +1,3 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models\props/bookcase"
+vertexlitgeneric{
+$baseTexture models\props/bookcase
 }

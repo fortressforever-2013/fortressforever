@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Building_Template/Building_Template028j"
-	"$surfaceprop" "concrete"
+VertexLitGeneric{
+$basetexture Building_Template/Building_Template028j
+$surfaceprop concrete
 }

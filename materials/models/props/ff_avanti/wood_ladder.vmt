@@ -1,4 +1,3 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models\props\ff_avanti/wood_ladder"
+VertexLitGeneric{
+$basetexture models\props\ff_avanti/wood_ladder
 }

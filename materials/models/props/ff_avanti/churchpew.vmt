@@ -1,6 +1,4 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models\props\ff_avanti/churchpew"
-	//"$bumpmap" "models\props\ff_avanti/churchpew_normal"
-
+VertexLitGeneric{
+$baseTexture models\props\ff_avanti/churchpew
+//$bumpmap models\props\ff_avanti/churchpew_normal
 }

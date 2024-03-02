@@ -1,11 +1,7 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_avanti\FFPlantBase001"
-	"$model" 			1
-	"$translucent" 			1
-
-	//Environment Mapping
-                "$envmapmask" "models\props\ff_avanti\FFPlantBase001_mask"
-	"$envmap" 			"env_cubemap"
-	"$envmaptint"			"[0.5 0.5 0.5]"
+VertexLitGeneric{
+$baseTexture models\props\ff_avanti\FFPlantBase001
+$translucent 1
+$envmapmask models\props\ff_avanti\FFPlantBase001_mask
+$envmap env_cubemap
+$envmaptint "[0.5 0.5 0.5]"
 }

@@ -1,6 +1,5 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Concrete/concreteceiling004a"
-	"$surfaceprop" "concrete"
-	"%keywords" "c17downtown,c17industrial"
+VertexLitGeneric{
+$basetexture Concrete/concreteceiling004a
+$surfaceprop concrete
+%keywords c17downtown,c17industrial
 }
