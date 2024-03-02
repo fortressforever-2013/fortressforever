@@ -1,5 +1,4 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/ff_training_medal_silver"
-	"$translucent" 1
+UnlitGeneric{
+$basetexture vgui/ff_training_medal_silver
+$translucent 1
 }

@@ -1,6 +1,4 @@
-"UnlitGeneric"
-{
-    "%keywords" "FF"
-    "$basetexture" "vgui/crosshairbg"
+UnlitGeneric{
+%keywords FF
+$basetexture vgui/crosshairbg
 }
-

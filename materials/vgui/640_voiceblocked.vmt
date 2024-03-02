@@ -1,8 +1,7 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "vgui/640_voiceblocked"
-	"$translucent" "1"
-	//"$additive" "1"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
+UnlitGeneric{
+$basetexture vgui/640_voiceblocked
+$translucent 1
+//$additive 1
+$vertexcolor 1
+$vertexalpha 1
 }

@@ -1,6 +1,2 @@
-"UnlitGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "vgui/loadingscreens/ff_dustbowl"
+UnlitGeneric{%keywords FF$basetexture vgui/loadingscreens/ff_dustbowl
 }
-
