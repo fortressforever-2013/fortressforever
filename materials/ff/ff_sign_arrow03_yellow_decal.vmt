@@ -1,8 +1,7 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff\ff_sign_arrow03_yellow"
-	"$surfaceprop" "default"
-	"$decal" 1
-	"$decalscale" 0.125
+LightmappedGeneric{
+%keywords FF
+$basetexture ff\ff_sign_arrow03_yellow
+$surfaceprop default
+$decal 1
+$decalscale 0.125
 }
