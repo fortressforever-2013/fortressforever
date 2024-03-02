@@ -1,8 +1,7 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "models/props_wasteland/metal_tram001a"
-	"$surfaceprop" "metal"
-	"$envmap" "env_cubemap"
- 	"$basealphaenvmapmask" 1
-	"$envmaptint" "[ .25 .25 .25]"
+VertexLitGeneric{
+$basetexture models/props_wasteland/metal_tram001a
+$surfaceprop metal
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmaptint "[.25 .25 .25]"
 }

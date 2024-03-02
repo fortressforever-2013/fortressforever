@@ -1,10 +1,7 @@
-"vertexlitGeneric"
-{
-	// Original shader: BaseTimesLightmap
-	"$basetexture" "Metal/metalcombinegrate001a"
-	"%compilepassbullets" 1
-	"$surfaceprop" "metalgrate"
-	"$translucent" "1"
-	"$model" 1
-	"%keywords" "c17industrial,wasteland"
+VertexLitGeneric{
+$basetexture Metal/metalcombinegrate001a
+%compilepassbullets 1
+$surfaceprop metalgrate
+$translucent 1
+%keywords c17industrial,wasteland
 }

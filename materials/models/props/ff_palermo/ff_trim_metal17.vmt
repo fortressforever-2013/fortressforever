@@ -1,11 +1,6 @@
-"vertexlitgeneric"
-{
-	"%keywords" "ff"
-	"$basetexture" "ff/ff_trim_metal17"
-	"$surfaceprop" "metal"
-	"$bumpmap" "ff/ff_trim_metal17_normal"
+VertexLitGeneric{
+%keywords FF
+$basetexture ff/ff_trim_metal17
+$surfaceprop metal
+$bumpmap ff/ff_trim_metal17_normal
 }
-
-
-
-

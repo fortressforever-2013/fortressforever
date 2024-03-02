@@ -1,4 +1,3 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models\props\ff_hunted/gutterhunted1"
+VertexLitGeneric{
+$baseTexture models\props\ff_hunted/gutterhunted1
 }

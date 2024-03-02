@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_push\skybox_granary"
+VertexLitGeneric{
+$basetexture models\props\ff_push\skybox_granary
 }

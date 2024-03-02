@@ -1,8 +1,7 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "brick/brickwall048d"
-	"$surfaceprop" "brick"
-	"$bumpmap" "Brick/brickwall048d_normal"
-	"$parallaxmap" "Brick/brickwall048d_height"
-	"$parallaxmapscale" ".005"
+VertexLitGeneric{
+$basetexture brick/brickwall048d
+$surfaceprop brick
+$bumpmap Brick/brickwall048d_normal
+$parallaxmap Brick/brickwall048d_height
+$parallaxmapscale .005
 }

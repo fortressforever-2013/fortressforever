@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "metal/metalwall074a"
-	"$surfaceprop" "metal"
+VertexLitGeneric{
+$basetexture metal/metalwall074a
+$surfaceprop metal
 }

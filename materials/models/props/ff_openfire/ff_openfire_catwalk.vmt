@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_openfire\ff_openfire_catwalk"
+VertexLitGeneric{
+$basetexture models\props\ff_openfire\ff_openfire_catwalk
 }

@@ -1,26 +1,14 @@
-UnlitGeneric
-{
-	"$basetexture"	"models\props\ff_openfire\clouds"
-	"$translucent" "1"
-	"$model" "1"
-	"$nofog" "1"
+UnlitGeneric{
+$basetexture models\props\ff_openfire\clouds
+$translucent 1
+$model 1
+$nofog 1
 
-		"Proxies"
-
-		{
-
-			"TextureScroll"
-
-			{
-
-			"texturescrollvar" "$baseTextureTransform"
-
-			"texturescrollrate" 0.02
-
-			"texturescrollangle" 30.00
-
-			}
-
-		}
-
+Proxies{
+TextureScroll{
+texturescrollvar "$baseTextureTransform"
+texturescrollrate 0.02
+texturescrollangle 30.00
+}
+}
 }

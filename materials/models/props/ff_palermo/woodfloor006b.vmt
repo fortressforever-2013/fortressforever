@@ -1,12 +1,10 @@
-// envmaptint_fix
-"vertexlitgeneric"
-{
-	"$basetexture" "wood/woodfloor006b"
-	"$surfaceprop" "wood"
-//	"$bumpmap" "wood/woodfloor006b_normal"
-//	"$envmap" "env_cubemap"
-//	"$normalmapalphaenvmapmask" 1
-//	"$envmapcontrast" 1
-//	"$envmapsaturation" 1
-//	"$envmaptint" "[ .56 .56 .56 ]"
+VertexLitGeneric{
+$basetexture wood/woodfloor006b
+$surfaceprop wood
+//$bumpmap wood/woodfloor006b_normal
+//$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
+//$envmapcontrast 1
+//$envmapsaturation 1
+//$envmaptint "[.56 .56 .56]"
 }

@@ -1,4 +1,3 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/props/ff_palermo/pal_stonearch"
+VertexLitGeneric{
+$basetexture models/props/ff_palermo/pal_stonearch
 }

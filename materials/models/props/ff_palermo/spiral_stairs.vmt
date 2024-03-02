@@ -1,4 +1,3 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/props/ff_palermo/spiral_stairs"
+VertexLitGeneric{
+$basetexture models/props/ff_palermo/spiral_stairs
 }

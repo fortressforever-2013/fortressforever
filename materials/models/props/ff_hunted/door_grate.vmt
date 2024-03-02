@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_canal/canal_bars004"
-	"$surfaceprop" "metal"
+VertexLitGeneric{
+$basetexture Models/props_canal/canal_bars004
+$surfaceprop metal
 }

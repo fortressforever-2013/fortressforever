@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models/props/ff_hunted/wallbracketlampon"
-	"$surfaceprop" "metal"
+VertexLitGeneric{
+$basetexture models/props/ff_hunted/wallbracketlampon
+$surfaceprop metal
 }

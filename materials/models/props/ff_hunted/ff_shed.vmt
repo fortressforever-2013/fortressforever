@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_hunted\ff_shed"
-	"$bumpmap" "models\props\ff_hunted\ff_shed_normal"
+VertexLitGeneric{
+$basetexture models\props\ff_hunted\ff_shed
+$bumpmap models\props\ff_hunted\ff_shed_normal
 }

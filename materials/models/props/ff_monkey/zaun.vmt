@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/props/ff_monkey/zaun"
+VertexLitGeneric{
+$basetexture models/props/ff_monkey/zaun
 }

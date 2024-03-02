@@ -1,9 +1,7 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_hunted\phantom_body"
-	"$bumpmap" "models\props\ff_hunted\phantom_body_normal"
-	"$envmap" 			"env_cubemap"
-//"$envmapmask" "models\props\ff_hunted\phantom_envmapmask"
-	//"$normalmapalphaenvmapmask" 	1
-	"$envmaptint" 			"[.3 .3 .3]"
+VertexLitGeneric{
+$basetexture models\props\ff_hunted\phantom_body
+$bumpmap models\props\ff_hunted\phantom_body_normal
+$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
+$envmaptint "[.3 .3 .3]"
 }

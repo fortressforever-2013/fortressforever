@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_hunted\fudecs"
-	"$surfaceprop" "metalvehicle"
+VertexLitGeneric{
+$basetexture models\props\ff_hunted\fudecs
+$surfaceprop metalvehicle
 }

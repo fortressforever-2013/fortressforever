@@ -1,8 +1,5 @@
-"VertexLitGeneric"
-{
-	"$color2"				"[1 1 1]"
-	"$baseTexture"			"models/props/ff_monkey/h_plant02a"
-	"$selfIllum"			0
-	"$translucent"			1
-	"$alphatest"				1
+VertexLitGeneric{
+$baseTexture models/props/ff_monkey/h_plant02a
+$translucent 1
+$alphatest 1
 }

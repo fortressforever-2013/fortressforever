@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_openfire\ff_openfire_column-semidmg_red"
+VertexLitGeneric{
+$basetexture models\props\ff_openfire\ff_openfire_column-semidmg_red
 }

@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_hunted\smoke_stack"
+VertexLitGeneric{
+$basetexture models\props\ff_hunted\smoke_stack
 }

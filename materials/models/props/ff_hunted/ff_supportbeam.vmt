@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_hunted\ff_supportbeam"
+VertexLitGeneric{
+$basetexture models\props\ff_hunted\ff_supportbeam
 }

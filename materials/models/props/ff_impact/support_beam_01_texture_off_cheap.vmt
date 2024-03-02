@@ -1,5 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture"		"models/props/ff_impact/support_beam_01_texture"
-	"$model" 1
+VertexLitGeneric{
+$baseTexture models/props/ff_impact/support_beam_01_texture
 }

@@ -1,4 +1,3 @@
-"vertexlitgeneric"
-{
-	"$baseTexture" "models\props\ff_hunted/sewergrate_koko"
+VertexLitGeneric{
+$baseTexture models\props\ff_hunted/sewergrate_koko
 }

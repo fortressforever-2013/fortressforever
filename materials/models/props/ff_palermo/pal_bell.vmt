@@ -1,9 +1,8 @@
-"VertexLitGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "models/props/ff_palermo/pal_bell"
-	"$surfaceprop" "metal"
-	"$bumpmap" "models/props/ff_palermo/pal_bell_normal"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.3 .3 .3]"
+VertexLitGeneric{
+%keywords FF
+$basetexture models/props/ff_palermo/pal_bell
+$surfaceprop metal
+$bumpmap models/props/ff_palermo/pal_bell_normal
+$envmap env_cubemap
+$envmaptint "[.3 .3 .3]"
 }

@@ -1,9 +1,7 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_hunted\van"
-	"$bumpmap" "models\props\ff_hunted\van_normal"
-	"$surfaceprop" "metalvehicle"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.3 .3 .3]" 
+VertexLitGeneric{
+$basetexture models\props\ff_hunted\van
+$bumpmap models\props\ff_hunted\van_normal
+$surfaceprop metalvehicle
+$envmap env_cubemap
+$envmaptint "[.3 .3 .3]"
 }
-

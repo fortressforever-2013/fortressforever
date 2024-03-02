@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_push\/skylight_mask"
+VertexLitGeneric{
+$baseTexture models\props\ff_push\/skylight_mask
 }

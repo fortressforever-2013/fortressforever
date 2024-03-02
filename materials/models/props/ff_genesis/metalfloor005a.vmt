@@ -1,7 +1,5 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "Metal/metalfloor005a"
-	"$surfaceprop" "metal"
-	"%keywords" "borealis,combine"
-	"$model" 1
+VertexLitGeneric{
+$basetexture Metal/metalfloor005a
+$surfaceprop metal
+%keywords borealis,combine
 }
