@@ -1,11 +1,8 @@
-"WorldVertexTransition"
-{
-	"$basetexture" "ff/ff_cliff_rock03"
-	"$surfaceprop" "rock"
-	//"$bumpmap" "ff/ff_cliff_rock03_normal"
-	
-	"$basetexture2"	"CS\snow01"
-	"$surfaceprop" "snow"
-	
-	"%tooltexture" "ff/ff_cliff_rock03"
+WorldVertexTransition{
+$basetexture ff/ff_cliff_rock03
+$surfaceprop rock
+//$bumpmap ff/ff_cliff_rock03_normal
+$basetexture2 CS\snow01
+$surfaceprop snow
+%tooltexture ff/ff_cliff_rock03
 }

@@ -1,5 +1,4 @@
-"UnlitGeneric"
-{
-	"$basetexture" 	"_rt_FullFrameFB"
-	"$ignorez"	1
+UnlitGeneric{
+$basetexture _rt_FullFrameFB
+$ignorez 1
 }

@@ -1,6 +1,4 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_alchimy/snowprints"
-	"$surfaceprop" "snow"
+LightmappedGeneric{
+$basetexture ff_alchimy/snowprints
+$surfaceprop snow
 }
-

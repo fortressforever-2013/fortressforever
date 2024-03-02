@@ -1,4 +1,3 @@
-"ff_post_colordrain"
-{
-	“$basetexture” “_rt_FullFrameFB”
+ff_post_colordrain{
+$basetexture _rt_FullFrameFB
 }
