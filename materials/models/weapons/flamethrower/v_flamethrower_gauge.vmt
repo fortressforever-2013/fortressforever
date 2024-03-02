@@ -1,58 +1,41 @@
-"VertexLitGeneric"
-{
-	"$baseTexture"			"models/weapons/flamethrower/v_flamethrower_gauge"
-	"$model"			1
-	"$translucent"			1
-	
-	//Local Variables
-	"$maxAmmo"			200
-	"$minAngle"			50
-	"$arc"				260	
-	"$ammo"				0
-	"$multiplier"			0
-	"$baseRotation"			0
-	"$finalRotation"		0
-	"$null"				0
-	
-	"Proxies"
-	{
-		//Get current weapon's total carried ammo
-		"CurrentAmmo"
-		{
-			"digitindex"		"-1"
-			"resultVar"		"$ammo"
-		}
-		
-		//Work out rotational multiplier
-		"Divide"
-		{
-			"srcVar1"		"$arc"
-			"srcVar2"		"$maxAmmo"
-			"resultVar"		"$multiplier"
-		}
-		
-		//combine ammo with multiplier
-		"Multiply"
-		{
-			"srcVar1"		"$ammo"
-			"srcVar2"		"$multiplier"
-			"resultVar"		"$baseRotation"
-		}
-		
-		//Add base rotation to minimum rotation
-		"Add"
-		{
-			"srcVar1"		"$baseRotation"
-			"srcVar2"		"$minAngle"
-			"resultVar"		"$finalRotation"
-		}
-		
-		//Rotate texture
-		"TextureTransform"
-		{
-			"translateVar"		"$null"
-			"rotateVar"		"$finalRotation"
-			"resultVar"		"$basetexturetransform"
-		}
-	}
+VertexLitGeneric{
+$baseTexture models/weapons/flamethrower/v_flamethrower_gauge
+$translucent 1
+
+//Local Variables
+$maxAmmo 200
+$minAngle 50
+$arc 260	
+$ammo 0
+$multiplier 0
+$baseRotation 0
+$finalRotation 0
+$null 0
+
+Proxies{
+CurrentAmmo{	//Get current weapon's total carried ammo
+digitindex -1
+resultVar $ammo
+}
+Divide{	//Work out rotational multiplier
+srcVar1 $arc
+srcVar2 $maxAmmo
+resultVar $multiplier
+}
+Multiply{	//combine ammo with multiplier
+srcVar1 $ammo
+srcVar2 $multiplier
+resultVar $baseRotation
+}
+Add{	//Add base rotation to minimum rotation
+srcVar1 $baseRotation
+srcVar2 $minAngle
+resultVar $finalRotation
+}
+TextureTransform{	//Rotate texture
+translateVar $null
+rotateVar $finalRotation
+resultVar "$basetexturetransform"
+}
+}
 }

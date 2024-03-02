@@ -1,23 +1,18 @@
-"Unlittwotexture"
-{
-	"$baseTexture"			"models/weapons/rpg/v_rpg_hud"
-	"$texture2" 			"models/weapons/shared/hud_scanlines"
-	"$model"			1
-	
-	"Proxies"
-	{
-		//This controls the animated lines scrolling up on the HUD
-		"TextureScroll"
-		{
-			"texturescrollvar" 	"$texture2transform"
-			"texturescrollrate" 	0.3
-			"texturescrollangle" 	90
-		}
-		
-		//This controls what ammo reading the HUD displays
-		"CurrentAmmo"
-		{
-			"resultVar"		"$frame"
-		}
-	}
+Unlittwotexture{
+$baseTexture models/weapons/rpg/v_rpg_hud
+$texture2 models/weapons/shared/hud_scanlines
+$model 1
+
+Proxies{
+//This controls the animated lines scrolling up on the HUD
+TextureScroll{
+texturescrollvar "$texture2transform"
+texturescrollrate 0.3
+texturescrollangle 90
+}
+//This controls what ammo reading the HUD displays
+CurrentAmmo{
+resultVar $frame
+}
+}
 }

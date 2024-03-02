@@ -1,19 +1,16 @@
-"UnlitTwoTexture"
-{
-	"$basetexture"	"models/weapons/flamethrower/v_flamethrower_pilotlight"
-	"$texture2" "models/weapons/flamethrower/flicker"
-	"$surfaceprop"	"default"
-	"$additive"	1
-	"$model" 1
-	"$nodecal" "1"
+UnlitTwoTexture{
+$basetexture models/weapons/flamethrower/v_flamethrower_pilotlight
+$texture2 models/weapons/flamethrower/flicker
+$surfaceprop default
+$additive 1
+$model 1
+$nodecal 1
 
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$texture2transform"
-			"texturescrollrate" 4
-			"texturescrollangle" 90
-		}
-	}
+Proxies{
+TextureScroll{
+texturescrollvar "$texture2transform"
+texturescrollrate 4
+texturescrollangle 90
+}
+}
 }

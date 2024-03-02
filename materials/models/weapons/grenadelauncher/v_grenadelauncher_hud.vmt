@@ -1,5 +1,4 @@
-"Unlitgeneric"
-{
-	"$baseTexture" 			"models/weapons/grenadelauncher/v_grenadelauncher_hud"
-	"$model" 			1
+Unlitgeneric{
+$baseTexture models/weapons/grenadelauncher/v_grenadelauncher_hud
+$model 1
 }

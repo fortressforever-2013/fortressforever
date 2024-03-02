@@ -1,13 +1,9 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/weapons/supernailgun/v_supernailgun"
-	"$bumpmap" 			"models/weapons/supernailgun/v_supernailgun_normal"
-	"$model" 			1
-	"$selfillum" 			1
-	
-	//Environment Mapping
-	"$envmap" 			"env_cubemap"
-	"$normalmapalphaenvmapmask" 	1
-	"$envmapsaturation" 		.4
-	"$envmapcontrast" 		.7
+VertexLitGeneric{
+$baseTexture models/weapons/supernailgun/v_supernailgun
+$bumpmap models/weapons/supernailgun/v_supernailgun_normal
+$selfillum 1
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapsaturation .4
+$envmapcontrast .7
 }

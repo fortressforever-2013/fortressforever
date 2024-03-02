@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\weapons\tranq\w_tranq"
+VertexLitGeneric{
+$basetexture models\weapons\tranq\w_tranq
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }

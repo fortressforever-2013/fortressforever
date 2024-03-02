@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/weapons/shotgun/v_shotty_shell"
+VertexLitGeneric{
+$baseTexture models/weapons/shotgun/v_shotty_shell
 }

@@ -1,5 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/weapons/flamethrower/flicker"
-	"$surfaceprop"	"default"
+VertexLitGeneric{
+$basetexture models/weapons/flamethrower/flicker
 }

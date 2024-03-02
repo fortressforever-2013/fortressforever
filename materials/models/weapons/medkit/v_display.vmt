@@ -1,27 +1,23 @@
-"Unlittwotexture"
-{
-	"$basetexture" "models/weapons/medkit/v_display"
-	"$texture2" "models/weapons/medkit/v_display_scanlines"
-	"$model" "1"
-	"$frame" "0"
-//	"$alphatest" "1"
-	"$phong" "1"
-	"$phongexponent" 33
-	"$phongboost"	"6"
-	"$phongfresnelranges"	"[0.05 0.5 1]"
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$basetexture"
-			"animatedtextureframenumvar" "$frame"
-			"animatedtextureframerate" "15"
-		}
-		"TextureScroll"
-		{
-			"texturescrollvar" 	"$texture2Transform"
-			"texturescrollrate" 	"0.05"
-			"texturescrollangle" 	"-90"
-		}
-	}
+Unlittwotexture{
+$basetexture models/weapons/medkit/v_display
+$texture2 models/weapons/medkit/v_display_scanlines
+$model 1
+$frame 0
+//$alphatest 1
+$phong 1
+$phongexponent 33
+$phongboost	6
+$phongfresnelranges "[0.05 0.5 1]"
+Proxies{
+AnimatedTexture{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 15
+}
+TextureScroll{
+texturescrollvar "$texture2Transform"
+texturescrollrate 0.05
+texturescrollangle -90
+}
+}
 }

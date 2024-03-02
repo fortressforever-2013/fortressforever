@@ -1,19 +1,12 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/weapons/sniperrifle/v_sniper"
-	"$bumpmap" 			"models/weapons/sniperrifle/v_sniper_normal_spec"
-	"$model" 			1
-
-
-	//Environment Mapping
-	"$envmap" 			"env_cubemap"
-	"$normalmapalphaenvmapmask" 	1
-	"$envmapsaturation" 		.4
-	"$envmapcontrast" 		.7
-
-	"$phong" "1"
-	"$phongexponent"  30
-	//"$phongexponenttexture" "models/weapons/sniperrifle/v_sniper_exponent"
-	"$phongboost"	"2"
-	"$phongfresnelranges"	"[1 3 9]"
+VertexLitGeneric{
+$baseTexture models/weapons/sniperrifle/v_sniper
+$bumpmap models/weapons/sniperrifle/v_sniper_normal_spec
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapsaturation .4
+$envmapcontrast .7
+$phong 1
+$phongexponent 30
+$phongboost 2
+$phongfresnelranges "[1 3 9]"
 }

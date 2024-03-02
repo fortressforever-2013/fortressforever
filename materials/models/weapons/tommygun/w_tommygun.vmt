@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\weapons\tommygun\w_tommygun"
+VertexLitGeneric{
+$basetexture models\weapons\tommygun\w_tommygun
 }

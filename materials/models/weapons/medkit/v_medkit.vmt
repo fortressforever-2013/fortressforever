@@ -1,13 +1,9 @@
-"VertexLitGeneric"
-{
-	"$basetexture"			"models\weapons\medkit\v_medkit"
-	"$bumpmap" 			"models\weapons\medkit\v_medkit_normal_spec"
-	"$model" 			"1"
-	
-	//Environment Mapping
-	"$envmap" 			"env_cubemap"
-	"$normalmapalphaenvmapmask" 	"0"
-	"$envmapsaturation" 		"1"
-	"$envmapcontrast" 		"0"
-	"$envmaptint" "[0.1 0.1 0.1]"
+VertexLitGeneric{
+$basetexture models\weapons\medkit\v_medkit
+$bumpmap models\weapons\medkit\v_medkit_normal_spec
+$envmap env_cubemap
+$normalmapalphaenvmapmask 0
+$envmapsaturation 1
+$envmapcontrast 0
+$envmaptint "[0.1 0.1 0.1]"
 }

@@ -1,11 +1,7 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/weapons/spanner/v_spanner"
-	"$bumpmap" 			"models/weapons/spanner/v_spanner_normal"
-	"$model" 			1
-	
-	//Environment Mapping
-	"$envmap" 			"env_cubemap"
-	"$normalmapalphaenvmapmask" 	1
-	"$envmapsaturation" 		.7
+VertexLitGeneric{
+$baseTexture models/weapons/spanner/v_spanner
+$bumpmap models/weapons/spanner/v_spanner_normal
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapsaturation .7
 }

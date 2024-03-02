@@ -1,45 +1,32 @@
-"UnlitGeneric"
-{
-	"$baseTexture" 			"models/weapons/assaultcannon/v_assaultcannon_bar"
-	"$model" 			1
-	"$translucent" 			1
-	
-	//Local Variables
-	"$overheat"			0
-	"$multiplier"			0
-	"$maxTransform"			-0.5
-	"$maxOverheat"			100
-	"$translation"			"[0 0]"
+UnlitGeneric{
+$baseTexture models/weapons/assaultcannon/v_assaultcannon_bar
+$model 1
+$translucent 1
 
-	"Proxies"
-	{	
-		//This controls what ammo reading the HUD displays
-		"OverpressureCharge"
-		{
-			"resultVar"		"$overheat"
-		}
-		
-		//Work out translation multiplier
-		"Divide"
-		{
-			"srcVar1"		"$maxTransform"
-			"srcVar2"		"$maxOverheat"
-			"resultVar"		"$multiplier"
-		}
-		
-		//combine overheat with multiplier
-		"Multiply"
-		{
-			"srcVar1"		"$overheat"
-			"srcVar2"		"$multiplier"
-			"resultVar"		"$translation[0]"
-		}
-		
-		//Translate texture
-		"TextureTransform"
-		{
-			"translateVar"		"$translation"
-			"resultVar"		"$basetexturetransform"
-		}	
-	}
+//Local Variables
+$overheat 0
+$multiplier 0
+$maxTransform -0.5
+$maxOverheat 100
+$translation "[0 0]"
+
+Proxies{
+OverpressureCharge{	//This controls what ammo reading the HUD displays
+resultVar $overheat
+}
+Divide{	//Work out translation multiplier
+srcVar1 $maxTransform
+srcVar2 $maxOverheat
+resultVar $multiplier
+}
+Multiply{	//combine overheat with multiplier
+srcVar1 $overheat
+srcVar2 $multiplier
+resultVar "$translation[0]"
+}
+TextureTransform{	//Translate texture
+translateVar "$translation"
+resultVar "$basetexturetransform"
+}
+}
 }

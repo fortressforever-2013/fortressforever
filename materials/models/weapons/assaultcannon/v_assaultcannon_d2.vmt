@@ -1,67 +1,55 @@
-"UnlitGeneric"
-{
-	"$baseTexture" 			"models/weapons/assaultcannon/v_assaultcannon_digits"
-	"$model" 			1
-	"$translucent" 			1
-	
-	//Local Variables
-	"$ammo"				0
-	"$totalAmmo"			0
-	"$minAmmo"			99
-	"$myFrame"			0
-	"$nullFrame"			10
-	"$lowAmmo"			65
-	"$veryLowAmmo"			25
-	"$defaultTint"			"[0.83 1 1]"
-	"$lowTint"			"[1 0.78 0.43]"
-	"$veryLowTint"			"[1 0 0]"
-	"$baseTint"			"[0 0 0]"
-	
-	
-	"Proxies"
-	{	
-		//Get triple-digit ammo amount
-		"CurrentAmmo"
-		{
-			"digitindex"		"2"
-			"resultVar"		"$ammo"
-		}
-		
-		//Get total ammo amount
-		"CurrentAmmo"
-		{
-			"digitindex"		"-1"
-			"resultVar"		"$totalAmmo"
-		}
-		
-		//If total ammo is <= $minAmmo, hide the digit rather than show '0'
-		"LessOrEqual"
-		{
-			"srcVar1"		"$totalAmmo"
-			"srcVar2"		"$minAmmo"
-			"lessEqualVar"		"$nullFrame"
-			"greaterVar"		"$ammo"
-			"resultVar"		"$frame"
-		}
-		
-		//Tint if total ammo is <= $lowAmmo
-		"LessOrEqual"
-		{
-			"srcVar1"		"$totalAmmo"
-			"srcVar2"		"$lowAmmo"
-			"lessEqualVar"		"$lowTint"
-			"greaterVar"		"$defaultTint"
-			"resultVar"		"$baseTint"
-		}
-		
-		//Tint if total ammo is <= $veryLowAmmo
-		"LessOrEqual"
-		{
-			"srcVar1"		"$totalAmmo"
-			"srcVar2"		"$veryLowAmmo"
-			"lessEqualVar"		"$veryLowTint"
-			"greaterVar"		"$baseTint"
-			"resultVar"		"$color"
-		}
-	}
+UnlitGeneric{
+$baseTexture models/weapons/assaultcannon/v_assaultcannon_digits
+$model 1
+$translucent 1
+
+//Local Variables
+$ammo 0
+$totalAmmo 0
+$minAmmo 99
+$myFrame 0
+$nullFrame 10
+$lowAmmo 65
+$veryLowAmmo 25
+$defaultTint "[0.83 1 1]"
+$lowTint "[1 0.78 0.43]"
+$veryLowTint "[1 0 0]"
+$baseTint "[0 0 0]"
+
+Proxies{
+//Get triple-digit ammo amount
+CurrentAmmo{
+digitindex 2
+resultVar $ammo
+}
+//Get total ammo amount
+CurrentAmmo{
+digitindex -1
+resultVar $totalAmmo
+}
+//If total ammo is <= $minAmmo, hide the digit rather than show '0'
+LessOrEqual{
+srcVar1 $totalAmmo
+srcVar2 $minAmmo
+lessEqualVar $nullFrame
+greaterVar $ammo
+resultVar $frame
+}
+//Tint if total ammo is <= $lowAmmo
+LessOrEqual{
+srcVar1 $totalAmmo
+srcVar2 $lowAmmo
+lessEqualVar "$lowTint"
+greaterVar "$defaultTint"
+resultVar "$baseTint"
+}
+//Tint if total ammo is <= $veryLowAmmo
+LessOrEqual{
+srcVar1 $totalAmmo
+srcVar2 $veryLowAmmo
+lessEqualVar "$veryLowTint"
+greaterVar "$baseTint"
+resultVar "$color"
+}
+}
 }

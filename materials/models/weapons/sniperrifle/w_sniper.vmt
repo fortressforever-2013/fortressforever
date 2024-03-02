@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/weapons/sniperrifle/w_sniper"
+VertexLitGeneric{
+$baseTexture models/weapons/sniperrifle/w_sniper
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
