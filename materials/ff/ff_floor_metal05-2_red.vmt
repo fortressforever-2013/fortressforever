@@ -1,9 +1,8 @@
-"LightmappedGeneric"
-{
-"%keywords" "FF"
-"$basetexture" "ff\ff_floor_metal05-2_red"
-"$surfaceprop" "metalgrate"
-"$Translucent" 1
-"$nocull" 1
-"%compilepassbullets" 1
+LightmappedGeneric{
+%keywords FF
+$basetexture ff\ff_floor_metal05-2_red
+$surfaceprop metalgrate
+$translucent 1
+$nocull 1
+%compilepassbullets 1
 }

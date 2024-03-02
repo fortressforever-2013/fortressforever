@@ -1,10 +1,7 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_trim_metal24"
-	"$surfaceprop" "metal"
-	"$bumpmap" "ff/ff_trim_metal24_normal"
-	"$normalmapalphaenvmapmask" 1
+LightmappedGeneric{
+%keywords FF
+$basetexture ff/ff_trim_metal24
+$surfaceprop metal
+$bumpmap ff/ff_trim_metal24_normal
+$normalmapalphaenvmapmask 1
 }
-
-
