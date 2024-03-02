@@ -1,20 +1,16 @@
-"UnlitGeneric"
-{
-	"$basetexture" "ff_session/session_effect_wave"
-	"$surfaceprop" "no_decal"
-	"$translucent" 1
-	"$additive" 1
-	"$nocull" 1
-	
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" 1
-			"texturescrollangle" 90
-		}
-	}
-	
-	"%keywords" "ff_session"
+UnlitGeneric{
+%keywords ff_session
+$basetexture ff_session/session_effect_wave
+$surfaceprop no_decal
+$translucent 1
+$additive 1
+$nocull 1
+
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate 1
+texturescrollangle 90
+}
+}
 }

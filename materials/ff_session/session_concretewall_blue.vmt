@@ -1,8 +1,6 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Concrete/concretewall010a"
-	"$color" "[0.5 0.5 0.8]"
-	"$surfaceprop" "concrete"
-	
-	"%keywords" "ff_session"
+LightmappedGeneric{
+$basetexture Concrete/concretewall010a
+$color "[0.5 0.5 0.8]"
+$surfaceprop concrete
+%keywords ff_session
 }

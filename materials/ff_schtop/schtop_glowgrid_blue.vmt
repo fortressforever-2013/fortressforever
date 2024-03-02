@@ -1,20 +1,15 @@
-"UnlitGeneric"
-{
-    "$basetexture" "ff_schtop/schtop_glowgrid_blue"
-	"$surfaceprop" "no_decal"
-	"$additive" 1
+UnlitGeneric{
+%keywords ff_schtop
+$basetexture ff_schtop/schtop_glowgrid_blue
+$surfaceprop no_decal
+$additive 1
+$nocull 1
 
-	"$nocull" 1
-	
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" 0.5
-			"texturescrollangle" 180
-		}
-	}
-	
-	"%keywords" "ff_schtop"
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate 0.5
+texturescrollangle 180
+}
+}
 }

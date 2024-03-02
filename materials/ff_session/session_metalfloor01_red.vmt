@@ -1,9 +1,7 @@
-"LightmappedGeneric"
-{
-	"$bumpmap" "Metal/metalfloor003a_normal"
-	"$basetexture" "Metal/metalfloor003a"
-	"$color" "[1.0 0.4 0.4]"
-	"$surfaceprop" "metal"
-	
-	"%keywords" "ff_session"
+LightmappedGeneric{
+$bumpmap Metal/metalfloor003a_normal
+$basetexture Metal/metalfloor003a
+$color "[1.0 0.4 0.4]"
+$surfaceprop metal
+%keywords ff_session
 }

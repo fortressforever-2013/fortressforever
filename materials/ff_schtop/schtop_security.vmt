@@ -1,9 +1,7 @@
-"UnlitGeneric"
-{
-	"$basetexture" "ff_schtop/schtop_security"
-	"$surfaceprop" "no_decal"
-	"$additive" 1
-	"$nocull" 1
-	
-	"%keywords" "ff_schtop"
+UnlitGeneric{
+$basetexture ff_schtop/schtop_security
+$surfaceprop no_decal
+$additive 1
+$nocull 1
+%keywords ff_schtop
 }

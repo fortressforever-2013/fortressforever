@@ -1,8 +1,7 @@
-"UnlitGeneric"
-{
-	"$basetexture" "ff_schtop/schtop_digit_9"
-	"$surfaceprop" "no_decal"
-	"$translucent" 1
-	"$additive" 1
-	"$nocull" 1
+UnlitGeneric{
+$basetexture ff_schtop/schtop_digit_9
+$surfaceprop no_decal
+$translucent 1
+$additive 1
+$nocull 1
 }

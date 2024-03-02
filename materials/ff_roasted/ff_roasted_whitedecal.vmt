@@ -1,8 +1,7 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_roasted/ff_roasted_whitedecal"
-	"$surfaceprop" "concrete"
-	"$decal" "1"
-	"$translucent" 1
-	"$decalscale" 0.25
+LightmappedGeneric{
+$basetexture ff_roasted/ff_roasted_whitedecal
+$surfaceprop concrete
+$decal 1
+$translucent 1
+$decalscale 0.25
 }

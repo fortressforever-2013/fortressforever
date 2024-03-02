@@ -1,22 +1,17 @@
-"UnlitGeneric"
-{
-    "$basetexture" "ff_aardvark/redchev000"
-	"$surfaceprop" "no_decal"
-	"$color" "[1.00 0.75 0.75]"
-	"$alpha" 0.90
-    "$translucent" 1
+UnlitGeneric{
+%keywords ff_schtop
+$basetexture ff_aardvark/redchev000
+$surfaceprop no_decal
+$color "[1.00 0.75 0.75]"
+$alpha 0.90
+$translucent 1
+$nocull 1
 
-	"$nocull" 1
-	
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" 1
-			"texturescrollangle" 180
-		}
-	}
-	
-	"%keywords" "ff_schtop"
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate 1
+texturescrollangle 180
+}
+}
 }

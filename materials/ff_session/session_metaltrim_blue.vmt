@@ -1,13 +1,10 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "metal/metalwall076a"
-	"$basealphaenvmapmask" 1
-	"$surfaceprop" "metal"
-
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[ 0.30 0.30 0.30 ]"
-	"$envmapcontrast" 1
-	"$envmapsaturation" 1
-	
-	"%keywords" "ff_session"
+LightmappedGeneric{
+$basetexture metal/metalwall076a
+$basealphaenvmapmask 1
+$surfaceprop metal
+$envmap env_cubemap
+$envmaptint "[0.30 0.30 0.30]"
+$envmapcontrast 1
+$envmapsaturation 1
+%keywords ff_session
 }

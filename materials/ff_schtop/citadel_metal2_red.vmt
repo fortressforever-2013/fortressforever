@@ -1,11 +1,9 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_schtop/citadel_metal2_red"
-	"$basealphaenvmapmask" 1
-	"$surfaceprop" "metal"
-
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[ 0.30 0.30 0.30 ]"
-	"$envmapcontrast" 1
-	"$envmapsaturation" 1
+LightmappedGeneric{
+$basetexture ff_schtop/citadel_metal2_red
+$basealphaenvmapmask 1
+$surfaceprop metal
+$envmap env_cubemap
+$envmaptint "[0.30 0.30 0.30]"
+$envmapcontrast 1
+$envmapsaturation 1
 }

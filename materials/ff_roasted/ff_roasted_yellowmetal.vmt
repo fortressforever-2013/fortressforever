@@ -1,6 +1,4 @@
-"LightmappedGeneric"
-{
-	// Original shader: BaseTimesLightmap
-	"$basetexture" "ff_roasted\ff_roasted_yellowmetal"
-	"$surfaceprop" "metal"
+LightmappedGeneric{
+$basetexture ff_roasted\ff_roasted_yellowmetal
+$surfaceprop metal
 }

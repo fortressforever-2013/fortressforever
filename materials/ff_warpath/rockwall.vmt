@@ -1,18 +1,12 @@
-"WorldVertexTransition"
-{
-	"$basetexture" "nature/rockwall015a"
-	"$basetexture2" "ff_avanti/ff_wall_sandstone02"
-
-	"$detail" "overlays/macro01a" //not really sure what this does?!
-	"$detailscale" .1
-
-	"%tooltexture" "ff_warpath/blendsanddirt001_tooltexture"
-	
-        	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-     	  "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-	"$surfaceprop" "antlionsand"
-	"$surfaceprop2" "antlionsand"
-	"%keywords" "dirtroad"
+WorldVertexTransition{
+$basetexture nature/rockwall015a
+$basetexture2 ff_avanti/ff_wall_sandstone02
+$detail overlays/macro01a	//not really sure what this does?!
+$detailscale .1
+%tooltexture ff_warpath/blendsanddirt001_tooltexture
+$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+$basetexturetransform2 "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+$surfaceprop antlionsand
+$surfaceprop2 antlionsand
+%keywords dirtroad
 }
-
-

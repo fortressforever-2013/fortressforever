@@ -1,26 +1,7 @@
-// "UnlitGeneric"
-"WorldVertexTransition"
-{
-	"$basetexture" "ff_session/session_effect_portal_red"
-	
-	"$basetexture2" "ff_session/session_effect_portal_red"
-	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-	
-	"$surfaceprop" "no_decal"
-	"$additive" 1
-	
-	"$alpha" "0.5"
-	
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" 2
-			"texturescrollangle" 90
-		}
-	}
-	
-	"%keywords" "ff_session"
+Patch{
+include materials/ff_session/session_effect_portal_blue.vmt
+replace{
+$basetexture ff_session/session_effect_portal_red
+$basetexture2 ff_session/session_effect_portal_red
+}
 }

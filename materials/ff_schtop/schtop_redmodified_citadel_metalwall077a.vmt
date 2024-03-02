@@ -1,35 +1,25 @@
-// envmaptint_fix
-"LightmappedGeneric"
-{
-	"$basetexture" "Metal/metalwall077a"
-	"$color" "[1.0 0.5 0.5]"
-	"$surfaceprop" "metal"
-	"%keywords" "combine"
+LightmappedGeneric{
+$basetexture Metal/metalwall077a
+$color "[1.0 0.5 0.5]"
+$surfaceprop metal
+%keywords combine
 
-	// NOTE: Even though env_cubemap is here, it will turned off for DX6
-	// because $multipass 1 isn't defined
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[ .75 .67 .56 ]"
-	"$envmapcontrast" 1
-	"$envmapsaturation" 1
+// NOTE: Even though env_cubemap is here, it will turned off for DX6
+// because $multipass 1 isn't defined
+$envmap env_cubemap
+$envmaptint "[.75 .67 .56]"
+$envmapcontrast 1
+$envmapsaturation 1
 
-	"LightmappedGeneric_DX9"
-	{
-		"$bumpmap" "metal/metalwall077a_normal"
-		"$nodiffusebumplighting" 1
-		"$normalmapalphaenvmapmask" 1
-	}
-
-	"LightmappedGeneric_DX8"
-	{
-		"$bumpmap" "metal/metalwall077a_normal"
-		"$nodiffusebumplighting" 1
-		"$normalmapalphaenvmapmask" 1
-	}
-
-	"LightmappedGeneric_NoBump_DX8"
-	{
-		"$basetexture" "metal/citadel_metalwall077a"
-		"$basealphaenvmapmask" 1
-	}
+	LightmappedGeneric_DX9{
+	$bumpmap metal/metalwall077a_normal
+	$nodiffusebumplighting 1
+	$normalmapalphaenvmapmask 1}
+	LightmappedGeneric_DX8{
+	$bumpmap metal/metalwall077a_normal
+	$nodiffusebumplighting 1
+	$normalmapalphaenvmapmask 1}
+	LightmappedGeneric_NoBump_DX8{
+	$basetexture metal/citadel_metalwall077a
+	$basealphaenvmapmask 1}
 }
