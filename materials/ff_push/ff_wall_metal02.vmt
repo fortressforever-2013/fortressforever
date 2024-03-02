@@ -1,9 +1,8 @@
-"LightmappedGeneric"
-{
-"%keywords" "FF"
-"$basetexture" "ff_push\ff_wall_metal02"
-"$surfaceprop" "metal"
-"$bumpmap" "ff_push\ff_wall_metal02_normal"
-"$envmap" "env_cubemap"
-"$envmaptint" "[.1 .1 .1]"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_push\ff_wall_metal02
+$surfaceprop metal
+$bumpmap ff_push\ff_wall_metal02_normal
+$envmap env_cubemap
+$envmaptint "[.1 .1 .1]"
 }

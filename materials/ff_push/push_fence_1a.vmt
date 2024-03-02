@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "models/props_wasteland/wood_fence01a"
-	"$surfaceprop" "concrete"
-	"%keywords" "FF,wasteland"
+LightmappedGeneric{
+$basetexture models/props_wasteland/wood_fence01a
+$surfaceprop concrete
+%keywords FF,wasteland
 }
