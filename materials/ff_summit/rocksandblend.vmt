@@ -1,7 +1,6 @@
-"WorldVertexTransition"
-{
-	"$baseTexture2" "nature/sandfloor010a"
-	"$basetexture" "nature/rockfloor002a"
- 	"$surfaceprop" "sand"
-//	"$blendmodulatetexture" "ff_summit/forestfloor_blendmod"
+WorldVertexTransition{
+$baseTexture2 nature/sandfloor010a
+$basetexture nature/rockfloor002a
+$surfaceprop sand
+//$blendmodulatetexture ff_summit/forestfloor_blendmod
 }

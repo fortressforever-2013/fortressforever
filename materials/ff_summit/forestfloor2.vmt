@@ -1,6 +1,5 @@
-"lightmappedgeneric"
-{
-	"$baseTexture" "ff_summit/forestfloor2"
-	"%detailtype" "coastline_grass01"
- 	"$surfaceprop" "dirt"
+LightmappedGeneric{
+$baseTexture ff_summit/forestfloor2
+%detailtype coastline_grass01
+$surfaceprop dirt
 }

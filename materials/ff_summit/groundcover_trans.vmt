@@ -1,6 +1,5 @@
-"lightmappedgeneric"
-{
-	"$baseTexture" "ff_summit/groundcover"
- 	"$surfaceprop" "grass"
-	"$alphatest" 1
+LightmappedGeneric{
+$baseTexture ff_summit/groundcover
+$surfaceprop grass
+$alphatest 1
 }

@@ -1,10 +1,9 @@
-"LightmappedGeneric"
-{
-    "%keywords" "FF"
-    "$basetexture" "ff_summit/shale"
-    "$bumpmap" "ff_summit/shale_normal"
-    "$normalmapalphaenvmapmask" 1
-    "$surfaceprop" "rock"
-    "$envmap"	"env_cubemap"
-    "$envmaptint" "[.25 .25 .25]"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_summit/shale
+$bumpmap ff_summit/shale_normal
+$normalmapalphaenvmapmask 1
+$surfaceprop rock
+$envmap env_cubemap
+$envmaptint "[.25 .25 .25]"
 }

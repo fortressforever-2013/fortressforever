@@ -1,6 +1,5 @@
-"WorldVertexTransition"
-{
-	"$baseTexture2" "ff_summit/leaf_rock01"
-	"$basetexture" "ff_summit/forestfloor2"
- 	"$surfaceprop" "rock"
+WorldVertexTransition{
+$baseTexture2 ff_summit/leaf_rock01
+$basetexture ff_summit/forestfloor2
+$surfaceprop rock
 }

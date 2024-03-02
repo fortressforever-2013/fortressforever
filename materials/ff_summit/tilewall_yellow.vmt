@@ -1,17 +1,13 @@
-// envmaptint_fix
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_summit/tilewall_yellow"
-	"$surfaceprop" "tile"
-	"%keywords" "c17downtown"
-	"$bumpmap" "ff_summit/tilewall_normal"
-	"$envmap" "env_cubemap"
-	"$normalmapalphaenvmapmask" 1
-	"$envmapcontrast" 1
-	"$envmapsaturation" 1
-	"$envmaptint" "[ .75 .75 .75 ]"
-	"LightmappedGeneric_DX8"
-	{
-		"$envmaptint" "[.45 .45 .45]"
-	}
+LightmappedGeneric{
+$basetexture ff_summit/tilewall_yellow
+$surfaceprop tile
+%keywords c17downtown
+$bumpmap ff_summit/tilewall_normal
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapcontrast 1
+$envmapsaturation 1
+$envmaptint "[.75 .75 .75]"
+	LightmappedGeneric_DX8{
+	$envmaptint "[.45 .45 .45]"}
 }

@@ -1,9 +1,7 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_training/blu_panel04brown2"
-	"$envmap" "env_cubemap"
-	// "$envmapmask" "ff_training/blu_panel04_specmask"
-	"$envmapcontrast" "1"
-	"$surfaceprop" "metal"
-	
+LightmappedGeneric{
+$basetexture ff_training/blu_panel04brown2
+$envmap env_cubemap
+//$envmapmask ff_training/blu_panel04_specmask
+$envmapcontrast 1
+$surfaceprop metal
 }
