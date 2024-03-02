@@ -1,49 +1,36 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
+LightmappedGeneric{
+%keywords FF
+$abovewater 0
+%compilewater 1
+$basetexture dev/water
+$surfaceprop water
+$color "{40 34 27}"
+$scale "[1 1]"
+$translucent 1
+//$additive 1
+$nocull 1
+$texoffset "[0 0]"
+$texscale 0.5
+$fogenable 1
+$fogcolor "{40 34 27}"
+$fogstart 0
+$fogend 384.00
 
-	"$abovewater" "0"
-	"%compilewater" "1"
-
-	"$basetexture" "dev/water"
-
-	"$surfaceprop" "water"
-
-	"$color" "{40 34 27}"
-	"$scale" "[1 1]"
-	"$translucent" "1"
-	//"$additive" "1"
-	"$nocull" "1"
-
-	"$texoffset" "[0 0]"
-	"$texscale" "0.5"
-
-	"$fogenable" "1"
-	"$fogcolor" "{40 34 27}"
-	"$fogstart" "0"
-	"$fogend" "384.00"
-
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$basetexture"
-			"animatedtextureframenumvar" "$frame"
-			"animatedtextureframerate" "20.00"
-		}
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$texoffset"
-			"texturescrollrate" "0.025"
-			"texturescrollangle" "45.00"
-		}
-
-		"TextureTransform"
-		{
-			"translateVar" "$texoffset"
-			"scaleVar" "$texscale"
-			"resultVar" "$basetexturetransform"
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 20
+}
+TextureScroll{
+texturescrollvar "$texoffset"
+texturescrollrate 0.025
+texturescrollangle 45
+}
+TextureTransform{
+translateVar "$texoffset"
+scaleVar $texscale
+resultVar "$basetexturetransform"
+}
+}
 }
