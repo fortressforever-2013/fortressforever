@@ -1,7 +1,6 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_ground_dirt01_stucco"
-	"$surfaceprop" "dirt"
-	"$bumpmap" "ff/ff_ground_dirt01_normal"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff/ff_ground_dirt01_stucco
+$surfaceprop dirt
+$bumpmap ff/ff_ground_dirt01_normal
 }
