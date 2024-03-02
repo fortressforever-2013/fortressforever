@@ -1,8 +1,7 @@
-"LightMappedGeneric"
-{
-	"$basetexture" "ff_pitfall/pf_trim_blue"
-	"$bumpmap" "ff_pitfall/pf_trim_normal"
-	"$surfaceprop" "metal"
-	"$envmap" "env_cubemap"
-      "$envmaptint" "[.1 .1 .1]"
+LightMappedGeneric{
+$basetexture ff_pitfall/pf_trim_blue
+$bumpmap ff_pitfall/pf_trim_normal
+$surfaceprop metal
+$envmap env_cubemap
+$envmaptint "[.1 .1 .1]"
 }

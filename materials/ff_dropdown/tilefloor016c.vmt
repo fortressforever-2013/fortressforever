@@ -1,9 +1,5 @@
-"lightmappedgeneric"
-{
-	"$basetexture" "ff_dropdown/tilefloor016c"
-	"$surfaceprop" "tile"
-	"$keywords" "ff_dropdown"
+LightmappedGeneric{
+$basetexture ff_dropdown/tilefloor016c
+$surfaceprop tile
+%keywords ff_droptown
 }
-
-
-

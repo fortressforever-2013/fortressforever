@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_impact/concrete_ff5"
-	"$bumpmap" "ff_impact/concrete_ff5_normal"
-	"$surfaceprop" "concrete"
+LightmappedGeneric{
+$basetexture ff_impact/concrete_ff5
+$bumpmap ff_impact/concrete_ff5_normal
+$surfaceprop concrete
 }

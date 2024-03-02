@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_epicenter/brick/brickwall045a_blue"
-	"$surfaceprop" "brick"
-	"%keywords" "c17downtown,wasteland"
+LightmappedGeneric{
+$basetexture ff_epicenter/brick/brickwall045a_blue
+$surfaceprop brick
+%keywords c17downtown,wasteland
 }

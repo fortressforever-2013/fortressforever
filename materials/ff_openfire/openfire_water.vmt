@@ -1,66 +1,41 @@
-"Water"
-{
-	"%keywords" "FF"
-	
-	"Water_DX60"
-	{
-		"$fallbackmaterial" "ff_hunted/ff_water_lake_dx70"
-	}
-	"Water_DX80"
-	{
-		"$refractamount" "0.2"
-	}
-	"Water_DX81"
-	{
-		"$refractamount" "0.2"
-	}
+Water{
+%keywords FF
+	Water_DX60{
+	$fallbackmaterial ff_hunted/ff_water_lake_dx70}
+	Water_DX80{
+	$refractamount 0.2}
+	Water_DX81{
+	$refractamount 0.2}
+$abovewater 1
+%compilewater 1
+%tooltexture dev/water_normal
+$bumpmap dev/water_dudv
+$normalmap dev/water_normal
+$bottommaterial ff_openfire/ff_openfire_water_beneath
+$envmap env_cubemap
+$surfaceprop water
+$refracttexture _rt_WaterRefraction
+$refractamount 0.3
+$refracttint "[.6 .9 .95]" //$refracttint "[.8 .75 .65]"
+$envmaptint "[ 0.5 0.5 0.5]"
+$scale "[1 1]"
+$fogenable 1
+$fogcolor "{15 40 50}"
+$fogstart 0
+$fogend 300
+$bumpframe 0
 
-
-	"$abovewater" "1"
-	"%compilewater" 1
-
-	"%tooltexture" "dev/water_normal"
-	"$bumpmap" "dev/water_dudv"
-	"$normalmap" "dev/water_normal"
-	"$bottommaterial" "ff_openfire/ff_openfire_water_beneath"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[ 0.5 0.5 0.5 ]"
-
-	"$surfaceprop" "water"
-
-	"$refracttexture" "_rt_WaterRefraction"
-	"$refractamount" "0.3"
-	//"$refracttint" "[.8 .75 .65]"
-	"$refracttint" "[.6 .9 .95]"
-
-
-	"$scale" "[1 1]"
-
-	"$fogenable" 1
-	"$fogcolor" "{15 40 50}"
-	"$fogstart" "0"
-	"$fogend" "300"
-
-	"$bumpframe" "0"
-
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$normalmap"
-			"animatedtextureframenumvar" "$bumpframe"
-			"animatedtextureframerate" "20.00"
-		}
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" "0.025"
-			"texturescrollangle" "45.00"
-		}
-
-		"WaterLOD"
-		{
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $normalmap
+animatedtextureframenumvar $bumpframe
+animatedtextureframerate 20
+}
+TextureScroll{
+texturescrollvar "$bumptransform"
+texturescrollrate 0.025
+texturescrollangle 45
+}
+WaterLOD{}
+}
 }

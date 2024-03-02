@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_impact\blueladder"
-	"$translucent" 1
-	"$surfaceprop" "metal"
+LightmappedGeneric{
+$basetexture ff_impact\blueladder
+$translucent 1
+$surfaceprop metal
 }

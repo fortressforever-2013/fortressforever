@@ -1,5 +1,4 @@
-"lightmappedgeneric"
-{
-	"$basetexture" "ff_impact/stepanel5"
-	"$surfaceprop" "metal"
+lightmappedgeneric{
+$basetexture ff_impact/stepanel5
+$surfaceprop metal
 }

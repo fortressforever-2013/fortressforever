@@ -1,5 +1,4 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_epicenter/brick/brickwall045d_blue"
-	"$surfaceprop" "brick"
+LightmappedGeneric{
+$basetexture ff_epicenter/brick/brickwall045d_blue
+$surfaceprop brick
 }

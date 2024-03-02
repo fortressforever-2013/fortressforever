@@ -1,13 +1,9 @@
-"LightMappedGeneric"
-{
-	"$baseTexture" "ff_dropdown/glass"
-	"$surfaceprop" "glass"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.22 .21 .16]"
- 	"$additive" "1"
- 	"%keywords" "ff_dropdown"
- 	"$translucent" 1
+LightMappedGeneric{
+$baseTexture ff_dropdown/glass
+$surfaceprop glass
+$envmap env_cubemap
+$envmaptint "[.22 .21 .16]"
+$additive 1
+%keywords ff_dropdown
+$translucent 1
 }
-
-
-

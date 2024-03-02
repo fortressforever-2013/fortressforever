@@ -1,8 +1,7 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_impact\frontgate01"
-	"$bumpmap" "ff_impact\frontgate01_normal"
-	"$envmap" "env_cubemap"
-	"$normalmapalphaenvmapmask" 1
-	"$surfaceprop" "metal"
+LightmappedGeneric{
+$basetexture ff_impact\frontgate01
+$bumpmap ff_impact\frontgate01_normal
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$surfaceprop metal
 }

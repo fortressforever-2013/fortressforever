@@ -1,8 +1,6 @@
-"LightMappedGeneric"
-{
-	"$basetexture" "ff_pitfall/pf_trim_red"
-	"$bumpmap" "ff_pitfall/pf_trim_normal"
-	"$surfaceprop" "metal"
-	"$envmap" "env_cubemap"
-      "$envmaptint" "[.1 .1 .1]"
+Patch{
+include materials/ff_pitfall/pf_trim_blue.vmt
+replace{
+$basetexture ff_pitfall/pf_trim_red
+}
 }

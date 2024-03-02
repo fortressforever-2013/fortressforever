@@ -1,5 +1,4 @@
-"LightMappedGeneric"
-{
-	"$baseTexture" "ff_pitfall/blankmetalwall"
-	"$surfaceprop" "metal"
+LightMappedGeneric{
+$baseTexture ff_pitfall/blankmetalwall
+$surfaceprop metal
 }

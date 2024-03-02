@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "glass/glasswindow001b"
-	"$alphatest" 1
-	"$surfaceprop" "glass"
+LightmappedGeneric{
+$basetexture glass/glasswindow001b
+$alphatest 1
+$surfaceprop glass
 }

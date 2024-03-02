@@ -1,6 +1,5 @@
-"LightMappedGeneric"
-{
-	"$baseTexture" "ff_pitfall/light_red"
-	"$surfaceprop" "glass"
-	"$selfillum" 1
+LightMappedGeneric{
+$baseTexture ff_pitfall/light_red
+$surfaceprop glass
+$selfillum 1
 }

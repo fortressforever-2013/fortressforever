@@ -1,6 +1,5 @@
-"WorldVertexTransition"
-{
-	"$basetexture" "HourPitores/rocknew2"
-	"$surfaceprop" "rock"
-	"$basetexture2" "nature/dirtfloor013a"
+WorldVertexTransition{
+$basetexture HourPitores/rocknew2
+$surfaceprop rock
+$basetexture2 nature/dirtfloor013a
 }

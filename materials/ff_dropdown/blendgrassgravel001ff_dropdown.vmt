@@ -1,14 +1,10 @@
-"WorldVertexTransition"
-{
-	"$basetexture" "nature/dirtfloor006a"
-	"$basetexture2" "nature/gravelfloor004a"
-	"$detail" "overlays/macro01a"
-	"$detailscale" .1
-	"%tooltexture" "nature/blendgrassgravel001a_tooltexture"
-	"%keywords" "ff_dropdown"
-	"$surfaceprop" "dirt"
-	"$surfaceprop2" "dirt"
+WorldVertexTransition{
+$basetexture nature/dirtfloor006a
+$basetexture2 nature/gravelfloor004a
+$detail overlays/macro01a
+$detailscale .1
+%tooltexture nature/blendgrassgravel001a_tooltexture
+%keywords ff_dropdown
+$surfaceprop dirt
+$surfaceprop2 dirt
 }
-
-
-

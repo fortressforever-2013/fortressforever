@@ -1,9 +1,8 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_impact\impactrocks"
-	"$surfaceprop" "concrete"
-	"$bumpmap" "ff_impact\impactrocks_normal"
-	//"$envmap" "env_cubemap"
-	//"$normalmapalphaenvmapmask" 1
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_impact\impactrocks
+$surfaceprop concrete
+$bumpmap ff_impact\impactrocks_normal
+//$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
 }

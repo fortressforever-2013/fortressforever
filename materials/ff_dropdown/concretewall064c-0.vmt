@@ -1,8 +1,4 @@
-"lightmappedgeneric"
-{
-	"$basetexture" "ff_dropdown/concretewall064c-0"
-	"$surfaceprop" "concrete"
+LightmappedGeneric{
+$basetexture ff_dropdown/concretewall064c-0
+$surfaceprop concrete
 }
-
-
-
