@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_well\bridge_lowerSupport1"
+VertexLitGeneric{
+$basetexture models\props\ff_well\bridge_lowerSupport1
 }

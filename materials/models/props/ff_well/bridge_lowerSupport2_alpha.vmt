@@ -1,6 +1,5 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_well\bridge_lowerSupport2_alpha"
-	"$nocull" 1
-	"$translucent" 1
+VertexLitGeneric{
+$basetexture models\props\ff_well\bridge_lowerSupport2_alpha
+$nocull 1
+$translucent 1
 }

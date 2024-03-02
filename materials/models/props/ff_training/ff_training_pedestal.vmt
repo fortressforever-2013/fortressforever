@@ -1,10 +1,8 @@
-"VertexLitGeneric"
-{
-	"%keywords" "FF"
-	"$baseTexture" "models\props\ff_training\ff_training_pedestal"
-	"$surfaceprop" "metal"
-	"$model" 1
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.2 .2 .2]"
-	"$envmapmask" "models\props\ff_training\ff_training_pedestal_mask"
+VertexLitGeneric{
+%keywords FF
+$basetexture models\props\ff_training\ff_training_pedestal
+$surfaceprop metal
+$envmap env_cubemap
+$envmaptint "[.2 .2 .2]"
+$envmapmask models\props\ff_training\ff_training_pedestal_mask
 }

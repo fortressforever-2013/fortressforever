@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	"$model"	1
-	"$basetexture" "models\props\ff_well\bridge2"
-	"$bumpmap" "models\props\ff_well\bridge2_normal"
-	//"$envmap" "env_cubemap"
-	//"$normalmapalphaenvmapmask" 1
+VertexLitGeneric{
+$basetexture models\props\ff_well\bridge2
+$bumpmap models\props\ff_well\bridge2_normal
+//$envmap env_cubemap
+//$normalmapalphaenvmapmask 1
 }

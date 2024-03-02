@@ -1,6 +1,5 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_well\button"
-	"$surfaceprop" "metal"
-	"$selfillum"	"1"
+VertexLitGeneric{
+$basetexture models\props\ff_well\button
+$surfaceprop metal
+$selfillum 1
 }

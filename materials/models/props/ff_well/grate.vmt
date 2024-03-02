@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_well\grate"
-	"$surfaceprop" "metal"
+VertexLitGeneric{
+$basetexture models\props\ff_well\grate
+$surfaceprop metal
 }

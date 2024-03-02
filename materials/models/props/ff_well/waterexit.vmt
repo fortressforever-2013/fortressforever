@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff_well\waterexit"
+VertexLitGeneric{
+$basetexture models\props\ff_well\waterexit
 }

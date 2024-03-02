@@ -1,17 +1,13 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "models\props\ff_training\detector-monitor-3-"
-	"$surfaceprop" "glass"
-    	"%keywords" "FF"
+VertexLitGeneric{
+$basetexture models\props\ff_training\detector-monitor-3-
+$surfaceprop glass
+%keywords FF
 
-	"Proxies"
-	{
-
-		"AnimatedTexture"
-		{
-	        	"animatedtexturevar" "$basetexture"
-	         	"animatedtextureframenumvar" "$frame"
-	         	"animatedtextureframerate" "12"
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 12
+}
+}
 }
