@@ -1,4 +1,3 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\\props\ff_shutdown2/sd2_train_skin"
+VertexLitGeneric{
+$baseTexture models\props\ff_shutdown2/sd2_train_skin
 }

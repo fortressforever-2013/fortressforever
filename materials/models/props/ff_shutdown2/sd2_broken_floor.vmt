@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_shutdown2\sd2_broken_floor"
-	"$bumpmap" "models\props\ff_shutdown2\sd2_broken_floor_normal"
+VertexLitGeneric{
+$baseTexture models\props\ff_shutdown2\sd2_broken_floor
+$bumpmap models\props\ff_shutdown2\sd2_broken_floor_normal
 }

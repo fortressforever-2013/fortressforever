@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props\ff_shutdown2\vent"
-	//"$envmap" "env_cubemap"
-	//"$envmaptint" "[0.3 0.3 0.3]"
-	//"$envmapcontrast" 0.7
-	"$model" 1
+VertexLitGeneric{
+$baseTexture models\props\ff_shutdown2\vent
+//$envmap env_cubemap
+//$envmaptint "[0.3 0.3 0.3]"
+//$envmapcontrast 0.7
 }

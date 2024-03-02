@@ -1,5 +1,4 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 	"models\props\ff_shutdown2\sd2_wall_curve"
-	"$bumpmap" 	"models\props\ff_shutdown2\sd2_wall_curve_normal"
+VertexLitGeneric{
+$baseTexture models\props\ff_shutdown2\sd2_wall_curve
+$bumpmap models\props\ff_shutdown2\sd2_wall_curve_normal
 }
