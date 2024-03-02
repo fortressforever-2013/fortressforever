@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\misc/saveme"
+VertexLitGeneric{
+$baseTexture models\misc/saveme
 //ELMO
-	"$selfillum" "1"
-	"$selfillumtint" "[1.5 1.5 1.5]"
-//ELMO
+$selfillum 1
+$selfillumtint "[1.5 1.5 1.5]"
 }
