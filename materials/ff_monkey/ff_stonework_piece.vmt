@@ -1,8 +1,6 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "ff_monkey/ff_stonework_piece"
-	"$bumpmap" "ff_monkey/ff_stonework_piece_normal"
-	"$surfaceprop" "Rock"
-	"$model" 1
-	"$nocull" 1
+VertexLitGeneric{
+$basetexture ff_monkey/ff_stonework_piece
+$bumpmap ff_monkey/ff_stonework_piece_normal
+$surfaceprop rock
+$nocull 1
 }

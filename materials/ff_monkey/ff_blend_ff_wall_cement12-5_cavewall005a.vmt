@@ -1,8 +1,7 @@
-"WorldVertexTransition"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_wall_cement12-5"
-	"$basetexture2" "nature/cavewall005a"
-	"$surfaceprop" "concrete"
-	"$surfaceprop2" "rock"
+WorldVertexTransition{
+%keywords FF
+$basetexture ff/ff_wall_cement12-5
+$basetexture2 nature/cavewall005a
+$surfaceprop concrete
+$surfaceprop2 rock
 }

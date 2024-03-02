@@ -1,25 +1,19 @@
+unlitgeneric{
+$basetexture ff_monkey/ff_waterfall_top
+$translucent 1
+$nocull 1
+//$color (1,1,1)
+$alpha 1
+$nofog 1
+$additive 1
+$nodecal 1
+//$ignorez 1
 
-"unlitgeneric"
-{
-	"$basetexture" "ff_monkey/ff_waterfall_top"
-	"$translucent" 1
-	"$nocull" 1
-//	"$color" (1,1,1)
-	"$alpha" 1
-	"$nofog" 1
-	"$additive" 1
-	"$nodecal" 1
-//	"$ignorez" 1
-	
-	"Proxies"
-	{
-	           
-          	"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" 1.5
-			"texturescrollangle" 270
-		}
-	}
-
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate 1.5
+texturescrollangle 270
+}
+}
 }

@@ -1,7 +1,5 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "ff_monkey/zo_banyan"
-	"$bumpmap" "ff_monkey/zo_banyan_normal"
-	"$surfaceprop" "wood"
-	"$model" 1
+VertexLitGeneric{
+$basetexture ff_monkey/zo_banyan
+$bumpmap ff_monkey/zo_banyan_normal
+$surfaceprop wood
 }

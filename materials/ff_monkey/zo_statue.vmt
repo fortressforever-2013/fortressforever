@@ -1,7 +1,5 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "ff_monkey/zo_statue"
-	"$bumpmap" "ff_monkey/zo_statue_normal"
-	"$surfaceprop" "Rock"
-	"$model" 1
+VertexLitGeneric{
+$basetexture ff_monkey/zo_statue
+$bumpmap ff_monkey/zo_statue_normal
+$surfaceprop rock
 }

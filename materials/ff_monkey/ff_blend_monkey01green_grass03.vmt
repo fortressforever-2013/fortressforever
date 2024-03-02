@@ -1,8 +1,7 @@
-"WorldVertexTransition"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_monkey/ff_monkey01_darker_green"
-	"$basetexture2" "ff/ff_ground_grass03"
-	"$surfaceprop" "concrete"
-	"$surfaceprop2" "grass"
+WorldVertexTransition{
+%keywords FF
+$basetexture ff_monkey/ff_monkey01_darker_green
+$basetexture2 ff/ff_ground_grass03
+$surfaceprop concrete
+$surfaceprop2 grass
 }

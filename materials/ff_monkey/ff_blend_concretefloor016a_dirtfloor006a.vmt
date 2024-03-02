@@ -1,8 +1,7 @@
-"WorldVertexTransition"
-{
-	"%keywords" "FF"
-	"$basetexture" "concrete/concretefloor016a"
-	"$basetexture2" "nature/dirtfloor006a"
-	"$surfaceprop" "concrete"
-	"$surfaceprop2" "dirt"
+WorldVertexTransition{
+%keywords FF
+$basetexture concrete/concretefloor016a
+$basetexture2 nature/dirtfloor006a
+$surfaceprop concrete
+$surfaceprop2 dirt
 }

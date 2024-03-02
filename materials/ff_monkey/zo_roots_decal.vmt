@@ -1,9 +1,8 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_monkey/zo_roots_decal"
-	"$surfaceprop" "wood"
-	"$decal" 1
-	"$decalscale" .5
-	"$translucent" 1
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_monkey/zo_roots_decal
+$surfaceprop wood
+$decal 1
+$decalscale .5
+$translucent 1
 }

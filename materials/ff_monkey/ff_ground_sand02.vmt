@@ -1,8 +1,7 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_monkey/ff_ground_sand02"
-	"$normalmap" "ff_monkey/ff_ground_sand02norm"
-	"$surfaceprop" "Quicksand"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.07 .07 .07]"
+LightmappedGeneric{
+$basetexture ff_monkey/ff_ground_sand02
+$normalmap ff_monkey/ff_ground_sand02norm
+$surfaceprop quicksand
+$envmap env_cubemap
+$envmaptint "[.07 .07 .07]"
 }
