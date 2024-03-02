@@ -1,4 +1,3 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_palermo/stonewall_arch_window"
+LightmappedGeneric{
+$basetexture ff_palermo/stonewall_arch_window
 }

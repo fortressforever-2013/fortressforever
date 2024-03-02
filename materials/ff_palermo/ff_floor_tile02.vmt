@@ -1,7 +1,6 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_palermo/ff_floor_tile02"
-	"$surfaceprop" "tile"
-	"$bumpmap" "ff_palermo/ff_floor_tile02_normal"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_palermo/ff_floor_tile02
+$surfaceprop tile
+$bumpmap ff_palermo/ff_floor_tile02_normal
 }
