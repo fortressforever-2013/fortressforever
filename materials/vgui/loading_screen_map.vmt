@@ -1,14 +1,11 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/loadingscreens/default"
+UnlitGeneric{
+$basetexture vgui/loadingscreens/default
 
-	"Proxies"
-	{
-		// This is a sine proxy
-		"MapTexture"
-		{
-			"path"		"vgui/loadingscreens"
-			"resultVar"	"$basetexture"
-		}
-	}
+Proxies{
+// This is a sine proxy
+MapTexture{
+path vgui/loadingscreens
+resultVar $basetexture
+}
+}
 }

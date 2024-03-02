@@ -1,6 +1,5 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/hud_secup_red.vtf"
-	"$translucent" 1
-                "$alpha" 1.0
+UnlitGeneric{
+$basetexture vgui/hud_secup_red
+$translucent 1
+$alpha 1.0
 }

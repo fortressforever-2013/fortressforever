@@ -1,7 +1,4 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/hud_flag_green_new"
-	"$translucent" 1
-
+UnlitGeneric{
+$basetexture vgui/hud_flag_green_new
+$translucent 1
 }
-
