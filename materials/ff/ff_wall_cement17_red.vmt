@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_wall_cement17_red"
-	"$surfaceprop" "concrete"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff/ff_wall_cement17_red
+$surfaceprop concrete
 }

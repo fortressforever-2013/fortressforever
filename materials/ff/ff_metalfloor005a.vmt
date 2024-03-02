@@ -1,7 +1,5 @@
-"LightmappedGeneric"
-{
-	// Original shader: BaseTimesLightmap
-	"$basetexture" "Metal/metalfloor005a"
-	"$surfaceprop" "metal"
-	"%keywords" "borealis"
+LightmappedGeneric{
+$basetexture Metal/metalfloor005a
+$surfaceprop metal
+%keywords borealis
 }

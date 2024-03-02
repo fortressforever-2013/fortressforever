@@ -1,7 +1,6 @@
-"UnlitGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff/ff_credits"
-	"$surfaceprop" "no_decal"
-	"$selfillum" "1"
+UnlitGeneric{
+%keywords FF
+$basetexture ff/ff_credits
+$surfaceprop no_decal
+$selfillum 1
 }

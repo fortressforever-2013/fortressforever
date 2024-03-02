@@ -1,5 +1,4 @@
-"LightmappedGeneric"
-{
-"%keywords" "FF"
-"$basetexture" "ff/ff_sandstone7"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff/ff_sandstone7
 }

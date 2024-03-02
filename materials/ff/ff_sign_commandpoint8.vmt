@@ -1,6 +1,5 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff\ff_sign_commandpoint8"
-	"$surfaceprop" "default"
+LightmappedGeneric{
+%keywords FF
+$basetexture ff\ff_sign_commandpoint8
+$surfaceprop default
 }

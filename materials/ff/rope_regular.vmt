@@ -1,8 +1,5 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "cable/rope"
-	"$surfaceprop" "metal"
-	"%keywords" "c17downtown"
+LightmappedGeneric{
+$basetexture cable/rope
+$surfaceprop metal
+%keywords c17downtown
 }
-
-
