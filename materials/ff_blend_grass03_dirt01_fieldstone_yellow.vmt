@@ -1,12 +1,11 @@
-"WorldVertexTransition"
-{
-	"$basetexture" 	"ff/ff_ground_grass03"
-	"$basetexture2" "ff/ff_ground_dirt01_brown"
-	"$basetexture3" "ff/ff_fieldston_yellow"
-	"%tooltexture" "nature/blendsandgrass008a_tooltexture"
-	"$detail" "overlays/macro01a"
-	"$detailscale" .1
-	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-        	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-        	"%detailtype" "cctrees_n_scrubs"
+WorldVertexTransition{
+$basetexture ff/ff_ground_grass03
+$basetexture2 ff/ff_ground_dirt01_brown
+$basetexture3 ff/ff_fieldstone_yellow
+%tooltexture nature/blendsandgrass008a_tooltexture
+$detail overlays/macro01a
+$detailscale .1
+$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+$basetexturetransform2 "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+%detailtype cctrees_n_scrubs
 }

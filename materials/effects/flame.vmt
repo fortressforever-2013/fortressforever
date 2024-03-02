@@ -1,7 +1,6 @@
-"UnlitGeneric"
-{
-	"$basetexture" "effects/flame"
-	"$additive" "1"
-	"$vertexcolor" 1
-	"$vertexalpha" 1
+UnlitGeneric{
+$basetexture effects/flame
+$additive 1
+$vertexcolor 1
+$vertexalpha 1
 }

@@ -1,6 +1,5 @@
-"lightmappedgeneric"
-{
-	"$basetexture" "ff_2morforever/yellowcapturepoint_both"
-	"$surfaceprop" "metalpanel"
-	"$keywords" "decals"
+LightmappedGeneric{
+$basetexture ff_2morforever/yellowcapturepoint_both
+$surfaceprop metalpanel
+%keywords decals
 }

@@ -1,8 +1,6 @@
-"UnlitGeneric"
-{
-	// Original shader: BaseTimesVertexColorAlphaBlend
-	"$basetexture" "effects/blood_gore"
-	"$vertexalpha" "1"
-	"$vertexcolor" 1
-	"$translucent" "1"
+UnlitGeneric{
+$basetexture effects/blood_gore
+$vertexalpha 1
+$vertexcolor 1
+$translucent 1
 }

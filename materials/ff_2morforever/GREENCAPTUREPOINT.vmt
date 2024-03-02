@@ -1,4 +1,3 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "ff_2morforever/greencapturepoint"
+LightmappedGeneric{
+$basetexture ff_2morforever/greencapturepoint
 }

@@ -1,29 +1,23 @@
-"VertexLitGeneric"
-{
-	"$model"		"1"
-	"$basetexture" 		"effects/conduit_energy"
-	"$envmap" 		"shadertest/GooInGlass_env"
-	"$bumpmap" 		"shadertest/GooInGlass_normal"
-	"$surfaceprop" 		"glass"
-	"$envmaptint" 		"[ 1.00 1.00 1.00 ]"
-	"$glassenvmap" 		"shadertest/GooInGlass_envglass"
-	"$glassenvmaptint" 	"[ 1.00 1.00 1.00 ]"
-	"$nodecal" 1
+VertexLitGeneric{
+$basetexture effects/conduit_energy
+$envmap shadertest/GooInGlass_env
+$bumpmap shadertest/GooInGlass_normal
+$surfaceprop glass
+$envmaptint "[1.00 1.00 1.00]"
+$glassenvmap shadertest/GooInGlass_envglass
+$glassenvmaptint "[1.00 1.00 1.00]"
+$nodecal 1
 
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" .15
-			"texturescrollangle" 85
-		}
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" 0.05
-			"texturescrollangle" 60
-		}
-	}
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate .15
+texturescrollangle 85
+}
+TextureScroll{
+texturescrollvar "$bumptransform"
+texturescrollrate 0.05
+texturescrollangle 60
+}
+}
 }

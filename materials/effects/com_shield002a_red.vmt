@@ -1,26 +1,20 @@
-"Unlittwotexture"
-{
-	"$basetexture" "Effects/com_shield002a_red"
-	"$texture2" "Effects/com_shield004b_red"
-	"$translucent" "1"
-	"$additive" 1
-	"$nodecal" 1
+Unlittwotexture{
+$basetexture Effects/com_shield002a_red
+$texture2 Effects/com_shield004b_red
+$translucent 1
+$additive 1
+$nodecal 1
 
-	"Proxies"
-	{
-
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" .02
-			"texturescrollangle" 90
-		}
-		"TextureScroll"
-		{
-			"texturescrollvar" "$texture2transform"
-			"texturescrollrate" .04
-			"texturescrollangle" 20
-		}
-	}
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate .02
+texturescrollangle 90
+}
+TextureScroll{
+texturescrollvar "$texture2transform"
+texturescrollrate .04
+texturescrollangle 20
+}
+}
 }

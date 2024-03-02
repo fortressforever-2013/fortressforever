@@ -1,9 +1,8 @@
-"UnlitGeneric"
-{
-    "%keywords" "FF"
-    "$basetexture" "effects/eyelid"
-    "$decal" 1
-    "$decalscale" 0.25
-    "$translucent" 1
-    "$ignorez" "1"
+UnlitGeneric{
+%keywords FF
+$basetexture effects/eyelid
+$decal 1
+$decalscale 0.25
+$translucent 1
+$ignorez 1
 }

@@ -1,7 +1,6 @@
-"Sprite"
-{
-	"$spriteorientation" "parallel_upright"
-	"$spriteorigin" "[ 0.50 0.50 ]"
-	"$basetexture" "effects/rail_beam"
-	"$spriterendermode" 5
+Sprite{
+$spriteorientation parallel_upright
+$spriteorigin "[0.50 0.50]"
+$basetexture effects/rail_beam
+$spriterendermode 5
 }

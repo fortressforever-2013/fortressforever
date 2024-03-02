@@ -1,8 +1,7 @@
-"VertexLitGeneric"
-{
-	$additive 1
-	$color2 "[.6 .55 .37]"
-	$alpha ".3"
-	"$basetexture" "effects/slowring"
- 	"$surfaceprop" "water"
+VertexLitGeneric{
+$additive 1
+$color2 "[.6 .55 .37]"
+$alpha .3
+$basetexture effects/slowring
+$surfaceprop water
 }

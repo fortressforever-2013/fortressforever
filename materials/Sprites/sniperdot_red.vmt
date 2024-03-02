@@ -1,6 +1,5 @@
-"Sprite"
-{
-	"$spriteorientation" "vp_parallel"
-	"$spriteorigin" "[ 0.50 0.50 ]"
-	"$basetexture" "sprites/sniperdot_red"
+Sprite{
+$spriteorientation vp_parallel
+$spriteorigin "[0.50 0.50]"
+$basetexture sprites/sniperdot_red
 }

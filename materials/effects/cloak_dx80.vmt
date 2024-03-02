@@ -1,48 +1,40 @@
-"Refract"
-{
-	"$model" 1
- 	"$refractamount" "0.01" //.5		//this along with animated framerates I think will be best to tweak to alter visibility
- 	"$bluramount" ".01" //.1
-	"$scale" "[.5 .5]"
-	"$dudvmap" "effects/cloak_dudv"
- 	"$normalmap" "effects/cloak_normal"
- 	"$surfaceprop" "water"
-	"$nodecal" "1"
-	"$dudvframe" "0"
-	"$bumpframe" "0"
-	"$baserefract" "0"
-	"$multiplier" ".5"
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$dudvmap"
-			"animatedtextureframenumvar" "$dudvframe"
-			"animatedtextureframerate" 20.00
-		}
+Refract{
+$model 1
+$refractamount 0.01 //.5		//this along with animated framerates I think will be best to tweak to alter visibility
+$bluramount .01 //.1
+$scale "[.5 .5]"
+$dudvmap effects/cloak_dudv
+$normalmap effects/cloak_normal
+$surfaceprop water
+$nodecal 1
+$dudvframe 0
+$bumpframe 0
+$baserefract 0
+$multiplier .5
 
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$normalmap"
-			"animatedtextureframenumvar" "$bumpframe"
-			"animatedtextureframerate" 20.00
-		}
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" .05
-			"texturescrollangle" 45.00
-		}
-		"FF_SpyCloakProxy"
-		{
-			"resultVar"	"$baserefract"
-		}
-		"Multiply"
-		{
-			"srcVar1"		"$multiplier"
-			"srcVar2"		"$baserefract"
-			"resultVar"	"$refractamount"
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $dudvmap
+animatedtextureframenumvar $dudvframe
+animatedtextureframerate 20
+}
+AnimatedTexture{
+animatedtexturevar $normalmap
+animatedtextureframenumvar $bumpframe
+animatedtextureframerate 20
+}
+TextureScroll{
+texturescrollvar "$bumptransform"
+texturescrollrate .05
+texturescrollangle 45
+}
+FF_SpyCloakProxy{
+resultVar $baserefract
+}
+Multiply{
+srcVar1 $multiplier
+srcVar2 $baserefract
+resultVar $refractamount
+}
+}
 }

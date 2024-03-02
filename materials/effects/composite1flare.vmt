@@ -1,9 +1,8 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "composite1flare/composite1flare"
-	"$nocompress" "1"
-	"$translucent" "1"
-	"$additive" "1"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
+UnlitGeneric{
+$baseTexture composite1flare/composite1flare
+$nocompress 1
+$translucent 1
+$additive 1
+$vertexcolor 1
+$vertexalpha 1
 }

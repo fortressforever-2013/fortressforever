@@ -1,41 +1,32 @@
-"UnlitGeneric"
-{
- 	"$model" 1
- 	"$surfaceprop" "water"
-	"$basetexture" "dev/water"
-	"$alpha" "1"
-	"$translucent" "1"
-	"$basespeed" "0"
-	"$multiplier" ".05"
-	"$baseopacity" ".02"
-	"$scaledspeed" "0"
+UnlitGeneric{
+$model 1
+$surfaceprop water
+$basetexture dev/water
+$alpha 1
+$translucent 1
+$basespeed 0
+$multiplier .05
+$baseopacity .02
+$scaledspeed 0
 
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$basetexture"
-			"animatedtextureframenumvar" "$frame"
-			"animatedtextureframerate" 20.00
-		}
-		"FF_SpyCloakProxy"
-		{
-			"resultVar"	"$basespeed"
-		}
-		
-		"Multiply"
-		{
-			"srcVar1"		"$multiplier"
-			"srcVar2"		"$basespeed"
-			"resultVar"	"$scaledspeed"
-		}
-		
-		"Add"	
-		{
-			"srcVar1"		"$baseopacity"
-			"srcVar2"		"$scaledspeed"
-			"resultVar"	"$alpha"
-		}
-
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 20
+}
+FF_SpyCloakProxy{
+resultVar $basespeed
+}
+Multiply{
+srcVar1 $multiplier
+srcVar2 $basespeed
+resultVar $scaledspeed
+}
+Add{
+srcVar1 $baseopacity
+srcVar2 $scaledspeed
+resultVar $alpha
+}
+}
 }

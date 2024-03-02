@@ -1,5 +1,4 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "ff_2morforever/plasterwall046bred"
-	"$surfaceprop" "plaster"
+LightmappedGeneric{
+$basetexture ff_2morforever/plasterwall046bred
+$surfaceprop plaster
 }

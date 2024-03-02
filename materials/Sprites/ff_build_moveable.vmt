@@ -1,10 +1,7 @@
-"UnlitGeneric"
-{
-	"$basetexture" "sprites/ff_build_moveable"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
-	"$$alphatest" "1"
-	"$ignorez"	"1"
-
-
+UnlitGeneric{
+$basetexture sprites/ff_build_moveable
+$vertexcolor 1
+$vertexalpha 1
+$alphatest 1
+$ignorez 1
 }
