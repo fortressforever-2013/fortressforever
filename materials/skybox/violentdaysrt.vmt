@@ -1,7 +1,6 @@
-"unlitgeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "skybox/violentdaysrt"
-	"$nofog" 1
-	$ignorez 1
+UnlitGeneric{
+%keywords FF
+$basetexture skybox/violentdaysrt
+$nofog 1
+$ignorez 1
 }
