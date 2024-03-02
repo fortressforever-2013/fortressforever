@@ -1,14 +1,10 @@
-// envmaptint_fix
-"LightmappedGeneric"
-{
-	"$basetexture" "Wood/woodfloor007a"
-	"$bumpmap" "Wood/woodfloor007a_normal"
-	"$surfaceprop" "wood"
-	"$envmap" "env_cubemap"
-	"$normalmapalphaenvmapmask" 1
-	"$envmapcontrast" 1
-	"$envmapsaturation" .7
-	"$envmaptint" "[ .1 .1 .1 ]"
-
-
+LightmappedGeneric{
+$basetexture Wood/woodfloor007a
+$surfaceprop wood
+$bumpmap Wood/woodfloor007a_normal
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapcontrast 1
+$envmapsaturation .7
+$envmaptint "[.1 .1 .1]"
 }

@@ -1,8 +1,7 @@
-"UnlitGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_cz2/ff_cz2_overview"
-	"$surfaceprop" "no_decal"
-	"$decal" 1
-	"$decalscale" 1
+UnlitGeneric{
+%keywords FF
+$basetexture ff_cz2/ff_cz2_overview
+$surfaceprop no_decal
+$decal 1
+$decalscale 1
 }

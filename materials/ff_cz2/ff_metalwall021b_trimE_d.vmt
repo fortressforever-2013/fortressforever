@@ -1,8 +1,7 @@
-"LightmappedGeneric"
-{
-	"%keywords" "FF"
-	"$basetexture" "ff_cz2/ff_metalwall021b_trimE"
-	"$decal" 1
-	"$decalscale" .25
-	"$translucent" 1
+LightmappedGeneric{
+%keywords FF
+$basetexture ff_cz2/ff_metalwall021b_trimE
+$decal 1
+$decalscale .25
+$translucent 1
 }
