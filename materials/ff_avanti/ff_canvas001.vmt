@@ -1,5 +1,4 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "ff_avanti\ff_canvas001"
-	"$alphatest" 1
+LightmappedGeneric{
+$baseTexture ff_avanti\ff_canvas001
+$alphatest 1
 }

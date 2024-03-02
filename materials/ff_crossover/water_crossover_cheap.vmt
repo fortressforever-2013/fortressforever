@@ -1,62 +1,45 @@
-"Water"
-{
-	"Water_DX60"
-	{
-		"$fallbackmaterial" "nature/water_dx70"
-	}
+Water{
+	Water_DX60{
+	$fallbackmaterial nature/water_dx70}
+%tooltexture dev/water_normal
+$basetexture dev/water
+$translucent 1
+$color "[0.6 0.65 0.68]"
+%compilewater 1
+$abovewater 1
+$forcecheap 1
+$envmap env_cubemap
+$envmaptint "[0.4 0.65 0.68]"
+//$refracttexture _rt_WaterRefraction
+//$refractamount .5
+//$refracttint "[0.6 0.65 0.68]"
+//$reflecttexture _rt_WaterReflection
+//$reflectamount .5
+//$reflecttint "[0.6 0.65 0.68]"
+$scale "[1 1]"
+$bumpmap dev/water_normal
+$normalmap dev/water_normal
+$surfaceprop water
+$bottommaterial ff_crossover/water_crossover_beneath_cheap
+$bumpframe 0
+$fogenable 1
+$fogcolor "{22 30 35}"
+$fogstart 0
+$fogend 800.00
 
-	"%tooltexture" "dev/water_normal"
-	"$basetexture" "dev/water"
-	$translucent 1
-	$color "[0.6 0.65 0.68]"
-	"%compilewater" 1
-	"$abovewater" 1
-
-	"$forcecheap" 1
-
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.4 0.65 0.68]"
-//	"$refracttexture" "_rt_WaterRefraction"
-//	"$refractamount" ".5"
-//	"$refracttint" "[0.6 0.65 0.68]"
-
-//	"$reflecttexture" "_rt_WaterReflection"
-//	"$reflectamount" ".5"
-//	"$reflecttint" "[0.6 0.65 0.68]"
-
-	"$scale" "[1 1]"
-
-	"$bumpmap" "dev/water_normal"
-	"$normalmap" "dev/water_normal"
-
-	"$surfaceprop" "water"
-	"$bottommaterial" "ff_crossover/water_crossover_beneath_cheap"
-	"$bumpframe" "0"
-
-	"$fogenable" 1
-	"$fogcolor" "{22 30 35}"
-	"$fogstart" 0
-	"$fogend" 800.00
-
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$normalmap"
-			"animatedtextureframenumvar" "$bumpframe"
-			"animatedtextureframerate" 30.00
-		}
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" .05
-			"texturescrollangle" 45.00
-		}
-		"WaterLOD"
-		{
-			// fixme!  This has to be here, or material loading barfs.
-			"dummy" 0
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $normalmap
+animatedtextureframenumvar $bumpframe
+animatedtextureframerate 30
+}
+TextureScroll{
+texturescrollvar "$bumptransform"
+texturescrollrate .05
+texturescrollangle 45
+}
+WaterLOD{
+dummy 0	// fixme!  This has to be here, or material loading barfs.
+}
+}
 }

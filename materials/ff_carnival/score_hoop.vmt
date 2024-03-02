@@ -1,8 +1,7 @@
-"UnlitGeneric" 
-{
- 	"$basetexture"	"ff_carnival/score_hoop"
-	"$additive" 1
-	"$surfaceprop" "no_decal"
+UnlitGeneric{
+$basetexture ff_carnival/score_hoop
+$additive 1
+$surfaceprop no_decal
 //	"$time" 0
 //	"$rotateme" "0.0"
 //	"$mycenter" "[256, 256]"

@@ -1,53 +1,40 @@
-"Water"
-{
-	"Water_DX60"
-	{
-		"$fallbackmaterial" "nature/water_dx70_beneath"
-	}
-	"$abovewater" 0
-	"%compilewater" 1
-//	"$forcecheap" 1
-	"$CHEAPWATERSTARTDISTANCE" 500.0
-	"$CHEAPWATERENDDISTANCE" 1000.0
-	// bottom materials shouldn't use $envmap!!!  They won't work if they do.
-//	"$envmap" "env_cubemap"
-	"%tooltexture" "dev/water_normal"
-	"$refractamount" ".5"
-	"$refracttint" "[0.7 0.75 0.78]"
+Water{
+	Water_DX60{
+	$fallbackmaterial nature/water_dx70_beneath}
+%tooltexture dev/water_normal
+%compilewater 1
+$abovewater 0
+//$envmap env_cubemap	// bottom materials shouldn't use $envmap!!!  They won't work if they do.
+$refracttexture _rt_WaterRefraction
+$refractamount .5
+$refracttint "[0.7 0.75 0.78]"
 
-	"$refracttexture" "_rt_WaterRefraction"
 
-	"$scale" "[1 1]"
 
-	"$bumpmap" "dev/water_dudv"
-	"$normalmap" "dev/water_normal"
+$scale "[1 1]"
+$bumpmap dev/water_dudv
+$normalmap dev/water_normal
+$surfaceprop water
+$bumpframe 0
+$fogenable 1
+$fogcolor "{22 30 32}"
+$fogstart -600
+$fogend 800.00
+$CHEAPWATERSTARTDISTANCE 500.0
+$CHEAPWATERENDDISTANCE 1000.0
+//$forcecheap 1
 
-	"$surfaceprop" "water"
-	"$bumpframe" "0"
-
-	"$fogenable" 1
-	"$fogcolor" "{22 30 32}"
-	"$fogstart" -600
-	"$fogend" 800.00
-
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$normalmap"
-			"animatedtextureframenumvar" "$bumpframe"
-			"animatedtextureframerate" 30.00
-		}
-
-		"TextureScroll"
-		{
-			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" .05
-			"texturescrollangle" 45.00
-		}
-
-		"WaterLOD"
-		{
-		}
-	}
+Proxies{
+AnimatedTexture{
+animatedtexturevar $normalmap
+animatedtextureframenumvar $bumpframe
+animatedtextureframerate 30
+}
+TextureScroll{
+texturescrollvar "$bumptransform"
+texturescrollrate .05
+texturescrollangle 45
+}
+WaterLOD{}
+}
 }

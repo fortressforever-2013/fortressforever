@@ -1,28 +1,18 @@
-"LightmappedGeneric"
-{
-
-
-	"%tooltexture" "dev/water_normal"
-//	"$basetexture" "dev/water"
-//	$translucent 1
-//	$color "[0.2 0.25 0.68]"
-	"%compilewater" 1
-	"$abovewater" 0
-
-//	"$forcecheap" 1
-
-	"$scale" "[1 1]"
-
-//	"$bumpmap" "dev/water_normal"
-//	"$normalmap" "dev/water_normal"
-
-	"$surfaceprop" "water"
-
-	"$bumpframe" "0"
-
-	"$fogenable" 1
-	"$fogcolor" "{22 30 35}"
-	"$fogstart" 0
-	"$fogend" 800.00
-
+LightmappedGeneric{
+%tooltexture dev/water_normal
+//$basetexture dev/water
+//$translucent 1
+//$color "[0.2 0.25 0.68]"
+%compilewater 1
+$abovewater 0
+//$forcecheap 1
+$scale "[1 1]"
+//$bumpmap dev/water_normal
+//$normalmap dev/water_normal
+$surfaceprop water
+$bumpframe 0
+$fogenable 1
+$fogcolor "{22 30 35}"
+$fogstart 0
+$fogend 800.00
 }

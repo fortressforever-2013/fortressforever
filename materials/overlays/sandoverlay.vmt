@@ -1,8 +1,7 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "overlays/sandoverlay"
-	"$translucent" 1
-	"$decal" 1
-	"$surfaceprop" "sand"
-	"%keywords" "cacti"
+LightmappedGeneric{
+$basetexture overlays/sandoverlay
+$translucent 1
+$decal 1
+$surfaceprop sand
+%keywords cacti
 }
