@@ -1,10 +1,6 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\props\ff\ff_crate_metal_48x64x52_2"
-	"$model"	1
-	"$bumpmap" "models\props\ff\ff_crate_metal_48x64x52_normal"
-
-	//Environment Mapping
-	"$envmap" "env_cubemap"
-	"$normalmapalphaenvmapmask" 1
+VertexLitGeneric{
+$basetexture models\props\ff\ff_crate_metal_48x64x52_2
+$bumpmap models\props\ff\ff_crate_metal_48x64x52_normal
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
 }

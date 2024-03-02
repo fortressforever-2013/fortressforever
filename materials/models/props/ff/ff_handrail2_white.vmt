@@ -1,7 +1,5 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" 			"models/props/ff/ff_handrail2_white"
-	"$model" 		 1
-                "$translucent"                          1
-                "$alphatest "                            1
+VertexLitGeneric{
+$baseTexture models/props/ff/ff_handrail2_white
+$translucent 1
+$alphatest 1
 }

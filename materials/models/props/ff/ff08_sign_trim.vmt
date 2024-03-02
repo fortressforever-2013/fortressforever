@@ -1,9 +1,8 @@
-"VertexLitGeneric"
-{
-    "%keywords" "FF"
-    "$basetexture" "ff/ff08_sign_trim"
-    "$bumpmap" "ff/ff08_sign_trim_normal"
-    "$surfaceprop" "metal"
-    "$envmap" "env_cubemap"
-	"$envmaptint" "[0.3 0.3 0.3]"
+VertexLitGeneric{
+%keywords FF
+$basetexture ff/ff08_sign_trim
+$bumpmap ff/ff08_sign_trim_normal
+$surfaceprop metal
+$envmap env_cubemap
+$envmaptint "[0.3 0.3 0.3]"
 }

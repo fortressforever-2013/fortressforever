@@ -1,7 +1,5 @@
-"VertexLitGeneric"
-{
-    "$basetexture" "models/props/ff/cactus1.vtf"
-    "model" 1
-    "$envmapmode" 1
-    "$bumpmap" "models/props/ff/cactus1_normal.vtf"
+VertexLitGeneric{
+$basetexture models/props/ff/cactus1
+$envmapmode 1
+$bumpmap models/props/ff/cactus1_normal
 }

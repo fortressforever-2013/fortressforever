@@ -1,6 +1,4 @@
-"Vertexlitgeneric"
-{
-	"$basetexture" "models/props/ff/flag_long_red"
-	"$surfaceprop" "carpet"
+VertexLitGeneric{
+$basetexture models/props/ff/flag_long_red
+$surfaceprop carpet
 }
-

@@ -1,17 +1,14 @@
-"UnlitGeneric"
-{
-	"$basetexture" "models/props/ff/tele_effects"
-	"$model" 1
-	"$nocull" 1
-	"$additive" 1
-	"$color" "[1 0 0]"
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" -0.5
-			"texturescrollangle" 90
-		}
-	}
+UnlitGeneric{
+$basetexture models/props/ff/tele_effects
+$model 1
+$nocull 1
+$additive 1
+$color "[1 0 0]"
+Proxies{
+TextureScroll{
+texturescrollvar "$basetexturetransform"
+texturescrollrate -0.5
+texturescrollangle 90
+}
+}
 }

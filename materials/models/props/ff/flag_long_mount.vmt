@@ -1,6 +1,4 @@
-"Vertexlitgeneric"
-{
-	"$basetexture" "models/props/ff/flag_long_mount"
-	"$surfaceprop" "metal"
+VertexLitGeneric{
+$basetexture models/props/ff/flag_long_mount
+$surfaceprop metal
 }
-
