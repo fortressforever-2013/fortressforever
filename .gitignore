@@ -1,7 +1,14 @@
 *.tmp
 *.cache
 *.cfg
+
 user_custom
 screenshots
 custom
 downloadlists
+
+cfg/server_blacklist.txt
+crosshairs.vdf
+
+*.pdb
+*.dbg
