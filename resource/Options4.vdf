@@ -5,18 +5,18 @@
 		"caption"	"#GameUI_OptimisationsHeading"
 	}
 
-		//"ragdolls1"
-		//{
-		//	"caption"	"#GameUI_RagdollLifetime"
-		//	"cvar"		"cl_ragdolltime"
-		//	"type"		"discrete"
-		//	"values"
-		//	{
-		//		"20.0"	"#GameUI_Normal"
-		//		"5.0"	"#GameUI_Quick"
-		//		"0"		"#GameUI_None"
-		//	}
-		//}
+		"ragdolls1"
+		{
+			"caption"	"#GameUI_RagdollLifetime"
+			"cvar"		"ragdoll_fadeaftertime"
+			"type"		"discrete"
+			"values"
+			{
+				"5.0"	"#GameUI_Normal"
+				"2.5"	"#GameUI_Quick"
+				"0"		"#GameUI_Instant"
+			}
+		}
 
 		"ragdolls2"
 		{
