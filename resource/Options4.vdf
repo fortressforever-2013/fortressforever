@@ -13,8 +13,8 @@
 			"values"
 			{
 				"5.0"	"#GameUI_Normal"
-				"2.5"	"#GameUI_Quick"
-				"0"		"#GameUI_Instant"
+				"2.5"	"#GameUI_Short"
+				"0"		"#GameUI_None"
 			}
 		}
 
