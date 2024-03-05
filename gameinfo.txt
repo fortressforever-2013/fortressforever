@@ -15,7 +15,7 @@
 		"test_hardware"		1
 		"ff_training"		1 // should only be accessible through "Training" from main menu
 	}
-	supportsvr	1
+	supportsvr	0
 
 
 	FileSystem
