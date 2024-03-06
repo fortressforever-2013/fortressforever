@@ -12,3 +12,14 @@ crosshairs.vdf
 
 *.pdb
 *.dbg
+
+// sourcemod
+addons
+
+// IDA
+*.idb
+*.til
+*.nam
+*.id*
+
+console.log
