@@ -109,3 +109,18 @@
 	"pitch"			"PITCH_NORM"
 	"wave"			"ui/buttonclick.wav"
 }
+
+"MenuMusic.Music"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"#ui/gamestartup0.mp3"
+		"wave"	"#ui/gamestartup1.mp3"
+		"wave"	"#ui/gamestartup2.mp3"
+	}
+}
