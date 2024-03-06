@@ -85,6 +85,8 @@
 			game				|all_source_engine_paths|hl2mp
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
+
+			game+download		|gameinfo_path|download
 		}
 	}
 }
