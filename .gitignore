@@ -1,22 +1,30 @@
-*.tmp
-*.cache
-*.cfg
-
-user_custom
-screenshots
+# User-specific files and cache
+cache
 custom
+download
 downloadlists
+screenshots
+user_custom
 
 cfg/server_blacklist.txt
 crosshairs.vdf
 
+*.tmp
+*.cache
+*.cfg
+
+# Add-ons (Sourcemod, Metamod: Source, etc)
+addons
+
+# No FF Linux client, use Proton
+bin/client.srv.so
+bin/client.so
+
+# Debugging symbols
 *.pdb
 *.dbg
 
-// sourcemod
-addons
-
-// IDA
+# IDA
 *.idb
 *.til
 *.nam
