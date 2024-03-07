@@ -14,7 +14,7 @@ PlayerClassData
 	"model"				"models/player/pyro/pyro.mdl"
 
 	// Health & Armour
-	"max_armour"			"150"
+	"max_armour"			"90"
 	"initial_armour"		"50"
 	"armour_type"			"6" // this means 0.6
 	"health"			"100"
