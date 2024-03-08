@@ -16,9 +16,7 @@ crosshairs.vdf
 # Add-ons (Sourcemod, Metamod: Source, etc)
 addons
 
-# No FF Linux client, use Proton
-bin/client.srv.so
-bin/client.so
+client_srv.so
 
 # Debugging symbols
 *.pdb

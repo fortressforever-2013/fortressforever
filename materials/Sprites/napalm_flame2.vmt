@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "sprites/napalm_flame2"
-	"$translucent" "1"
-	"$additive" "1"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
-}

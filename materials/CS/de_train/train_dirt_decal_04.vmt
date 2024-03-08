@@ -1,8 +1,0 @@
-LightmappedGeneric
-{
-	"$basetexture"	"CS\de_train\train_dirt_decal_04"
-	"$translucent" "1"
-	"$decal" "1"
-	"$decalscale" "0.250"
-
-}

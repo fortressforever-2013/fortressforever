@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "sprites/ff_sprite_saveme"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
-	"$$alphatest" "1"
-
-}
