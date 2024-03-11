@@ -262,6 +262,6 @@ function NormalizeInt(x)
 	
 	if ( x > 0 and x < 1 ) then return math.ceil(x) end
 	
-	if ( math.ceil( x ) - x ) > 0.5 then return math.ceil( x )
-	else return math.floor( x ) end
+	if ( math.ceil( x ) - x ) > 0.5 then return math.floor( x )
+	else return math.ceil( x ) end
 end
