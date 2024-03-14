@@ -7,8 +7,8 @@
 	"playrandom"
 	{
 		"volume"	"0.1,0.3"
-		"pitch"		"90,120"
-		"time"		"0.5, 5.0"
+		"pitch"	"90,120"
+		"time"	"0.5, 5.0"
 		"position"	"random"
 		"soundlevel"	"SNDLVL_140db"
 		"rndwave"
@@ -25,23 +25,23 @@
 "Well.yard"
 {
 	// DSP: 0 : "Normal (off)"
-	"dsp"		"1"
+	"dsp"	"1"
 	"dsp_volume" "0.4"
 
 	// constant wind base
 	"playlooping"
 	{
 		"volume"	"0.2"
-		"pitch"		"100"
-		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"pitch"	"100"
+		"wave"	"ambient/wind/ff_wasteland_wind.wav"
 	}
 
 	// Wind gusts (based on cliffe's cs_assault settings)
 	"playrandom"
 	{
-		"time"		"20,30"
+		"time"	"20,30"
 		"volume"	"0.3,0.4"
-		"pitch"		"90,110"
+		"pitch"	"90,110"
 
 		"rndwave"
 		{
@@ -58,15 +58,15 @@
 "Well.flagroom"
 {
 	// DSP: // 1 : "Generic"
-	"dsp"		"1"
+	"dsp"	"1"
 	"dsp_volume" "0.6"
 
 	// constant ambient base
 	"playlooping"
 	{
 		"volume"	"0.1"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/ff_ambience.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/ff_ambience.wav"
 	}
 	"playsoundscape"
 	{
@@ -79,7 +79,7 @@
 // Centre Bunker
 "Well.bunker"
 {
-	"dsp"		"1"
+	"dsp"	"1"
 	"dsp_volume"	"0.5"
 
 	"playsoundscape"
@@ -93,30 +93,30 @@
 "Well.front"
 {
 	// DSP: 0 : "Normal (off)"
-	"dsp"		"1"
+	"dsp"	"1"
 	"dsp_volume" "0.5"
 	// General ambient noise
 	"playlooping"
 	{
 		"volume"	"0.1"
-		"pitch"		"100"
-		"wave"		"ambient/push/inside_amb1.wav"
+		"pitch"	"100"
+		"wave"	"ambient/push/inside_amb1.wav"
 	}
 
 	// constant ambient base
 	"playlooping"
 	{
 		"volume"	"0.02"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/ff_ambience.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/ff_ambience.wav"
 	}
 
 // wind blowing through warehouse
 	"playrandom"
 	{
-		"time"		"20,30"
+		"time"	"20,30"
 		"volume"	"0.1,0.2"
-		"pitch"		"90,110"
+		"pitch"	"90,110"
 		
 		"rndwave"
 		{
@@ -129,9 +129,9 @@
 
 	"playrandom"
 	{
-		"time"		"30,60"
+		"time"	"30,60"
 		"volume"	"0.3,0.5"
-		"pitch"		"90,100"
+		"pitch"	"90,100"
 		"position"	"random"
 		"soundlevel"	"SNDLVL_140db"
 		"rndwave"
@@ -147,9 +147,8 @@
 "Well.4bags"
 {
 	// DSP: 0 : "Normal (off)"
-	"dsp"		"1"
-	"dsp_volume" "0.5
-"
+	"dsp"	"1"
+	"dsp_volume" "0.5"
 	"playsoundscape"
 	{
 		"name"	"Well.front"

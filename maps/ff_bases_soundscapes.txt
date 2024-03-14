@@ -1,6 +1,6 @@
---------------------------------------------------------------
-FF_BASES SOUNDSCAPES
---------------------------------------------------------------
+//--------------------------------------------------------------
+//FF_BASES SOUNDSCAPES
+//--------------------------------------------------------------
 
 "ff_bases.midmap"
 {
@@ -9,13 +9,13 @@ FF_BASES SOUNDSCAPES
 
 	"playlooping"
 	{
-		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"wave"	"ambient/wind/ff_wasteland_wind.wav"
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_windgusts"
+		"name"	"d1_canals.util_windgusts"
 		"volume"	"1.0"
 	}
 }
@@ -28,27 +28,27 @@ FF_BASES SOUNDSCAPES
 
 	"playlooping"
 	{
-		"wave"		"ambient/atmosphere/ambience5.wav"
+		"wave"	"ambient/atmosphere/ambience5.wav"
 		"volume"	"0.1"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
 	"playlooping"
 	{
-		"wave"		"ambient/water/drip_loop1.wav"
+		"wave"	"ambient/water/drip_loop1.wav"
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_drip"
+		"name"	"d1_canals.util_drip"
 		"volume"	"1.0"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"d1_canals.util_fardrips"
+		"name"	"d1_canals.util_fardrips"
 		"volume"	"1.0"
 	}
 }
@@ -58,17 +58,17 @@ FF_BASES SOUNDSCAPES
 	"dsp"	"1"
 	"dsp_volume"	"0.5"
 
-	"playlooping"	
+	"playlooping"
 	{
-		"name"		"ambient/atmosphere/ambience_base.wav"
+		"name"	"ambient/atmosphere/ambience_base.wav"
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
-	"playlooping"	
+	"playlooping"
 	{
-		"name"		"ambient/push/inside_amb1.wav"
+		"name"	"ambient/push/inside_amb1.wav"
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 }
 
@@ -77,17 +77,17 @@ FF_BASES SOUNDSCAPES
 	"dsp"	"1"
 	"dsp_volume"	"0.5"
 
-	"playlooping"	
+	"playlooping"
 	{
-		"name"		"ambient/atmosphere/ambience_base.wav"
+		"name"	"ambient/atmosphere/ambience_base.wav"
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	"playlooping"
 	{
-		"name"		"ambient/push/inside_amb1.wav"
+		"name"	"ambient/push/inside_amb1.wav"
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 }
 
@@ -96,17 +96,17 @@ FF_BASES SOUNDSCAPES
 	"dsp"	"1"
 	"dsp_volume"	"0.5"
 
-	"playlooping"	
+	"playlooping"
 	{
-		"name"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+		"name"	"ambient/levels/canals/tunnel_wind_loop1.wav"
 		"volume"	"0.7"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	"playlooping"
 	{
-		"name"		"ambient/push/inside_amb1.wav"
+		"name"	"ambient/push/inside_amb1.wav"
 		"volume"	"0.4"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 }
 
@@ -115,16 +115,16 @@ FF_BASES SOUNDSCAPES
 	"dsp"	"1"
 	"dsp_volume"	"0.5"
 
-	"playlooping"	
+	"playlooping"
 	{
-		"name"		"ambient/wind/ff_wasteland_wind.wav"
+		"name"	"ambient/wind/ff_wasteland_wind.wav"
 		"volume"	"0.7"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_windgusts"
+		"name"	"d1_canals.util_windgusts"
 		"volume"	"1.0"
 	}
 }
@@ -134,17 +134,17 @@ FF_BASES SOUNDSCAPES
 	"dsp"	"1"
 	"dsp_volume"	"0.5"
 
-	"playlooping"	
+	"playlooping"
 	{
-		"name"		"ambient/atmosphere/ambience_base.wav"
+		"name"	"ambient/atmosphere/ambience_base.wav"
 		"volume"	"0.6"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	"playlooping"
 	{
-		"name"		"ambient/push/inside_amb1.wav"
+		"name"	"ambient/push/inside_amb1.wav"
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 }
 
@@ -155,19 +155,19 @@ FF_BASES SOUNDSCAPES
 
 	"playlooping"
 	{
-		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"wave"	"ambient/wind/ff_wasteland_wind.wav"
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	"playlooping"
 	{
-		"wave"		"ambient/machines/lab_loop1.wav"
+		"wave"	"ambient/machines/lab_loop1.wav"
 		"volume"	"0.4"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_windgusts"
+		"name"	"d1_canals.util_windgusts"
 		"volume"	"0.3"
 	}
 }
@@ -179,13 +179,13 @@ FF_BASES SOUNDSCAPES
 
 	"playlooping"
 	{
-		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"wave"	"ambient/wind/ff_wasteland_wind.wav"
 		"volume"	"0.4"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_windgusts"
+		"name"	"d1_canals.util_windgusts"
 		"volume"	"0.3"
 	}
 }
@@ -197,15 +197,15 @@ FF_BASES SOUNDSCAPES
 
 	"playlooping"
 	{
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	"playlooping"
 	{
-		"name"		"ambient/push/inside_amb1.wav"
+		"name"	"ambient/push/inside_amb1.wav"
 		"volume"	"0.6"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 }
 
@@ -216,14 +216,14 @@ FF_BASES SOUNDSCAPES
 
 	"playlooping"
 	{
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 		"volume"	"0.1"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	"playlooping"
 	{
-		"name"		"ambient/push/inside_amb1.wav"
+		"name"	"ambient/push/inside_amb1.wav"
 		"volume"	"0.6"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 }

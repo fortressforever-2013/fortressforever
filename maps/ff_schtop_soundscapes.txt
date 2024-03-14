@@ -19,37 +19,37 @@
 
 	"playlooping"
 	{
-		"wave"		"ambient/levels/citadel/field_loop3.wav"
+		"wave"	"ambient/levels/citadel/field_loop3.wav"
 		"volume"	"0.25"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	
 	"playlooping"
 	{
-		"wave"		"hl1/ambience/techamb2.wav"
+		"wave"	"hl1/ambience/techamb2.wav"
 		"volume"	"0.25"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	
 	"playlooping"
 	{
-		"wave"		"hl1/ambience/alien_blipper.wav"
+		"wave"	"hl1/ambience/alien_blipper.wav"
 		"volume"	"0.25"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	
 	"playlooping"
 	{
-		"wave"		"hl1/ambience/alien_cycletone.wav"
+		"wave"	"hl1/ambience/alien_cycletone.wav"
 		"volume"	"0.25"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
 	"playrandom"
 	{
 		"volume"	"0.25,0.40"
-		"time"		"5.0,15.0"
-		"pitch"		"80,120"
+		"time"	"5.0,15.0"
+		"pitch"	"80,120"
 		"position"	"random"
 		"soundlevel"	"SNDLVL_140db"
 		"rndwave"
@@ -61,7 +61,6 @@
 			"wave" "ambient/machines/machine1_hit2.wav"
 		}
 	}
-	
 }
 
 ////////////////////////////////////////////////
@@ -70,36 +69,35 @@
 //	Default soundscape.
 ////////////////////////////////////////////////
 
-
 "ff_schtop.generic"
 {
 	"dsp"	"1"
 
 	"playlooping"
 	{
-		"wave"		"ambient/atmosphere/ff_ambience.wav"
+		"wave"	"ambient/atmosphere/ff_ambience.wav"
 		"volume"	"0.66"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
 	"playlooping"
 	{
-		"wave"		"ambient/push/inside_amb1.wav"
+		"wave"	"ambient/push/inside_amb1.wav"
 		"volume"	"0.33"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"ff_schtop.strange_ambience"
+		"name"	"ff_schtop.strange_ambience"
 		"volume"	"0.66"
 	}
 	
 	"playrandom"
 	{
 		"volume"	"0.15,0.30"
-		"time"		"10.0,20.0"
-		"pitch"		"50,150"
+		"time"	"10.0,20.0"
+		"pitch"	"50,150"
 		"position"	"random"
 		"soundlevel"	"SNDLVL_140db"
 		"rndwave"
@@ -110,12 +108,10 @@
 	}
 }
 
-
 ////////////////////////////////////////////////
 //	YARD
 //	Outdoor wind ambience with random gusts.
 ////////////////////////////////////////////////
-
 
 "ff_schtop.yard"
 {
@@ -123,28 +119,28 @@
 
 	"playlooping"
 	{
-		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"wave"	"ambient/wind/ff_wasteland_wind.wav"
 		"volume"	"0.8"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_windgusts"
+		"name"	"d1_canals.util_windgusts"
 		"volume"	"1.0"
 	}
 	
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"ff_schtop.strange_ambience"
+		"name"	"ff_schtop.strange_ambience"
 		"volume"	"0.15"
 	}
 	
 	"playrandom"
 	{
 		"volume"	"0.15,0.30"
-		"time"		"7.0,14.0"
-		"pitch"		"80,120"
+		"time"	"7.0,14.0"
+		"pitch"	"80,120"
 		"position"	"random"
 		"soundlevel"	"SNDLVL_140db"
 		"rndwave"
@@ -156,15 +152,12 @@
 			"wave" "ambient/levels/citadel/strange_talk10.wav"
 		}
 	}
-	
 }
-
 
 ////////////////////////////////////////////////
 //	WATER
 //	Water running and random dripping ambience.
 ////////////////////////////////////////////////
-
 
 "ff_schtop.water"
 {
@@ -172,29 +165,27 @@
 
 	"playlooping"
 	{
-		"wave"		"ambient/atmosphere/ambience5.wav"
+		"wave"	"ambient/atmosphere/ambience5.wav"
 		"volume"	"0.2"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
 	"playlooping"
 	{
-		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"wave"	"ambient/levels/canals/waterleak_loop1.wav"
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_drip"
+		"name"	"d1_canals.util_drip"
 		"volume"	"1.0"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"d1_canals.util_fardrips"
+		"name"	"d1_canals.util_fardrips"
 		"volume"	"1.0"
 	}
 }
-
-////////////////////////////////////////////////

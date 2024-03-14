@@ -1,32 +1,32 @@
 "shutdown2.generatordown"
 {
-	"channel"			"CHAN_STATIC"
-	"volume"			"1.0"
-	"pitch"				"PITCH_NORM"
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	"PITCH_NORM"
 	"CompatibilityAttenuation"	"0.5"
-	"wave"			"ambient/shutdown/generator_down.wav"
+	"wave"	"ambient/shutdown/generator_down.wav"
 }
 "shutdown2.generatorup"
 {
-	"channel"			"CHAN_STATIC"
-	"volume"			"1.0"
-	"pitch"				"PITCH_NORM"
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	"PITCH_NORM"
 	"CompatibilityAttenuation"	"0.5"
-	"wave"			"ambient/shutdown/generator_up.wav"
+	"wave"	"ambient/shutdown/generator_up.wav"
 }
 "shutdown2.generatorhumloop1"
 {
-	"channel"			"CHAN_STATIC"
-	"volume"			"1.0"
-	"pitch"				"PITCH_NORM"
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	"PITCH_NORM"
 	"CompatibilityAttenuation"	"0.5"
-	"wave"			"ambient/shutdown/generator_hum_low.wav"
+	"wave"	"ambient/shutdown/generator_hum_low.wav"
 }
 "shutdown2.generatorhumloop2"
 {
-	"channel"			"CHAN_STATIC"
-	"volume"			"1.0"
-	"pitch"				"PITCH_NORM"
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	"PITCH_NORM"
 	"CompatibilityAttenuation"	"0.5"
-	"wave"			"ambient/shutdown/generator_hum_high.wav"
+	"wave"	"ambient/shutdown/generator_hum_high.wav"
 }

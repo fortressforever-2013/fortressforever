@@ -21,26 +21,25 @@
 	
 	"playlooping"
 	{
-		"wave"		"ambient/atmosphere/ambience5.wav"
+		"wave"	"ambient/atmosphere/ambience5.wav"
 		"volume"	"1.0"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	
 	"playrandom"
 	{
-		"time"		"3, 10"
+		"time"	"3, 10"
 		"volume"	"0.05,0.15"
-		"pitch"		"95,105"
+		"pitch"	"95,105"
 		"position"	"random"
 		"rndwave"
 		{
 			"wave"	"ambient/materials/metal_rattle1.wav"
 			"wave"	"ambient/materials/metal_rattle2.wav"
 			"wave"	"ambient/materials/metal_rattle3.wav"
-		}		
+		}
 	}
 }
-
 
 ////////////////////////////////////////////////
 //	OUTDOORS
@@ -49,29 +48,28 @@
 //	some slightly louder wildlife sound effects.
 ////////////////////////////////////////////////
 
-
 "ff_2fort.outdoors"
 {
 	"dsp"	"1"
 
 	"playlooping"
 	{
-		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"wave"	"ambient/wind/ff_wasteland_wind.wav"
 		"volume"	"0.8"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
 	"playsoundscape"	
 	{
-		"name"		"d1_canals.util_windgusts"
+		"name"	"d1_canals.util_windgusts"
 		"volume"	"1.0"
 	}
 	
 	"playrandom"
 	{
-		"time"		"45, 90"		
+		"time"	"45, 90"
 		"volume"	"0.1, 0.3"
-		"pitch"		"50, 120"
+		"pitch"	"50, 120"
 		"position"	"random"
 		"rndwave"
 		{
@@ -82,9 +80,9 @@
 	
 	"playrandom"
 	{
-		"time"		"10, 30"		
+		"time"	"10, 30"
 		"volume"	"0.3, 0.6"
-		"pitch"		"80, 120"
+		"pitch"	"80, 120"
 		"position"	"random"
 		"rndwave"
 		{
@@ -98,7 +96,7 @@
 			"wave"	"ambient/levels/canals/critter6.wav"
 			"wave"	"ambient/levels/canals/critter7.wav"
 		}
-	}	
+	}
 }
 
 ////////////////////////////////////////////////
@@ -113,43 +111,43 @@
 
 	"playlooping"
 	{
-		"wave"		"ambient/atmosphere/ambience5.wav"
+		"wave"	"ambient/atmosphere/ambience5.wav"
 		"volume"	"0.9"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 	
 	"playrandom"
 	{
-		"time"		"3, 10"
+		"time"	"3, 10"
 		"volume"	"0.05,0.15"
-		"pitch"		"95,105"
+		"pitch"	"95,105"
 		"position"	"random"
 		"rndwave"
 		{
 			"wave"	"ambient/materials/metal_rattle1.wav"
 			"wave"	"ambient/materials/metal_rattle2.wav"
 			"wave"	"ambient/materials/metal_rattle3.wav"
-		}		
+		}
 	}
 	
 	"playlooping"
 	{
-		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"wave"	"ambient/wind/ff_wasteland_wind.wav"
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_windgusts"
+		"name"	"d1_canals.util_windgusts"
 		"volume"	"0.4"
 	}
 	
 	"playrandom"
 	{
-		"time"		"45, 90"		
+		"time"	"45, 90"
 		"volume"	"0.1, 0.3"
-		"pitch"		"50, 120"
+		"pitch"	"50, 120"
 		"position"	"random"
 		"rndwave"
 		{
@@ -160,9 +158,9 @@
 	
 	"playrandom"
 	{
-		"time"		"10, 30"		
+		"time"	"10, 30"
 		"volume"	"0.1, 0.4"
-		"pitch"		"80, 120"
+		"pitch"	"80, 120"
 		"position"	"random"
 		"rndwave"
 		{
@@ -176,7 +174,7 @@
 			"wave"	"ambient/levels/canals/critter6.wav"
 			"wave"	"ambient/levels/canals/critter7.wav"
 		}
-	}	
+	}
 }
 
 ////////////////////////////////////////////////
@@ -190,35 +188,35 @@
 	"playlooping"
 	{
 		"volume"	"0.6"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/corridor.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/corridor.wav"
 	}
 	
 	"playlooping"
 	{
 		"volume"	"0.4"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/drone2lp.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/drone2lp.wav"
 		"position"	"0"
 	}
 	
 	"playsoundscape"
 	{
-		"name"		"coast.util_metalstress"
+		"name"	"coast.util_metalstress"
 		"volume"	"0.4"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"coast.util_shackmetal"
+		"name"	"coast.util_shackmetal"
 		"volume"	"0.3"
 	}
 	
 	"playrandom"
 	{
-		"time"		"30, 60"		
+		"time"	"30, 60"
 		"volume"	"0.25, 0.50"
-		"pitch"		"50, 120"
+		"pitch"	"50, 120"
 		"position"	"random"
 		"rndwave"
 		{
@@ -241,27 +239,27 @@
 	
 	"playlooping"
 	{
-		"wave"		"ambient/water/corridor_water.wav"
+		"wave"	"ambient/water/corridor_water.wav"
 		"volume"	"0.8"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
 	"playlooping"
 	{
-		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"wave"	"ambient/levels/canals/waterleak_loop1.wav"
 		"volume"	"0.3"
-		"pitch"		"100"
+		"pitch"	"100"
 	}
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"d1_canals.util_drip"
+		"name"	"d1_canals.util_drip"
 		"volume"	"1.0"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"d1_canals.util_fardrips"
+		"name"	"d1_canals.util_fardrips"
 		"volume"	"1.0"
 	}
 }

@@ -7,8 +7,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.3"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ambient/levels/labs/teleport_postblast_thunder1.wav"
+	"pitch"	"95,105"
+	"wave"	"@ambient/levels/labs/teleport_postblast_thunder1.wav"
 }
 
 "ff_hunted.cheer"
@@ -16,8 +16,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted/CrowdCheer.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted/CrowdCheer.wav"
 }
 
 "ff_hunted.dying_bird"
@@ -25,12 +25,12 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
+	"pitch"	"95,105"
 	"rndwave"
 	{
-		"wave"		"@ff_hunted\dying_bird_1.wav"
-		"wave"		"@ff_hunted\dying_bird_2.wav"
-		"wave"		"@ff_hunted\dying_bird_3.wav"
+		"wave"	"@ff_hunted\dying_bird_1.wav"
+		"wave"	"@ff_hunted\dying_bird_2.wav"
+		"wave"	"@ff_hunted\dying_bird_3.wav"
 	}
 }
 
@@ -39,8 +39,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\dying_bird_full.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\dying_bird_full.wav"
 }
 
 "ff_hunted.i_am_the_werewolf"
@@ -48,8 +48,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\i_am_the_werewolf.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\i_am_the_werewolf.wav"
 }
 
 "ff_hunted.i_fight_vampires"
@@ -57,8 +57,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\i_fight_vampires.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\i_fight_vampires.wav"
 }
 
 "ff_hunted.werewolf_howling"
@@ -66,8 +66,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\werewolf_howling.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\werewolf_howling.wav"
 }
 
 "ff_hunted.werewolf_movies"
@@ -75,8 +75,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\werewolf_movies.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\werewolf_movies.wav"
 }
 
 "ff_hunted.werewolves_howling"
@@ -84,8 +84,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@ff_hunted\werewolves_howling.wav"
+	"pitch"	"95,105"
+	"wave"	"@ff_hunted\werewolves_howling.wav"
 }
 
 //--------------------
@@ -96,9 +96,9 @@
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.8"
-	"soundlevel" 	"SNDLVL_NONE"
-	"pitch"		"95,105"
-	"wave"		"@misc/unagi.wav"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"	"95,105"
+	"wave"	"@misc/unagi.wav"
 }
 
 //------------------------------
