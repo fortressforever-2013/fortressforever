@@ -1,5 +1,5 @@
 // Fortress Forever SPEECH SYSTEM SENTENCES.
-// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+// Do not use TABS. Separate sentence-names from wave definitions with single spaces only.
 
 // --------- Canal Zone --------- //
 CZ_GOTCP1 bully/CZ_GOTCP1
@@ -47,7 +47,7 @@ RK_EKEYBACK vox/female/enemy key has returned
 RK_GOTKEY vox/female/your team has the enemy key
 RK_LOSTKEY vox/female/the enemy has your key
 RK_BSCORE vox/female/blue team scores _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
-RK_RSCORE vox/female/red team scores  _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
+RK_RSCORE vox/female/red team scores _comma _comma _comma nerve gas released _comma _comma _comma secure protective suit immediately
 RK_TAKEKEY vox/female/take key to enemy gas chamber
 FBALL_BSCORE vox/female/blue team scores
 FBALL_RSCORE vox/female/red team scores

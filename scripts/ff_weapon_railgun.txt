@@ -1,63 +1,61 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"			"0.333"		// Rate of fire
-	"CycleDecrement"		"1"		// Number of bullets fired per cycle
+	"CycleTime"	"0.333"	// Rate of fire
+	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 
-	"Damage"			"25"		// Damage per burst
-	"DamageRadius"			"100"		// Radius of damage
+	"Damage"	"25"		// Damage per burst
+	"DamageRadius"	"100"	// Radius of damage
 
 	// Projectile weapons
-	"Speed"				"1500"		// Speed for projectile to travel at
+	"Speed"	"1500"		// Speed for projectile to travel at
 	
-	"RecoilAmount"			"2"		// Amount of recoil
+	"RecoilAmount"	"2"	// Amount of recoil
 
 	// Hitscan weapons
-	"Bullets"			"-1"		// Bullets to shoot
-	"BulletSpread"			"-1"		// Spread of projectiles
+	"Bullets"	"-1"		// Bullets to shoot
+	"BulletSpread"	"-1"		// Spread of projectiles
 
-	"PreReloadTime"			"-1"		// Time taken for the weapon to move to reload state
-	"ReloadTime"			"-1"		// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"		"-1"		// Time taken to move weapon back to firing state
+	"PreReloadTime"	"-1"	// Time taken for the weapon to move to reload state
+	"ReloadTime"	"-1"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"	"-1"	// Time taken to move weapon back to firing state
 
-	"SpinTime"			"-1"		// For AC
+	"SpinTime"	"-1"		// For AC
 
-	"clip_size"			"-1"
-	"clip2_size"			"-1"
-	"default_clip"			"50"
-	"default_clip2"			"-1"	
-
-	"primary_ammo"			"AMMO_NAILS"
-	"secondary_ammo"		"None"
+	"clip_size"	"-1"
+	"clip2_size"	"-1"
+	"default_clip"	"50"
+	"default_clip2"	"-1"
+	"primary_ammo"	"AMMO_NAILS"
+	"secondary_ammo"	"None"
 
 	"ffencrypted"	"1" // required for the script to load
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#FF_WPNHUD_RAILGUN"
-	"viewmodel"			"models/weapons/railgun/v_railgun.mdl"
-	"playermodel"			"models/weapons/railgun/w_railgun.mdl"
-	
-	"anim_prefix"			"anim"
+	"printname"	"#FF_WPNHUD_RAILGUN"
+	"viewmodel"	"models/weapons/railgun/v_railgun.mdl"
+	"playermodel"	"models/weapons/railgun/w_railgun.mdl"
+	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "railgun"
-	"bucket"			"1"
-	"bucket_position"		"2"
+	"bucket"	"1"
+	"bucket_position"	"2"
 
-	"weight"			"50"
-	"item_flags"			"0"
+	"weight"	"50"
+	"item_flags"	"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"empty"			"generic.empty"
-		"single_shot"		"railgun.single_shot"
-		"double_shot"		"railgun.charged_shot"
-		"special1"		"railgun.chargeloop"
-		"special2"		"railgun.halfcharge"		// half charge notification
-		"special3"		"railgun.fullcharge"		// full charge notification
-		"burst"			"railgun.overcharge"		// overcharge
-//		"special2"		"ambient.electrical_zap_8"	// half charge notification
-//		"special3"		"ambient.electrical_zap_9"	// full charge notification
-//		"burst"			"ambient.electrical_zap_5"	// overcharge
+		"Empty"	"Generic.Empty"
+		"single_shot"	"Railgun.Single_Shot"
+		"double_shot"	"Railgun.Charged_Shot"
+		"special1"	"Railgun.ChargeLoop"
+		"special2"	"Railgun.HalfCharge"	// half charge notification
+		"special3"	"Railgun.FullCharge"		// full charge notification
+		"burst"	"Railgun.OverCharge"	// overcharge
+//		"special2"	"Ambient.electrical_zap_8"	// half charge notification
+//		"special3"	"Ambient.electrical_zap_9"	// full charge notification
+//		"burst"	"Ambient.electrical_zap_5"	// overcharge
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -65,39 +63,39 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"t"
+			"font"	"WeaponIcons"
+			"character"	"t"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"t"
+		{
+			"font"	"WeaponIconsSelected"
+			"character"	"t"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIconsSmall"
-				"character"	"7"
+			"font"	"WeaponIconsSmall"
+			"character"	"7"
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"u"
+			"font"	"StatusGlyphsSmall"
+			"character"	"u"
 		}
 	}
 	ModelBounds

@@ -5,20 +5,19 @@ WeaponData
 	{
 		"grenade"
 		{
-				"font"		"GrenadeIcons"
-				"character"	"."
+			"font"	"GrenadeIcons"
+			"character"	"."
 		}
-		
 		"ammo"
 		{
-				"font"		"GrenadeAmmoIcons"
-				"character"	"."
+			"font"	"GrenadeAmmoIcons"
+			"character"	"."
 		}
 
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"."
+			"font"	"StatusGlyphsSmall"
+			"character"	"."
 		}
 	}
 	"printname" 	"#FF_WPNHUD_EMP"

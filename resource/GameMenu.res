@@ -33,10 +33,9 @@
 		"label" "#GameUI_GameMenu_Training"
 		"command" "engine ff_training"
 	}
-	"7"
-	{
-		"label" "#GameUI_GameMenu_Friends"
-		"command" "OpenFriendsDialog"
+	"7"{
+		"label"	""
+		"command"	""
 	}
 	"8"
 	{
@@ -59,4 +58,3 @@
 		"command" "Quit"
 	}
 }
-

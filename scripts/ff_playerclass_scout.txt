@@ -1,27 +1,27 @@
 PlayerClassData
 {
-	"slot"				"1"
-	"classname"			"scout"
+	"slot"			"1"
+	"classname"		"scout"
 
 	"ffencrypted"	"1" // required for the script to load
 	
 	// Text
-	"printname"			"#FF_PLAYER_SCOUT"
-	"description"			"#FF_HELP_SCOUT"
-	"role"				"#FF_ROLE_SCOUT"
+	"printname"		"#FF_PLAYER_SCOUT"
+	"description"		"#FF_HELP_SCOUT"
+	"role"			"#FF_ROLE_SCOUT"
 
 	// Model
-	"model"				"models/player/scout/scout.mdl"
+	"model"			"models/player/scout/scout.mdl"
 
 	// Health & Armour
-	"max_armour"			"50"
+	"max_armour"		"50"
 	"initial_armour"		"25"
-	"armour_type"			"3" // this means 0.3
+	"armour_type"		"3" // this means 0.3
 	"health"			"75"
 
-	"speed"				"400" //boosted 5% was 420
+	"speed"			"400" //boosted 5% was 420
 	
-	"firepower"			"10" // from 1 to 100
+	"firepower"		"10" // from 1 to 100
 	
 	// Weapons to automatically equip the class with
 	ArmamentsData
@@ -36,13 +36,13 @@ PlayerClassData
 		"skill"		"mancannon"
 	}
 
-	//"primary_classname"		"ff_grenade_caltrop"
+	//"primary_classname"	"ff_grenade_caltrop"
 	//"primary_initial"		"0"
-	//"primary_max"			"0"
+	//"primary_max"		"0"
 
-	"secondary_classname"		"ff_grenade_concussion"
+	"secondary_classname"	"ff_grenade_concussion"
 	"secondary_initial"		"3"
-	"secondary_max"			"3"
+	"secondary_max"		"3"
 
 	// Ammo amounts for the player
 	AmmoData
@@ -50,8 +50,8 @@ PlayerClassData
 		"AMMO_SHELLS"		"25"
 		"AMMO_NAILS"		"75" //changed from 100
 		"AMMO_CELLS"		"30"
-		"AMMO_ROCKETS"		"0"
-		"AMMO_DETPACK"		"0"
+		"AMMO_ROCKETS"	"0"
+		"AMMO_DETPACK"	"0"
 		"AMMO_MANCANNON"	"1"
 	}
 
@@ -60,8 +60,8 @@ PlayerClassData
 		"AMMO_SHELLS"		"50"
 		"AMMO_NAILS"		"100" //changed from 200..
 		"AMMO_CELLS"		"30"
-		"AMMO_ROCKETS"		"25"
-		"AMMO_DETPACK"		"0"
+		"AMMO_ROCKETS"	"25"
+		"AMMO_DETPACK"	"0"
 		"AMMO_MANCANNON"	"1"
 	}
 }

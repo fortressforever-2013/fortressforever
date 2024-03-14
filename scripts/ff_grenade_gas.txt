@@ -5,20 +5,19 @@ WeaponData
 	{
 		"grenade"
 		{
-				"font"		"GrenadeIcons"
-				"character"	"S"
+			"font"	"GrenadeIcons"
+			"character"	"S"
 		}
-		
 		"ammo"
 		{
-				"font"		"GrenadeAmmoIcons"
-				"character"	"S"
+			"font"	"GrenadeAmmoIcons"
+			"character"	"S"
 		}
 
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"S"
+			"font"	"StatusGlyphsSmall"
+			"character"	"S"
 		}
 	}
 	"printname" 	"#FF_WPNHUD_GASGREN"

@@ -101,5 +101,4 @@
 		"textHidden"		"0"
 		"command"		"specnext"
 	}
-
 }

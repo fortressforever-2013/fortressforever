@@ -111,8 +111,8 @@ Scheme
 		/////////////// Weapon Selection Colours ///////////////
 		"SelectionNumberFg"			"HUD_Tone_Bright"
 		"SelectionTextFg"			"HUD_Tone_Bright"
-		"SelectionEmptyBoxBg" 			"HUD_BG_Dim"
-		"SelectionBoxBg" 			"HUD_BG_Dim"
+		"SelectionEmptyBoxBg"			"HUD_BG_Dim"
+		"SelectionBoxBg"			"HUD_BG_Dim"
 		"SelectionSelectedBoxBg" 		"HUD_BG_Dim"
 		
 		/////////////// VGUI Colour Specification ///////////////
@@ -130,8 +130,8 @@ Scheme
 		CheckButton.TextColor			"UI_Tone_Default"
 		CheckButton.SelectedTextColor		"UI_Tone_Default"
 		CheckButton.BgColor			"UI_BG_Dim"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
+		CheckButton.Border1			"Border.Dark" 		// the left checkbutton border
+		CheckButton.Border2			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check			"UI_Tone_Default"	// color of the check itself
 
 		ComboBoxButton.ArrowColor		"UI_Tone_Default"
@@ -285,7 +285,7 @@ Scheme
 				"name"		"Courier New"
 				"tall"		"14"
 				"weight"	"400"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -296,7 +296,7 @@ Scheme
 				"name"		"Courier New"
 				"tall"		"14"
 				"weight"	"400"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
@@ -309,7 +309,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"9"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 			}
@@ -318,7 +318,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 			}
@@ -327,7 +327,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 			}
@@ -336,7 +336,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 			}
@@ -345,7 +345,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 			}
@@ -358,7 +358,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"9"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -368,7 +368,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -378,7 +378,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -388,7 +388,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -398,7 +398,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -412,7 +412,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"9"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"blur"		"3"
 				"additive"	"0"
@@ -422,7 +422,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"blur"		"3"
 				"additive"	"0"
@@ -432,7 +432,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"blur"		"3"
 				"additive"	"0"
@@ -442,7 +442,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"blur"		"3"
 				"additive"	"0"
@@ -452,7 +452,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"blur"		"3"
 				"additive"	"0"
@@ -466,7 +466,7 @@ Scheme
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 			}
 			"2"
@@ -474,7 +474,7 @@ Scheme
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"18"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 			}
 			"3"
@@ -482,7 +482,7 @@ Scheme
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"24"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 			}
 			"4"
@@ -490,7 +490,7 @@ Scheme
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"32"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 			}
 			"5"
@@ -498,7 +498,7 @@ Scheme
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"40"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 			}
 		}
@@ -509,7 +509,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"32"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 			}
 			"2"
@@ -517,7 +517,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"35"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 			}
 			"3"
@@ -525,7 +525,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"37"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 			}
 			"4"
@@ -533,7 +533,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"43"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 			}
 			"5"
@@ -541,7 +541,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"47"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"1"
 			}
@@ -595,7 +595,7 @@ Scheme
 			{
 				"name"		"Arial"
 				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 				"weight"	"0"
 			}
 		}
@@ -653,7 +653,7 @@ Scheme
 			{
 				"name"		"Arial"
 				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 				"weight"	"0"
 				"dropshadow"	"1"
 			}
@@ -707,14 +707,14 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 				"weight"	"0"
 			}
 			"7"
 			{
 				"name"		"Arial"
 				"tall"		"11"
-				"range" 	"0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 				"weight"	"0"
 			}
 		}
@@ -772,7 +772,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 				"weight"	"0"
 				"dropshadow"	"1"
 			}
@@ -780,7 +780,7 @@ Scheme
 			{
 				"name"		"Arial"
 				"tall"		"11"
-				"range" 	"0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 				"weight"	"0"
 				"dropshadow"	"1"
 			}
@@ -792,7 +792,7 @@ Scheme
 				"name"		"HalfLife2"
 				"tall"		"40"
 				"weight"	"0"
-				"antialias" 	"0"
+				"antialias"	"0"
 				"additive"	"1"
 				"yres"		"1 10000"
 			}
@@ -804,7 +804,7 @@ Scheme
 				"name"		"HL2cross"
 				"tall"		"28"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -815,7 +815,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"32"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -827,8 +827,8 @@ Scheme
 				"tall"		"32"
 				"weight"	"0"
 				"blur"		"4"
-				"scanlines" 	"2"
-				"antialias" 	"1"
+				"scanlines"	"2"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -840,7 +840,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"1000"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		HudSelectionNumbers
@@ -850,7 +850,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"11"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -888,7 +888,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"0"
 				"dropshadow" "1" 
 			}
@@ -901,7 +901,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"15"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"0"
 				"dropshadow" "1" 
 			}
@@ -914,7 +914,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"0"
 				"dropshadow" "1" 
 			}
@@ -926,7 +926,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"12"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"0"
 				"dropshadow" "1"
 			}
@@ -939,7 +939,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"18"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"blur"		"5"
 				"additive"	"0"
 			}
@@ -952,7 +952,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"blur"		"5"
 				"additive"	"0"
 			}
@@ -965,7 +965,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"12"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"0"
 				"dropshadow" "1" 
 			}
@@ -978,7 +978,7 @@ Scheme
 				"name"		"FortressForever - HUD Font CAPS"
 				"tall"		"10"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"0"
 				"dropshadow" "1"
 			}
@@ -990,7 +990,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1001,7 +1001,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"11"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1088,7 +1088,7 @@ Scheme
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1105,30 +1105,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"  	"FortressForever - HUD Font"
-				"tall"  	"32"
-				"weight" 	"0"
-				"additive" 	"0"
-				"antialias" 	"1"
+				"name"	"FortressForever - HUD Font"
+				"tall"	"32"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias"	"1"
 				"yres"		"480 599"
 			}
 	
 			"2"
 			{
-				"name"  	"FortressForever - HUD Font"
-				"tall"  	"48"
-				"weight" 	"0"
-				"additive" 	"0"
-				"antialias" 	"1"
+				"name"	"FortressForever - HUD Font"
+				"tall"	"48"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias"	"1"
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"  	"FortressForever - HUD Font"
-				"tall"  	"64"
-				"weight" 	"0"
-				"additive" 	"0"
-				"antialias" 	"1"
+				"name"	"FortressForever - HUD Font"
+				"tall"	"64"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias"	"1"
 				"yres"		"768 1023"
 			}
 			"4"
@@ -1155,7 +1155,7 @@ Scheme
 				"name"		"HalfLife2"
 				"tall"		"128"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1166,7 +1166,7 @@ Scheme
 				"name"		"Trebuchet MS"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1177,7 +1177,7 @@ Scheme
 				"name"		"HalfLife2"
 				"tall"		"48"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1188,7 +1188,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"9"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		CenterPrintText
@@ -1199,51 +1199,51 @@ Scheme
 				"name"		"Trebuchet MS"
 				"tall"		"18"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
 		"ChatFont"
 		{
-		  	"1"
-		  	{
-				"name"    	"Verdana"
-				"tall"    	"12"
-				"weight"  	"700"
-				"yres"  	"480 599"
-				"dropshadow"  	"1"
+			"1"
+			{
+				"name"	"Verdana"
+				"tall"	"12"
+				"weight"	"700"
+				"yres"	"480 599"
+				"dropshadow"	"1"
 		 	}
 			"2"
 			{
-				"name"   	"Verdana"
-				"tall"    	"13"
-				"weight"  	"700"
-				"yres"  	"600 767"
-				"dropshadow"  	"1"
+				"name"	"Verdana"
+				"tall"	"13"
+				"weight"	"700"
+				"yres"	"600 767"
+				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"    	"Verdana"
-				"tall"    	"14"
-				"weight"  	"700"
-				"yres"  	"768 1023"
-				"dropshadow"  	"1"
+				"name"	"Verdana"
+				"tall"	"14"
+				"weight"	"700"
+				"yres"	"768 1023"
+				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"    	"Verdana"
-				"tall"    	"20"
-				"weight"  	"700"
-				"yres"  	"1024 1199"
-				"dropshadow"  	"1"
+				"name"	"Verdana"
+				"tall"	"20"
+				"weight"	"700"
+				"yres"	"1024 1199"
+				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"    	"Verdana"
-				"tall"    	"24"
-				"weight"  	"700"
-				"yres"  	"1200 10000"
-				"dropshadow"  	"1"
+				"name"	"Verdana"
+				"tall"	"24"
+				"weight"	"700"
+				"yres"	"1200 10000"
+				"dropshadow"	"1"
 			}
 		}
 		///////////////////////////NEW STUFF/////////////////////////////
@@ -1257,7 +1257,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"9"
 				"weight"	"500"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 			}
 			"2"
@@ -1265,7 +1265,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"11"
 				"weight"	"500"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 			}
 			"3"
@@ -1281,7 +1281,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"16"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 			}
 			"5"
@@ -1289,7 +1289,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"17"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 			}
 		}
@@ -1301,7 +1301,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"18"
 				"weight"	"500"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 			}
 			"2"
@@ -1309,7 +1309,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"18"
 				"weight"	"500"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 			}
 			"3"
@@ -1325,7 +1325,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"36"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 			}
 			"5"
@@ -1333,7 +1333,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"48"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 			}
 		}
@@ -1352,7 +1352,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"14"
 				"weight"	"500"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 			}
 			"3"
@@ -1360,7 +1360,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"16"
 				"weight"	"500"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 			}
 			"4"
@@ -1368,7 +1368,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"24"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 			}
 			"5"
@@ -1376,7 +1376,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"30"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 			}
 		}
@@ -1386,7 +1386,7 @@ Scheme
 			{
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"31"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		"HUD_ForeGround"	// hud shape glyphs
@@ -1395,7 +1395,7 @@ Scheme
 			{
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"31"	
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		"HUD_NumSmall"
@@ -1404,7 +1404,7 @@ Scheme
 			{
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"10"
-				"antialias" 	"1"
+				"antialias"	"1"
 				
 			}
 		}
@@ -1414,26 +1414,26 @@ Scheme
 			{
 				"name"		"FortressForever - HUD Glyphs"
 				"tall"		"20"
-				"antialias" 	"1"
+				"antialias"	"1"
 				
 			}
 		}
-		"HUD_TextSmall"  // font used when you disguise
+		"HUD_TextSmall"	// font used when you disguise
 		{
 			"1"
 			{
 				"name"		"FortressForever - HUD Font" // Tahoma
 				"tall"		"10"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
-		"HUD_TextSmall_Shadow"  // font used when you disguise
+		"HUD_TextSmall_Shadow"	// font used when you disguise
 		{
 			"1"
 			{
 				"name"		"FortressForever - HUD Font" // Tahoma
 				"tall"		"10"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"dropshadow"	"1"
 			}
 		}
@@ -1443,7 +1443,7 @@ Scheme
 			{
 				"name"		"FortressForever - HUD Font"
 				"tall"		"13"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"0"
 			}
 		}	
@@ -1454,7 +1454,7 @@ Scheme
 				"name"		"FortressForever - Item Glyphs"
 				"tall"		"64"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1465,7 +1465,7 @@ Scheme
 				"name"		"FortressForever - Item Glyphs"
 				"tall"		"64"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"blur"		"5"
 				"scanlines"	"2"
 				"additive"	"1"
@@ -1478,7 +1478,7 @@ Scheme
 				"name"		"FortressForever - Item Glyphs"
 				"tall"		"50"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1489,7 +1489,7 @@ Scheme
 				"name"		"FortressForever - Item Glyphs"
 				"tall"		"38"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1500,7 +1500,7 @@ Scheme
 				"name"		"FortressForever - Item Glyphs"
 				"tall"		"28"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1511,7 +1511,7 @@ Scheme
 				"name"		"FortressForever - Item Glyphs"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1555,7 +1555,7 @@ Scheme
 				"name"		"FortressForever - Status Glyphs"
 				"tall"		"28"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
@@ -1578,7 +1578,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"8"	// 6
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		"TeamMenuTitles"
@@ -1588,7 +1588,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"10"	// 6
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -1599,7 +1599,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"12"	// 6
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -1610,7 +1610,7 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"8"	// 6
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -1621,7 +1621,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"8"	// 6
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		"Tahoma12"
@@ -1631,7 +1631,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"12"	// 6
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 	
 		}
@@ -1642,18 +1642,18 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"16" // 12
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
 		"Scoreboard"	// Column titles and player list
 		{
 			"1"
 			{
-				"name"    	"FortressForever - HUD Font"
-				"tall"    	"12"
-				"weight"  	"0"
-				"dropshadow"  	"1"
-				"antialias" 	"1"
+				"name"	"FortressForever - HUD Font"
+				"tall"	"12"
+				"weight"	"0"
+				"dropshadow"	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 			}
 	
@@ -1662,8 +1662,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"14"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"600 767"
 			}
 			"3"
@@ -1671,8 +1671,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"768 1023"
 			}
 			"4"
@@ -1680,8 +1680,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"24"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"1024 1199"
 			}
 			"5"
@@ -1689,8 +1689,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"30"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"1200 9999"
 			}
 		}
@@ -1698,11 +1698,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"    	"FortressForever - HUD Font"
-				"tall"    	"14"
-				"weight"  	"0"
-				"dropshadow"  	"1"
-				"antialias" 	"1"
+				"name"	"FortressForever - HUD Font"
+				"tall"	"14"
+				"weight"	"0"
+				"dropshadow"	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 			}
 			"2"
@@ -1710,8 +1710,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"600 767"
 			}
 			"3"
@@ -1719,8 +1719,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"18"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"768 1023"
 			}
 			"4"
@@ -1728,8 +1728,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"24"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"1024 1199"
 			}
 			"5"
@@ -1737,8 +1737,8 @@ Scheme
 				"name"		"FortressForever - HUD Font"
 				"tall"		"32"
 				"weight"	"0"
-				"antialias" 	"1"
-				"dropshadow"  	"1"
+				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"		"1200 9999"
 			}
 		}
@@ -1750,7 +1750,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"9"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1760,7 +1760,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1770,7 +1770,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1780,7 +1780,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1790,7 +1790,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1803,7 +1803,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"9"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1813,7 +1813,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1823,7 +1823,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1833,7 +1833,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1843,7 +1843,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1856,7 +1856,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1866,7 +1866,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1876,7 +1876,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1886,7 +1886,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1896,7 +1896,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"30"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1909,7 +1909,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1919,7 +1919,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1929,7 +1929,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1939,7 +1939,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"30"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1949,7 +1949,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"36"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1962,7 +1962,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1972,7 +1972,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1982,7 +1982,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"30"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -1992,7 +1992,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"36"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -2002,7 +2002,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"40"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -2015,7 +2015,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1 599"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -2025,7 +2025,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"30"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"600 767"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -2035,7 +2035,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"36"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"768 1023"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -2045,7 +2045,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"40"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1024 1199"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -2055,7 +2055,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"48"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias"	"1"
 				"yres"		"1200 10000"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -2750,8 +2750,8 @@ Scheme
 	/////////////////////////// CUSTOM FONT FILES ///////////////////////////
 	CustomFontFiles
 	{
-		"1" 	"resource/HUDGlyphs.ttf"
-		"2" 	"resource/ItemGlyphs.ttf"
+		"1"	"resource/HUDGlyphs.ttf"
+		"2"	"resource/ItemGlyphs.ttf"
 		"3"		"resource/StatusGlyphs.ttf"
 		"4"		"resource/Crosshairs.ttf"
 		"5"		"resource/HALFLIFE2.ttf"

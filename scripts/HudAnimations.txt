@@ -12,7 +12,7 @@
 //			TextColor	(hud panels only)
 //			Ammo2Color	(hud panels only)
 //			Alpha		(hud weapon selection only)
-//			SelectionAlpha  (hud weapon selection only)
+//			SelectionAlpha	(hud weapon selection only)
 //			TextScan	(hud weapon selection only)
 //
 //		interpolator:
@@ -48,15 +48,15 @@ event MenuOpen
 	StopEvent	MenuClose 0.0 
 
 	// fade in
-	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
+	Animate HudMenu Alpha			"255"		Linear 0.0 0.1
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
-	Animate HudMenu MenuColor		"255 255 255 255"	Linear  0.0 0.1
+	Animate HudMenu MenuColor		"255 255 255 255"	Linear 0.0 0.1
 	Animate HudMenu ItemColor		"200 200 200 255"	Linear 0.0 0.1
-	Animate HudMenu MenuBoxColor		"0 0 0 25"		Linear 0.0 0.1
-	Animate HudMenu TextScan		"1"		Linear 0.0 0.1
+	Animate HudMenu MenuBoxColor	"0 0 0 25"		Linear 0.0 0.1
+	Animate HudMenu TextScan		"1"			Linear 0.0 0.1
 
 	// Undo any blur
-	Animate HudMenu		Blur		"1"			Linear	0.0 0.01
+	Animate HudMenu	Blur			"1"			Linear	0.0 0.01
 
 	// Fonts
 	SetFont HudMenu "TextFont" "Default" 0.0
@@ -75,13 +75,13 @@ event MenuClose
 
 event MenuPulse
 {
-	Animate HudMenu		Blur		"7"			Linear	0.0		0.1
-	Animate HudMenu		Blur		"2"			Deaccel	0.1		0.1
-	Animate HudMenu		Blur		"7"			Linear	0.2		0.1
-	Animate HudMenu		Blur		"2"			Deaccel	0.3		0.1
-	Animate HudMenu		Blur		"7"			Linear	0.4		0.1
-	Animate HudMenu		Blur		"2"			Deaccel	0.5		0.1
-	Animate	HudMenu		Blur		"1"			Deaccel	0.6		0.4
+	Animate HudMenu		Blur		"7"		Linear	0.0		0.1
+	Animate HudMenu		Blur		"2"		Deaccel	0.1		0.1
+	Animate HudMenu		Blur		"7"		Linear	0.2		0.1
+	Animate HudMenu		Blur		"2"		Deaccel	0.3		0.1
+	Animate HudMenu		Blur		"7"		Linear	0.4		0.1
+	Animate HudMenu		Blur		"2"		Deaccel	0.5		0.1
+	Animate HudMenu		Blur		"1"		Deaccel	0.6		0.4
 }
 
 ////////////////////// FORTRESS POINTS /////////////////////////////
@@ -89,22 +89,22 @@ event MenuPulse
 event NewTotalFortPoints
 {
 
-	Animate HudPlayerTotalScore	FgColor		"HealthIncAbove100Color"	Linear	0.0		0.25
-	Animate HudPlayerTotalScore	FgColor		"FgColor"	Linear	0.25		0.3
-	Animate HudPlayerTotalScore		Blur		"3"			Linear	0.0		0.1
-	Animate HudPlayerTotalScore		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudPlayerTotalScore	FgColor	"HealthIncAbove100Color"	Linear	0.0	0.25
+	Animate HudPlayerTotalScore	FgColor	"FgColor"					Linear	0.25	0.3
+	Animate HudPlayerTotalScore	Blur		"3"						Linear	0.0	0.1
+	Animate HudPlayerTotalScore	Blur		"0"						Deaccel	0.1	2.0
 }
 
 event NewLatestFortPoints
 {
 
-	Animate HudPlayerLatestScore	FgColor		"HealthIncAbove100Color"	Linear	0.0		0.25
-//	Animate HudPlayerLatestScore	FgColor		"FgColor"	Linear	0.75		0.3
+	Animate HudPlayerLatestScore	FgColor	"HealthIncAbove100Color"	Linear	0.0	0.25
+//	Animate HudPlayerLatestScore	FgColor	"FgColor"					Linear	0.75	0.3
 
 // change the number after Linear here for however long you want the latest score to stay on screen before fading
-	Animate HudPlayerLatestScore	FgColor		"0 0 0 0"	Linear	4.0		0.5
-	Animate HudPlayerLatestScore		Blur		"3"			Linear	0.0		0.1
-	Animate HudPlayerLatestScore		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudPlayerLatestScore	FgColor	"0 0 0 0"	Linear	4.0	0.5
+	Animate HudPlayerLatestScore	Blur		"3"		Linear	0.0	0.1
+	Animate HudPlayerLatestScore	Blur		"0"		Deaccel	0.1	2.0
 }
 
 ////////////////////// ARMOR /////////////////////////////
@@ -113,25 +113,25 @@ event NewLatestFortPoints
 event ArmorIncrease
 {
 	StopEvent ArmorBelow25 0.0
-	Animate HudArmor	FgColor		"FgColor"	Linear	0.0		0.0	
-	Animate HudArmor	FgColor		"200 255 200 255"	Deaccel	0.0		0.3
-	Animate HudArmor	FgColor		"FgColor"	Accel	0.3  	0.3		
+	Animate HudArmor	FgColor	"FgColor"	Linear	0.0		0.0	
+	Animate HudArmor	FgColor	"200 255 200 255"	Deaccel	0.0	0.3
+	Animate HudArmor	FgColor	"FgColor"			Accel	0.3	0.3		
 	
 }
 
 event ArmorDamageTaken
 {
-	Animate HudArmor	FgColor		"255 255 255 255"	Linear	0.0		0.0
-	Animate HudArmor	FgColor		"255 255 255 255"	Linear	0.0		0.05
-	Animate HudArmor	FgColor		"FgColor"	Deaccel	0.05		0.05
+	Animate HudArmor	FgColor	"255 255 255 255"	Linear	0.0	0.0
+	Animate HudArmor	FgColor	"255 255 255 255"	Linear	0.0	0.05
+	Animate HudArmor	FgColor	"FgColor"			Deaccel	0.05	0.05
 }
 
 event ArmorBelow25
 {
-	Animate HudArmor	FgColor		"ArmorLowColor"	Linear	0.0		0.0
-	Animate HudArmor	FgColor		"ArmorLowColor"	Linear	0.0		0.27
-	Animate HudArmor	FgColor		"255 255 255 255"		Linear	0.27		0.03
-	Animate HudArmor	FgColor		"ArmorLowColor"	Linear	0.3		0.01
+	Animate HudArmor	FgColor	"ArmorLowColor"	Linear	0.0	0.0
+	Animate HudArmor	FgColor	"ArmorLowColor"	Linear	0.0	0.27
+	Animate HudArmor	FgColor	"255 255 255 255"	Linear	0.27	0.03
+	Animate HudArmor	FgColor	"ArmorLowColor"	Linear	0.3	0.01
 	
 	RunEvent ArmorBelow25 0.31
 }
@@ -148,31 +148,31 @@ event ArmorIncreaseBelow25
 // "0 210 0 255" - semidark green
 event NewAddArmor
 {
-	Animate HudPlayerAddArmor	FgColor		"FgColor"	Linear	0.0		0.0	
-	Animate HudPlayerAddArmor	FgColor		"255 128 50 255"	Deaccel	0.0		0.3
+	Animate HudPlayerAddArmor	FgColor	"FgColor"			Linear	0.0	0.0	
+	Animate HudPlayerAddArmor	FgColor	"255 128 50 255"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddArmor Position		"87 406"			Linear 0.0 0.0
-	Animate HudPlayerAddArmor Position		"87 376"			Linear 0.0 4.5
+	Animate HudPlayerAddArmor Position	"87 406"			Linear	0.0	0.0
+	Animate HudPlayerAddArmor Position	"87 376"			Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
-	Animate HudPlayerAddArmor	FgColor		"0 0 0 0"	Linear	2.0		0.5
-	Animate HudPlayerAddArmor		Blur		"3"			Linear	0.0		0.1
-	Animate HudPlayerAddArmor		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudPlayerAddArmor	FgColor	"0 0 0 0"			Linear	2.0	0.5
+	Animate HudPlayerAddArmor	Blur		"3"				Linear	0.0	0.1
+	Animate HudPlayerAddArmor	Blur		"0"				Deaccel	0.1	2.0
 	
 }
 
 event NewSubtractArmor
 {
-	Animate HudPlayerAddArmor	FgColor		"FgColor"	Linear	0.0		0.0	
-	Animate HudPlayerAddArmor	FgColor		"ArmorLowColor"	Deaccel	0.0		0.3
+	Animate HudPlayerAddArmor	FgColor	"FgColor"			Linear	0.0	0.0	
+	Animate HudPlayerAddArmor	FgColor	"ArmorLowColor"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddArmor Position		"87 406"			Linear 0.0 0.0
-	Animate HudPlayerAddArmor Position		"87 376"			Linear 0.0 4.5
+	Animate HudPlayerAddArmor	Position	"87 406"			Linear	0.0	0.0
+	Animate HudPlayerAddArmor	Position	"87 376"			Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
-	Animate HudPlayerAddArmor	FgColor		"0 0 0 0"	Linear	2.0		0.5
-	Animate HudPlayerAddArmor		Blur		"3"			Linear	0.0		0.1
-	Animate HudPlayerAddArmor		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudPlayerAddArmor	FgColor	"0 0 0 0"			Linear	2.0	0.5
+	Animate HudPlayerAddArmor	Blur		"3"				Linear	0.0	0.1
+	Animate HudPlayerAddArmor	Blur		"0"				Deaccel	0.1	2.0
 }
 
 ////////////////////// HEALTH /////////////////////////////
@@ -180,37 +180,37 @@ event NewSubtractArmor
 event HealthIncrease
 {
 	StopEvent HealthBelow25 0.0
-	Animate HudHealth	FgColor		"FgColor"	Linear	0.0		0.0
-	Animate HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudHealth	FgColor	"FgColor"	Linear	0.0	0.0
+	Animate HudHealth	Blur		"3"		Linear	0.0	0.1
+	Animate HudHealth	Blur		"0"		Deaccel	0.1	2.0
 }
 
 event HealthIncreaseAbove100
 {
 	StopEvent HealthBelow25 0.0
-	Animate HudHealth	FgColor		"HealthIncAbove100Color"	Linear	0.0		0.25
-	Animate HudHealth	FgColor		"FgColor"	Linear	0.25		0.3
-	Animate HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudHealth	FgColor	"HealthIncAbove100Color"	Linear	0.0	0.25
+	Animate HudHealth	FgColor	"FgColor"					Linear	0.25	0.3
+	Animate HudHealth	Blur		"3"						Linear	0.0	0.1
+	Animate HudHealth	Blur		"0"						Deaccel	0.1	2.0
 }
 
 // Pertains to FortressForever HudHealth
 event HealthDamageTaken
 {	
-	Animate HudHealth	FgColor		"255 255 255 255"	Linear	0.0		0.0
-	Animate HudHealth	FgColor		"255 255 255 255"	Linear	0.0		0.05
-	Animate HudHealth	FgColor		"FgColor"	Deaccel	0.05		0.05
+	Animate HudHealth	FgColor	"255 255 255 255"	Linear	0.0	0.0
+	Animate HudHealth	FgColor	"255 255 255 255"	Linear	0.0	0.05
+	Animate HudHealth	FgColor	"FgColor"			Deaccel	0.05	0.05
 }
 
 // Pertains to FortressForever HudHealth
 event HealthBelow25
 {
-	Animate HudHealth	FgColor		"HealthLowColor"   Linear	0.0		0.0
-	Animate HudHealth	FgColor		"HealthLowColor"   Linear	0.0		0.27
-	Animate HudHealth	FgColor		"255 255 255 255"	Accel	0.27		0.03
-	Animate HudHealth	FgColor		"HealthLowColor"   Deaccel	0.3		0.27
-	Animate HudHealth	FgColor		"255 255 255 255"	Accel	0.57		0.03
-	Animate HudHealth	FgColor		"HealthLowColor"   Deaccel	0.6		0.1
+	Animate HudHealth	FgColor	"HealthLowColor"	Linear	0.0	0.0
+	Animate HudHealth	FgColor	"HealthLowColor"	Linear	0.0	0.27
+	Animate HudHealth	FgColor	"255 255 255 255"	Accel	0.27	0.03
+	Animate HudHealth	FgColor	"HealthLowColor"	Deaccel	0.3	0.27
+	Animate HudHealth	FgColor	"255 255 255 255"	Accel	0.57	0.03
+	Animate HudHealth	FgColor	"HealthLowColor"	Deaccel	0.6	0.1
 	
 	RunEvent HealthBelow25 0.7
 }
@@ -229,31 +229,31 @@ event HealthIncreaseBelow25
 // "0 210 0 255" - semidark green
 event NewAddHealth
 {
-	Animate HudPlayerAddHealth	FgColor		"FgColor"	Linear	0.0		0.0	
-	Animate HudPlayerAddHealth	FgColor		"0 210 0 255"	Deaccel	0.0		0.3
+	Animate HudPlayerAddHealth	FgColor	"FgColor"		Linear	0.0	0.0	
+	Animate HudPlayerAddHealth	FgColor	"0 210 0 255"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddHealth Position		"3 406"			Linear 0.0 0.0
-	Animate HudPlayerAddHealth Position		"3 376"			Linear 0.0 4.5
+	Animate HudPlayerAddHealth	Position	"3 406"		Linear	0.0	0.0
+	Animate HudPlayerAddHealth	Position	"3 376"		Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
-	Animate HudPlayerAddHealth	FgColor		"0 0 0 0"	Linear	2.0		0.5
-	Animate HudPlayerAddHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudPlayerAddHealth		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudPlayerAddHealth	FgColor	"0 0 0 0"		Linear	2.0	0.5
+	Animate HudPlayerAddHealth	Blur		"3"			Linear	0.0	0.1
+	Animate HudPlayerAddHealth	Blur		"0"			Deaccel	0.1	2.0
 	
 }
 
 event NewSubtractHealth
 {
-	Animate HudPlayerAddHealth	FgColor		"FgColor"	Linear	0.0		0.0	
-	Animate HudPlayerAddHealth	FgColor		"HealthLowColor"	Deaccel	0.0		0.3
+	Animate HudPlayerAddHealth	FgColor	"FgColor"			Linear	0.0	0.0	
+	Animate HudPlayerAddHealth	FgColor	"HealthLowColor"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddHealth Position		"3 406"			Linear 0.0 0.0
-	Animate HudPlayerAddHealth Position		"3 376"			Linear 0.0 4.5
+	Animate HudPlayerAddHealth	Position	"3 406"			Linear	0.0	0.0
+	Animate HudPlayerAddHealth	Position	"3 376"			Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
-	Animate HudPlayerAddHealth	FgColor		"0 0 0 0"	Linear	2.0		0.5
-	Animate HudPlayerAddHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudPlayerAddHealth		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudPlayerAddHealth	FgColor	"0 0 0 0"	Linear	2.0	0.5
+	Animate HudPlayerAddHealth	Blur		"3"		Linear	0.0	0.1
+	Animate HudPlayerAddHealth	Blur		"0"		Deaccel	0.1	2.0
 }
 
 ////////////////////// OTHER /////////////////////////////
@@ -269,8 +269,8 @@ event OpenWeaponSelectionMenu
 	StopEvent FadeOutWeaponSelectionMenu	0.0
 
 	// make the display visible
-	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
-	Animate HudWeaponSelection SelectionAlpha 	"255"		Linear 0.0 0.1
+	Animate HudWeaponSelection Alpha 		"128"	Linear 0.0 0.1
+	Animate HudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
 	Animate HudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
 	Animate HudWeaponSelection TextColor		"BrightFg"	Linear 0.0 0.1
 	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
@@ -281,8 +281,8 @@ event CloseWeaponSelectionMenu
 	// hide the whole thing near immediately
 	Animate HudWeaponSelection FgColor		"0 0 0 0"	Linear 0.0 0.1
 	Animate HudWeaponSelection TextColor		"0 0 0 0"	Linear 0.0 0.1
-	Animate HudWeaponSelection Alpha		"0" 		Linear 0.0 0.1
-	Animate HudWeaponSelection SelectionAlpha 	"0" 		Linear 0.0 0.1
+	Animate HudWeaponSelection Alpha			"0"		Linear 0.0 0.1
+	Animate HudWeaponSelection SelectionAlpha 	"0"		Linear 0.0 0.1
 }
 
 event FadeOutWeaponSelectionMenu
@@ -290,8 +290,8 @@ event FadeOutWeaponSelectionMenu
 	// slowly hide the whole thing
 	Animate HudWeaponSelection FgColor		"0 0 0 0"	Linear 0.0 1.5
 	Animate HudWeaponSelection TextColor		"0 0 0 0"	Linear 0.0 1.5
-	Animate HudWeaponSelection Alpha		"0" 		Linear 0.0 1.5
-	Animate HudWeaponSelection SelectionAlpha 	"0" 		Linear 0.0 1.5
+	Animate HudWeaponSelection Alpha			"0"		Linear 0.0 1.5
+	Animate HudWeaponSelection SelectionAlpha 	"0"		Linear 0.0 1.5
 }
 
 // Jiggles: Hint Box Fade in/out
@@ -547,7 +547,7 @@ event HudTakeDamageRadiation
 
 event HudPlayerDeath
 {
-	StopEvent	HealthLoop  0.0
+	StopEvent	HealthLoop 0.0
 	StopEvent	HealthPulse 0.0
 
 	Animate HudDamageIndicator DmgFullscreenColor	"255 0 0 96"		Deaccel 0.1 0.2
@@ -556,26 +556,26 @@ event HudPlayerDeath
 
 event HealthIncreasedAbove20
 {
-	StopEvent	HealthLoop  0.0
+	StopEvent	HealthLoop 0.0
 	StopEvent	HealthPulse 0.0
-	StopEvent	HealthLow   0.0
+	StopEvent	HealthLow 0.0
 
 	Animate	HudHealth	BgColor	"BgColor"	Linear	0.0	0.0
 	
-	Animate	HudHealth	TextColor "FgColor" Linear 0.0 0.04
-	Animate	HudHealth	FgColor   "FgColor" Linear 0.0 0.03
+	Animate	HudHealth	TextColor	"FgColor" Linear 0.0 0.04
+	Animate	HudHealth	FgColor	"FgColor" Linear 0.0 0.03
 	
-	Animate	HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate	HudHealth		Blur		"0"			Deaccel	0.1		2.0
+	Animate	HudHealth	Blur		"3"		Linear	0.0	0.1
+	Animate	HudHealth	Blur		"0"		Deaccel	0.1	2.0
 }
 
 event HealthIncreasedBelow20
 {
-	Animate HudHealth	FgColor		"BrightFg"	Linear	0.0		0.25
-	Animate HudHealth	FgColor		"FgColor"		Linear	0.3		0.75
+	Animate HudHealth	FgColor	"BrightFg"	Linear	0.0	0.25
+	Animate HudHealth	FgColor	"FgColor"	Linear	0.3	0.75
 	
-	Animate HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudHealth	Blur		"3"		Linear	0.0	0.1
+	Animate HudHealth	Blur		"0"		Deaccel	0.1	2.0
 }
 
 event SuitPowerIncreasedAbove20
@@ -584,28 +584,28 @@ event SuitPowerIncreasedAbove20
 	StopEvent	SuitPulse 0.0
 	StopEvent	SuitPowerZero	0.0
 
-	Animate	HudSuit 	Alpha		"255"			Linear 0.0 0.0
+	Animate	HudSuit 	Alpha		"255"	Linear	0.0	0.0
 
-	Animate	HudSuit		BgColor		"BgColor"	Linear	0.0	0.0
+	Animate	HudSuit	BgColor		"BgColor"	Linear	0.0	0.0
 	
-	Animate	HudSuit 	TextColor	"FgColor"	Linear 0.0 0.05
-	Animate	HudSuit		FgColor		"FgColor"	Linear 0.0 0.05
+	Animate	HudSuit	TextColor	"FgColor"	Linear 0.0 0.05
+	Animate	HudSuit	FgColor	"FgColor"	Linear 0.0 0.05
 	
-	Animate	HudSuit		Blur		"3"			Linear	0.0		0.1
-	Animate	HudSuit		Blur		"0"			Deaccel	0.1		2.0
+	Animate	HudSuit	Blur		"3"		Linear	0.0	0.1
+	Animate	HudSuit	Blur		"0"		Deaccel	0.1	2.0
 }
 
 
 event SuitPowerIncreasedBelow20
 {
 	StopEvent		SuitPowerZero	0.0
-	Animate	HudSuit 	Alpha		"255"			Linear 0.0 0.0
+	Animate	HudSuit 	Alpha	"255"	Linear	0.0	0.0
 
-	Animate HudSuit		FgColor		"BrightFg"	Linear	0.0		0.25
-	Animate HudSuit		FgColor		"FgColor"	Linear	0.3		0.75
+	Animate HudSuit	FgColor	"BrightFg"	Linear	0.0	0.25
+	Animate HudSuit	FgColor	"FgColor"	Linear	0.3	0.75
 	
-	Animate HudSuit		Blur		"3"			Linear	0.0		0.1
-	Animate HudSuit		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudSuit	Blur		"3"		Linear	0.0	0.1
+	Animate HudSuit	Blur		"0"		Deaccel	0.1	2.0
 }
 
 event SuitPowerZero
@@ -615,37 +615,37 @@ event SuitPowerZero
 	StopEvent	SuitArmorLow 0.0
 	StopEvent	SuitDamageTaken 0.0
 
-	Animate	HudSuit Alpha		"0"			Linear 0.0 0.4
+	Animate	HudSuit	Alpha	"0"		Linear	0.0	0.4
 }
 
 event TestMovement
 {
-	Animate HudHealth	Position	"256 120"	Linear	0.0		2.0
-	Animate HudHealth	Size		"128 24"	Linear	0.0		1.5
+	Animate HudHealth	Position	"256 120"	Linear	0.0	2.0
+	Animate HudHealth	Size		"128 24"	Linear	0.0	1.5
 }
 
 event HealthDamageTaken
 {
-	Animate HudHealth	FgColor		"BrightFg"	Linear	0.0		0.25
-	Animate HudHealth	FgColor		"FgColor"		Linear	0.3		0.75
+	Animate HudHealth	FgColor	"BrightFg"	Linear	0.0	0.25
+	Animate HudHealth	FgColor	"FgColor"	Linear	0.3	0.75
 	
-	Animate HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudHealth	Blur		"3"		Linear	0.0	0.1
+	Animate HudHealth	Blur		"0"		Deaccel	0.1	2.0
 	
-	Animate HudHealth TextColor		"BrightFg"	Linear	0.0		0.1
-	Animate HudHealth	TextColor		"FgColor"		Deaccel	0.1		1.2
+	Animate HudHealth	TextColor	"BrightFg"	Linear	0.0	0.1
+	Animate HudHealth	TextColor	"FgColor"	Deaccel	0.1	1.2
 }
 
 event SuitDamageTaken
 {
-	Animate HudSuit		FgColor	"BrightFg"	Linear	0.0		0.25
-	Animate HudSuit		FgColor	"FgColor"		Linear	0.3		0.75
+	Animate HudSuit	FgColor	"BrightFg"	Linear	0.0	0.25
+	Animate HudSuit	FgColor	"FgColor"	Linear	0.3	0.75
 	
-	Animate HudSuit		Blur		"3"			Linear	0.0		0.1
-	Animate HudSuit		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudSuit	Blur		"3"		Linear	0.0	0.1
+	Animate HudSuit	Blur		"0"		Deaccel	0.1	2.0
 	
-	Animate HudSuit		TextColor	"BrightFg"	Linear	0.0		0.1
-	Animate HudSuit		TextColor	"FgColor"		Deaccel	0.1		1.2
+	Animate HudSuit	TextColor	"BrightFg"	Linear	0.0	0.1
+	Animate HudSuit	TextColor	"FgColor"	Deaccel	0.1	1.2
 }
 
 // health has been damaged to below 20%
@@ -655,29 +655,29 @@ event HealthLow
 	StopEvent HealthPulse	0.0
 	StopEvent HealthLoop	0.0	
 	
-	//Animate HudHealth	BgColor		"DamagedBg"		Linear	0.0		0.1
-	//Animate HudHealth	BgColor		"BgColor"		Deaccel	0.1		1.75
+	//Animate HudHealth BgColor	"DamagedBg"	Linear	0.0	0.1
+	//Animate HudHealth BgColor	"BgColor"		Deaccel	0.1	1.75
 	
-	Animate HudHealth	FgColor		"BrightFg"	Linear	0.0		0.2
-	Animate HudHealth	FgColor		"DamagedFg"		Linear	0.2		1.2
+	Animate HudHealth	FgColor	"BrightFg"		Linear	0.0	0.2
+	Animate HudHealth	FgColor	"DamagedFg"	Linear	0.2	1.2
 	
-	Animate HudHealth TextColor		"BrightFg"	Linear	0.0		0.1
-	Animate HudHealth	TextColor		"DamagedFg"		Linear	0.1		1.2
+	Animate HudHealth	TextColor	"BrightFg"		Linear	0.0	0.1
+	Animate HudHealth	TextColor	"DamagedFg"	Linear	0.1	1.2
 	
-	Animate HudHealth		Blur		"5"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"3"			Deaccel	0.1		0.9
+	Animate HudHealth	Blur		"5"			Linear	0.0	0.1
+	Animate HudHealth	Blur		"3"			Deaccel	0.1	0.9
 
 	RunEvent HealthPulse	1.0
 }
 
 event HealthPulse
 {
-	Animate HudHealth		Blur		"5"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"2"			Deaccel	0.1		0.8
-	Animate HudHealth		TextColor	"BrightDamagedFg"	Linear	0.0		0.1
-	Animate HudHealth		TextColor	"DamagedFg"		Deaccel	0.1		0.8
-	//Animate HudHealth		BgColor	"100 0 0 80"		Linear	0.0		0.1
-	//Animate HudHealth		BgColor	"BgColor"		Deaccel	0.1		0.8
+	Animate HudHealth		Blur		"5"				Linear	0.0	0.1
+	Animate HudHealth		Blur		"2"				Deaccel	0.1	0.8
+	Animate HudHealth		TextColor	"BrightDamagedFg"	Linear	0.0	0.1
+	Animate HudHealth		TextColor	"DamagedFg"		Deaccel	0.1	0.8
+	//Animate HudHealth	BgColor	"100 0 0 80"		Linear	0.0	0.1
+	//Animate HudHealth	BgColor	"BgColor"			Deaccel	0.1	0.8
 
 	RunEvent HealthLoop	0.8
 }
@@ -700,17 +700,17 @@ event SuitArmorLow
 //	so, there will be no special indication (redness, flashing)
 //	in the hud that the suit armor is low
 	
-//	Animate HudSuit	BgColor		"DamagedBg"		Linear	0.0		0.1
-//	Animate HudSuit	BgColor		"BgColor"		Deaccel	0.1		1.75
+//	Animate HudSuit	BgColor	"DamagedBg"	Linear	0.0	0.1
+//	Animate HudSuit	BgColor	"BgColor"		Deaccel	0.1	1.75
 	
-	Animate HudSuit		FgColor	"BrightFg"	Linear	0.0		0.25
-	Animate HudSuit		FgColor	"FgColor"		Linear	0.3		0.75
+	Animate HudSuit	FgColor	"BrightFg"		Linear	0.0	0.25
+	Animate HudSuit	FgColor	"FgColor"		Linear	0.3	0.75
 	
-	Animate HudSuit		Blur		"3"			Linear	0.0		0.1
-	Animate HudSuit		Blur		"0"			Deaccel	0.1		2.0
+	Animate HudSuit	Blur		"3"			Linear	0.0	0.1
+	Animate HudSuit	Blur		"0"			Deaccel	0.1	2.0
 	
-	Animate HudSuit		TextColor	"BrightFg"	Linear	0.0		0.1
-	Animate HudSuit		TextColor	"FgColor"		Deaccel	0.1		1.2
+	Animate HudSuit	TextColor	"BrightFg"		Linear	0.0	0.1
+	Animate HudSuit	TextColor	"FgColor"		Deaccel	0.1	1.2
 	
 //	RunEvent SuitPulse	1.0
 }
@@ -718,12 +718,12 @@ event SuitArmorLow
 event SuitPulse
 //	this even no longer gets called
 {
-	Animate HudSuit		Blur		"5"			Linear	0.0		0.1
-	Animate HudSuit		Blur		"2"			Deaccel	0.1		0.8
-	Animate HudSuit		TextColor	"BrightDamagedFg"	Linear	0.0		0.1
-	Animate HudSuit		TextColor	"DamagedFg"		Deaccel	0.1		0.8
-	Animate HudSuit		BgColor	"100 0 0 80"	Linear	0.0		0.1
-	Animate HudSuit		BgColor	"BgColor"		Deaccel	0.1		0.8
+	Animate HudSuit	Blur		"5"				Linear	0.0	0.1
+	Animate HudSuit	Blur		"2"				Deaccel	0.1	0.8
+	Animate HudSuit	TextColor	"BrightDamagedFg"	Linear	0.0	0.1
+	Animate HudSuit	TextColor	"DamagedFg"		Deaccel	0.1	0.8
+	Animate HudSuit	BgColor	"100 0 0 80"		Linear	0.0	0.1
+	Animate HudSuit	BgColor	"BgColor"			Deaccel	0.1	0.8
 	RunEvent SuitLoop	0.8
 }
 
@@ -736,10 +736,10 @@ event SuitLoop
 // ammo has been picked up
 event AmmoIncreased
 {
-	Animate HudAmmo		FgColor	"0 0 255 255"		Linear	0.0	0.3
-	Animate HudAmmo		FgColor	"FgColor"		Deaccel	0.3	1.5
-	Animate HudAmmo		Blur		"5"			Linear	0.0	0.0 
-	Animate HudAmmo		Blur		"0"			Accel		0.01	1.5 
+	Animate HudAmmo	FgColor	"0 0 255 255"	Linear	0.0	0.3
+	Animate HudAmmo	FgColor	"FgColor"		Deaccel	0.3	1.5
+	Animate HudAmmo	Blur		"5"			Linear	0.0	0.0 
+	Animate HudAmmo	Blur		"0"			Accel	0.01	1.5 
 }
 
 // ammo has been decreased, but there is still some remaining
@@ -747,11 +747,11 @@ event AmmoDecreased
 {
 	StopEvent AmmoIncreased	0.0
 	
-	Animate HudAmmo		Blur		"7"			Linear	0.0	0.0
-	Animate HudAmmo		Blur		"0"			Deaccel	0.1	1.5
+	Animate HudAmmo	Blur		"7"		Linear	0.0	0.0
+	Animate HudAmmo	Blur		"0"		Deaccel	0.1	1.5
 	
-	Animate HudAmmo		TextColor	"BrightFg"		Linear	0.0	0.1
-	Animate HudAmmo		TextColor	"FgColor"		Deaccel	0.1	0.75
+	Animate HudAmmo	TextColor	"BrightFg"	Linear	0.0	0.1
+	Animate HudAmmo	TextColor	"FgColor"	Deaccel	0.1	0.75
 }
 
 // primary ammo is zero
@@ -763,40 +763,40 @@ event AmmoEmpty
 // ammo2 is the total ammo for a weapon that uses clip ammo
 event Ammo2Increased
 {
-	Animate Hudammo	ammo2color		"BrightFg"		Linear	0.0	0.2
-	Animate Hudammo	ammo2color		"FgColor"		Accel		0.2	1.2		
+	Animate Hudammo	ammo2color	"BrightFg"		Linear	0.0	0.2
+	Animate Hudammo	ammo2color	"FgColor"		Accel	0.2	1.2		
 }
 
 // total ammo has been decreased, but there is still some remaining
 event Ammo2Decreased
 {
-	Animate Hudammo	ammo2color		"BrightFg"		Linear	0.0	0.2
-	Animate Hudammo	ammo2color		"FgColor"		Accel		0.2	1.2		
+	Animate Hudammo	ammo2color	"BrightFg"		Linear	0.0	0.2
+	Animate Hudammo	ammo2color	"FgColor"		Accel	0.2	1.2		
 }
 
 // total ammo is zero
 event Ammo2Empty
 {
-	Animate Hudammo	FgColor		"HealthLowColor"	Linear	0.0	0.0		
+	Animate Hudammo	FgColor	"HealthLowColor"	Linear	0.0	0.0		
 }
 
 event AmmoSecondaryIncreased
 {
-	Animate HudAmmoSecondary		FgColor	"BrightFg"		Linear	0.0	0.15
-	Animate HudAmmoSecondary		FgColor	"FgColor"		Deaccel	0.15	1.5
-	Animate HudAmmoSecondary		Blur		"5"			Linear	0.0	0.0 
-	Animate HudAmmoSecondary		Blur		"0"			Accel		0.01	1.5 	
+	Animate HudAmmoSecondary	FgColor	"BrightFg"	Linear	0.0	0.15
+	Animate HudAmmoSecondary	FgColor	"FgColor"	Deaccel	0.15	1.5
+	Animate HudAmmoSecondary	Blur		"5"		Linear	0.0	0.0 
+	Animate HudAmmoSecondary	Blur		"0"		Accel	0.01	1.5 	
 }
 
 event AmmoSecondaryDecreased
 {
 	StopEvent AmmoSecondaryIncreased	0.0
 	
-	Animate HudAmmoSecondary		Blur		"7"			Linear	0.0	0.0
-	Animate HudAmmoSecondary		Blur		"0"			Deaccel	0.1	1.5
+	Animate HudAmmoSecondary	Blur		"7"		Linear	0.0	0.0
+	Animate HudAmmoSecondary	Blur		"0"		Deaccel	0.1	1.5
 	
-	Animate HudAmmoSecondary		TextColor	"BrightFg"		Linear	0.0	0.1
-	Animate HudAmmoSecondary		TextColor	"FgColor"		Deaccel	0.1	0.75
+	Animate HudAmmoSecondary	TextColor	"BrightFg"	Linear	0.0	0.1
+	Animate HudAmmoSecondary	TextColor	"FgColor"	Deaccel	0.1	0.75
 }
 
 event AmmoSecondaryEmpty
@@ -808,24 +808,24 @@ event AmmoSecondaryEmpty
 // current weapon has been changed
 event WeaponChanged
 {
-	//Animate HudAmmo		BgColor		"250 220 0 80"	Linear	0.0		0.1
-	//Animate HudAmmo		BgColor		"BgColor"		Deaccel	0.1		1.0
-	Animate HudAmmo		FgColor		"BrightFg"		Linear	0.0		0.1
-	Animate HudAmmo		FgColor		"FgColor"		Linear	0.2		1.5
+	//Animate HudAmmo	BgColor	"250 220 0 80"	Linear	0.0	0.1
+	//Animate HudAmmo	BgColor	"BgColor"		Deaccel	0.1	1.0
+	Animate HudAmmo		FgColor	"BrightFg"		Linear	0.0	0.1
+	Animate HudAmmo		FgColor	"FgColor"		Linear	0.2	1.5
 }
 
 // ran if we just changed to a weapon that needs clip ammo
 event WeaponUsesClips
 {
-	Animate HudAmmo		Position	"r150 432"	Deaccel	0.0		0.4
-	Animate HudAmmo		Size		"132 36"	Deaccel	0.0		0.4
+	Animate HudAmmo		Position	"r150 432"		Deaccel	0.0	0.4
+	Animate HudAmmo		Size		"132 36"		Deaccel	0.0	0.4
 }
 
 // ran if we just changed to a weapon that does not use clip ammo
 event WeaponDoesNotUseClips
 {
-	Animate HudAmmo		Position	"r118 432"	Deaccel	0.0		0.4
-	Animate HudAmmo		Size		"100 36"	Deaccel	0.0		0.4
+	Animate HudAmmo		Position	"r118 432"		Deaccel	0.0	0.4
+	Animate HudAmmo		Size		"100 36"		Deaccel	0.0	0.4
 }
 
 event WeaponUsesSecondaryAmmo
@@ -834,22 +834,22 @@ event WeaponUsesSecondaryAmmo
 	StopAnimation 	HudAmmo Size 0.0
 	StopPanelAnimations HudAmmoSecondary 0.0
 
-	//Animate HudAmmoSecondary	BgColor		"250 220 0 60"	Linear	0.0		0.1
-	//Animate HudAmmoSecondary	BgColor		"BgColor"		Deaccel	0.1		1.0
-	Animate HudAmmoSecondary	FgColor		"BrightFg"	Linear	0.0		0.1
-	Animate HudAmmoSecondary	FgColor		"FgColor"		Linear	0.2		1.5
-	Animate HudAmmoSecondary	Alpha		255		Linear	0.0		0.1
+	//Animate HudAmmoSecondary	BgColor	"250 220 0 60"	Linear	0.0	0.1
+	//Animate HudAmmoSecondary	BgColor	"BgColor"		Deaccel	0.1	1.0
+	Animate HudAmmoSecondary	FgColor	"BrightFg"		Linear	0.0	0.1
+	Animate HudAmmoSecondary	FgColor	"FgColor"		Linear	0.2	1.5
+	Animate HudAmmoSecondary	Alpha	255			Linear	0.0	0.1
 
-	//Animate HudAmmo		Position	"r222 432"	Deaccel	0.0		0.5
-	//Animate HudAmmo		Size		"132 36"	Deaccel	0.0		0.4
+	//Animate HudAmmo		Position	"r222 432"		Deaccel	0.0	0.5
+	//Animate HudAmmo		Size		"132 36"		Deaccel	0.0	0.4
 }
 
 event WeaponDoesNotUseSecondaryAmmo
 {
-	StopPanelAnimations	HudAmmoSecondary 	0.0
-	Animate HudAmmoSecondary	FgColor		"0 0 0 0"	Linear	0.0		0.4
-	//Animate HudAmmoSecondary	BgColor		"0 0 0 0"	Linear	0.0		0.4
-	Animate HudAmmoSecondary	Alpha		0		Linear	0.0		0.1
+	StopPanelAnimations	HudAmmoSecondary 0.0
+	Animate HudAmmoSecondary	FgColor	"0 0 0 0"	Linear	0.0	0.4
+	//Animate HudAmmoSecondary	BgColor	"0 0 0 0"	Linear	0.0	0.4
+	Animate HudAmmoSecondary	Alpha	0		Linear	0.0	0.1
 }
 
 event CraneMagnetFlash
@@ -883,8 +883,8 @@ event HintMessageHide
 
 event SquadMemberAdded
 {
-	StopEvent	SquadMemberDied		0.0
-	StopEvent	SquadMemberLeft		0.0
+	StopEvent	SquadMemberDied	0.0
+	StopEvent	SquadMemberLeft	0.0
 
 	// add in the squad member, brighter then normal color
 	Animate HudSquadStatus LastMemberColor	"255 220 0 255" Linear 0.0 0.3
@@ -893,7 +893,7 @@ event SquadMemberAdded
 
 event SquadMemberLeft
 {
-	StopEvent	SquadMemberDied		0.0
+	StopEvent	SquadMemberDied	0.0
 	StopEvent	SquadMemberAdded	0.0
 
 	// fade out the icon
@@ -903,24 +903,24 @@ event SquadMemberLeft
 event SquadMemberDied
 {
 	StopEvent	SquadMemberAdded	0.0
-	StopEvent	SquadMemberLeft		0.0
+	StopEvent	SquadMemberLeft	0.0
 
 	// flash red, hold, then disappear
 	Animate HudSquadStatus	LastMemberColor	"255 0 0 255"	Linear 0.0 0.5
-	Animate HudSquadStatus	LastMemberColor	"255 0 0 0"		Linear 2.0 2.0
+	Animate HudSquadStatus	LastMemberColor	"255 0 0 0"	Linear 2.0 2.0
 }
 
 event SquadMembersFollowing
 {
 	StopEvent	SquadMembersStationed	0.0
-	Animate		HudSquadStatus	SquadTextColor	"255 220 0 255"		Linear 0.0 0.2
-	Animate		HudSquadStatus	SquadTextColor	"255 220 0 160"		Linear 0.2 0.4
+	Animate		HudSquadStatus	SquadTextColor	"255 220 0 255"	Linear 0.0 0.2
+	Animate		HudSquadStatus	SquadTextColor	"255 220 0 160"	Linear 0.2 0.4
 }
 
 event SquadMembersStationed
 {
 	StopEvent	SquadMembersFollowing	0.0
-	Animate		HudSquadStatus	SquadTextColor	"255 220 0 160"			Linear 0.5 0.5
+	Animate		HudSquadStatus	SquadTextColor	"255 220 0 160"	Linear 0.5 0.5
 }
 
 event PoisonDamageTaken
@@ -939,10 +939,10 @@ event PoisonDamageCured
 
 event PoisonPulse
 {
-	Animate HudPoisonDamageIndicator	TextColor	"BrightFg"		Linear	0.0		0.1
-	Animate HudPoisonDamageIndicator	TextColor	"FgColor"		Deaccel	0.1		0.8
-	Animate HudPoisonDamageIndicator	BgColor		"100 0 0 80"		Linear	0.0		0.1
-	Animate HudPoisonDamageIndicator	BgColor		"BgColor"		Deaccel	0.1		0.8
+	Animate HudPoisonDamageIndicator	TextColor	"BrightFg"		Linear	0.0	0.1
+	Animate HudPoisonDamageIndicator	TextColor	"FgColor"		Deaccel	0.1	0.8
+	Animate HudPoisonDamageIndicator	BgColor	"100 0 0 80"	Linear	0.0	0.1
+	Animate HudPoisonDamageIndicator	BgColor	"BgColor"		Deaccel	0.1	0.8
 
 	RunEvent PoisonLoop	0.8
 }
@@ -956,10 +956,10 @@ event PoisonLoop
 // Grenade has been picked up
 event GrenadeIncreased
 {
-	Animate HudGrenade		FgColor	"BrightFg"		Linear	0.0	0.15
-	Animate HudGrenade		FgColor	"FgColor"		Deaccel	0.15	1.5
-	Animate HudGrenade		Blur		"5"			Linear	0.0	0.0 
-	Animate HudGrenade		Blur		"0"			Accel		0.01	1.5 
+	Animate HudGrenade	FgColor	"BrightFg"	Linear	0.0	0.15
+	Animate HudGrenade	FgColor	"FgColor"	Deaccel	0.15	1.5
+	Animate HudGrenade	Blur		"5"		Linear	0.0	0.0 
+	Animate HudGrenade	Blur		"0"		Accel	0.01	1.5 
 }
 
 // Grenade has been decreased, but there is still some remaining
@@ -967,11 +967,11 @@ event GrenadeDecreased
 {
 	StopEvent GrenadeIncreased	0.0
 	
-	Animate HudGrenade		Blur		"7"			Linear	0.0	0.0
-	Animate HudGrenade		Blur		"0"			Deaccel	0.1	1.5
+	Animate HudGrenade	Blur		"7"		Linear	0.0	0.0
+	Animate HudGrenade	Blur		"0"		Deaccel	0.1	1.5
 	
-	Animate HudGrenade		TextColor	"BrightFg"		Linear	0.0	0.1
-	Animate HudGrenade		TextColor	"FgColor"		Deaccel	0.1	0.75
+	Animate HudGrenade	TextColor	"BrightFg"	Linear	0.0	0.1
+	Animate HudGrenade	TextColor	"FgColor"	Deaccel	0.1	0.75
 }
 
 // primary Grenade is zero
@@ -984,99 +984,99 @@ event GrenadeEmpty
 event Grenade2Increased
 {
 	Animate HudGrenade	Grenade2color		"BrightFg"		Linear	0.0	0.2
-	Animate HudGrenade	Grenade2color		"FgColor"		Accel		0.2	1.2		
+	Animate HudGrenade	Grenade2color		"FgColor"		Accel	0.2	1.2		
 }
 
 // total Grenade has been decreased, but there is still some remaining
 event Grenade2Decreased
 {
 	Animate HudGrenade	Grenade2color		"BrightFg"		Linear	0.0	0.2
-	Animate HudGrenade	Grenade2color		"FgColor"		Accel		0.2	1.2		
+	Animate HudGrenade	Grenade2color		"FgColor"		Accel	0.2	1.2		
 }
 
 // total Grenade is zero
 event Grenade2Empty
 {
-	Animate HudGrenade	Grenade2color		"HealthLowColor"	Linear	0.0	0.2
+	Animate HudGrenade	Grenade2color		"HealthLowColor" Linear	0.0	0.2
 }
 
 event GrenadeSecondaryIncreased
 {
-	Animate HudGrenadeSecondary		FgColor	"BrightFg"		Linear	0.0	0.15
-	Animate HudGrenadeSecondary		FgColor	"FgColor"		Deaccel	0.15	1.5
-	Animate HudGrenadeSecondary		Blur		"5"			Linear	0.0	0.0 
-	Animate HudGrenadeSecondary		Blur		"0"			Accel		0.01	1.5 	
+	Animate HudGrenadeSecondary	FgColor	"BrightFg"		Linear	0.0	0.15
+	Animate HudGrenadeSecondary	FgColor	"FgColor"		Deaccel	0.15	1.5
+	Animate HudGrenadeSecondary	Blur		"5"			Linear	0.0	0.0 
+	Animate HudGrenadeSecondary	Blur		"0"			Accel	0.01	1.5 	
 }
 
 event GrenadeSecondaryDecreased
 {
 	StopEvent GrenadeSecondaryIncreased	0.0
 	
-	Animate HudGrenadeSecondary		Blur		"7"			Linear	0.0	0.0
-	Animate HudGrenadeSecondary		Blur		"0"			Deaccel	0.1	1.5
+	Animate HudGrenadeSecondary	Blur		"7"			Linear	0.0	0.0
+	Animate HudGrenadeSecondary	Blur		"0"			Deaccel	0.1	1.5
 	
-	Animate HudGrenadeSecondary		TextColor	"BrightFg"		Linear	0.0	0.1
-	Animate HudGrenadeSecondary		TextColor	"FgColor"		Deaccel	0.1	0.75
+	Animate HudGrenadeSecondary	TextColor	"BrightFg"		Linear	0.0	0.1
+	Animate HudGrenadeSecondary	TextColor	"FgColor"		Deaccel	0.1	0.75
 }
 
 event GrenadeSecondaryEmpty
 {
-	Animate HudGrenadeSecondary		FgColor		"BrightDamagedFg"	Linear	0.0	0.2
-	Animate HudGrenadeSecondary		FgColor		"DamagedFg"		Accel		0.2	1.2
-	Animate HudGrenadeSecondary		Blur		"7"			Linear	0.0	0.0
-	Animate HudGrenadeSecondary		Blur		"0"			Deaccel	0.1	1.5
+	Animate HudGrenadeSecondary	FgColor	"BrightDamagedFg"	Linear	0.0	0.2
+	Animate HudGrenadeSecondary	FgColor	"DamagedFg"		Accel	0.2	1.2
+	Animate HudGrenadeSecondary	Blur		"7"				Linear	0.0	0.0
+	Animate HudGrenadeSecondary	Blur		"0"				Deaccel	0.1	1.5
 
 }
 
 // current Grenades has been changed
 event ClassHasGrenades
 {
-	Animate HudGrenade		BgColor		"250 220 0 80"	Linear	0.0		0.1
-	Animate HudGrenade		BgColor		"BgColor"		Deaccel	0.1		1.0
-	Animate HudGrenade		FgColor		"BrightFg"		Linear	0.0		0.1
-	Animate HudGrenade		FgColor		"FgColor"		Linear	0.2		1.5
+	Animate HudGrenade	BgColor	"250 220 0 80"	Linear	0.0	0.1
+	Animate HudGrenade	BgColor	"BgColor"		Deaccel	0.1	1.0
+	Animate HudGrenade	FgColor	"BrightFg"		Linear	0.0	0.1
+	Animate HudGrenade	FgColor	"FgColor"		Linear	0.2	1.5
 }
 
 // ran if we just changed to a Grenades that needs clip Grenade
 event ClassHasTwoGrenades
 {
-	Animate HudGrenade		Position	"r150 382"	Deaccel	0.0		0.4
-	Animate HudGrenade		Size		"132 36"	Deaccel	0.0		0.4
+	Animate HudGrenade	Position	"r150 382"	Deaccel	0.0	0.4
+	Animate HudGrenade	Size		"132 36"	Deaccel	0.0	0.4
 }
 
 // ran if we just changed to a Grenades that does not use clip Grenade
 event ClassHasOneGrenade
 {
-	Animate HudGrenade		Position	"r118 382"	Deaccel	0.0		0.4
-	Animate HudGrenade		Size		"100 36"	Deaccel	0.0		0.4
+	Animate HudGrenade	Position	"r118 382"	Deaccel	0.0	0.4
+	Animate HudGrenade	Size		"100 36"	Deaccel	0.0	0.4
 }
 
 event FadeInBuildTimer
 {
-	Animate HudBuildTimer		Alpha		255		Linear	0.0		0.2
+	Animate HudBuildTimer	Alpha	255	Linear	0.0	0.2
 }
 
 event FadeOutBuildTimer
 {
-	Animate HudBuildTimer		Alpha		0		Linear	0.0		0.2
+	Animate HudBuildTimer	Alpha	0	Linear	0.0	0.2
 }
 
 event FadeInGrenade1Timer
 {
-	Animate HudGrenade1Timer	Alpha		255		Linear	0.0		0.2
+	Animate HudGrenade1Timer Alpha	255	Linear	0.0	0.2
 }
 
 event FadeOutGrenade1Timer
 {
-	Animate HudGrenade1Timer	Alpha		0		Linear	0.0		0.2
+	Animate HudGrenade1Timer Alpha	0	Linear	0.0	0.2
 }
 
 event FadeInGrenade2Timer
 {
-	Animate HudGrenade2Timer	Alpha		255		Linear	0.0		0.2
+	Animate HudGrenade2Timer Alpha	255	Linear	0.0	0.2
 }
 
 event FadeOutGrenade2Timer
 {
-	Animate HudGrenade2Timer	Alpha		0		Linear	0.0		0.2
+	Animate HudGrenade2Timer Alpha	0	Linear	0.0	0.2
 }

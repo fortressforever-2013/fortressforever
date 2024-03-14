@@ -155,7 +155,7 @@
 	//	"font"			"TeamMenuTitles_small"
 	//	"titleText"		"#TITLE_SERVERVARS"
 	//}
-	"MapDescription"  //objectives
+	"MapDescription"	//objectives
 	{
 		"ControlName"		"Section"
 		"fieldName"		"MapDescription"

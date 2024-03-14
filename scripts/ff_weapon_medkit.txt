@@ -1,42 +1,41 @@
 WeaponData
 {
 	// Weapon characteristics MELEE:
-	"CycleTime"			"0.4"		// Rate of fire
-	"Damage"			"20"		// Damage
-	"Range"				"32.0"		// Reach
+	"CycleTime"	"0.4"	// Rate of fire
+	"Damage"	"20"		// Damage
+	"Range"	"32.0"	// Reach
 
-	"MeleeWeapon"			"1"
+	"MeleeWeapon"	"1"
 
-	"primary_ammo"			"AMMO_CELLS"
-	"secondary_ammo"		"None"
+	"primary_ammo"	"AMMO_CELLS"
+	"secondary_ammo"	"None"
 
 	"ffencrypted"	"1" // required for the script to load
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#FF_WPNHUD_MEDKIT"
-	"viewmodel"			"models/weapons/medkit/v_medkit.mdl"
-	"playermodel"			"models/weapons/medkit/w_medkit.mdl"
-	
-	"anim_prefix"			"anim"
+	"printname"	"#FF_WPNHUD_MEDKIT"
+	"viewmodel"	"models/weapons/medkit/v_medkit.mdl"
+	"playermodel"	"models/weapons/medkit/w_medkit.mdl"
+	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "medkit"
-	"bucket"			"0"
-	"bucket_position"		"2"
+	"bucket"	"0"
+	"bucket_position"	"2"
 	
 	// Misc
-	"weight"			"10"
-	"item_flags"			"0"
+	"weight"	"10"
+	"item_flags"	"0"
 
-	"ITEM_FLAG_SELECTONEMPTY"	"1"
-	"ITEM_FLAG_NOAUTOSWITCHEMPTY"	"1"
+	"ITEM_FLAG_SELECTONEmpty"	"1"
+	"ITEM_FLAG_NOAUTOSWITCHEmpty"	"1"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"medkit.single_shot"
-		"special1"		"medkit.hit"
-		"special2"		"medkit.infect"
-		"button1"		"medkit.button1"
-		"button2"		"medkit.button2"
+		"single_shot"	"Medkit.Single_Shot"
+		"special1"	"Medkit.Hit"
+		"special2"	"Medkit.Infect"
+		"button1"	"Medkit.Button1"
+		"button2"	"Medkit.Button2"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -44,39 +43,39 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"c"
+			"font"	"WeaponIcons"
+			"character"	"c"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"c"
+		{
+			"font"	"WeaponIconsSelected"
+			"character"	"c"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"R"
+			"font"	"CSTypeDeath"
+			"character"	"R"
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"c"
+			"font"	"StatusGlyphsSmall"
+			"character"	"c"
 		}
 	}
 	ModelBounds

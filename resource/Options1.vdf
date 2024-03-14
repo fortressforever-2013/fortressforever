@@ -5,24 +5,24 @@
 		"caption"	"#GameUI_GameplayHeading"
 	}
 
-		"hints"
-		{
-			"caption"	"#GameUI_ShowHelpfulHints"
-			"cvar"		"cl_hints"
-		}
-		"autoreload"
-		{
-			"caption"	"#GameUI_AutoReloadGuns"
-			"cvar"		"cl_autoreload"
-		}
-		"changeclass"
-		{
-			"caption"	"#GameUI_InstantClassChange"
-			"cvar"		"cl_classautokill"
-		}
-		"ragdolldeath"
-		{
-			"caption"	"#GameUI_RagdollDeathView"
-			"cvar"		"cl_ragdoll_deathview"
-		}
+	"hints"
+	{
+		"caption"	"#GameUI_ShowHelpfulHints"
+		"cvar"	"cl_hints"
+	}
+	"autoreload"
+	{
+		"caption"	"#GameUI_AutoReloadGuns"
+		"cvar"	"cl_autoreload"
+	}
+	"changeclass"
+	{
+		"caption"	"#GameUI_InstantClassChange"
+		"cvar"	"cl_classautokill"
+	}
+	"ragdolldeath"
+	{
+		"caption"	"#GameUI_RagdollDeathView"
+		"cvar"	"cl_ragdoll_deathview"
+	}
 }

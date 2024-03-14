@@ -1,55 +1,53 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"			"0.1"		// Rate of fire
-	"CycleDecrement"		"1"		// Number of bullets fired per cycle
-	//"ReloadClip"  "1"     // Reload entire clip at once?
+	"CycleTime"	"0.1"	// Rate of fire
+	"CycleDecrement"	"1"	// Number of bullets fired per cycle
+	//"ReloadClip"	"1"	// Reload entire clip at once?
 
-	"Damage"			"9"		// Damage per burst
+	"Damage"	"9"		// Damage per burst
 
-	"RecoilAmount"			"0.01"		// Amount of recoil
+	"RecoilAmount"	"0.01"	// Amount of recoil
 
 	// Projectile weapons
-	"Speed"				"2000"		// Speed for projectile to travel at
+	"Speed"	"2000"		// Speed for projectile to travel at
 	
 	// Hitscan weapons
-	"Bullets"			"-1"		// Bullets to shoot
-	"BulletSpread"			"-1"		// Spread of projectiles
+	"Bullets"	"-1"		// Bullets to shoot
+	"BulletSpread"	"-1"		// Spread of projectiles
 
-	"PreReloadTime"			"1.00"		// Time taken for the weapon to move to reload state
-	"ReloadTime"			"0.23"		// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"		"0.26"		// Time taken to move weapon back to firing state
+	"PreReloadTime"	"1.00"	// Time taken for the weapon to move to reload state
+	"ReloadTime"	"0.23"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"	"0.26"	// Time taken to move weapon back to firing state
 
-	"SpinTime"			"-1"		// For AC
+	"SpinTime"	"-1"		// For AC
 
-	"clip_size"			"-1"
-	"clip2_size"			"-1"
-	"default_clip"			"60"
-	"default_clip2"			"-1"	
-
-	"primary_ammo"			"AMMO_NAILS"
-	"secondary_ammo"		"None"
+	"clip_size"	"-1"
+	"clip2_size"	"-1"
+	"default_clip"	"60"
+	"default_clip2"	"-1"
+	"primary_ammo"	"AMMO_NAILS"
+	"secondary_ammo"	"None"
 
 	"ffencrypted"	"1" // required for the script to load
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#FF_WPNHUD_NAILGUN"
-	"viewmodel"			"models/weapons/nailgun/v_nailgun.mdl"
-	"playermodel"			"models/weapons/nailgun/w_nailgun.mdl"
-	
-	"anim_prefix"			"anim"
+	"printname"	"#FF_WPNHUD_NAILGUN"
+	"viewmodel"	"models/weapons/nailgun/v_nailgun.mdl"
+	"playermodel"	"models/weapons/nailgun/w_nailgun.mdl"
+	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "nailgun"
-	"bucket"			"3"
-	"bucket_position"		"0"
+	"bucket"	"3"
+	"bucket_position"	"0"
 
-	"weight"			"30"
-	"item_flags"			"0"
+	"weight"	"30"
+	"item_flags"	"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"empty"			"generic.empty"
-		"single_shot"		"nailgun.single_shot"
+		"Empty"	"Generic.Empty"
+		"single_shot"	"Nailgun.Single_Shot"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -57,39 +55,39 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"i"
+			"font"	"WeaponIcons"
+			"character"	"i"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"i"
+		{
+			"font"	"WeaponIconsSelected"
+			"character"	"i"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIconsSmall"
-				"character"	"7"
+			"font"	"WeaponIconsSmall"
+			"character"	"7"
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"i"
+			"font"	"StatusGlyphsSmall"
+			"character"	"i"
 		}
 	}
 	ModelBounds

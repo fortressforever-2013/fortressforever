@@ -1,60 +1,56 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"			"0.2"		// Rate of fire
-	"CycleDecrement"		"1"		// Number of bullets fired per cycle
-	"DeployDelay"			"0.2"		// Delay before you can shoot when you first pull the weapon out
+	"CycleTime"	"0.2"		// Rate of fire
+	"CycleDecrement"	"1"	// Number of bullets fired per cycle
+	"DeployDelay"	"0.2"		// Delay before you can shoot when you first pull the weapon out
 
-	"Damage"			"18"		// Damage per burst (used to be 9)
+	"Damage"	"18"		// Damage per burst (used to be 9)
 
-	"RecoilAmount"			"0"		// Amount of recoil
+	"RecoilAmount"	"0"	// Amount of recoil
 
 	// Projectile weapons
-	"Speed"				"1000"		// Speed for projectile to travel at
+	"Speed"	"1000"	// Speed for projectile to travel at
 	
 	// Hitscan weapons
-	"Bullets"			"-1"		// Bullets to shoot
-	"BulletSpread"			"-1"		// Spread of projectiles
+	"Bullets"	"-1"		// Bullets to shoot
+	"BulletSpread"	"-1"		// Spread of projectiles
 
-	"PreReloadTime"			"-1"		// Time taken for the weapon to move to reload state
-	"ReloadTime"			"-1"		// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"		"-1"		// Time taken to move weapon back to firing state
+	"PreReloadTime"	"-1"	// Time taken for the weapon to move to reload state
+	"ReloadTime"	"-1"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"	"-1"	// Time taken to move weapon back to firing state
 
-	"SpinTime"			"-1"		// For AC
+	"SpinTime"	"-1"		// For AC
 
-	"clip_size"			"-1"
-	"clip2_size"			"-1"
-	"default_clip"			"60000"
-	"default_clip2"			"-1"	
-
-	"primary_ammo"			"AMMO_CELLS"
-	"secondary_ammo"		"None"
+	"clip_size"	"-1"
+	"clip2_size"	"-1"
+	"default_clip"	"60000"
+	"default_clip2"	"-1"
+	"primary_ammo"	"AMMO_CELLS"
+	"secondary_ammo"	"None"
 
 	"ffencrypted"	"1" // required for the script to load
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#FF_WPNHUD_FLAMETHROWER"
-	"viewmodel"			"models/weapons/flamethrower/v_flamethrower.mdl"
-	// "playermodel"		"models/weapons/flamethrower/w_flamethrower.mdl"
-
-	"playermodel"			"models/weapons/flamethrower/w_flamethrower.mdl"
-
-	"anim_prefix"			"anim"
+	"printname"	"#FF_WPNHUD_FLAMETHROWER"
+	"viewmodel"	"models/weapons/flamethrower/v_flamethrower.mdl"
+	"playermodel"	"models/weapons/flamethrower/w_flamethrower.mdl"
+	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "flamethrower"
-	"bucket"			"3"
-	"bucket_position"		"3"
+	"bucket"	"3"
+	"bucket_position"	"3"
 
-	"weight"			"50"
-	"item_flags"			"0"
+	"weight"	"50"
+	"item_flags"	"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"empty"			"generic.empty"
-		"special1"		"flamethrower.deploy"
-		"single_shot"		"flamethrower.single_shot"
-		"burst"			"flamethrower.loop_shot"
-		"stop"			"Weapon.StopSound"
+		"Empty"	"Generic.Empty"
+		"special1"	"Flamethrower.Deploy"
+		"single_shot"	"Flamethrower.Single_Shot"
+		"burst"	"Flamethrower.Loop_shot"
+		"stop"	"Weapon.StopSound"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -62,39 +58,39 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"o"
+			"font"	"WeaponIcons"
+			"character"	"o"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"o"
+		{
+			"font"	"WeaponIconsSelected"
+			"character"	"o"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIconsSmall"
-				"character"	"6"
+			"font"	"WeaponIconsSmall"
+			"character"	"6"
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"o"
+			"font"	"StatusGlyphsSmall"
+			"character"	"o"
 		}
 	}
 	ModelBounds

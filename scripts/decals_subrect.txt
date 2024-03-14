@@ -1,11 +1,11 @@
 // Decal definitions, format is 
-//   decalname weight
-//   where weight is used to randomly selected a decal to apply from within the group
+// decalname weight
+// where weight is used to randomly selected a decal to apply from within the group
 
 // This is just an entry to map material types to "impact.xxx"
 "TranslationData"
 {
-	"-"			""  // don't decal this surface
+	"-"			""	// don't decal this surface
 
 	"C"			"Impact.Concrete"
 	"M"			"Impact.Metal"

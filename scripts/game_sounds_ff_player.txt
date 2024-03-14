@@ -8,199 +8,198 @@
 
 	"Player.Jump"
 	{
-		"channel"		"CHAN_BODY"
-		"volume"		"1.0"
+		"channel"	"CHAN_BODY"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
 
 		"rndwave"
 		{
-			"wave"		"player/footsteps/movement/jump1.wav"
-			"wave"		"player/footsteps/movement/jump2.wav"
-			"wave"		"player/footsteps/movement/jump3.wav"
+			"wave"	"player/footsteps/movement/jump1.wav"
+			"wave"	"player/footsteps/movement/jump2.wav"
+			"wave"	"player/footsteps/movement/jump3.wav"
 		}
 	}
 	"Player.ClientJump"
 	{
-		"channel"		"CHAN_BODY"
-		"volume"		"0.5"
+		"channel"	"CHAN_BODY"
+		"volume"	"0.5"
 		"CompatibilityAttenuation"	"1.0"
 
 		"rndwave"
 		{
-			"wave"		"player/footsteps/movement/jump1.wav"
-			"wave"		"player/footsteps/movement/jump2.wav"
-			"wave"		"player/footsteps/movement/jump3.wav"
+			"wave"	"player/footsteps/movement/jump1.wav"
+			"wave"	"player/footsteps/movement/jump2.wav"
+			"wave"	"player/footsteps/movement/jump3.wav"
 		}
 	}
 	"Player.FallDamage"
 	{
-		"channel"		"CHAN_BODY"
-		"volume"		"1.0"
+		"channel"	"CHAN_BODY"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
 		"rndwave"
 		{
-			"wave"		"player/footsteps/movement/fallpain1.wav"
-			"wave"		"player/footsteps/movement/fallpain2.wav"
+			"wave"	"player/footsteps/movement/fallpain1.wav"
+			"wave"	"player/footsteps/movement/fallpain2.wav"
 		}
 	}
 	"Player.SpyFall"
 	{
-		"channel"		"CHAN_BODY"
-		"volume"		"1.0"
+		"channel"	"CHAN_BODY"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
 
-		"wave"		"player/footsteps/movement/spyland.wav"		
+		"wave"	"player/footsteps/movement/spyland.wav"		
 	}
 	"Player.Pain"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
 
 		"rndwave"
 		{
-			"wave"		"player/pain1.wav"
-			"wave"		"player/pain2.wav"
-			"wave"		"player/pain3.wav"
-			"wave"		"player/pain4.wav"
-			"wave"		"player/pain5.wav"
-			"wave"		"player/pain6.wav"
-			"wave"		"player/pain7.wav"
-			"wave"		"player/pain8.wav"
+			"wave"	"player/pain1.wav"
+			"wave"	"player/pain2.wav"
+			"wave"	"player/pain3.wav"
+			"wave"	"player/pain4.wav"
+			"wave"	"player/pain5.wav"
+			"wave"	"player/pain6.wav"
+			"wave"	"player/pain7.wav"
+			"wave"	"player/pain8.wav"
 		}
 	}
 	"Player.Scream"
 	{
-		"channel"		"CHAN_AUTO"
-		"volume"		"1.0"
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
 		"soundlevel"	"SNDLVL_NORM" 
 
 		"rndwave"
 		{
-			"wave"		"player/scream1.wav"
+			"wave"	"player/scream1.wav"
 		}
 	}
 	"Player.Death"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
 
 		"rndwave"
 		{
-			"wave"		"player/death1.wav"
-			"wave"		"player/death2.wav"
-			"wave"		"player/death3.wav"
+			"wave"	"player/death1.wav"
+			"wave"	"player/death2.wav"
+			"wave"	"player/death3.wav"
 		}
 	}
 	"Player.Deathbeep"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-                "soundlevel"            "SNDLVL_NORM"
-		"pitch"		"92,108"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM"
+		"pitch"	"92,108"
 		"CompatibilityAttenuation"	"1.0"
 
-		"wave"		"@player/deathbeep/deathbeep1.wav"
+		"wave"	"@player/deathbeep/deathbeep1.wav"
 	}
 	"Player.Cough"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-
 		"rndwave"
 		{
-			"wave"		"player/cough1.wav"
-			"wave"		"player/cough2.wav"
-			"wave"		"player/cough3.wav"
-			"wave"		"player/cough4.wav"
-			"wave"		"player/cough5.wav"
-			"wave"		"player/cough6.wav"
-			"wave"		"player/cough7.wav"
+			"wave"	"player/cough1.wav"
+			"wave"	"player/cough2.wav"
+			"wave"	"player/cough3.wav"
+			"wave"	"player/cough4.wav"
+			"wave"	"player/cough5.wav"
+			"wave"	"player/cough6.wav"
+			"wave"	"player/cough7.wav"
 		}
 	}
 	"Player.OutofAmmo"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/outofammo.wav"
+		"wave"	"player/outofammo.wav"
 	}
 	"Player.AmmoToss"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/Objects/ammotoss1.wav"
+		"wave"	"player/Objects/ammotoss1.wav"
 	}
 	"Player.Gib"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/gibs.wav"
+		"wave"	"player/gibs.wav"
 	}
 	"Player.break"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/break.wav"
+		"wave"	"player/break.wav"
 	}
 	"Player.bodysplat"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/bodysplat.wav"
+		"wave"	"player/bodysplat.wav"
 	}
 	"Player.blood"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/blood.wav"
+		"wave"	"player/blood.wav"
 	}
 	"Player.armor"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/Objects/armor.wav"
+		"wave"	"player/Objects/armor.wav"
 	}
 	"Player.health"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/health.wav"
+		"wave"	"player/health.wav"
 	}
 	"Player.fall"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-//		"wave"		"player/bodysplat.wav"
+//		"wave"	"player/bodysplat.wav"
 		"rndwave"
 		{
-			"wave"		"player/footsteps/movement/fallpain1.wav"
-			"wave"		"player/footsteps/movement/fallpain2.wav"
+			"wave"	"player/footsteps/movement/fallpain1.wav"
+			"wave"	"player/footsteps/movement/fallpain2.wav"
 		}
 	}
 	"Player.FallGib"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/bodysplat.wav"
+		"wave"	"player/bodysplat.wav"
 	}
 	"Player.Flameout"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"1.0"
+		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"		"player/flameout.wav"
+		"wave"	"player/flameout.wav"
 	}
 
 	"Player.Whoosh"
@@ -208,8 +207,8 @@
 		"channel"	"CHAN_STATIC"
 		"volume"	"1.0"
 		"soundlevel"	"SNDLVL_75dB"
-		"pitch"		"100"
-		"wave"		")player/whoosh.wav"
+		"pitch"	"100"
+		"wave"	")player/whoosh.wav"
 	}
 
 	"Player.Sabotage"
@@ -217,31 +216,31 @@
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.8"
 		"soundlevel"	"SNDLVL_NONE"
-		"pitch"		"88"
-		"wave"		"@player/suitchargeok1.wav"
+		"pitch"	"88"
+		"wave"	"@player/suitchargeok1.wav"
 	}
 	"Player.SabotageTimedOut"
 	{
 		"channel"	"CHAN_STATIC"
 		"volume"	"0.8"
 		"soundlevel"	"SNDLVL_NONE"
-		"pitch"		"72"
-		"wave"		"@player/suitchargeok1.wav"
+		"pitch"	"72"
+		"wave"	"@player/suitchargeok1.wav"
 	}
 
 	"Player.JetpackLoop"
 	{
-		"channel"		"CHAN_BODY"
-		"volume"		"0.3"
+		"channel"	"CHAN_BODY"
+		"volume"	"0.3"
 		"CompatibilityAttenuation"	"0.7"
-		"pitch"			"95,105"
-		"wave"			"player/jetpack_loop.wav"
+		"pitch"	"95,105"
+		"wave"	"player/jetpack_loop.wav"
 	}
 
 	"Player.RampslideMetal"
 	{
 		"channel"	"CHAN_BODY"
-		"volume"		"0.5"
+		"volume"	"0.5"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"			"player/rampslide4.wav"
+		"wave"	"player/rampslide4.wav"
 	}

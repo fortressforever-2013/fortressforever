@@ -1,61 +1,59 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"			"0.1"		// Rate of fire
-	"CycleDecrement"		"2"		// Number of bullets fired per cycle
+	"CycleTime"	"0.1"		// Rate of fire
+	"CycleDecrement"	"2"	// Number of bullets fired per cycle
 
-	"Damage"			"12"		// Damage from burst
+	"Damage"	"12"		// Damage from burst
 
-	"RecoilAmount"			"0.4"		// Amount of recoil
+	"RecoilAmount"	"0.4"		// Amount of recoil
 
 	// Projectile weapons
-	"Speed"				"-1"		// Speed for projectile to travel at
+	"Speed"	"-1"		// Speed for projectile to travel at
 	
 	// Hitscan weapons
-	"Bullets"			"2"		// Bullets to shoot
-	"BulletSpread"			"0.08"		// Spread of projectiles
+	"Bullets"	"2"		// Bullets to shoot
+	"BulletSpread"	"0.08"	// Spread of projectiles
 
-	"PreReloadTime"			"-1"		// Time taken for the weapon to move to reload state
-	"ReloadTime"			"-1"		// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"		"-1"		// Time taken to move weapon back to firing state
+	"PreReloadTime"	"-1"	// Time taken for the weapon to move to reload state
+	"ReloadTime"	"-1"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"	"-1"	// Time taken to move weapon back to firing state
 
-	"SpinTime"			"0.7"		// For AC
+	"SpinTime"	"0.7"		// For AC
 
-	"clip_size"			"-1"		
-	"clip2_size"			"-1"		
-	"default_clip"			"200"		
-	"default_clip2"			"-1"		
-	
-	"primary_ammo"			"AMMO_SHELLS"
-	"secondary_ammo"		"None"
+	"clip_size"	"-1"
+	"clip2_size"	"-1"
+	"default_clip"	"200"
+	"default_clip2"	"-1"
+	"primary_ammo"	"AMMO_SHELLS"
+	"secondary_ammo"	"None"
 
 	"ffencrypted"	"1" // required for the script to load
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#FF_WPNHUD_ASSAULTCANNON"
-	"viewmodel"			"models/weapons/assaultcannon/v_assaultcannon.mdl"
-	"playermodel"			"models/weapons/assaultcannon/w_assaultcannon.mdl"
-	
-	"anim_prefix"			"anim"
+	"printname"	"#FF_WPNHUD_ASSAULTCANNON"
+	"viewmodel"	"models/weapons/assaultcannon/v_assaultcannon.mdl"
+	"playermodel"	"models/weapons/assaultcannon/w_assaultcannon.mdl"
+	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "assaultcannon"
-	"bucket"			"4"
-	"bucket_position"		"3"
+	"bucket"	"4"
+	"bucket_position"	"3"
 	
 	// Misc
-	"weight"			"60"
-	"item_flags"			"0"
+	"weight"	"60"
+	"item_flags"	"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"empty"			"generic.empty"
-		"special1"		"Assaultcannon.Windup"
-		"special2"		"Assaultcannon.Winddown"
-		"special3"		"assaultcannon.overheat"
-		"double_shot"		"Assaultcannon.loop_shot" // changing to double_shot so I can add the rotate sound
-		"single_shot"		"assaultcannon.single_shot"
-		"burst"			"assaultcannon.rotate" // going to play for all players
-		"stop"			"Weapon.StopSound"
+		"Empty"	"Generic.Empty"
+		"special1"	"Assaultcannon.Windup"
+		"special2"	"Assaultcannon.Winddown"
+		"special3"	"assaultcannon.overheat"
+		"double_shot"	"Assaultcannon.loop_shot" // changing to double_shot so I can add the rotate sound
+		"single_shot"	"assaultcannon.Single_Shot"
+		"burst"	"assaultcannon.rotate" // going to play for all players
+		"stop"	"Weapon.StopSound"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -63,39 +61,39 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"r"
+			"font"	"WeaponIcons"
+			"character"	"r"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"r"
+		{
+			"font"	"WeaponIconsSelected"
+			"character"	"r"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIconsSmall"
-				"character"	"4"
+			"font"	"WeaponIconsSmall"
+			"character"	"4"
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"r"
+			"font"	"StatusGlyphsSmall"
+			"character"	"r"
 		}
 	}
 	ModelBounds

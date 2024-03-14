@@ -65,9 +65,9 @@ Scheme
 		CheckButton.TextColor			"UI_Tone_Default"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"				// color of the check itself
+		CheckButton.Border1			"Border.Dark" 		// the left checkbutton border
+		CheckButton.Border2			"Border.Bright"		// the right checkbutton border
+		CheckButton.Check			"White"				// color of the check itself
 
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
@@ -202,7 +202,7 @@ Scheme
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"UI_Tone_Default"  //ui tone default
+		NewGame.SelectionColor		"UI_Tone_Default"	//ui tone default
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 
@@ -318,7 +318,7 @@ Scheme
 				"weight"	"0"
 			}
 		}
-		"UiBold"  // top left of options screen etc
+		"UiBold" // top left of options screen etc
 		{
 			"1"
 			{
@@ -987,7 +987,7 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HUDfont.ttf"
+		"1"	"resource/HALFLIFE2.ttf"
+		"2"	"resource/HUDfont.ttf"
 	}
 }

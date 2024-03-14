@@ -1,85 +1,83 @@
 "Options"
 {
-		"tchud"
-		{
-			"caption"	"#GameUI_TeamColorHUD"
-			"cvar"		"cl_teamcolourhud"
-		}
-		"hud_showweaponselect"
-		{
-			"caption"	"#GameUI_ShowWeaponSelect"
-			"cvar"		"hud_weaponselect"
-		}
-		"hud_fastswitch"
-		{
-			"caption"	"#GameUI_FastSwitch"
-			"cvar"		"hud_fastswitch"
-		}
-		"hud_centerid"
-		{
-			"caption"	"#GameUI_CenterPlayerInfo"
-			"cvar"		"hud_centerid"
-		}
-		"hud_takesshots"
-		{
-			"caption"	"#GameUI_TakeEndRoundScreenshots"
-			"cvar"		"hud_takesshots"
-		}		 
-		"hud_speedometer"
-		{
-			"caption"	"#GameUI_ShowSpeedometer"
-			"cvar"		"hud_speedometer"
-		}
-		"hud_speedometer_avg"
-		{
-			"caption"	"#GameUI_ShowAverageSpeedometer"
-			"cvar"		"hud_speedometer_avg"
-		}
-		"usemouse"
-		{
-			"caption"	"#GameUI_UseMouseIngameMenus"
-			"cvar"		"cl_cmusemouse"
-		}
+	"tchud"
+	{
+		"caption"	"#GameUI_TeamColorHUD"
+		"cvar"	"cl_teamcolourhud"
+	}
+	"hud_showweaponselect"
+	{
+		"caption"	"#GameUI_ShowWeaponSelect"
+		"cvar"	"hud_weaponselect"
+	}
+	"hud_fastswitch"
+	{
+		"caption"	"#GameUI_FastSwitch"
+		"cvar"	"hud_fastswitch"
+	}
+	"hud_centerid"
+	{
+		"caption"	"#GameUI_CenterPlayerInfo"
+		"cvar"	"hud_centerid"
+	}
+	"hud_takesshots"
+	{
+		"caption"	"#GameUI_TakeEndRoundScreenshots"
+		"cvar"	"hud_takesshots"
+	}		 
+	"hud_speedometer"
+	{
+		"caption"	"#GameUI_ShowSpeedometer"
+		"cvar"	"hud_speedometer"
+	}
+	"hud_speedometer_avg"
+	{
+		"caption"	"#GameUI_ShowAverageSpeedometer"
+		"cvar"	"hud_speedometer_avg"
+	}
+	"usemouse"
+	{
+		"caption"	"#GameUI_UseMouseIngameMenus"
+		"cvar"	"cl_cmusemouse"
+	}
 		
 	"heading"
 	{
 		"caption"	"#GameUI_ObjectiveIconHeading"
 	}
-		"cl_objectiveicon"
+
+	"cl_objectiveicon"
+	{
+		"caption"	"#GameUI_ObjectiveIcon"
+		"cvar"	"cl_objectiveicon"
+		"type"	"discrete"
+		"values"
 		{
-			"caption"	"#GameUI_ObjectiveIcon"
-			"cvar"		"cl_objectiveicon"
-			"type"		"discrete"
-			"values"
-			{
-				"1"		"#GameUI_On"
-				"2"		"#GameUI_HideArrow"
-				"0"		"#GameUI_Off"
-			}
+			"1"	"#GameUI_On"
+			"2"	"#GameUI_HideArrow"
+			"0"	"#GameUI_Off"
 		}
-		
-		"cl_objectiveicon_teamcolor"
+	}
+	"cl_objectiveicon_teamcolor"
+	{
+		"caption"	"#GameUI_ObjectiveTeamColoredIcon"
+		"cvar"	"cl_objectiveicon_teamcolor"
+		"type"	"discrete"
+		"values"
 		{
-			"caption"	"#GameUI_ObjectiveTeamColoredIcon"
-			"cvar"		"cl_objectiveicon_teamcolor"
-			"type"		"discrete"
-			"values"
-			{
-				"1"		"#GameUI_On"
-				"0"		"#GameUI_Off"
-			}
+			"1"	"#GameUI_On"
+			"0"	"#GameUI_Off"
 		}
-		
-		"cl_objectiveicon_arrow_teamcolor"
+	}
+	"cl_objectiveicon_arrow_teamcolor"
+	{
+		"caption"	"#GameUI_ObjectiveTeamColoredArrow"
+		"cvar"	"cl_objectiveicon_arrow_teamcolor"
+		"type"	"discrete"
+		"values"
 		{
-			"caption"	"#GameUI_ObjectiveTeamColoredArrow"
-			"cvar"		"cl_objectiveicon_arrow_teamcolor"
-			"type"		"discrete"
-			"values"
-			{
-				"1"		"#GameUI_On"
-				"0"		"#GameUI_Off"
-			}
-		}		
+			"1"	"#GameUI_On"
+			"0"	"#GameUI_Off"
+		}
+	}		
 }
-	

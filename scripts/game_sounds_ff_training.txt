@@ -1,520 +1,475 @@
 //==================================
 // Training Map Sounds
 //==================================
-
 	"training.intro"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/intro.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/intro.wav"
 	}
-
 	"training.stage_complete"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/stage_complete.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/stage_complete.wav"
 	}
-
 	"training.all_complete"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/all_complete.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/all_complete.wav"
 	}
 
 //=================
-//  VERTICAL JUMP
+// VERTICAL JUMP
 //=================
-
 	"training.v_conc01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_conc01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_conc01.wav"
 	}
-
 	"training.v_conc02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_conc02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_conc02.wav"
 	}
-
 	"training.v_conc_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_conc_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_conc_timeout.wav"
 	}
 
 	"training.a_conc01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_conc01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_conc01.wav"
 	}
-
 	"training.a_conc02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_conc02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_conc02.wav"
 	}
-
 	"training.a_conc_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_conc_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_conc_timeout.wav"
 	}
 
 	"training.m_waterconc_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/m_waterconc_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/m_waterconc_start.wav"
 	}
-
 	"training.m_waterconc01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/m_waterconc01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/m_waterconc01.wav"
 	}
-
 	"training.m_waterconc02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/m_waterconc02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/m_waterconc02.wav"
 	}
-
 	"training.m_waterconc_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/m_waterconc_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/m_waterconc_timeout.wav"
 	}
 
 	"training.v_hhconc01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_hhconc01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_hhconc01.wav"
 	}
-
 	"training.v_hhconc02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_hhconc02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_hhconc02.wav"
 	}
-
 	"training.v_hhconc_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_hhconc_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_hhconc_timeout.wav"
 	}
 
 	"training.a_hhconc01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_hhconc01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_hhconc01.wav"
 	}
-
 	"training.a_hhconc02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_hhconc02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_hhconc02.wav"
 	}
-
 	"training.a_hhconc_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_hhconc_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_hhconc_timeout.wav"
 	}
 
 	"training.v_rj01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_rj01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_rj01.wav"
 	}
-
 	"training.v_rj02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_rj02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_rj02.wav"
 	}
-
 	"training.v_rj_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_rj_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_rj_timeout.wav"
 	}
 
 	"training.a_rj01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_rj01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_rj01.wav"
 	}
-
 	"training.a_rj02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_rj02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_rj02.wav"
 	}
-
 	"training.a_rj_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_rj_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_rj_timeout.wav"
 	}
 
 	"training.v_pipe01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_pipe01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_pipe01.wav"
 	}
-
 	"training.v_pipe02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_pipe02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_pipe02.wav"
 	}
-
 	"training.v_pipe_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/v_pipe_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/v_pipe_timeout.wav"
 	}
 
 	"training.a_pipe01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_pipe01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_pipe01.wav"
 	}
-
 	"training.a_pipe02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_pipe02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_pipe02.wav"
 	}
-
 	"training.a_pipe_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_pipe_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_pipe_timeout.wav"
 	}
 
 	"training.a_ft01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_ft01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_ft01.wav"
 	}
-
 	"training.a_ft02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_ft02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_ft02.wav"
 	}
-
 	"training.a_ft_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/a_ft_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/a_ft_timeout.wav"
 	}
-	
-		
+
 	"training.move_doublejump01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_doublejump01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_doublejump01.wav"
 	}
-
 	"training.move_doublejump02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_doublejump02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_doublejump02.wav"
 	}
-
 	"training.move_doublejump_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_doublejump_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_doublejump_timeout.wav"
 	}
 	
 	"training.move_aircontrol_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrol_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrol_start.wav"
 	}
-
 	"training.move_aircontrol02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrol02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrol02.wav"
 	}
-
 	"training.move_aircontrol_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrol_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrol_timeout.wav"
 	}
-	
+
 	"training.move_aircontrolpush01"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolpush01.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolpush01.wav"
 	}
-
 	"training.move_aircontrolpush02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolpush02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolpush02.wav"
 	}
-
 	"training.move_aircontrolpush_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolpush_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolpush_timeout.wav"
 	}
-	
+
 	"training.move_aircontrolspeed_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolspeed_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolspeed_start.wav"
 	}
-
 	"training.move_aircontrolspeed02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolspeed02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolspeed02.wav"
 	}
-
 	"training.move_aircontrolspeed_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolspeed_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolspeed_timeout.wav"
 	}
-	
+
 	"training.move_aircontrolbhop_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolbhop_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolbhop_start.wav"
 	}
-
 	"training.move_aircontrolbhop02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolbhop02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolbhop02.wav"
 	}
-
 	"training.move_aircontrolbhop_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_aircontrolbhop_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_aircontrolbhop_timeout.wav"
 	}
-	
+
 	"training.move_bhop1_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_bhop1_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_bhop1_start.wav"
 	}
-	
 	"training.move_bhop2_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_bhop2_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_bhop2_start.wav"
 	}
-	
 	"training.move_bhop3_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_bhop3_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_bhop3_start.wav"
 	}
 
 	"training.move_bhop02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_bhop02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_bhop02.wav"
 	}
 
 	"training.move_bhop_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_bhop_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_bhop_timeout.wav"
 	}
 	
 	"training.move_rampslide_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_rampslide_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_rampslide_start.wav"
 	}
-
 	"training.move_rampslide02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_rampslide02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_rampslide02.wav"
 	}
-
 	"training.move_rampslide_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_rampslide_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_rampslide_timeout.wav"
 	}
-	
+
 	"training.move_trimp_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_trimp_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_trimp_start.wav"
 	}
-
 	"training.move_trimp02"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_trimp02.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_trimp02.wav"
 	}
-
 	"training.move_trimp_timeout"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/move_trimp_timeout.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/move_trimp_timeout.wav"
 	}
 	
 	"training.all_scout_start"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/all_scout_start.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/all_scout_start.wav"
 	}
-	
 	"training.all_scout_bronze"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/all_scout_bronze.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/all_scout_bronze.wav"
 	}
-	
 	"training.all_scout_silver"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/all_scout_silver.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/all_scout_silver.wav"
 	}
-	
 	"training.all_scout_gold"
 	{
-		"channel"		"CHAN_VOICE"
-		"volume"		"1.0"
-		"soundlevel" 		"SNDLVL_NONE"
-		"wave"			"#*ff_training/all_scout_gold.wav"
+		"channel"	"CHAN_VOICE"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NONE"
+		"wave"	"#*ff_training/all_scout_gold.wav"
 	}

@@ -2,7 +2,7 @@
 {
 	"MultiplayerAdvancedDialog"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"MultiplayerAdvancedDialog"
 		"xpos"		"60"
 		"ypos"		"108"

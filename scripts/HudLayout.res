@@ -13,18 +13,18 @@
 {
 	HudLocation	// hudlocation
 	{
-		"fieldName"		"HudLocation"
+		"fieldName"	"HudLocation"
 		
-		"visible" 		"1"
-		"enabled" 		"1"		
+		"visible" 	"1"
+		"enabled" 	"1"
 		
-		"xpos"			"3"	
-		"ypos"			"447"
-		"wide"			"640"	//256
-		"tall"			"480"	//32
+		"xpos"		"3"	
+		"ypos"		"447"
+		"wide"		"640"	//256
+		"tall"		"480"	//32
 		
-		"text1_xpos" 		"4"
-		"text1_ypos" 		"20" //19
+		"text1_xpos"	"4"
+		"text1_ypos"	"20" //19
 		
 		"TextFont"		"HUD_TextSmall_Shadow"
 		"TextColor"		"HUD_Tone_Default"	// Ignored: locations are colour coded
@@ -34,16 +34,16 @@
 	}
 	HudLocation2
 	{
-		"fieldName"		"HudLocation2"
+		"fieldName"	"HudLocation2"
 		
-		"visible" 		"1"
-		"enabled" 		"1"		
-		"pinCorner"		"3"		
+		"visible"		"1"
+		"enabled"	"1"		
+		"pinCorner"	"3"		
 
-		"xpos"			"85"	//85 x pos controlled by HudLocation
-		"ypos"			"447"
-		"wide"			"640"	//256
-		"tall"			"480"	//32
+		"xpos"		"85"	//85 x pos controlled by HudLocation
+		"ypos"		"447"
+		"wide"		"640"	//256
+		"tall"		"480"	//32
 		
 		"ForegroundTexture"	"locationBoxFG2"
 		"BackgroundTexture"	"locationBoxBG2"
@@ -51,21 +51,21 @@
 	
 	HudHealth
 	{
-		"fieldName"		"HudHealth"
+		"fieldName"	"HudHealth"
 
 		"visible"		"1"
-		"enabled"		"1"
-				
-		"xpos"			"3"
-		"ypos"			"431"
-		"wide"			"128"
-		"tall"			"32"
+		"enabled"	"1"
 
-		"digit_xpos"		"44"
-		"digit_ypos"		"8"
+		"xpos"		"3"
+		"ypos"		"431"
+		"wide"		"128"
+		"tall"		"32"
 
-		"NumberFont"		"HUD_NumLarge"
-		"NumberColor"		"HUD_Tone_Default"
+		"digit_xpos"	"44"
+		"digit_ypos"	"8"
+
+		"NumberFont"	"HUD_NumLarge"
+		"NumberColor"	"HUD_Tone_Default"
 		
 		"ForegroundTexture"	"healthBoxFG"
 		"BackgroundTexture"	"healthBoxBG"
@@ -73,44 +73,43 @@
 	
 	HudPlayerAddHealth
 	{
-		"fieldName"		"HudPlayerAddHealth"
+		"fieldName"	"HudPlayerAddHealth"
 
 		"visible"		"1"
-		"enabled"		"1"
-				
-		"xpos"			"3"
-		"ypos"			"406"
-		"wide"			"128"
-		"tall"			"32"
+		"enabled"	"1"
+		"xpos"		"3"
+		"ypos"		"406"
+		"wide"		"128"
+		"tall"		"32"
 
-		"HealthFont_xpos"		"32"
-		"HealthFont_ypos"		"8"
+		"HealthFont_xpos"	"32"
+		"HealthFont_ypos"	"8"
 
 		"HealthFont"		"HudAddHealth"
-      "TextColor"      "255 255 255 255" //black 
-      "HealthFontBG"      "HudPlayerScoreBG" 
+		"TextColor"	"255 255 255 255" //black 
+		"HealthFontBG"	"HudPlayerScoreBG" 
 		
-      "ForegroundTexture"   "playerScoreBoxFG1" 
-      "BackgroundTexture"   "playerScoreBoxBG1" 
+		"ForegroundTexture"	"playerScoreBoxFG1" 
+		"BackgroundTexture"	"playerScoreBoxBG1" 
 	}
 	
 	HudArmor
 	{
-		"fieldName"		"HudArmor"
+		"fieldName"	"HudArmor"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 
-		"xpos"			"87"
-		"ypos"			"431"
-		"wide"			"128"
-		"tall"			"32"
+		"xpos"		"87"
+		"ypos"		"431"
+		"wide"		"128"
+		"tall"		"32"
 
-		"digit_xpos"		"38"
-		"digit_ypos"		"18"
+		"digit_xpos"	"38"
+		"digit_ypos"	"18"
 
-		"NumberFont"		"HUD_NumSmall"
-		"NumberColor"		"HUD_Tone_Default"
+		"NumberFont"	"HUD_NumSmall"
+		"NumberColor"	"HUD_Tone_Default"
 		
 		"ForegroundTexture"	"armourBoxFG"
 		"BackgroundTexture"	"armourBoxBG"
@@ -118,107 +117,106 @@
 	
 	HudPlayerAddArmor
 	{
-		"fieldName"		"HudPlayerAddArmor"
+		"fieldName"	"HudPlayerAddArmor"
 
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 				
-		"xpos"			"87"
-		"ypos"			"406"
-		"wide"			"128"
-		"tall"			"32"
+		"xpos"		"87"
+		"ypos"		"406"
+		"wide"		"128"
+		"tall"		"32"
 
-		"ArmorFont_xpos"		"32"
-		"ArmorFont_ypos"		"18"
+		"ArmorFont_xpos"	"32"
+		"ArmorFont_ypos"	"18"
 
 		"ArmorFont"		"HudAddHealth"
-		"TextColor"      "255 255 255 255" //black 
-		"ArmorFontBG"      "HudPlayerScoreBG" 
+		"TextColor"	"255 255 255 255" //black 
+		"ArmorFontBG"	"HudPlayerScoreBG" 
 		
-		"ForegroundTexture"   "playerScoreBoxFG1" 
-		"BackgroundTexture"   "playerScoreBoxBG1" 
+		"ForegroundTexture"	"playerScoreBoxFG1" 
+		"BackgroundTexture"	"playerScoreBoxBG1" 
 	}
 	
 	// Added by AfterShock - for displaying weapon icon in bottom right
 	HudWeaponInfo 
-	{ 
-      "fieldName"      "HudWeaponInfo" 
-       
-      "visible"      "1" 
-      "enabled"      "1" 
-       
-      // xpos and ypos define where the top left corner of the panel will be 
-		"xpos"			"r124" //x pos controlled by HudAmmoInfo2
-		"ypos"			"447" 
-		"zpos"			"2"
+	{
+		"fieldName"	"HudWeaponInfo" 
 
-      "wide"         "640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
-      "tall"         "480" 
-       
-      "ammo_xpos"       "5" // Note that these positions are relative to the position of the panel 
-      "ammo_ypos"       "18"   // i.e. 0,0 is the top left corner of the panel 
+		"visible"		"1" 
+		"enabled"	"1" 
 
-      "TextFont"      "HudNumbers" 
-      "TextColor"      "HUD_Tone_Default" 
-       
-      "IconFont"      "WeaponIconsHUD" // Defines which Font to look in for the icons 
-      "AmmoFont"      "AmmoIconsSmall" // Defines which Font to look in for the icons 
+		// xpos and ypos define where the top left corner of the panel will be 
+		"xpos"		"r124" //x pos controlled by HudAmmoInfo2
+		"ypos"		"447" 
+		"zpos"		"2"
+		"wide"		"640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
+		"tall"		"480" 
+
+		"ammo_xpos"	"5"	// Note that these positions are relative to the position of the panel 
+		"ammo_ypos"	"18"	// i.e. 0,0 is the top left corner of the panel 
+
+		"TextFont"	"HudNumbers" 
+		"TextColor"	"HUD_Tone_Default" 
+
+		"IconFont"	"WeaponIconsHUD"	// Defines which Font to look in for the icons 
+		"AmmoFont"	"AmmoIconsSmall"	// Defines which Font to look in for the icons 
 	}
-	
+
 	HudAmmoInfo // should be weapon item glyphs in lower right
 	{
-		"fieldName"		"HudAmmoInfo"
+		"fieldName"	"HudAmmoInfo"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 		
-		"xpos"			"r124" //x pos controlled by HudAmmoInfo2
-		"ypos"			"447"
-		"wide"			"640" //128
-		"tall"			"480" //64
+		"xpos"		"r124" //x pos controlled by HudAmmoInfo2
+		"ypos"		"447"
+		"wide"		"640" //128
+		"tall"		"480" //64
 		
-		"text1_xpos" 		"0"
-		"text1_ypos" 		"0"
+		"text1_xpos"	"0"
+		"text1_ypos"	"0"
 
-		"TextFont"		"HudNumbers"
-		"TextColor"		"HUD_Tone_Default"
-		"IconFont"		"weaponglyphssmall"
+		"TextFont"	"HudNumbers"
+		"TextColor"	"HUD_Tone_Default"
+		"IconFont"	"weaponglyphssmall"
 		
 		"ForegroundTexture"	"weaponBoxFG1"
 		"BackgroundTexture"	"weaponBoxBG1"
 	}
 	HudAmmoInfo2
 	{
-		"fieldName"		"HudAmmoInfo2"
+		"fieldName"	"HudAmmoInfo2"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 		
-		"xpos"			"r42" 
-		"ypos"			"447"
-		"wide"			"640" //128
-		"tall"			"480" //64
-			
+		"xpos"		"r42" 
+		"ypos"		"447"
+		"wide"		"640" //128
+		"tall"		"480" //64
+		
 		"ForegroundTexture"	"weaponBoxFG2"
 		"BackgroundTexture"	"weaponBoxBG2"
 	}
 	
 	HudAmmo
 	{
-		"fieldName"		"HudAmmo"
+		"fieldName"	"HudAmmo"
 
 		"visible"		"1"
 		"enabled"		"1"
 
-		"xpos"			"r152" //488
-		"ypos"			"447"
-		"wide"			"640" //128
-		"tall"			"480" //32
-		"digit_xpos"		"4"
-		"digit_ypos"		"19"
+		"xpos"		"r152" //488
+		"ypos"		"447"
+		"wide"		"640" //128
+		"tall"		"480" //32
+		"digit_xpos"	"4"
+		"digit_ypos"	"19"
 		
-		"NumberFont"		"HUD_NumSmall"
-		"NumberColor"		"HUD_Tone_Default"
+		"NumberFont"	"HUD_NumSmall"
+		"NumberColor"	"HUD_Tone_Default"
 		
 		"ForegroundTexture"	"ammoCarriedBoxFG"
 		"BackgroundTexture"	"ammoCarriedBoxBG"
@@ -226,21 +224,21 @@
 
 	HudAmmoClip
 	{
-		"fieldName"		"HudAmmoClip"
+		"fieldName"	"HudAmmoClip"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 		
-		"xpos"			"r149" //491
-		"ypos"			"430"
-		"wide"			"640" //128
-		"tall"			"480" //32
+		"xpos"		"r149" //491
+		"ypos"		"430"
+		"wide"		"640" //128
+		"tall"		"480" //32
 
-		"digit_xpos"		"16"
-		"digit_ypos"		"8"
+		"digit_xpos"	"16"
+		"digit_ypos"	"8"
 
-		"NumberFont"		"HUD_NumLarge"
-		"NumberColor"		"HUD_Tone_Default"
+		"NumberFont"	"HUD_NumLarge"
+		"NumberColor"	"HUD_Tone_Default"
 		
 		"ForegroundTexture"	"ammoLoadedBoxFG"
 		"BackgroundTexture"	"ammoLoadedBoxBG"
@@ -248,26 +246,26 @@
 	
 	HudGrenade1
 	{
-		"fieldName"		"HudGrenade1"
+		"fieldName"	"HudGrenade1"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 		
-		"xpos"			"r91" //549
-		"ypos"			"414"
-		"wide"			"640" //128
-		"tall"			"480" //32
+		"xpos"		"r91" //549
+		"ypos"		"414"
+		"wide"		"640" //128
+		"tall"		"480" //32
 
-		"digit_xpos"		"33"
-		"digit_ypos"		"18"
+		"digit_xpos"	"33"
+		"digit_ypos"	"18"
 		
-		"icon_xpos"			"10"
-		"icon_ypos"			"25"
-		"icon_font"			"StatusGlyphsSmall"
-		"icon_color"		"HUD_Tone_Default"
+		"icon_xpos"	"10"
+		"icon_ypos"	"25"
+		"icon_font"	"StatusGlyphsSmall"
+		"icon_color"	"HUD_Tone_Default"
 		
-		"NumberFont"		"HUD_NumSmall"
-		"NumberColor"		"HUD_Tone_Default"
+		"NumberFont"	"HUD_NumSmall"
+		"NumberColor"	"HUD_Tone_Default"
 		
 		"ForegroundTexture"	"grenPrimaryBoxFG"
 		"BackgroundTexture"	"grenPrimaryBoxBG"
@@ -275,26 +273,26 @@
 
 	HudGrenade2 // far right glyph
 	{
-		"fieldName"		"HudGrenade2"
+		"fieldName"	"HudGrenade2"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 		
-		"xpos"			"r47" //593
-		"ypos"			"414"
-		"wide"			"640" //128
-		"tall"			"480" //32
+		"xpos"		"r47" //593
+		"ypos"		"414"
+		"wide"		"640" //128
+		"tall"		"480" //32
 
-		"digit_xpos"		"35"
-		"digit_ypos"		"18"
+		"digit_xpos"	"35"
+		"digit_ypos"	"18"
 		
-		"icon_xpos"			"10"
-		"icon_ypos"			"25"
-		"icon_font"			"StatusGlyphsSmall"
-		"icon_color"		"HUD_Tone_Default"
+		"icon_xpos"	"10"
+		"icon_ypos"	"25"
+		"icon_font"	"StatusGlyphsSmall"
+		"icon_color"	"HUD_Tone_Default"
 		
-		"NumberFont"		"HUD_NumSmall"
-		"NumberColor"		"HUD_Tone_Default"
+		"NumberFont"	"HUD_NumSmall"
+		"NumberColor"	"HUD_Tone_Default"
 		
 		"ForegroundTexture"	"grenSecondaryBoxFG"
 		"BackgroundTexture"	"grenSecondaryBoxBG"
@@ -302,23 +300,23 @@
 
 	HudRoundInfo	// top center item glyph, fucked by non 4:3 aspect ratio, new settings seem to stay in center, but text needs fixin
 	{
-		"fieldName"		"HudRoundInfo"
+		"fieldName"	"HudRoundInfo"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 		
-		"xpos"			"c-60" //256
-		"ypos"			"1"
-		"wide"			"120" //128  , 120
-		"tall"			"128" //128
+		"xpos"		"c-60" //256
+		"ypos"		"1"
+		"wide"		"120" //128, 120
+		"tall"		"128" //128
 		
 	
-		"MapNameFont"		"HUD_TextRoundInfo"
-		"MapNameColor"		"HUD_Tone_Default"
-		"MapNameX"		"32" //32
-		"MapNameY"		"3"
-		//"center_x"		"1"		// center text horizontally
-		//"RightJustify"		"1"
+		"MapNameFont"	"HUD_TextRoundInfo"
+		"MapNameColor"	"HUD_Tone_Default"
+		"MapNameX"	"32" //32
+		"MapNameY"	"3"
+		//"center_x"		"1"	// center text horizontally
+		//"RightJustify"	"1"
 
 		"TimerFont"		"HUD_TextRoundInfo"
 		"TimerColor"		"HUD_Tone_Default"
@@ -330,117 +328,116 @@
 	}
 	
 	HudTeamScores
-   { 
-      "fieldName"      "HudTeamScores" 
-       
-      "visible"      "1" 
-      "enabled"      "1" 
-       
-      // xpos and ypos define where the top left corner of the panel will be 
-      "xpos"         "c-120" // Right in the middle of the damn screen 
-      //"xpos"         "130" // Right in the middle of the damn screen 
-      "ypos"         "7" 
-      "wide"         "640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
-      "tall"         "480" 
-       
-      "TeamScoreBlue_xpos"       "0" // Note that these positions are relative to the position of the panel 
-      "TeamScoreBlue_ypos"       "0"   // i.e. 0,0 is the top left corner of the panel 
-	  "TeamScoreRed_xpos"       "200" // Note that these positions are relative to the position of the panel 
-      "TeamScoreRed_ypos"       "0"   // i.e. 0,0 is the top left corner of the panel 
-	  "TeamScoreYellow_xpos"       "5" // Note that these positions are relative to the position of the panel 
-      "TeamScoreYellow_ypos"       "22"   // i.e. 0,0 is the top left corner of the panel 
-	  "TeamScoreGreen_xpos"       "195" // Note that these positions are relative to the position of the panel 
-      "TeamScoreGreen_ypos"       "22"   // i.e. 0,0 is the top left corner of the panel 
-	  
-      "TeamScoreBlueFont"      "HudTeamScore" 
-      "TeamScoreRedFont"      "HudTeamScore" 
-      "TeamScoreYellowFont"      "HudTeamScore" 
-      "TeamScoreGreenFont"      "HudTeamScore" 
-      
-      "TextColor"      "Black" 
-       
-      "ForegroundTexture"   "TeamScoreBoxFG1" 
-      "BackgroundTexture"   "TeamScoreBoxBG1" 
-   }
-   
-   HudPlayerTotalScore
-   { 
-      "fieldName"      "HudPlayerTotalScore" 
-       
-      "visible"      "1" 
-      "enabled"      "1" 
-       
-      // xpos and ypos define where the top left corner of the panel will be 
-      "xpos"         "0" // Right in the middle of the damn screen 20
-      "ypos"         "0" //20
-      "wide"         "640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
-      "tall"         "480" 
-       
-      "TotalDescFont_xpos"       "5" // Note that these positions are relative to the position of the panel 
-      "TotalDescFont_ypos"       "3"   // i.e. 0,0 is the top left corner of the panel 
-      "TotalScoreFont_xpos"       "5" // Note that these positions are relative to the position of the panel 
-      "TotalScoreFont_ypos"       "15"   // i.e. 0,0 is the top left corner of the panel 
-      
-      "TotalScoreFont"      "HudPlayerScore" 
-      "TotalDescFont"      "HudPlayerScoreDesc" 
-      
-      "TotalScoreFontBG"      "HudPlayerScoreBG" 
-      "TotalDescFontBG"      "HudPlayerScoreDescBG" 
-      
-      "TextColor"      "Black" 
-       
-      "ForegroundTexture"   "playerScoreBoxFG1" 
-      "BackgroundTexture"   "playerScoreBoxBG1" 
-   }
-   	HudPlayerLatestScore
-   { 
-      "fieldName"      "HudPlayerLatestScore" 
-       
-      "visible"      "1" 
-      "enabled"      "1" 
-       
-      // xpos and ypos define where the top left corner of the panel will be 
-      "xpos"         "0" // Right in the middle of the damn screen 
-      "ypos"         "0" // 
-      "wide"         "640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
-      "tall"         "480" 
+	{
+		"fieldName"	"HudTeamScores" 
 
-      "DescFont_xpos"       "13" // Note that these positions are relative to the position of the panel 
-      "DescFont_ypos"       "33"   // i.e. 0,0 is the top left corner of the panel 
-	"ScoreFont_xpos"       "8" // Note that these positions are relative to the position of the panel 
-      "ScoreFont_ypos"       "43"   // i.e. 0,0 is the top left corner of the panel 
-      
-      "ScoreFont"      "HudBonusScore" 
-      "DescFont"      "HudBonusScoreDesc" 
-      
-      "ScoreFontBG"      "HudPlayerScoreBG" 
-      "DescFontBG"      "HudPlayerScoreDescBG" 
-      
-      "TextColor"      "255 255 255 255" //black 
-       
-      "ForegroundTexture"   "playerScoreBoxFG1" 
-      "BackgroundTexture"   "playerScoreBoxBG1" 
-   }
-   
+		"visible"	"1" 
+		"enabled"	"1" 
+
+		// xpos and ypos define where the top left corner of the panel will be 
+		"xpos"	"c-120" // Right in the middle of the damn screen 
+		//"xpos"	"130" // Right in the middle of the damn screen 
+		"ypos"	"7" 
+		"wide"	"640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
+		"tall"	"480" 
+
+		"TeamScoreBlue_xpos"	"0"	// Note that these positions are relative to the position of the panel 
+		"TeamScoreBlue_ypos"	"0"	// i.e. 0,0 is the top left corner of the panel 
+		"TeamScoreRed_xpos"	"200"	// Note that these positions are relative to the position of the panel 
+		"TeamScoreRed_ypos"	"0"		// i.e. 0,0 is the top left corner of the panel 
+		"TeamScoreYellow_xpos"	"5"	// Note that these positions are relative to the position of the panel 
+		"TeamScoreYellow_ypos"	"22"	// i.e. 0,0 is the top left corner of the panel 
+		"TeamScoreGreen_xpos"	"195"	// Note that these positions are relative to the position of the panel 
+		"TeamScoreGreen_ypos"	"22"	// i.e. 0,0 is the top left corner of the panel 
+
+		"TeamScoreBlueFont"	"HudTeamScore" 
+		"TeamScoreRedFont"	"HudTeamScore" 
+		"TeamScoreYellowFont"	"HudTeamScore" 
+		"TeamScoreGreenFont"	"HudTeamScore" 
+
+		"TextColor"	"Black" 
+
+		"ForegroundTexture"	"TeamScoreBoxFG1" 
+		"BackgroundTexture"	"TeamScoreBoxBG1" 
+	}
+
+	HudPlayerTotalScore
+	{
+		"fieldName"	"HudPlayerTotalScore" 
+
+		"visible"	"1" 
+		"enabled"	"1" 
+
+		// xpos and ypos define where the top left corner of the panel will be 
+		"xpos"	"0" // Right in the middle of the damn screen 20
+		"ypos"	"0" //20
+		"wide"	"640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
+		"tall"	"480" 
+
+		"TotalDescFont_xpos"	"5"	// Note that these positions are relative to the position of the panel 
+		"TotalDescFont_ypos"	"3"	// i.e. 0,0 is the top left corner of the panel 
+		"TotalScoreFont_xpos"	"5"	// Note that these positions are relative to the position of the panel 
+		"TotalScoreFont_ypos"	"15"	// i.e. 0,0 is the top left corner of the panel 
+
+		"TotalScoreFont"	"HudPlayerScore" 
+		"TotalDescFont"	"HudPlayerScoreDesc" 
+
+		"TotalScoreFontBG"	"HudPlayerScoreBG" 
+		"TotalDescFontBG"	"HudPlayerScoreDescBG" 
+
+		"TextColor"	"Black" 
+
+		"ForegroundTexture"	"playerScoreBoxFG1" 
+		"BackgroundTexture"	"playerScoreBoxBG1" 
+	}
+	HudPlayerLatestScore
+	{
+		"fieldName"	"HudPlayerLatestScore" 
+		"visible"	"1" 
+		"enabled"	"1" 
+
+		// xpos and ypos define where the top left corner of the panel will be 
+		"xpos"	"0" // Right in the middle of the damn screen 
+		"ypos"	"0" // 
+		"wide"	"640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
+		"tall"	"480" 
+
+		"DescFont_xpos"	"13"	// Note that these positions are relative to the position of the panel 
+		"DescFont_ypos"	"33"	// i.e. 0,0 is the top left corner of the panel 
+		"ScoreFont_xpos"	"8"	// Note that these positions are relative to the position of the panel 
+		"ScoreFont_ypos"	"43"	// i.e. 0,0 is the top left corner of the panel 
+
+		"ScoreFont"	"HudBonusScore" 
+		"DescFont"	"HudBonusScoreDesc" 
+
+		"ScoreFontBG"	"HudPlayerScoreBG" 
+		"DescFontBG"	"HudPlayerScoreDescBG" 
+
+		"TextColor"	"255 255 255 255" //black 
+
+		"ForegroundTexture"	"playerScoreBoxFG1" 
+		"BackgroundTexture"	"playerScoreBoxBG1" 
+	}
+
 	HudOverpressure
 	{
-		"fieldName"		"HudOverpressure"
+		"fieldName"	"HudOverpressure"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 
-		"xpos"			"3"
-		"ypos"			"404"
-		"wide"			"128"
-		"tall"			"128"
+		"xpos"		"3"
+		"ypos"		"404"
+		"wide"		"128"
+		"tall"		"128"
 
 		"text1_xpos"		"34"
 		"text1_ypos"		"12"
 		
-		"image1_xpos"		"3"
-		"image1_ypos"		"4"
+		"image1_xpos"	"3"
+		"image1_ypos"	"4"
 		
-		"bar_width"			"75"
+		"bar_width"		"75"
 		"bar_height"		"24"
 
 		"TextFont"		"HUD_TextSmall"
@@ -478,29 +475,29 @@
 		"ForegroundTexture"	"CellCountBoxFG"
 		"BackgroundTexture"	"CellCountBoxBG"
 	}
-   
+
 	HudJetpackFuelBar
 	{
-		"fieldName"		"HudJetpackFuelBar"
+		"fieldName"	"HudJetpackFuelBar"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 
-		"xpos"			"3"
-		"ypos"			"404"
-		"wide"			"128"
-		"tall"			"128"
+		"xpos"		"3"
+		"ypos"		"404"
+		"wide"		"128"
+		"tall"		"128"
 
 		"text1_xpos"		"34"
 		"text1_ypos"		"12"
 		
-		"image1_xpos"		"3"
-		"image1_ypos"		"4"
+		"image1_xpos"	"3"
+		"image1_ypos"	"4"
 		
-		"bar_width"			"75"
+		"bar_width"		"75"
 		"bar_height"		"24"
 
-		"DisguiseFont"		"ClassGlyphs"
+		"DisguiseFont"	"ClassGlyphs"
 
 		"TextFont"		"HUD_TextSmall"
 		"TextColor"		"HUD_Tone_Default" //overridden by teamcolor of disguise
@@ -508,29 +505,29 @@
 		"ForegroundTexture"	"CooldownBoxFG"
 		"BackgroundTexture"	"CooldownBoxBG"
 	}
-   
+
 	HudSpyDisguise
 	{
-		"fieldName"		"HudSpyDisguise"
+		"fieldName"	"HudSpyDisguise"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 
-		"xpos"			"3"
-		"ypos"			"404"
-		"wide"			"128"
-		"tall"			"128"
+		"xpos"		"3"
+		"ypos"		"404"
+		"wide"		"128"
+		"tall"		"128"
 
 		"text1_xpos"		"34"
 		"text1_ypos"		"12"
 		
-		"image1_xpos"		"3"
-		"image1_ypos"		"4"
+		"image1_xpos"	"3"
+		"image1_ypos"	"4"
 		
-		"bar_width"			"75"
+		"bar_width"		"75"
 		"bar_height"		"24"
 
-		"DisguiseFont"		"ClassGlyphs"
+		"DisguiseFont"	"ClassGlyphs"
 
 		"TextFont"		"HUD_TextSmall"
 		"TextColor"		"HUD_Tone_Default" //overridden by teamcolor of disguise
@@ -541,21 +538,21 @@
 	
 	HudSpyDisguise2
 	{
-		"fieldName"		"HudSpyDisguise2"
+		"fieldName"	"HudSpyDisguise2"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 
-		"xpos"			"82"
-		"ypos"			"404"
-		"wide"			"128"
-		"tall"			"128"
+		"xpos"		"82"
+		"ypos"		"404"
+		"wide"		"128"
+		"tall"		"128"
 		
-		"image1_xpos"		"2"
-		"image1_ypos"		"4"
+		"image1_xpos"	"2"
+		"image1_ypos"	"4"
 
-		"WeaponFont"		"WeaponIconsHUD"
-		"WeaponColor"		"HUD_Tone_Default"
+		"WeaponFont"	"WeaponIconsHUD"
+		"WeaponColor"	"HUD_Tone_Default"
 
 		"ForegroundTexture"	"SpyDisguiseBoxFG2"
 		"BackgroundTexture"	"SpyDisguiseBoxBG2"
@@ -563,15 +560,15 @@
 	
 	HudSpyDisguise3
 	{
-		"fieldName"		"HudSpyDisguise3"
+		"fieldName"	"HudSpyDisguise3"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 
-		"xpos"			"82"
-		"ypos"			"431"
-		"wide"			"128"
-		"tall"			"128"
+		"xpos"		"82"
+		"ypos"		"431"
+		"wide"		"128"
+		"tall"		"128"
 
 		"ForegroundTexture"	"SpyDisguiseBoxFG3"
 		"BackgroundTexture"	"SpyDisguiseBoxBG3"
@@ -579,16 +576,16 @@
 
 	HudHintCenter
 	{
-		"fieldName"		"HudHintCenter"
+		"fieldName"	"HudHintCenter"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	"1"
 
-		"xpos"			"c-130"
-		"ypos"			"404"
+		"xpos"		"c-130"
+		"ypos"		"404"
 
-		"wide"			"260"
-		"tall"			"70"
+		"wide"		"260"
+		"tall"		"70"
 
 		"text1_xpos"		"34"
 		"text1_ypos"		"10"
@@ -596,8 +593,8 @@
 		"text1_wide"		"220"
 		"text1_tall"		"40"
 		
-		"image1_xpos"		"4"
-		"image1_ypos"		"8"
+		"image1_xpos"	"4"
+		"image1_ypos"	"8"
 
 		"IconFont"		"HudHintCenterIcon"
 		"IconFontGlow"	"HudHintCenterIconGlow"
@@ -608,14 +605,14 @@
 		
 
 		// The buttons
-		"B_wide"			"20"
+		"B_wide"		"20"
 		"B_tall"			"10"
 		
-		"NextB_xpos"		"235"
-		"NextB_ypos"		"55"
+		"NextB_xpos"	"235"
+		"NextB_ypos"	"55"
 
-		"PrevB_xpos"		"5"
-		"PrevB_ypos"		"55"
+		"PrevB_xpos"	"5"
+		"PrevB_ypos"	"55"
 		
 		// The hint index thingy
 		"index_xpos"		"9"
@@ -635,7 +632,7 @@
 
 	HudGrenade1Timer
 	{
-		"fieldName"		"HudGrenade1Timer"
+		"fieldName"	"HudGrenade1Timer"
 
 		"visible" "1"
 		"enabled" "1"
@@ -643,7 +640,7 @@
 		"xpos"	"c-123"
 		"ypos"	"414"
 		"wide"	"256"
-		"tall"  "32"		
+		"tall"	"32"		
 		
 		"bar_xpos" "69"
 		"bar_ypos" "4"
@@ -651,8 +648,8 @@
 		"bar_height"	"13"
 		"bar_color" 	"HUD_Tone_Default"
 		
-		"icon_xpos"			"10"
-		"icon_ypos"			"25"
+		"icon_xpos"		"10"
+		"icon_ypos"		"25"
 		
 		//"icon_color" 	"0 0 0 255"
 
@@ -670,7 +667,7 @@
 		"xpos"	"c-123"
 		"ypos"	"434"
 		"wide"	"256"
-		"tall"  "32"
+		"tall"	"32"
 
 		"bar_xpos" "69"
 		"bar_ypos"	"16"
@@ -697,7 +694,7 @@
 		"xpos"	"c-123"
 		"ypos"	"r132"
 		"wide"	"256"
-		"tall"  "32"
+		"tall"	"32"
 		"visible" "1"
 		"enabled" "1"
 
@@ -722,7 +719,7 @@
 	//	"xpos"	"140"
 	//	"ypos"	"r56"
 	//	"wide"	"192"
-	//	"tall"  "20"
+	//	"tall"	"20"
 	//	"visible" "1"
 	//	"enabled" "1"
 //
@@ -747,7 +744,7 @@
 //		"xpos"	"140"
 //		"ypos"	"r32"
 //		"wide"	"192"
-//		"tall"  "20"
+//		"tall"	"20"
 //		"visible" "1"
 //		"enabled" "1"
 //
@@ -772,7 +769,7 @@
 		"xpos"	"r210"
 		"ypos"	"380"
 		"wide"	"210"
-		"tall"  "40"
+		"tall"	"40"
 		"visible" "1"
 		"enabled" "1"
 
@@ -814,7 +811,7 @@
 		"xpos"	"r76"
 		"ypos"	"432"
 		"wide"	"60"
-		"tall"  "36"
+		"tall"	"36"
 		"visible" "1"
 		"enabled" "1"
 
@@ -875,26 +872,26 @@
 	
 	HudDamageIndicator
 	{
-		"fieldName" 		"HudDamageIndicator"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"DmgColorLeft" 		"255 0 0 0"
+		"fieldName"	"HudDamageIndicator"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"DmgColorLeft"	"255 0 0 0"
 		"DmgColorRight" 	"255 0 0 0"
 		
-		"dmg_xmargin"		"40"
-		"dmg_ymargin"		"40"
+		"dmg_xmargin"	"40"
+		"dmg_ymargin"	"40"
 
 		"dmg_depth"			"40"
 		"dmg_outerlength"	"300"
 		"dmg_innerlength"	"240"
 	}
 
-  HudHitIndicator
+	HudHitIndicator
 	{
-		"fieldName" 		"HudHitIndicator"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"zpos"				"2" 	// draw above crosshair
+		"fieldName"	"HudHitIndicator"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"zpos"		"2" 	// draw above crosshair
 	}
 	
 	HudZoom
@@ -939,17 +936,17 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	  "r640" 
-		"ypos"	  "0"
-		"wide"	 "640"
-		"tall"	 "480"
+		"xpos"	"r640" 
+		"ypos"	 "0"
+		"wide"	"640"
+		"tall"	"480"
 		
 		"HighlightColor" 	"0 0 0 180"
 		"HighlightBorderColor" 	"HUD_Tone_Default"
 		"ObjectiveNoticeColor" 	"0 0 0 180"
 
-		"LineHeight"	  "22"
-		"RightJustify"	  "1"
+		"LineHeight"	"22"
+		"RightJustify"	"1"
 
 		"TextFont"	"Default"
 	}
@@ -1025,10 +1022,9 @@
 		"BgAlpha"	"128"
 
 		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemHiddenTime"	"0.2"	// Nearly same as grow time so that the item doesn't start to show until growth is finished
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
 		"ItemFadeOutTime"	"0.3"
-
 	}
 
 	HudChat
@@ -1168,17 +1164,17 @@
 	}
 	HudSpeedometer
 	{
-	  	"fieldName"   "HudSpeedometer"
-	  	"xpos"	"r65"
+		"fieldName"	"HudSpeedometer"
+		"xpos"	"r65"
 		"ypos"	"r95"
-	  	"wide"  "65"
-	  	"tall"  "50"
-	  	"PaintBackgroundType" "2"
-	  	"AvgSpeedFont_xpos" "0"
-	  	"AvgSpeedFont_ypos" "0"
-	  	"SpeedFont_xpos" "0"
-	  	"SpeedFont_ypos" "15"
-		"TextColor"		"HUD_Tone_Default"
+		"wide"	"65"
+		"tall"	"50"
+		"PaintBackgroundType" "2"
+		"AvgSpeedFont_xpos" "0"
+		"AvgSpeedFont_ypos" "0"
+		"SpeedFont_xpos" "0"
+		"SpeedFont_ypos" "15"
+		"TextColor"	"HUD_Tone_Default"
 	}
 	HudRadialMenu
 	{
@@ -1221,9 +1217,9 @@
 
 		"PaintBackgroundType"	"2"
 	}
-		HudLua
+	HudLua
 	{
-		"fieldName"		"HudLua"
+		"fieldName"	"HudLua"
 		"visible" "1"
 		"enabled" "0"
 		"xpos" "0"
@@ -1235,7 +1231,7 @@
 
 		"TextColor"	"255 170 0 220"
 	}
-		HudHint
+	HudHint
 	{
 		"fieldName"		"HudHint"
 		"visible" "1"
@@ -1258,7 +1254,7 @@
 		"xpos"	"16"
 		"ypos"	"300"
 		"wide"	"60"
-		"tall"  "200"
+		"tall"	"200"
 
 		"TextColor"	"255 170 0 220"
 	}
@@ -1282,14 +1278,14 @@
 	}
 	HudGameMessage
 	{
-	    	"fieldName" 		"HudGameMessage"
-	    	"visible" "0"
-	     	"enabled" "0"
-	     	"xpos" "c-200"
-	     	"ypos" "120"
-	     	"wide" "400"
-	     	"tall" "300"
-	     	"PaintBackgroundType" 	"1"
+		"fieldName"	"HudGameMessage"
+		"visible"	"0"
+		"enabled"	"0"
+		"xpos"	"c-200"
+		"ypos"	"120"
+		"wide"	"400"
+		"tall"	"300"
+		"PaintBackgroundType" 	"1"
 	}
 
 	HudSuit
@@ -1298,7 +1294,7 @@
 		"xpos"	"140"
 		"ypos"	"432"
 		"wide"	"108"
-		"tall"  "36"
+		"tall"	"36"
 		"visible" "1"
 		"enabled" "1"
 
@@ -1395,24 +1391,24 @@
 		"xpos"	"c-190"
 		"ypos"	"350"
 		"wide"	"380"
-		"tall"  "40"
+		"tall"	"40"
 		"visible" "1"
 		"enabled" "1"
 		
 		"PaintBackgroundType"	"2"
 		
-		"bar_xpos"		"50"
-		"bar_ypos"		"20"
+		"bar_xpos"	"50"
+		"bar_ypos"	"20"
 		"bar_height"	"8"
-		"bar_width"		"320"
+		"bar_width"	"320"
 		"speaker_xpos"	"50"
 		"speaker_ypos"	"8"
 		"count_xpos_from_right"	"10"	// Counts from the right side
 		"count_ypos"	"8"
 		
 		"icon_texture"	"vgui/hud/icon_commentary"
-		"icon_xpos"		"0"
-		"icon_ypos"		"0"		
+		"icon_xpos"	"0"
+		"icon_ypos"	"0"		
 		"icon_width"	"40"
 		"icon_height"	"40"
 	}
@@ -1423,7 +1419,7 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"640"
-		"tall"  "480"
+		"tall"	"480"
 		"visible" "1"
 		"enabled" "1"
 		
@@ -1444,13 +1440,13 @@
 
 	AchievementNotificationPanel	
 	{
-		"fieldName"				"AchievementNotificationPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
-		"tall"					"100"
+		"fieldName"	"AchievementNotificationPanel"
+		"visible"		"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"180"
+		"wide"		"f10"	[$WIN32]
+		"wide"		"f60"	[$X360]
+		"tall"		"100"
 	}
 }

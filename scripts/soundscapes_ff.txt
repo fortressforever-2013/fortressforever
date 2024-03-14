@@ -60,138 +60,136 @@
 
 "ff_huntedsewers"
 {
-	"dsp"		"1"
+	"dsp"	"1"
 	"dsp_volume"	"1.0"
 	"SOUNDMIXER"	"huntedsewers_mix"
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"ff_huntedsewers.water"
+		"name"	"ff_huntedsewers.water"
 		"volume"	"1.0"
 	}
 
-	"playsoundscape"	
+	"playsoundscape"
 	{
-		"name"		"ff_huntedsewers.air"
+		"name"	"ff_huntedsewers.air"
 		"volume"	"1.0"
 	}
 }
 
 "ff_huntedsewers.water"
 {
-	"dsp"		"15"
+	"dsp"	"15"
 	"dsp_volume"	"1.0"
 	"SOUNDMIXER"	"huntedsewers_mix"
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"95"
+		"pitch"	"95"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"0"
-		"wave"		"ambient/water/water_run1.wav"
+		"wave"	"ambient/water/water_run1.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"1"
-		"wave"		"ambient/water/water_run1.wav"
+		"wave"	"ambient/water/water_run1.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"105"
+		"pitch"	"105"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"2"
-		"wave"		"ambient/water/water_run1.wav"
+		"wave"	"ambient/water/water_run1.wav"
 	}
 }
 
 "ff_huntedsewers.air"
 {
-	"dsp"		"18"
+	"dsp"	"18"
 	"dsp_volume"	"1.0"
 	"SOUNDMIXER"	"huntedsewers_mix"
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"95"
+		"pitch"	"95"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"3"
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"4"
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"105"
+		"pitch"	"105"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"5"
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"100"
+		"pitch"	"100"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"6"
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"95"
+		"pitch"	"95"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"7"
-		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"wave"	"ambient/atmosphere/ambience_base.wav"
 	}
 }
 
 "ff_huntedsewers.distant"
 {
-	"dsp"		"15"
+	"dsp"	"15"
 	"dsp_volume"	"1.0"
 	"SOUNDMIXER"	"huntedsewers_mix"
 
 	"playrandom"
 	{
 		"volume"	"0.5,1.0"
-		"time"		"0.1,3.0"
-		"pitch"		"95,105"
+		"time"	"0.1,3.0"
+		"pitch"	"95,105"
 		"position"	"1"
-	
-	"rndwave"
+		"rndwave"
  		{
-		"wave"		"ambient/water/distant_drip1.wav"
-		"wave"		"ambient/water/distant_drip2.wav"
-		"wave"		"ambient/water/distant_drip3.wav"
-		"wave"		"ambient/water/distant_drip4.wav"
+			"wave"	"ambient/water/distant_drip1.wav"
+			"wave"	"ambient/water/distant_drip2.wav"
+			"wave"	"ambient/water/distant_drip3.wav"
+			"wave"	"ambient/water/distant_drip4.wav"
 		}
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"95"
+		"pitch"	"95"
 		"soundlevel" "SNDLVL_NORM"
 		"position"	"0"
-		"wave"		"ambient/atmosphere/quiet_cellblock_amb.wav"
+		"wave"	"ambient/atmosphere/quiet_cellblock_amb.wav"
 	}
-
 }

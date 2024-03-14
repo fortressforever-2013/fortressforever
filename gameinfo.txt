@@ -11,16 +11,16 @@
 	
 	hidden_maps
 	{
-		"test_speakers"		1
-		"test_hardware"		1
-		"ff_training"		1 // should only be accessible through "Training" from main menu
+		"test_speakers" 1
+		"test_hardware" 1
+		"ff_training" 1	// should only be accessible through "Training" from main menu
 	}
 	supportsvr	0
 
 
 	FileSystem
 	{
-		SteamAppId				243750
+		SteamAppId	243750
 		
 		//
 		// The code that loads this file automatically does a few things here:
@@ -42,51 +42,50 @@
 		//
 		SearchPaths
 		{
-			// First, mount all user customizations.  This will search for VPKs and subfolders
-			// and mount them in alphabetical order.  The easiest way to distribute a mod is to
-			// pack up the custom content into a VPK.  To "install" a mod, just drop it in this
+			// First, mount all user customizations. This will search for VPKs and subfolders
+			// and mount them in alphabetical order. The easiest way to distribute a mod is to
+			// pack up the custom content into a VPK. To "install" a mod, just drop it in this
 			// folder.
 			//
 			// Note that this folder is scanned only when the game is booted.
-			game+mod			hl2mp/custom/*
-			game+mod			hl2/custom/*
-			game+mod			|gameinfo_path|custom/* // "FortressForever2013/custom"
+			game+mod		hl2mp/custom/*
+			game+mod		hl2/custom/*
+			game+mod		|gameinfo_path|custom/* // "FortressForever2013/custom"
 
-			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
-			// as the first "mod" search path (after any user customizations).  This is also the one
+			// Now search loose files. We'll set the directory containing the gameinfo.txt file
+			// as the first "mod" search path (after any user customizations). This is also the one
 			// that's used when writing to the "mod" path.
-			game+mod+mod_write+default_write_path		|gameinfo_path|.
-			gamebin				|gameinfo_path|bin
+			game+mod+mod_write+default_write_path	|gameinfo_path|.
+			gamebin			|gameinfo_path|bin
 
-			// We search VPK files before ordinary folders, because most files will be found in
-			// VPK and we can avoid making thousands of file system calls to attempt to open files
-			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
-			// system call.)
-			game_lv				hl2/hl2_lv.vpk
-			game+mod			hl2mp/hl2mp_english.vpk
-			game+mod			hl2mp/hl2mp_pak.vpk
-			game				|all_source_engine_paths|hl2/hl2_english.vpk
-			game				|all_source_engine_paths|hl2/hl2_pak.vpk
-			game				|all_source_engine_paths|hl2/hl2_textures.vpk
-			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
-			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
-			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			// We search VPK files before ordinary folders, because most files will be found in VPK
+			// and we can avoid making thousands of file system calls to attempt to open files in folders
+			// where they don't exist. (Searching a VPK is much faster than making an operating system call.)
+			game_lv			hl2/hl2_lv.vpk
+			game+mod		hl2mp/hl2mp_english.vpk
+			game+mod		hl2mp/hl2mp_pak.vpk
+			game			|all_source_engine_paths|hl2/hl2_english.vpk
+			game			|all_source_engine_paths|hl2/hl2_pak.vpk
+			game			|all_source_engine_paths|hl2/hl2_textures.vpk
+			game			|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+			game			|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+			game			|all_source_engine_paths|hl2/hl2_misc.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
-			// Add the HL2 directory as a game search path.  This is also where where writes
+			// Add the HL2 directory as a game search path. This is also where where writes
 			// to the "game" path go.
-			game+game_write		hl2mp
-			game+game_write		|gameinfo_path|hl2_lostcoast
+			game+game_write	hl2mp
+			game+game_write	|gameinfo_path|hl2_lostcoast
 
 			// Where the game's binaries are
-			gamebin				hl2mp/bin
+			gamebin			hl2mp/bin
 
 			// Last, mount in shared HL2 loose files
-			game				|all_source_engine_paths|hl2mp
-			game				|all_source_engine_paths|hl2
+			game			|all_source_engine_paths|hl2mp
+			game			|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 
-			game+download		|gameinfo_path|download
+			game+download	|gameinfo_path|download
 		}
 	}
 }

@@ -5,20 +5,19 @@ WeaponData
 	{
 		"grenade"
 		{
-				"font"		"GrenadeIcons"
-				"character"	"R"
+			"font"	"GrenadeIcons"
+			"character"	"R"
 		}
-		
 		"ammo"
 		{
-				"font"		"GrenadeAmmoIcons"
-				"character"	"R"
+			"font"	"GrenadeAmmoIcons"
+			"character"	"R"
 		}
 
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"R"
+			"font"	"StatusGlyphsSmall"
+			"character"	"R"
 		}
 	}
 	"printname" 	"#FF_WPNHUD_CALTROP"

@@ -263,7 +263,7 @@
 	}
 
 	
-	"skid_lowfriction"		"ATV_skid_lowfriction"
+	"skid_lowfriction"	"ATV_skid_lowfriction"
 	"skid_normalfriction"	"ATV_skid_normalfriction"
-	"skid_highfriction"		"ATV_skid_highfriction"
+	"skid_highfriction"	"ATV_skid_highfriction"
 }

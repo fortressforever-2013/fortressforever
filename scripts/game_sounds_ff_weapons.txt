@@ -4,13 +4,13 @@
 //	ATTN_NONE		0.0f	
 //	ATTN_NORM		0.8f
 //	ATTN_IDLE		2.0f
-//	ATTN_STATIC		1.25f 
-//	ATTN_RICOCHET		1.5f
-//	ATTN_GUNFIRE		0.27f
+//	ATTN_STATIC	1.25f 
+//	ATTN_RICOCHET	1.5f
+//	ATTN_GUNFIRE	0.27f
 //
-//	Most Guns:		~0.6
+//	Most Guns:	~0.6
 //	Silenced:		~1.6
-//	Sniper Rifle:		~0.3
+//	Sniper Rifle:	~0.3
 
 //==================================
 //Sounds that go BOOM! Fortress Forever ;D Whoa! Was that a Gazelle?...
@@ -19,27 +19,26 @@
 //----------------
 //Generic
 //----------------
-
 	"Weapon.Empty"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\weapon_empty.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\weapon_empty.wav"
 	}
 	"generic.Empty"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"player\outofammo.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"player\outofammo.wav"
 	}
 	"Weapon.StopSound"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"common/null.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"common/null.wav"
 	}
 
 //----------------
@@ -47,183 +46,181 @@
 //----------------
 	"sniper.hit"
 	{
-		"channel"		"CHAN_BODY"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\fx\bullets\sniper_hit3.wav"
-
+		"channel"	"CHAN_BODY"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\fx\bullets\sniper_hit3.wav"
 	}
 	"sniper.gib"
 	{
-		"channel"		"CHAN_BODY"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
+		"channel"	"CHAN_BODY"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
 		"rndwave"
 		{
-			"wave"		"weapons\fx\bullets\sniper_gib1.wav"
-			"wave"		"weapons\fx\bullets\sniper_gib2.wav"
+			"wave"	"weapons\fx\bullets\sniper_gib1.wav"
+			"wave"	"weapons\fx\bullets\sniper_gib2.wav"
 		}
 	}
 	"rocket.fly"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
 		"rndwave"
 		{
-			"wave"		"weapons\fx\bullets\rpg_away1.wav"
-			"wave"		"weapons\fx\bullets\rpg_away2.wav"
-			"wave"		"weapons\fx\bullets\rpg_away3.wav"
-			"wave"		"weapons\fx\bullets\rpg_away4.wav"
+			"wave"	"weapons\fx\bullets\rpg_away1.wav"
+			"wave"	"weapons\fx\bullets\rpg_away2.wav"
+			"wave"	"weapons\fx\bullets\rpg_away3.wav"
+			"wave"	"weapons\fx\bullets\rpg_away4.wav"
 		}
 	}
 	"nail.fly"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\fx\bullets\nail_fly.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\fx\bullets\nail_fly.wav"
 	}
 	"dart.fly"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\fx\bullets\dart_fly.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\fx\bullets\dart_fly.wav"
 	}
 	"Rail.Fly"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"158,162"
-		"wave"			"npc/scanner/combat_scan_loop2.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"158,162"
+		"wave"	"npc/scanner/combat_scan_loop2.wav"
 	}
 	"Rail.hitworld"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\fx\bullets\rail_hit.wav"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\fx\bullets\rail_hit.wav"
 	}
 	"Rail.hitbody"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\fx\bullets\rail_body.wav"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\fx\bullets\rail_body.wav"
 	}
 	"Rail.Bounce1"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"144"
-		"wave"			"weapons/crossbow/bolt_fly4.wav"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"144"
+		"wave"	"weapons/crossbow/bolt_fly4.wav"
 	}
 	"Rail.Bounce2"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"160"
-		"wave"			"weapons/crossbow/bolt_fly4.wav"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"160"
+		"wave"	"weapons/crossbow/bolt_fly4.wav"
 	}
 	"Nail.hitworld"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
 		"rndwave"
 		{
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
 		}
 	}
 	"Nail.hitbody"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
 		"rndwave"
 		{
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
-			"wave"		"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
+			"wave"	"common/null.wav"
 		}
 	}
 	"Dart.hitworld"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\fx\bullets\dart_hit.wav"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\fx\bullets\dart_hit.wav"
 	}
 	"Dart.hitbody"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons\fx\bullets\dart_body.wav"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons\fx\bullets\dart_body.wav"
 	}
 //----------------
 //Assault Cannon
 //----------------
 	"assaultcannon.overheat"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			")weapons/assaultcannon/overheat.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	")weapons/assaultcannon/overheat.wav"
 	}
 	"assaultcannon.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.5"
-		"pitch"			"95,105"
-		"wave"			"weapons/assaultcannon/assaultcannon_fire.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.5"
+		"pitch"	"95,105"
+		"wave"	"weapons/assaultcannon/assaultcannon_fire.wav"
 	}
 	"assaultcannon.rotate"
 	{
-		"channel"		"CHAN_AUTO"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.7"
-		"wave"			")weapons/assaultcannon/assaultcannon_rotate.wav"
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.7"
+		"wave"	")weapons/assaultcannon/assaultcannon_rotate.wav"
 	}
 	"assaultcannon.winddown"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"0.5"
-	"CompatibilityAttenuation"	"0.7"
-		"wave"			")weapons/assaultcannon/assaultcannon_winddown.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"0.5"
+		"CompatibilityAttenuation"	"0.7"
+		"wave"	")weapons/assaultcannon/assaultcannon_winddown.wav"
 	}
 	"assaultcannon.windup"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"0.5"
-	"CompatibilityAttenuation"	"0.7"
-		"wave"			")weapons/assaultcannon/assaultcannon_windup.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"0.5"
+		"CompatibilityAttenuation"	"0.7"
+		"wave"	")weapons/assaultcannon/assaultcannon_windup.wav"
 	}
 //----------------
 //Crowbar, when hope is forgotten the crowbar is there.
 //----------------
 	"crowbar.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/crowbar/crowbar_miss1.wav"
-			"wave"		"weapons/crowbar/crowbar_miss2.wav"
+			"wave"	"weapons/crowbar/crowbar_miss1.wav"
+			"wave"	"weapons/crowbar/crowbar_miss2.wav"
 		}
 	}
 //----------------
@@ -231,70 +228,68 @@
 //----------------
 	"flamethrower.loop_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.7"
-		"pitch"			"95,105"
-		"wave"			"weapons/flamethrower/flamethrower_fire3.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.7"
+		"pitch"	"95,105"
+		"wave"	"weapons/flamethrower/flamethrower_fire3.wav"
 	}
 	"flamethrower.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.7"
-		"pitch"			"95,105"
-		"wave"			"weapons/flamethrower/flamethrower_fire3.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.7"
+		"pitch"	"95,105"
+		"wave"	"weapons/flamethrower/flamethrower_fire3.wav"
 	}
 	"flamethrower.start"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.7"
-		"pitch"			"95,105"
-		"wave"			"weapons/flamethrower/flamethrower_start.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.7"
+		"pitch"	"95,105"
+		"wave"	"weapons/flamethrower/flamethrower_start.wav"
 	}
 	"flamethrower.deploy"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/flamethrower/flamethrower_deploy.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/flamethrower/flamethrower_deploy.wav"
 	}
 //----------------
 //Knife, don't turn your back on me...
 //----------------
 	"knife.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/knife/swing1.wav"
-			"wave"		"weapons/knife/swing2.wav"
+			"wave"	"weapons/knife/swing1.wav"
+			"wave"	"weapons/knife/swing2.wav"
 		}
 	}
 	"knife.deploy"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"0.7"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/knife/deploy.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"0.7"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/knife/deploy.wav"
 	}
 	"knife.slash"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/fx/impacts/flesh/knife_slash1.wav"
-			"wave"		"weapons/fx/impacts/flesh/knife_slash2.wav"
-			"wave"		"weapons/fx/impacts/flesh/knife_slash3.wav"
+			"wave"	"weapons/fx/impacts/flesh/knife_slash1.wav"
+			"wave"	"weapons/fx/impacts/flesh/knife_slash2.wav"
+			"wave"	"weapons/fx/impacts/flesh/knife_slash3.wav"
 		}
 	}
 //----------------
@@ -302,55 +297,52 @@
 //----------------
 	"medkit.hit"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.8"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.8"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/medkit/medkit_hit1.wav"
-			"wave"		"weapons/medkit/medkit_hit2.wav"
+			"wave"	"weapons/medkit/medkit_hit1.wav"
+			"wave"	"weapons/medkit/medkit_hit2.wav"
 		}
 	}
 	"medkit.infect"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.8"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.8"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/medkit/medkit_infect1.wav"
-			"wave"		"weapons/medkit/medkit_infect2.wav"
+			"wave"	"weapons/medkit/medkit_infect1.wav"
+			"wave"	"weapons/medkit/medkit_infect2.wav"
 		}
 	}
 	"medkit.button1"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"0.4"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/medkit/medkit_button1.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"0.4"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/medkit/medkit_button1.wav"
 	}
 	"medkit.button2"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"0.4"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/medkit/medkit_button2.wav"
-	}	
+		"channel"	"CHAN_ITEM"
+		"volume"	"0.4"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/medkit/medkit_button2.wav"
+	}
 	"medkit.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"0.7"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"0.7"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/medkit/medkit_single1.wav"
-			"wave"		"weapons/medkit/medkit_single2.wav"
+			"wave"	"weapons/medkit/medkit_single1.wav"
+			"wave"	"weapons/medkit/medkit_single2.wav"
 		}
 	}
 //----------------
@@ -358,461 +350,459 @@
 //----------------
 	"nailgun.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.6"
-		"pitch"			"95,105"
-		"wave"			"weapons/nailgun/nailgun_fire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch"	"95,105"
+		"wave"	"weapons/nailgun/nailgun_fire1.wav"
 	}
 //----------------
 //SuperNailGun, oooo.
 //----------------
 	"SuperNailgun.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.6"
-		"pitch"			"95,105"
-		"wave"			"weapons/supernailgun/supernailgun_fire.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch"	"95,105"
+		"wave"	"weapons/supernailgun/supernailgun_fire.wav"
 	}
 	"SuperNailgun.barrel_spin"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"common/null.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"common/null.wav"
 	}
 //----------------
 //Pipelauncher, You call THAT a six-shooter? THIS is a six-shooter...
 //----------------
 	"Pipelauncher.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.4"
-		"pitch"			"95,105"
-		"wave"			"weapons/pipelauncher/pipe_fire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.4"
+		"pitch"	"95,105"
+		"wave"	"weapons/pipelauncher/pipe_fire1.wav"
 	}
 	"Grenadelauncher.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.4"
-                "pitch"			"95,105"
-		"wave"			"weapons/pipelauncher/pipe_fire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.4"
+		"pitch"	"95,105"
+		"wave"	"weapons/pipelauncher/pipe_fire1.wav"
 	}
 	"GLPL.reload"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/pipelauncher/pipe_reload.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/pipelauncher/pipe_reload.wav"
 	}
 	"GLPL.reload_open"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/pipelauncher/pipe_reload_open.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/pipelauncher/pipe_reload_open.wav"
 	}
 	"GLPL.reload_close"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/pipelauncher/pipe_reload_close.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/pipelauncher/pipe_reload_close.wav"
 	}
 	"GrenadeProjectile.Bounce"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/pipelauncher/pipe_bounce1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/pipelauncher/pipe_bounce1.wav"
 	}
 //----------------
 // Jump gun
 //----------------
 	"jumpgun.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-		"wave"			"weapons/jumpgun/jumpgun-fire.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"wave"	"weapons/jumpgun/jumpgun-fire.wav"
 	}
 //----------------
 //Railgun, poor thing, you kicked arse in Quake 3
 //----------------
 	"railgun.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.6"
-		"pitch"			"95,105"
-		"wave"			"weapons/railgun/railgun_fire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch"	"95,105"
+		"wave"	"weapons/railgun/railgun_fire1.wav"
 	}
 	"railgun.charged_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.6"
-		"pitch"			"95,105"
-		"wave"			"weapons/railgun/railgun_chargedfire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch"	"95,105"
+		"wave"	"weapons/railgun/railgun_chargedfire1.wav"
 	}
 	"railgun.chargeloop"
 	{
-		"channel"		"CHAN_STATIC"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/railgun/railgun_chargeloop.wav"
+		"channel"	"CHAN_STATIC"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/railgun/railgun_chargeloop.wav"
 	}
 	"railgun.halfcharge"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"VOL_NORM"
-		"pitch"			"PITCH_NORM"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"ambient/energy/zap8.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"VOL_NORM"
+		"pitch"	"PITCH_NORM"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"ambient/energy/zap8.wav"
 	}
 	"railgun.fullcharge"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"VOL_NORM"
-		"pitch"			"PITCH_NORM"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"ambient/energy/zap9.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"VOL_NORM"
+		"pitch"	"PITCH_NORM"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"ambient/energy/zap9.wav"
 	}
 	"railgun.overcharge"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"VOL_NORM"
-		"pitch"			"PITCH_NORM"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"ambient/energy/zap5.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"VOL_NORM"
+		"pitch"	"PITCH_NORM"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"ambient/energy/zap5.wav"
 	}
 //----------------
 //Rocket Launcher, you exist in every single game. Ever.
 //----------------
 	"rpg.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.4"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.4"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/rpg/rpg_fire_01.wav"
-			"wave"		"weapons/rpg/rpg_fire_02.wav"
-                        "wave"		"weapons/rpg/rpg_fire_03.wav"
+			"wave"	"weapons/rpg/rpg_fire_01.wav"
+			"wave"	"weapons/rpg/rpg_fire_02.wav"
+			"wave"	"weapons/rpg/rpg_fire_03.wav"
 		}
 	}
 	"rpg.empty"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"common/null.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"common/null.wav"
 	}
 	"rpg.reload"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"PITCH_NORM"
+		"wave"	"weapons/rpg/rpg_reload.wav"
 	}
-	"rpg.reload1"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
-	"rpg.reload2"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
-	"rpg.reload3"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
-	"rpg.reload4"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
-	"rpg.slide1"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
-	"rpg.slide2"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume" "1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
-	"rpg.slide3"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
-	"rpg.slide4"
-	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"PITCH_NORM"
-		"wave"			"weapons/rpg/rpg_reload.wav"
-	}
+//	"rpg.reload1"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume"	"1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+//	"rpg.reload2"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume"	"1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+//	"rpg.reload3"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume"	"1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+//	"rpg.reload4"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume"	"1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+//	"rpg.slide1"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume"	"1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+//	"rpg.slide2"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume" "1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+//	"rpg.slide3"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume"	"1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+//	"rpg.slide4"
+//	{
+//		"channel"	"CHAN_WEAPON"
+//		"volume"	"1.0"
+//		"CompatibilityAttenuation"	"1.0"
+//		"pitch"	"PITCH_NORM"
+//		"wave"	"weapons/rpg/rpg_reload.wav"
+//	}
+
 //----------------
 //Incendiary Cannon, I love the smell of Napalm in the morning
 //----------------
 	"ic.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.4"
-//		"pitch"			"95,105"
-		"wave"			"weapons/incendiarycannon/ic_fire02.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.4"
+//		"pitch"	"95,105"
+		"wave"	"weapons/incendiarycannon/ic_fire02.wav"
 	}
 	"ic.cocky"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-		"wave"			"weapons/incendiarycannon/ic_reload01.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"wave"	"weapons/incendiarycannon/ic_reload01.wav"
 	}
 	"ic.empty"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"common/null.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"common/null.wav"
 	}
 //----------------
 //Scout Radar, uh no lookout! He has a raaaddaarrrrr
 //----------------
 	"radar.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.3"
-		"pitch"			"95,105"
-		"wave"			"weapons/scout/scout_radar.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.3"
+		"pitch"	"95,105"
+		"wave"	"weapons/scout/scout_radar.wav"
 	}
 //----------------
 //HWGuy Overpressure
 //----------------
 	"overpressure.explode"
 	{
-		"channel"		"CHAN_AUTO"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.3"
-		"pitch"			"95,105"
-		"wave"			"weapons/physcannon/energy_sing_explosion2.wav"
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.3"
+		"pitch"	"95,105"
+		"wave"	"weapons/physcannon/energy_sing_explosion2.wav"
 	}
 //----------------
 //Shotgun, proving your worth again and again since the west was won.
 //----------------
 	"shotgun.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.6"
-		"pitch"			"95,105"
-		"wave"			"weapons/shotgun/pellet_fire.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch"	"95,105"
+		"wave"	"weapons/shotgun/pellet_fire.wav"
 	}
 	"shotgun.reload"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/shotgun/shotgun_reload.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/shotgun/shotgun_reload.wav"
 	}
 	"shotgun.cock"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/supershotgun/supershotgun_cock.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/supershotgun/supershotgun_cock.wav"
 	}
 //----------------
 //SuperShotgun, to the rescue
 //----------------
 	"SuperShotgun.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.5"
-		"pitch"			"95,105"
-		"wave"			"weapons/supershotgun/supershotgun_fire.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.5"
+		"pitch"	"95,105"
+		"wave"	"weapons/supershotgun/supershotgun_fire.wav"
 	}
 	"SuperShotgun.reload"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/supershotgun/supershotgun_reload.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/supershotgun/supershotgun_reload.wav"
 	}
 	"SuperShotgun.cock"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/shotgun/shotgun_cock.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/shotgun/shotgun_cock.wav"
 	}
 //----------------
 //Sniper Rifle, Let's see some Pink Mist.
 //----------------
 	"SniperRifle.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.4"
-		"pitch"			"95,105"
-		"wave"			"weapons/sniperrifle/sniperrifle_fire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.4"
+		"pitch"	"95,105"
+		"wave"	"weapons/sniperrifle/sniperrifle_fire1.wav"
 	}
 	"SniperRifle.charged_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.4"
-		"pitch"			"95,105"
-		"wave"			"weapons/sniperrifle/sniperrifle_chargedfire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.4"
+		"pitch"	"95,105"
+		"wave"	"weapons/sniperrifle/sniperrifle_chargedfire1.wav"
 	}
 	"SniperRifle.zoom_in"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"0.2"
-	"CompatibilityAttenuation"	"2.0"
-		"wave"			"weapons/sniperrifle/sniperrifle_zoomin.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"0.2"
+		"CompatibilityAttenuation"	"2.0"
+		"wave"	"weapons/sniperrifle/sniperrifle_zoomin.wav"
 	}
 	"SniperRifle.zoom_out"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"0.2"
-	"CompatibilityAttenuation"	"2.0"
-		"wave"			"weapons/sniperrifle/sniperrifle_zoomout.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"0.2"
+		"CompatibilityAttenuation"	"2.0"
+		"wave"	"weapons/sniperrifle/sniperrifle_zoomout.wav"
 	}
 //----------------
 //Auto Rifle, trying to make the snipers feel like they have a viable cq weapon.
 //----------------
 	"autorifle.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.5"
-		"pitch"			"95,105"
-		"wave"			"weapons/autorifle/autorifle_fire.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.5"
+		"pitch"	"95,105"
+		"wave"	"weapons/autorifle/autorifle_fire.wav"
 	}
 //----------------
 //Tommy Gun, rocking and rolling since the 19th century.
 //----------------
 	"tommygun.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.6"
-		"pitch"			"95,105"
-		"wave"			"weapons/tommygun/tommygun_fire.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch"	"95,105"
+		"wave"	"weapons/tommygun/tommygun_fire.wav"
 	}
 //----------------
 //Spanner
 //----------------
 	"Spanner.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
 		"rndwave"
 		{
-			"wave"		"weapons/spanner/spanner_swing1.wav"
-			"wave"		"weapons/spanner/spanner_swing2.wav"
+			"wave"	"weapons/spanner/spanner_swing1.wav"
+			"wave"	"weapons/spanner/spanner_swing2.wav"
 		}
 	}
 	"Spanner.HitSG"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.7"
-		"pitch"			"95,105"
-		"wave"			"weapons/spanner/spanner_sg1.wav"
-
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.7"
+		"pitch"	"95,105"
+		"wave"	"weapons/spanner/spanner_sg1.wav"
 	}
 	"Spanner.HitDispenser"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"0.7"
-		"pitch"			"95,105"
-		"wave"			"weapons/spanner/spanner_sg1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.7"
+		"pitch"	"95,105"
+		"wave"	"weapons/spanner/spanner_sg1.wav"
 	}
 	"Spanner.idle"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/spanner/spanner_idle.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/spanner/spanner_idle.wav"
 	}
 	"Spanner.specialhit"
 	{
-		"channel"		"CHAN_AUTO"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/spanner/spanner_specialhit.wav"
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/spanner/spanner_specialhit.wav"
 	}
 //----------------
 //Tranquilizer, go most useless Team Fortress gun!
 //----------------
 	"Tranq.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.3"
-		"pitch"			"95,105"
-		"wave"			"weapons/tranq/tranq_fire1.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.3"
+		"pitch"	"95,105"
+		"wave"	"weapons/tranq/tranq_fire1.wav"
 	}
-	
 	"Tranq.cock"
 	{
-		"channel"		"CHAN_ITEM"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"wave"			"weapons/tranq/tranq_cock.wav"
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/tranq/tranq_cock.wav"
 	}
+
 //----------------
 //Umbrella, take the fight back to them Winston!
 //----------------
 	"umbrella.single_shot"
 	{
-		"channel"		"CHAN_WEAPON"
-		"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
-		"pitch"			"95,105"
-		"wave"			"weapons/umbrella/umbrella_miss.wav"
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"wave"	"weapons/umbrella/umbrella_miss.wav"
 	}

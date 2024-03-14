@@ -5,20 +5,19 @@ WeaponData
 	{
 		"grenade"
 		{
-				"font"		"GrenadeIcons"
-				"character"	"T"
+			"font"	"GrenadeIcons"
+			"character"	"T"
 		}
-		
 		"ammo"
 		{
-				"font"		"GrenadeAmmoIcons"
-				"character"	"T"
+			"font"	"GrenadeAmmoIcons"
+			"character"	"T"
 		}
 
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"T"
+			"font"	"StatusGlyphsSmall"
+			"character"	"T"
 		}
 	}
 	"printname" 	"#FF_WPNHUD_NAPALM"

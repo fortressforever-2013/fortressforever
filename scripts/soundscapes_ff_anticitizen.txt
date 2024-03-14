@@ -17,8 +17,8 @@
 	"playlooping"
 	{
 		"volume"	".3"
-		"pitch"		"60"
-		"wave"		"ambient/atmosphere/plaza_amb.wav"
+		"pitch"	"60"
+		"wave"	"ambient/atmosphere/plaza_amb.wav"
 	}
 }
 
@@ -29,15 +29,15 @@
 	"playlooping"
 	{
 		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/town_ambience.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/town_ambience.wav"
 	}
 
 	"playrandom"
 	{
-		"time"		"8, 16"
+		"time"	"8, 16"
 		"volume"	"0.2, 0.5"
-		"pitch"		"70, 90"
+		"pitch"	"70, 90"
 		"rndwave"
 		{
 			"wave" "ambient/wind/wind_hit1.wav"
@@ -48,9 +48,9 @@
 
 	"playrandom"
 	{
-		"time"		"35, 50"
+		"time"	"35, 50"
 		"volume"	"0.8, 0.9"
-		"pitch"		"100"
+		"pitch"	"100"
 		"rndwave"
 		{
 			"wave" "npc/overwatch/cityvoice/f_confirmcivilstatus_1_spkr.wav"
@@ -67,15 +67,15 @@
 	"playlooping"
 	{
 		"volume"	"0.3"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/town_ambience.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/town_ambience.wav"
 	}
 
 	"playrandom"
 	{
-		"time"		"35, 50"
+		"time"	"35, 50"
 		"volume"	"0.6, 0.7"
-		"pitch"		"100"
+		"pitch"	"100"
 		"rndwave"
 		{
 			"wave" "npc/overwatch/cityvoice/f_confirmcivilstatus_1_spkr.wav"
@@ -92,8 +92,8 @@
 	"playlooping"
 	{
 		"volume"	"0.1"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/quiet_cellblock_amb.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/quiet_cellblock_amb.wav"
 	}
 }
 
@@ -105,14 +105,14 @@
 	"playlooping"
 	{
 		"volume"	"0.3"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/engine_room.wav"
+		"pitch"	"100"
+		"wave"	"ambient/atmosphere/engine_room.wav"
 	}
 
 	"playrandom"
 	{
-		"time"		"35, 50"
-		"pitch"		"100"
+		"time"	"35, 50"
+		"pitch"	"100"
 		"volume"	"0.6, 0.9"
 		"rndwave"
 		{
@@ -129,15 +129,15 @@
 
 	"playsoundscape"
 	{
-		"name"		"p2_generic"
+		"name"	"p2_generic"
 		"volume"	"1"
 	}
 	
 	"playrandom"
 	{
-		"time"		"4, 10"
+		"time"	"4, 10"
 		"volume"	"0.2, 0.6"
-		"pitch"		"100"
+		"pitch"	"100"
 		"rndwave"
 		{
 			"wave" "ambient/machines/combine_terminal_idle1.wav"
@@ -149,9 +149,9 @@
 
 	"playrandom"
 	{
-		"time"		"35, 50"
+		"time"	"35, 50"
 		"volume"	"0.6, 0.9"
-		"pitch"		"100"
+		"pitch"	"100"
 		"rndwave"
 		{
 			"wave" "npc/overwatch/cityvoice/f_evasionbehavior_1_spkr.wav"
@@ -167,16 +167,16 @@
 	
 	"playsoundscape"
 	{
-		"name"		"p2_generic"
+		"name"	"p2_generic"
 		"volume"	"1"
-		"pitch"		".8"
+		"pitch"	".8"
 	}
 
 	"playrandom"
 	{
-		"time"		"6, 16"
+		"time"	"6, 16"
 		"volume"	"0.2, 0.4"
-		"pitch"		"90, 110"
+		"pitch"	"90, 110"
 		"rndwave"
 		{
 			"wave" "ambient/materials/rock1.wav"
@@ -194,15 +194,15 @@
 	"playlooping"
 	{
 		"volume"	"0.3"
-		"pitch"		"100"
-		"wave"		"ambient/wind/wasteland_wind.wav"
+		"pitch"	"100"
+		"wave"	"ambient/wind/wasteland_wind.wav"
 	}
 
 	"playrandom"
 	{
-		"time"		"4, 10"
+		"time"	"4, 10"
 		"volume"	"0.3, 0.6"
-		"pitch"		"90, 110"
+		"pitch"	"90, 110"
 		"rndwave"
 		{
 			"wave"	"ambient/materials/rock1.wav"
@@ -215,9 +215,9 @@
 
 	"playrandom"
 	{
-		"time"		"8, 16"
+		"time"	"8, 16"
 		"volume"	"0.2, 0.3"
-		"pitch"		"70, 90"
+		"pitch"	"70, 90"
 		"rndwave"
 		{
 			"wave" "ambient/wind/wind_hit1.wav"
@@ -228,9 +228,9 @@
 
 	"playrandom"
 	{
-		"time"		"50, 80"
+		"time"	"50, 80"
 		"volume"	"0.6, 0.9"
-		"pitch"		"100"
+		"pitch"	"100"
 		"rndwave"
 		{
 			"wave" "npc/overwatch/cityvoice/fprison_airwatchdispatched.wav"

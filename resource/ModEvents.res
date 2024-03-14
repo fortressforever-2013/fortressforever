@@ -10,20 +10,20 @@
 // All strings are case sensitive
 //
 // valid data key types are:
-//   string : a zero terminated string
-//   bool   : unsigned int, 1 bit
-//   byte   : unsigned int, 8 bit
-//   short  : signed int, 16 bit
-//   long   : signed int, 32 bit
-//   float  : float, 32 bit
-//   local  : any data, but not networked to clients
+//	string: a zero terminated string
+//	bool	: unsigned int, 1 bit
+//	byte	: unsigned int, 8 bit
+//	short: signed int, 16 bit
+//	long	: signed int, 32 bit
+//	float	: float, 32 bit
+//	local: any data, but not networked to clients
 //
 // following key names are reserved:
-//   local      : if set to 1, event is not networked to clients
-//   unreliable : networked, but unreliable
-//   suppress   : never fire this event
-//   time	: firing server time
-//   eventid	: holds the event ID
+//	local	: if set to 1, event is not networked to clients
+//	unreliable: networked, but unreliable
+//	suppress	: never fire this event
+//	time	: firing server time
+//	eventid	: holds the event ID
 
 "ffevents"
 {
@@ -32,7 +32,7 @@
 		"userid" "short"
 		"text" "string"
 	}
-	"player_death"				// a game event, name may be 32 charaters long
+	"player_death"	// a game event, name may be 32 charaters long
 	{
 		// this extents the original player_death by a new 
 		// field "headshot", all other fields remains the same
@@ -202,15 +202,15 @@
 	}
 	"objective_event"
 	{
-		"userid"			"short" 	// entity index of the player
-		//"eventname" 		"string"
-		"eventtext" 		"string"
+		"userid"		"short" 	// entity index of the player
+		//"eventname"	"string"
+		"eventtext"	"string"
 	}
 	"luaevent"
 	{
-		"userid"			"short" 	// entity index of the first player
-		"userid2" 		"short" 	// entity index of the 2nd player
-		"eventname" 			"string" 	// name for the event - like flag_cap, flag_drop, etc - something stats programs could use
+		"userid"		"short" 	// entity index of the first player
+		"userid2"	"short" 	// entity index of the 2nd player
+		"eventname"	"string" 	// name for the event - like flag_cap, flag_drop, etc - something stats programs could use
 
 		// These next ones are just brainstorming...
 		"key0"		"string"

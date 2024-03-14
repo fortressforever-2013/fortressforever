@@ -5,21 +5,20 @@ WeaponData
 	{
 		"grenade"
 		{
-				"font"		"GrenadeIcons"
-				"character"	"S"
+			"font"	"GrenadeIcons"
+			"character"	"S"
 		}
-		
 		"ammo"
 		{
-				"font"		"GrenadeAmmoIcons"
-				"character"	"S"
+			"font"	"GrenadeAmmoIcons"
+			"character"	"S"
 		}
 
 		// yeah admittedly this is unlikely
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"S"
+			"font"	"StatusGlyphsSmall"
+			"character"	"S"
 		}
 	}
 	"printname" 	"#FF_WPNHUD_SLOWFIELD"

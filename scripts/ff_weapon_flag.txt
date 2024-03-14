@@ -1,35 +1,34 @@
 WeaponData
 {
 	// Weapon characteristics MELEE:
-	"CycleTime"			"0.4"		// Rate of fire
-	"Damage"			"60"		// Damage
-	"Range"				"32.0"		// Reach
+	"CycleTime"	"0.4"	// Rate of fire
+	"Damage"	"60"		// Damage
+	"Range"	"32.0"	// Reach
 
-	"MeleeWeapon"			"1"
+	"MeleeWeapon"	"1"
 
-	"primary_ammo"			"None"
-	"secondary_ammo"		"None"
+	"primary_ammo"	"None"
+	"secondary_ammo"	"None"
 
 	"ffencrypted"	"1" // required for the script to load
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#FF_WPNHUD_SPANNER"
-	"viewmodel"			"models/weapons/spanner/v_spanner.mdl"
-	"playermodel"			"models/weapons/spanner/w_spanner.mdl"
-	
-	"anim_prefix"			"anim"
+	"printname"	"#FF_WPNHUD_SPANNER"
+	"viewmodel"	"models/weapons/spanner/v_spanner.mdl"
+	"playermodel"	"models/weapons/spanner/w_spanner.mdl"
+	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "spanner"
-	"bucket"			"0"
-	"bucket_position"		"1"
+	"bucket"	"0"
+	"bucket_position"	"1"
 	
 	// Misc
-	"weight"			"0"
-	"item_flags"			"0"
+	"weight"	"0"
+	"item_flags"	"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"spanner.single_shot"
+		"single_shot"	"Spanner.Single_Shot"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -37,39 +36,39 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"X"
+			"font"	"CSweaponsSmall"
+			"character"	"X"
 		}
 		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"X"
+		{
+			"font"	"CSweapons"
+			"character"	"X"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"R"
+			"font"	"CSTypeDeath"
+			"character"	"R"
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"	"sprites/crosshairs"
+			"x"	"0"
+			"y"	"48"
+			"width"	"24"
+			"height"	"24"
 		}
 		"deathnotice"
 		{
-				"font"		"StatusGlyphsSmall"
-				"character"	"X"
+			"font"	"StatusGlyphsSmall"
+			"character"	"X"
 		}
 	}
 	ModelBounds

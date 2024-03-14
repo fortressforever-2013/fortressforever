@@ -1,5 +1,5 @@
 // Valve Game Info file
-//  These are key/value pairs.  Certain mods will use different settings.
+//  These are key/value pairs. Certain mods will use different settings.
 //
 GameInfo
 {

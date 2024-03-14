@@ -1,4 +1,4 @@
-"Resource/LoadingDialog.res"  //credit to dystopia mod for optimal locations!
+"Resource/LoadingDialog.res"	//credit to dystopia mod for optimal locations!
 {
 	"LoadingDialog"
 	{
