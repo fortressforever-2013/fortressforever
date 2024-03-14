@@ -1,10 +1,5 @@
-ATTACK OR DEFEND
+DUSTBOWL VALLEY - ATTACK OR DEFEND
 
-Objective: Blue team must take their flag to
-Red team's Headquarters to win the game. 
-There are two command points on the way 
-which must be secured in order.
+Objective: Blue team must take their flag to Red team's Headquarters to win the game. There are two command points on the way which must be secured in order.
 
-Other Notes: When a capture point is secured, 
-spawn points are revised and a new flag 
-appears. Rounds last 25 minutes.
+Other Notes: When a capture point is secured, spawn points are revised and a new flag appears. Rounds last 25 minutes.

@@ -1,7 +1,6 @@
-CAPTURE THE FLAG
+BASES - CAPTURE THE FLAG
 
 Get the enemy flag and take it back to your capture point to score.
-
-Alternately:  Detpack the enemy computer to score.
+Alternately: Detpack the enemy computer to score.
 
 Visit http://www.fortress-forever.com for more information.

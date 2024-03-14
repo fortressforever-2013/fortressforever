@@ -1,7 +1,7 @@
-CAPTURE THE FLAG
+MONKEY - CAPTURE THE FLAG
 
 Grab the enemy flag and take it to your capture point to score.
 
 Original map designed by The Cheese
 
-Note:  Not all Monkeys eat Bananas
+Note: Not all Monkeys eat Bananas
