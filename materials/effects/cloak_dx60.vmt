@@ -36,6 +36,5 @@
 			"srcVar2"		"$scaledspeed"
 			"resultVar"	"$alpha"
 		}
-
 	}
 }

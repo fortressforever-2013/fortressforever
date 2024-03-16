@@ -38,7 +38,7 @@
 
 		"PlayerSpeed"
 		{
-		"scale"  ".0005"
+		"scale"	".0005"
 		"resultVar"	"$mulchpenis"
 		}
 
@@ -48,6 +48,5 @@
 		"srcVar2" "$dummyadd"
 		"resultVar" "$refractamount"
 		}
-
 	}
 }

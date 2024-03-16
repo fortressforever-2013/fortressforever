@@ -1,6 +1,5 @@
 "LightmappedGeneric"
 {
-	// Original shader: BaseTimesLightmap
 	"$basetexture" "Metal/metaltruss020a"
 	"$surfaceprop" "metal"
 	"$bumpmap" "ff/ff_metaltruss020_normal"

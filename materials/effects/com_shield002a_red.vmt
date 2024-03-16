@@ -8,8 +8,6 @@
 
 	"Proxies"
 	{
-
-
 		"TextureScroll"
 		{
 			"texturescrollvar" "$basetexturetransform"

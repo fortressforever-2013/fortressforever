@@ -2,7 +2,6 @@
 {
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
-	// Original shader: DecalBaseTimesLightmapAlphaBlend
 	"$translucent" 1
 	"$basetexture" "Decals/laserBurn3"
 	"$decal" 1

@@ -27,7 +27,7 @@
 		"PlayerProximity"
 		{
 			"resultVar" "$playerdistance2"
-			"scale"  .1
+			"scale"	.1
 		}	
 		"Subtract"
 		{

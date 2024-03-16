@@ -9,13 +9,13 @@
 	"Proxies"
 	{
 		"Sine" 
-	        {
-	        	// Notice there is no '$' on the proxy variables 
+		{
+			// Notice there is no '$' on the proxy variables 
 		"resultVar"	"$alpha" 
-		"sineperiod"   4 
-		"sinemin"      0.5 
-		"sinemax"      1 
-	        } 
+		"sineperiod"	4 
+		"sinemin"	0.5 
+		"sinemax"	1 
+		}
 		"TextureScroll"
 		{
 			"texturescrollvar" "$basetexturetransform"
