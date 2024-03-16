@@ -34,8 +34,9 @@
 		"command" "engine ff_training"
 	}
 	"7"{
-		"label"	""
-		"command"	""
+		"label" ""
+		"command" ""
+		"OnlyInGame" "1"
 	}
 	"8"
 	{
@@ -47,11 +48,6 @@
 		"label" "#GameUI_GameMenu_FFOptions"
 		"command" "engine ff_options"
 	}
-//	"10"
-//	{
-//		"label" "#GameUI_GameMenu_MP3Player"
-//		"command" "engine mp3"
-//	}
 	"11"
 	{
 		"label" "#GameUI_GameMenu_Quit"
