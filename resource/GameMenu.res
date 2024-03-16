@@ -48,7 +48,7 @@
 		"label" "#GameUI_GameMenu_FFOptions"
 		"command" "engine ff_options"
 	}
-	"11"
+	"10"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
