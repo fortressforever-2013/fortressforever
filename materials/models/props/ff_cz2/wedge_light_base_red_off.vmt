@@ -1,5 +1,4 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" 			"models/props/ff_cz2/wedge_light_base_red_off"
-	"$model" 			1
 }

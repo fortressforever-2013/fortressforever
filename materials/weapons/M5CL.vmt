@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/M5CL" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/M5CL_ref" 
-} 
+}

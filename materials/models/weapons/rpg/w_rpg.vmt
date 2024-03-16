@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 					"models/weapons/rpg/w_rpg"
 	//"$bumpmap" 						"models/weapons/rpg/v_rpg_grip_normal"
-	"$model" 						1
 	
 	//Environment Mapping
 	"$envmap" 						"env_cubemap"

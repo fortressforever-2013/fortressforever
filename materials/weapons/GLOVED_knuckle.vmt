@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/GLOVED_knuckle" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/GLOVED_knuckle_ref" 
-} 
+}

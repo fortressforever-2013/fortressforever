@@ -5,22 +5,13 @@ UnlitGeneric
 	"$model" "1"
 	"$nofog" "1"
 
-		"Proxies"
-
+	"Proxies"
+	{
+		"TextureScroll"
 		{
-
-			"TextureScroll"
-
-			{
-
 			"texturescrollvar" "$baseTextureTransform"
-
 			"texturescrollrate" 0.02
-
 			"texturescrollangle" 30.00
-
-			}
-
 		}
-
+	}
 }

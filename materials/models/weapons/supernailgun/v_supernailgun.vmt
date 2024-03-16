@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/supernailgun/v_supernailgun"
 	"$bumpmap" 			"models/weapons/supernailgun/v_supernailgun_normal"
-	"$model" 			1
 	"$selfillum" 			1
 	
 	//Environment Mapping

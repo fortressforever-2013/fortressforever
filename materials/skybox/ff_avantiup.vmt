@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-    "%keywords" "FF"
-    "$basetexture" "skybox/ff_avantiup"
-    "$nofog" 1
-    "$ignorez" 1
+	"%keywords" "FF"
+	"$basetexture" "skybox/ff_avantiup"
+	"$nofog" 1
+	"$ignorez" 1
 }

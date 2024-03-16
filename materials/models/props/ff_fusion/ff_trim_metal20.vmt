@@ -2,6 +2,6 @@
 {
 	"%keywords" "FF"
 	"$basetexture" "ff/ff_trim_metal20"
-                "$bumpmap" "ff/ff_trim_metal20_normal"
+	"$bumpmap" "ff/ff_trim_metal20_normal"
 	"$surfaceprop" "metal"
 }

@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/tranq/v_tranq"
 	"$bumpmap" 			"models/weapons/tranq/v_tranq_normal"
-	"$model" 			1
 	
 	//Self illumination settings for glowing sights
 	"$selfillum" 			1

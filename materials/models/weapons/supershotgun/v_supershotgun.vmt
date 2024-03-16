@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/supershotgun/v_supershotgun"
 	"$bumpmap" 			"models/weapons/supershotgun/v_supershotgun_normal"
-	"$model" 			1
 	
 	//Self illumination settings for glowing sights
 	"$selfillum" 			1

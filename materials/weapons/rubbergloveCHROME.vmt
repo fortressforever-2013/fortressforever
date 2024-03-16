@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/rubbergloveCHROME" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/rubbergloveCHROME_ref" 
-} 
+}

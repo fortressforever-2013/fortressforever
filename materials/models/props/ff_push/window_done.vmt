@@ -1,7 +1,6 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" 			"models\props\ff_push\window_done"
-	"$model" 			1
 	"$translucent" 			1
 
 	//Environment Mapping

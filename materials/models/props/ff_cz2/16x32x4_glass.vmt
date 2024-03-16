@@ -1,7 +1,6 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" 			"models/props/ff_cz2/16x32x4_glass"
-	"$model" 			1
 	"$translucent"			1	
 	
 	//Environment Mapping

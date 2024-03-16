@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/join" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/join_ref" 
-} 
+}

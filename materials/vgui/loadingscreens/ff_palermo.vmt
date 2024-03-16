@@ -1,5 +1,5 @@
 "UnlitGeneric"
 {
-	"%keywords" "FF" 	"$basetexture" "vgui/loadingscreens/ff_palermo"
+	"%keywords" "FF"
+	"$basetexture" "vgui/loadingscreens/ff_palermo"
 }
-

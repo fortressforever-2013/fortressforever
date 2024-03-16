@@ -3,5 +3,4 @@ UnlitGeneric
 	"$basetexture"	"cs\effects\trainsky"
 	"$additive" "1"
 	"$nocull" "1"
-
 }

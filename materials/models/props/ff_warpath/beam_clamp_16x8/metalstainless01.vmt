@@ -1,6 +1,5 @@
 "vertexlitgeneric"
 {
-	// original shader: basetimeslightmapalphablend
 // uncomment this if you add an alpha channel to the base texture
 //	"$translucent" 1
 	"$basetexture" "props/metalstainless01"

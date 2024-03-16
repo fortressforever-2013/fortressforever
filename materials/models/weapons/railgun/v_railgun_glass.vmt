@@ -2,13 +2,12 @@
 {
 	"$baseTexture" 			"models/weapons/railgun/v_railgun_glass"
 	"$bumpmap" 			"models/weapons/railgun/v_railgun_glass_normal"
-	"$model" 			1
 	"$translucent"			1
 	"$additive"			1
 	
 	//Environment Mapping
 	"$envmap" 			"env_cubemap"
-	"$envmaptint" 			"[0.2  0.2 0.5]"
+	"$envmaptint" 			"[0.2 0.2 0.5]"
 	
 	"Proxies"
 	{

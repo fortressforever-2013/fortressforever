@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/gclipinside" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/gclipinside_ref" 
-} 
+}

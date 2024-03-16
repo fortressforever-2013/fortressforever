@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/railgun/v_railgun"
 	"$bumpmap" 			"models/weapons/railgun/v_railgun_normal"
-	"$model" 			1
 	
 	//Self illumination settings for glowing sights
 	"$selfillum" 			1

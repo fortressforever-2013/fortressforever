@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/props/ff_cz2/ff_cz2_sign_cp1"
 	"$bumpmap" 			"models/props/ff_cz2/ff_cz2_sign_normspec"
-	"$model" 			1
 	"$selfillum" 			1
 
 
@@ -12,4 +11,3 @@
 	"$normalmapalphaenvmapmask"	1
 	"$envmaptint" 			"[.6 .6 .6]"
 }
-

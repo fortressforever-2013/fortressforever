@@ -2,7 +2,6 @@
 {
 	"$baseTexture"				"models\weapons\tommygun/uvmap_BACKUP"
 	"$bumpmap" 			"models\weapons\tommygun/uvmap_BACKUP_normspec"
-	"$model" 			1
 	"$selfillum"			1
 	
 	//Environment Mapping

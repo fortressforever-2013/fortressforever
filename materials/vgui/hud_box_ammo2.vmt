@@ -2,5 +2,5 @@
 {
 	"$basetexture" "vgui/hud_box_ammo2"
 	"$translucent" 1
-                "$alpha" 1.0
+	"$alpha" 1.0
 }

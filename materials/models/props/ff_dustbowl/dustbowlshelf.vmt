@@ -1,4 +1,3 @@
-// envmaptint_fix
 "VertexLitGeneric"
 {
 	"$basetexture" "Wood/woodstair002a"
@@ -9,5 +8,5 @@
 	"$normalmapalphaenvmapmask" 1
 	"$envmapcontrast" 1
 	"$envmapsaturation" .2
-	"$envmaptint" "[ .1 .1 .1 ]"
+	"$envmaptint" "[.1 .1 .1]"
 }

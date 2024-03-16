@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/grip" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/grip_ref" 
-} 
+}

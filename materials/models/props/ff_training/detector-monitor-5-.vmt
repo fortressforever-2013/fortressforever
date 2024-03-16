@@ -2,16 +2,15 @@
 {
 	"$basetexture" "models\props\ff_training\detector-monitor-5-"
 	"$surfaceprop" "glass"
-    	"%keywords" "FF"
+	"%keywords" "FF"
 
 	"Proxies"
 	{
-
 		"AnimatedTexture"
 		{
-	        	"animatedtexturevar" "$basetexture"
-	         	"animatedtextureframenumvar" "$frame"
-	         	"animatedtextureframerate" "12"
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "12"
 		}
 	}
 }

@@ -16,7 +16,7 @@
 	"$forceexpensive" 1
 	"%compilewater" 1
 //	"$forcecheap" 1
-	// bottom materials shouldn't use $envmap!!!  They won't work if they do.
+	// bottom materials shouldn't use $envmap!!! They won't work if they do.
 //	"$envmap" "env_cubemap"
 	"%tooltexture" "dev/water_normal"
 	"$refractamount" ".5"
@@ -62,4 +62,3 @@
 		}
 	}
 }
-

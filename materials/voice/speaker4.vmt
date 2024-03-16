@@ -1,6 +1,5 @@
 "UnlitGeneric"
 {
-	// Original shader: BaseTextureAlphaBlend
 	"$translucent" 1
 	"$basetexture" "voice/speaker4"
 	"$vertexcolor" 1

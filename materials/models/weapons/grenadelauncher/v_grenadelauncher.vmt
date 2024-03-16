@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/grenadelauncher/v_grenadelauncher"
 	"$bumpmap" 			"models/weapons/grenadelauncher/v_grenadelauncher_normal"
-	"$model" 			1
 	
 	//Self illumination settings for glowing sights
 	"$selfillum" 			1

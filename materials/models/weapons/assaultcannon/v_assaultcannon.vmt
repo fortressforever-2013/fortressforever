@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/assaultcannon/v_assaultcannon"
 	"$bumpmap" 			"models/weapons/assaultcannon/v_assaultcannon_normal"
-	"$model" 			1
 	"$selfillum" 			1
 //	"$selfillumtint"	"[1 .1 .1]"	
 	"$selfillumtint"	"[0 0 0]"	
@@ -66,10 +65,5 @@
 			"srcVar2"		"$multiplier2"
 			"resultVar"	"$selfillumtint[1]"
 		}
-		
 	}
-
-
-
-
 }

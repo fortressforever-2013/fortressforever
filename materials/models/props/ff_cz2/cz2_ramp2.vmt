@@ -2,7 +2,6 @@
 {
 	"$basetexture" "models\props\ff_cz2\cz2_ramp2"
 	"$bumpmap" 			"models/props/ff_cz2/cz2_ramp2_normspec"
-	"$model" 			1
 	"$selfillum" 			1
 
 

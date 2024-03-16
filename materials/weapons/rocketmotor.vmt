@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/rocketmotor" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/rocketmotor_ref" 
-} 
+}

@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/shotgun/v_shotgun"
 	"$bumpmap" 			"models/weapons/shotgun/v_shotgun_normal_spec"
-	"$model" 			1
 		
 	//Self illumination settings for glowing sights
 	"$selfillum" 			1

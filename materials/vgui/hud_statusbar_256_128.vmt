@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/hud_statusbar_256_128.vtf"
+	"$basetexture" "vgui/hud_statusbar_256_128"
 	"$translucent" 1
-      "$alpha" 1.0
+	"$alpha" 1.0
 }

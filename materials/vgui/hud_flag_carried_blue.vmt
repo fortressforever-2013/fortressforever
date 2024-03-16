@@ -2,5 +2,5 @@
 {
 	"$basetexture" "vgui/hud_flag_carried_blue"
 	"$translucent" 1
-                "$alpha" 1.0
+	"$alpha" 1.0
 }

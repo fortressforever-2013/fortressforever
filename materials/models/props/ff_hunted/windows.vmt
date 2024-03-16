@@ -9,7 +9,6 @@
 	"$translucent" 1
 	"$multipass" 1
 	"$nocull" 1
-	"$model" 1
 	"LightmappedGeneric_dx6"
 	{
 		// This takes into account the alpha channel of the basetexture

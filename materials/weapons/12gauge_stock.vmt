@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/12gauge_stock" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/12gauge_stock_ref" 
-} 
+}

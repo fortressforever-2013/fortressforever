@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/rpg/v_rpg_grip"
 	"$bumpmap" 			"models/weapons/rpg/v_rpg_grip_normal"
-	"$model" 			1
 	"$selfillum"			1
 	
 	//Environment Mapping

@@ -3,8 +3,6 @@
 	"$baseTexture" 					"models/weapons/incendiarycannon/w_incendiarycannon"
 	"$alphatest" 					"1"
 
-	"$model" 					"1"
-	
 	//Environment Mapping
 	"$envmap" 					"env_cubemap"
 	"$envmaptint" 					"[.05 .05 .05]"

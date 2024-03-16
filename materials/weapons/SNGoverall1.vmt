@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/SNGoverall1" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/SNGoverall1_ref" 
-} 
+}

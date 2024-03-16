@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/crowbar/v_crowbar"
 	"$bumpmap" 			"models/weapons/crowbar/v_crowbar_normal"
-	"$model"			1
 	
 	//Environment Mapping
 	"$normalmapalphaenvmapmask" 	1

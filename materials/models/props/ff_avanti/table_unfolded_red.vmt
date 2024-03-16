@@ -1,11 +1,10 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\props\ff_avanti\table_unfolded_red"
-	"$model" 			1
 	"$translucent" 			1
 
 	//Environment Mapping
-                "$envmapmask" "models\props\ff_avanti\table_folded_mask"
+	"$envmapmask" "models\props\ff_avanti\table_folded_mask"
 	"$envmap" 			"env_cubemap"
 	"$envmaptint"			"[0.5 0.5 0.5]"
 }

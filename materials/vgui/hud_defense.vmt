@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/hud_defense.vtf"
+	"$basetexture" "vgui/hud_defense"
 	"$translucent" 1
-      "$alpha" 1.0
+	"$alpha" 1.0
 }

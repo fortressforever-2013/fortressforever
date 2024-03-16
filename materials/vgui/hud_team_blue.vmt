@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "%keywords" "FF"
-    "$basetexture" "vgui/hud_team_blue"
-    "$translucent" 1
+	"%keywords" "FF"
+	"$basetexture" "vgui/hud_team_blue"
+	"$translucent" 1
 }

@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
-{ 
+{
 	"$baseTexture" "weapons/FlameThrwr_Base1" 
 	"$envmap" "env_cubemap" 
 	"$envmapmask" "weapons/FlameThrwr_Base1_ref" 
-} 
+}

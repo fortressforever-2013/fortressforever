@@ -1,6 +1,5 @@
 "VertexLitGeneric"
 {
-	"$model" "1"
 	"$basetexture" "models\props\ff_crossover\xo2_trim"
 	"$bumpmap" "models\props\ff_crossover\xo2_trim_normal"
 	"$envmap" "env_cubemap"

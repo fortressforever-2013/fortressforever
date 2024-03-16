@@ -3,6 +3,5 @@ LightmappedGeneric
 	"$basetexture"	"CS\decals\prodventa"
 	"$translucent" "1"
 	"$decal" "1"
-	"$CS\decalscale" "0.250"
-
+	"$decalscale" "0.250"
 }

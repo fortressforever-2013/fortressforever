@@ -1,7 +1,6 @@
 "VertexLitGeneric"
 {
 	"$baseTexture"			"models/weapons/flamethrower/v_flamethrower_gauge"
-	"$model"			1
 	"$translucent"			1
 	
 	//Local Variables

@@ -2,7 +2,6 @@
 {
 	"$baseTexture" 			"models/weapons/flamethrower/v_flamethrower"
 	"$bumpmap" 			"models/weapons/flamethrower/v_flamethrower_normal"
-	"$model" 			1
 	"$alphatest"			1
 	"$translucent" 			1
 

@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-    "%keywords" "FF"
-    "$hdrbaseTexture" "skybox/bliss__hdrlf"
-    "$basetexture" "skybox/bliss_lf"
-    "$nofog" 1
-    "$ignorez" 1
+	"%keywords" "FF"
+	"$hdrbaseTexture" "skybox/bliss__hdrlf"
+	"$basetexture" "skybox/bliss_lf"
+	"$nofog" 1
+	"$ignorez" 1
 }
