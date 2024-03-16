@@ -4,7 +4,6 @@
 	{
 		"$fallbackmaterial" "effects/slowfield_dx60"
 	}
-
 	"Refract_dx70"
 	{
 		"$fallbackmaterial" "effects/slowfield_dx60"

@@ -1,12 +1,9 @@
 "Refract"
 {
-	
-
 	"Refract_dx80"
 	{
 		"$fallbackmaterial" "effects/cloak_dx60"
 	}
-
 	"Refract_dx70"
 	{
 		"$fallbackmaterial" "effects/cloak_dx60"

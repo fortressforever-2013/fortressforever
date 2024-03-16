@@ -1,8 +1,8 @@
 "LightmappedGeneric"
 {
-    "%keywords" "FF"
-    "$basetexture" "ff/ff_poster_spewok"
-    "$decal" 1
-    "$decalscale" 0.25
-    "$translucent" 1
+	"%keywords" "FF"
+	"$basetexture" "ff/ff_poster_spewok"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
 }
