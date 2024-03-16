@@ -1,8 +1,7 @@
 WATERPOLO
 
 GAME MODE: Push Variant
-Teams vie for control of the soccer ball.
-The ball carrier must enter the enemy's goal
+Teams vie for control of the soccer ball. The ball carrier must enter the enemy's goal
 
 Teams: Red VS Blue
 
@@ -16,7 +15,7 @@ Scoring:
 - Team with most points at end of round wins
 
 Goalies:
-- Each team can have 1 super-fast civialian goalie
+- Each team can have 1 super-fast Civilian goalie
 - Goalies are invincible inside their own team's zone, but take 3 times normal damage outside of their zone
 - Goalies cannot go out-of-bounds or into the enemy's zone
 - Goalies return the ball if they touch it
