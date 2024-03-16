@@ -8,81 +8,81 @@
 	"ragdolls1"
 	{
 		"caption"	"#GameUI_RagdollLifetime"
-		"cvar"	"ragdoll_fadeaftertime"
-		"type"	"discrete"
+		"cvar"		"ragdoll_fadeaftertime"
+		"type"		"discrete"
 		"values"
 		{
 			"5.0"	"#GameUI_Normal"
 			"2.5"	"#GameUI_Short"
-			"0"	"#GameUI_None"
+			"0"		"#GameUI_None"
 		}
 	}
 	"ragdolls2"
 	{
 		"caption"	"#GameUI_RagdollSleepAfterTime"
-		"cvar"	"ragdoll_sleepaftertime"
-		"type"	"discrete"
+		"cvar"		"ragdoll_sleepaftertime"
+		"type"		"discrete"
 		"values"
 		{
 			"3.5"	"#GameUI_Normal"
 			"0.5"	"#GameUI_Quick"
-			"0"	"#GameUI_Instant"
+			"0"		"#GameUI_Instant"
 		}
 	}
 
 	"gibs"
 	{
 		"caption"	"#GameUI_GibCount"
-		"cvar"	"cl_gib_count"
-		"type"	"discrete"
+		"cvar"		"cl_gib_count"
+		"type"		"discrete"
 		"values"
 		{
-			"6"	"#GameUI_Normal"
+			"6"		"#GameUI_Normal"
 			"12"	"#GameUI_Many"
 			"24"	"#GameUI_Lots"
-			"0"	"#GameUI_None"
+			"0"		"#GameUI_None"
 		}
 	}
 
 	"r_dynamic_ff"
 	{
 		"caption"	"#GameUI_DynamicLights"
-		"cvar"	"r_dynamic_ff"
+		"cvar"		"r_dynamic_ff"
 	}
 
 	"cl_phys_props_enable"
 	{
 		"caption"	"#GameUI_DisablePhysicsProps"
-		"cvar"	"cl_phys_props_enable"
+		"cvar"		"cl_phys_props_enable"
 	}
 
 	"cl_reduced_explosions"
 	{
 		"caption"	"#GameUI_HigherFPSExplosions"
-		"cvar"	"cl_reduced_explosions"
+		"cvar"		"cl_reduced_explosions"
 	}
 
 	"r_WaterDrawReflection"
 	{
 		"caption"	"#GameUI_WaterReflections"
-		"cvar"	"r_WaterDrawReflection"
+		"cvar"		"r_WaterDrawReflection"
 	}
 
 	"r_WaterDrawRefraction"
 	{
 		"caption"	"#GameUI_WaterRefraction"
-		"cvar"	"r_WaterDrawRefraction"
+		"cvar"		"r_WaterDrawRefraction"
 	}
 
 	"r_3dsky"
 	{
 		"caption"	"#GameUI_Draw3DSkyBox"
-		"cvar"	"r_3dsky"
+		"cvar"		"r_3dsky"
 	}
 
 	"r_drawflecks"
 	{
 		"caption"	"#GameUI_DrawFlecks"
-		"cvar"	"r_drawflecks"
+		"cvar"		"r_drawflecks"
 	}
 }
