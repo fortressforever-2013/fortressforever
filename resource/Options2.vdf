@@ -8,58 +8,58 @@
 	"mblur"
 	{
 		"caption"	"#GameUI_EnableBlurredVision"
-		"cvar"	"cl_dynamicblur"
+		"cvar"		"cl_dynamicblur"
 	}
 	"mfov"
 	{
 		"caption"	"#GameUI_EnableDynamicFOV"
-		"cvar"	"cl_dynamicfov"
+		"cvar"		"cl_dynamicfov"
 	}
 	"gtarget"
 	{
 		"caption"	"#GameUI_DrawGrenadeTargets"
-		"cvar"	"cl_grenadetargets"
+		"cvar"		"cl_grenadetargets"
 	}
 	"gtrail"
 	{
 		"caption"	"#GameUI_DrawGrenadeTrails"
-		"cvar"	"cl_grenadetrails"
+		"cvar"		"cl_grenadetrails"
 	}
 	"cl_nail_trail"
 	{
 		"caption"	"#GameUI_DrawNailTrails"
-		"cvar"	"cl_nail_trail"
+		"cvar"		"cl_nail_trail"
 	}
 	"cl_conc_refract"
 	{
 		"caption"	"#GameUI_UseConcRefractSphere"
-		"cvar"	"cl_conc_refract"
+		"cvar"		"cl_conc_refract"
 	}
 	"effectdetail"
 	{
 		"caption"	"#GameUI_LevelOfEffectsDetail"
-		"cvar"	"cl_effectsdetail"
-		"type"	"discrete"
+		"cvar"		"cl_effectsdetail"
+		"type"		"discrete"
 		"values"
 		{
-			"2"	"#GameUI_High"
-			"1"	"#GameUI_Medium"
-			"0"	"#GameUI_None"
+			"2"		"#GameUI_High"
+			"1"		"#GameUI_Medium"
+			"0"		"#GameUI_None"
 		}
 	}
 	"default_fov"
 	{
 		"caption"	"#GameUI_FOV"
-		"cvar"	"default_fov"
-		"type"	"slider"
+		"cvar"		"default_fov"
+		"type"		"slider"
 		"minval" 	"80"
 		"maxval" 	"120"
 	}
 	"viewmodel_fov"
 	{
 		"caption"	"#GameUI_ViewModelFOV"
-		"cvar"	"viewmodel_fov"
-		"type"	"slider"
+		"cvar"		"viewmodel_fov"
+		"type"		"slider"
 		"minval" 	"74"
 		"maxval" 	"120"
 	}

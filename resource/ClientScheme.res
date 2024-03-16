@@ -24,16 +24,16 @@ Scheme
 		"HUD_BG_Default"		"109 124 142 115"
 		"HUD_BG_Dim"			"109 124 142 50"
 		
-		"HUD_Surface_Bright"		"82 92 104 210"
-		"HUD_Surface_Default"		"75 85 95 200"
+		"HUD_Surface_Bright"	"82 92 104 210"
+		"HUD_Surface_Default"	"75 85 95 200"
 		"HUD_Surface_Dim"		"75 85 95 50"
 		
 		"HUD_Border_Bright"		"255 255 255 255"
-		"HUD_Border_Default"		"245 245 245 230"
+		"HUD_Border_Default"	"245 245 245 230"
 		"HUD_Border_Dim"		"245 245 245 50"
 
 		"Hud_Status_Bright"		"255 255 255 255"
-		"Hud_status_Default"		"109 124 142 200"
+		"Hud_status_Default"	"109 124 142 200"
 		"Hud_Status_Dim"		"109 124 142 100"
 		
 		"ArmorIncColor"			"255 220 0 255"
@@ -53,13 +53,13 @@ Scheme
 		"UI_Tone_Dark"			"75 85 95 115"
 		
 		"UI_BG_Highlight"		"225 235 255 45"
-		"UI_BG_Dim"			"0 0 0 165"
+		"UI_BG_Dim"				"0 0 0 165"
 		"UI_BG_Dark"			"0 0 0 90"
 		
-		//"UI_Slider_Text"		"127 140 127 255"
-		"UI_Slider_Text"		"0 255 0 255"
-		"UI_Slider_Nob"			"108 108 108 255"
-		"UI_Slider_Track"		"31 31 31 255"
+		//"UI_Slider_Text"			"127 140 127 255"
+		"UI_Slider_Text"			"0 255 0 255"
+		"UI_Slider_Nob"				"108 108 108 255"
+		"UI_Slider_Track"			"31 31 31 255"
 		"UI_Slider_DisabledText1"	"117 117 117 255"
 		"UI_Slider_DisabledText2"	"30 30 30 255"
 		
@@ -92,70 +92,70 @@ Scheme
 		HudItem.Foreground		"HUD_Tone_Default"
 		HudItem.Background		"HUD_BG_Default"
 		
-		"TeamColorHud.BackgroundAlpha"		"0 0 0 150"
+		"TeamColorHud.BackgroundAlpha"	"0 0 0 150"
 		
 		"FgColor"				"HUD_Tone_Default"
 		"BgColor"				"Blank"
 
-		"Panel.FgColor"				"HUD_Tone_Default"
-		"Panel.BgColor"				"Blank"
+		"Panel.FgColor"			"HUD_Tone_Default"
+		"Panel.BgColor"			"Blank"
 		
 		"BrightFg"				"HUD_Tone_Bright"
 
 		"DamagedBg"				"Blank"
 		"DamagedFg"				"Red"
-		"BrightDamagedFg"			"Red"
+		"BrightDamagedFg"		"Red"
 		
-		"ZoomReticleColor"			"Green"
+		"ZoomReticleColor"		"Green"
 
 		/////////////// Weapon Selection Colours ///////////////
 		"SelectionNumberFg"			"HUD_Tone_Bright"
 		"SelectionTextFg"			"HUD_Tone_Bright"
-		"SelectionEmptyBoxBg"			"HUD_BG_Dim"
+		"SelectionEmptyBoxBg"		"HUD_BG_Dim"
 		"SelectionBoxBg"			"HUD_BG_Dim"
-		"SelectionSelectedBoxBg" 		"HUD_BG_Dim"
+		"SelectionSelectedBoxBg" 	"HUD_BG_Dim"
 		
 		/////////////// VGUI Colour Specification ///////////////
-		Border.Bright				"UI_Tone_Dark"		// the lit side of a control
+		Border.Bright			"UI_Tone_Dark"		// the lit side of a control
 		Border.Dark				"UI_Tone_Dark"		// the dark/unlit side of a control
-		Border.Selection			"Blank"			// the additional border color for displaying the default/selected button
+		Border.Selection		"Blank"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor			"UI_Tone_Default"
 		Button.BgColor				"Blank"
-		Button.ArmedTextColor			"UI_Tone_Default"
+		Button.ArmedTextColor		"UI_Tone_Default"
 		Button.ArmedBgColor			"UI_BG_Highlight"
-		Button.DepressedTextColor		"UI_Tone_Default"
-		Button.DepressedBgColor			"UI_BG_Highlight"
+		Button.DepressedTextColor	"UI_Tone_Default"
+		Button.DepressedBgColor		"UI_BG_Highlight"
 
 		CheckButton.TextColor			"UI_Tone_Default"
-		CheckButton.SelectedTextColor		"UI_Tone_Default"
-		CheckButton.BgColor			"UI_BG_Dim"
-		CheckButton.Border1			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check			"UI_Tone_Default"	// color of the check itself
+		CheckButton.SelectedTextColor	"UI_Tone_Default"
+		CheckButton.BgColor				"UI_BG_Dim"
+		CheckButton.Border1				"Border.Dark" 		// the left checkbutton border
+		CheckButton.Border2				"Border.Bright"		// the right checkbutton border
+		CheckButton.Check				"UI_Tone_Default"	// color of the check itself
 
 		ComboBoxButton.ArrowColor		"UI_Tone_Default"
-		ComboBoxButton.ArmedArrowColor		"UI_Tone_Default"
+		ComboBoxButton.ArmedArrowColor	"UI_Tone_Default"
 		ComboBoxButton.BgColor			"UI_BG_Dim"
-		ComboBoxButton.DisabledBgColor		"Blank"
+		ComboBoxButton.DisabledBgColor	"Blank"
 
-		Frame.BgColor					"Blank"
-		Frame.OutOfFocusBgColor			"Blank"
+		Frame.BgColor						"Blank"
+		Frame.OutOfFocusBgColor				"Blank"
 		Frame.FocusTransitionEffectTime		"0.0"			// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"			// time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange			"0"
-		FrameGrip.Color1			"Blank"
-		FrameGrip.Color2			"Blank"
-		FrameTitleButton.FgColor		"Blank"
-		FrameTitleButton.BgColor		"Blank"
+		Frame.TransitionEffectTime			"0.0"			// time it takes for a window to fade in/out on open/close
+		Frame.AutoSnapRange					"0"
+		FrameGrip.Color1					"Blank"
+		FrameGrip.Color2					"Blank"
+		FrameTitleButton.FgColor			"Blank"
+		FrameTitleButton.BgColor			"Blank"
 		FrameTitleButton.DisabledFgColor	"Blank"
 		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
+		FrameSystemButton.FgColor			"Blank"
+		FrameSystemButton.BgColor			"Blank"
+		FrameSystemButton.Icon				""
 		FrameSystemButton.DisabledIcon		""
-		FrameTitleBar.TextColor			"UI_Tone_Default"
-		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.TextColor				"UI_Tone_Default"
+		FrameTitleBar.BgColor				"Blank"
 		FrameTitleBar.DisabledTextColor		"UI_Tone_Default"
 		FrameTitleBar.DisabledBgColor		"Blank"
 
@@ -164,16 +164,16 @@ Scheme
 		
 		Label.TextDullColor			"UI_Tone_Default"
 		Label.TextColor				"UI_Tone_Default"
-		Label.TextBrightColor			"UI_Tone_Default"
-		Label.SelectedTextColor			"UI_Tone_Default"
+		Label.TextBrightColor		"UI_Tone_Default"
+		Label.SelectedTextColor		"UI_Tone_Default"
 		Label.BgColor				"Blank"
-		Label.DisabledFgColor1			"Blank"
-		Label.DisabledFgColor2			"UI_Tone_Dark"
+		Label.DisabledFgColor1		"Blank"
+		Label.DisabledFgColor2		"UI_Tone_Dark"
 
-		ListPanel.TextColor			"UI_Tone_Default"
-		ListPanel.BgColor			"UI_BG_Dim"
-		ListPanel.SelectedTextColor		"Black"
-		ListPanel.SelectedBgColor		"UI_BG_Highlight"
+		ListPanel.TextColor					"UI_Tone_Default"
+		ListPanel.BgColor					"UI_BG_Dim"
+		ListPanel.SelectedTextColor			"Black"
+		ListPanel.SelectedBgColor			"UI_BG_Highlight"
 		ListPanel.SelectedOutOfFocusBgColor	"UI_BG_Highlight"
 		ListPanel.EmptyListInfoTextColor	"UI_Tone_Default"
 
@@ -193,20 +193,20 @@ Scheme
 		ProgressBar.FgColor			"UI_Tone_Default"
 		ProgressBar.BgColor			"UI_BG_Dim"
 
-		PropertySheet.TextColor			"UI_Tone_Default"
+		PropertySheet.TextColor				"UI_Tone_Default"
 		PropertySheet.SelectedTextColor		"UI_Tone_Default"
 		PropertySheet.TransitionEffectTime	"0.25"			// time to change from one tab to another
 
 		RadioButton.TextColor			"UI_Tone_Default"
-		RadioButton.SelectedTextColor		"UI_Tone_Default"
+		RadioButton.SelectedTextColor	"UI_Tone_Default"
 
-		RichText.TextColor			"UI_Tone_Default"
-		RichText.BgColor			"Blank"
+		RichText.TextColor				"UI_Tone_Default"
+		RichText.BgColor				"Blank"
 		RichText.SelectedTextColor		"UI_Tone_Default"
 		RichText.SelectedBgColor		"Blank"
 
-		ScrollBarButton.FgColor			"UI_Tone_Default"
-		ScrollBarButton.BgColor			"Blank"
+		ScrollBarButton.FgColor				"UI_Tone_Default"
+		ScrollBarButton.BgColor				"Blank"
 		ScrollBarButton.ArmedFgColor		"UI_Tone_Default"
 		ScrollBarButton.ArmedBgColor		"Blank"
 		ScrollBarButton.DepressedFgColor	"UI_Tone_Default"
@@ -215,32 +215,32 @@ Scheme
 		ScrollBarSlider.FgColor			"Blank"			// nob color
 		ScrollBarSlider.BgColor			"Blank"			// slider background color
 
-		SectionedListPanel.HeaderTextColor		"UI_Tone_Default"
-		SectionedListPanel.HeaderBgColor		"Blank"
-		SectionedListPanel.DividerColor			"Black"
-		SectionedListPanel.TextColor			"UI_Tone_Default"
-		SectionedListPanel.BrightTextColor		"UI_Tone_Default"
-		SectionedListPanel.BgColor			"UI_BG_Dark"
-		SectionedListPanel.SelectedTextColor		"Black"
-		SectionedListPanel.SelectedBgColor		"UI_BG_Highlight"
+		SectionedListPanel.HeaderTextColor				"UI_Tone_Default"
+		SectionedListPanel.HeaderBgColor				"Blank"
+		SectionedListPanel.DividerColor					"Black"
+		SectionedListPanel.TextColor					"UI_Tone_Default"
+		SectionedListPanel.BrightTextColor				"UI_Tone_Default"
+		SectionedListPanel.BgColor						"UI_BG_Dark"
+		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.SelectedBgColor				"UI_BG_Highlight"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"UI_BG_Highlight"
 		
-		Slider.TextColor			"UI_Slider_Text"
-		Slider.NobColor				"UI_Slider_Nob"
-		Slider.TrackColor			"UI_Slider_Track"
+		Slider.TextColor				"UI_Slider_Text"
+		Slider.NobColor					"UI_Slider_Nob"
+		Slider.TrackColor				"UI_Slider_Track"
 		Slider.DisabledTextColor1		"UI_Slider_DisabledText1"
 		Slider.DisabledTextColor2		"UI_Slider_DisabledText1"
 
-		TextEntry.TextColor			"UI_Tone_Default"
-		TextEntry.BgColor			"UI_BG_Dim"
-		TextEntry.CursorColor			"UI_Tone_Default"
-		TextEntry.DisabledTextColor		"UI_Tone_Default"
-		TextEntry.DisabledBgColor		"Blank"
-		TextEntry.SelectedTextColor		"Black"
-		TextEntry.SelectedBgColor		"UI_BG_Highlight"
+		TextEntry.TextColor					"UI_Tone_Default"
+		TextEntry.BgColor					"UI_BG_Dim"
+		TextEntry.CursorColor				"UI_Tone_Default"
+		TextEntry.DisabledTextColor			"UI_Tone_Default"
+		TextEntry.DisabledBgColor			"Blank"
+		TextEntry.SelectedTextColor			"Black"
+		TextEntry.SelectedBgColor			"UI_BG_Highlight"
 		TextEntry.OutOfFocusSelectedBgColor	"UI_BG_Highlight"
-		TextEntry.FocusEdgeColor		"UI_BG_Dim"
+		TextEntry.FocusEdgeColor			"UI_BG_Dim"
 
 		ToggleButton.SelectedTextColor		"UI_Tone_Default"
 
@@ -249,7 +249,7 @@ Scheme
 
 		TreeView.BgColor			"UI_BG_Dim"
 
-		WizardSubPanel.BgColor			"Blank"
+		WizardSubPanel.BgColor		"Blank"
 
 		// Top-left corner of the main screen title
 		"Main.Title1.X"				"76" //76
@@ -2750,8 +2750,8 @@ Scheme
 	/////////////////////////// CUSTOM FONT FILES ///////////////////////////
 	CustomFontFiles
 	{
-		"1"	"resource/HUDGlyphs.ttf"
-		"2"	"resource/ItemGlyphs.ttf"
+		"1"		"resource/HUDGlyphs.ttf"
+		"2"		"resource/ItemGlyphs.ttf"
 		"3"		"resource/StatusGlyphs.ttf"
 		"4"		"resource/Crosshairs.ttf"
 		"5"		"resource/HALFLIFE2.ttf"

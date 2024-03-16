@@ -29,59 +29,59 @@
 {
 	"player_sayteam"
 	{
-		"userid" "short"
-		"text" "string"
+		"userid" 		"short"
+		"text" 			"string"
 	}
 	"player_death"	// a game event, name may be 32 charaters long
 	{
 		// this extents the original player_death by a new 
 		// field "headshot", all other fields remains the same
-		"userid"	"short"
-		"attacker"	"short"
-		"weapon"	"string" 	// weapon name killer used 
-		"damagetype" "long"	// damage type
-		"killassister" "short"
+		"userid"		"short"
+		"attacker"		"short"
+		"weapon"		"string" 	// weapon name killer used 
+		"damagetype" 	"long"		// damage type
+		"killassister" 	"short"
 		"killersglevel"	"short"
 	}
 	
 	// From here down are events necessary for bot support.
 	"player_changeclass"
 	{		
-		"userid"	"short"
-		"oldclass"	"short"
-		"newclass"	"short"
+		"userid"		"short"
+		"oldclass"		"short"
+		"newclass"		"short"
 	}
 
 	"build_dispenser"
 	{
-		"userid"	"short"	// who built it
+		"userid"		"short"	// who built it
 	}
 
 	"build_sentrygun"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 
 	"build_detpack"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 
 	"build_mancannon"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 	
 	"detpack_detonated"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 
 	"sentrygun_killed"
 	{
-		"userid"	"short" // owner
-		"attacker"	"short"
-		"weapon"	"string"
+		"userid"		"short" // owner
+		"attacker"		"short"
+		"weapon"		"string"
 		"attackerpos"	"string"
 		"killedsglevel"	"short"
 		"killersglevel"	"short"
@@ -89,113 +89,113 @@
 
 	"dispenser_killed"
 	{
-		"userid"	"short" // owner
-		"attacker"	"short"
-		"weapon"	"string"
+		"userid"		"short" // owner
+		"attacker"		"short"
+		"weapon"		"string"
 		"killersglevel"	"short"
 	}
 	
 	"mancannon_detonated"
 	{
-		"userid"	"short" // owner
+		"userid"		"short" // owner
 	}
 	
 	"mancannon_killed"
 	{
-		"userid"	"short" // owner
-		"attacker"	"short"
-		"weapon"	"string"
+		"userid"		"short" // owner
+		"attacker"		"short"
+		"weapon"		"string"
 		"killersglevel"	"short"
 	}
 	
 	"sentrygun_upgraded"
 	{
-		"userid"	"short" // upgrader
-		"sgownerid"	"short" // owner
-		"level"		"short"
+		"userid"		"short" // upgrader
+		"sgownerid"		"short" // owner
+		"level"			"short"
 	}
 
 	"disguised"
 	{
-		"userid"	"short"
-		"team"		"short"
-		"class"		"short"
+		"userid"		"short"
+		"team"			"short"
+		"class"			"short"
 	}
 	
 	"disguise_lost"
 	{
-		"userid"	"short"
-		"attackerid" "short"
+		"userid"		"short"
+		"attackerid" 	"short"
 	}
 	
 	"cloak_lost"
 	{
-		"userid"	"short"
-		"attackerid" "short"
+		"userid"		"short"
+		"attackerid" 	"short"
 	}
 	
 	"uncloaked"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 	
 	"cloaked"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 	
 	"dispenser_enemyused"
 	{
-		"userid"	"short" // owner
-		"enemyid"	"short"
+		"userid"		"short" // owner
+		"enemyid"		"short"
 	}
 	
 	"dispenser_detonated"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 	
 	"dispenser_dismantled"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 	
 	"dispenser_sabotaged"
 	{
-		"userid"	"short" // owner
-		"saboteur"	"short" // who done it?
+		"userid"		"short" // owner
+		"saboteur"		"short" // who done it?
 	}
 	
 	"sentry_detonated"
 	{
-		"userid"	"short"
-		"level"		"short"
+		"userid"		"short"
+		"level"			"short"
 	}
 	
 	"sentry_dismantled"
 	{
-		"userid"	"short"
-		"level"		"short"
+		"userid"		"short"
+		"level"			"short"
 	}
 	
 	"sentry_sabotaged"
 	{
-		"userid"	"short" // owner
-		"saboteur"	"short" // who done it?
+		"userid"		"short" // owner
+		"saboteur"		"short" // who done it?
 	}
 	"player_additem"
 	{
-		"userid"	"short"
-		"item"		"string"
+		"userid"		"short"
+		"item"			"string"
 	}
 	"player_removeitem"
 	{
-		"userid"	"short"
-		"item"		"string"
+		"userid"		"short"
+		"item"			"string"
 	}
 	"player_removeallitems"
 	{
-		"userid"	"short"
+		"userid"		"short"
 	}
 	"ff_restartround"
 	{
@@ -204,20 +204,20 @@
 	{
 		"userid"		"short" 	// entity index of the player
 		//"eventname"	"string"
-		"eventtext"	"string"
+		"eventtext"		"string"
 	}
 	"luaevent"
 	{
 		"userid"		"short" 	// entity index of the first player
-		"userid2"	"short" 	// entity index of the 2nd player
-		"eventname"	"string" 	// name for the event - like flag_cap, flag_drop, etc - something stats programs could use
+		"userid2"		"short" 	// entity index of the 2nd player
+		"eventname"		"string" 	// name for the event - like flag_cap, flag_drop, etc - something stats programs could use
 
 		// These next ones are just brainstorming...
-		"key0"		"string"
+		"key0"			"string"
 		"value0"		"string"
-		"key1"		"string"
+		"key1"			"string"
 		"value1"		"string"
-		"key2"		"string"
+		"key2"			"string"
 		"value2"		"string"
 	}
 }

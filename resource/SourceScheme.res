@@ -15,16 +15,17 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-		// base colors
-		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
-		"DullWhite"			"142 142 142 255"
-		"Orange"			"255 155 0 255"
+		/////////////// Base Colours ///////////////
+		"White"					"255 255 255 255"
+		"OffWhite"				"216 216 216 255"
+		"DullWhite"				"142 142 142 255"
+		"Orange"				"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
-		"Black"				"0 0 0 255"
-
-		"Blank"				"0 0 0 0"
-		// custom colors
+		"Black"					"0 0 0 255"
+		
+		"Blank"					"0 0 0 0"
+		
+		////////////// Custom Colours //////////////
 		"HUD_Tone_Bright"		"225 235 255 255"
 		"HUD_Tone_Default"		"199 219 255 255"
 		"HUD_Tone_Dim"			"199 219 255 120"
@@ -32,13 +33,14 @@ Scheme
 		"HUD_BG_Bright"			"109 124 142 185"
 		"HUD_BG_Default"		"109 124 142 115"
 		"HUD_BG_Dim"			"109 124 142 50"
-			/////////////// VGUI Colours ///////////////
+		
+		/////////////// VGUI Colours ///////////////
 		"UI_Tone_Default"		"199 219 255 255"
 		"UI_Tone_Dim"			"109 124 142 115"
 		"UI_Tone_Dark"			"75 85 95 115"
 		
 		"UI_BG_Highlight"		"225 235 255 45"
-		"UI_BG_Dim"			"100 110 128 165"
+		"UI_BG_Dim"				"100 110 128 165"
 		"UI_BG_Dark"			"0 0 0 90"
 		
 		"UI_Text_Default"		"199 219 255 255"
@@ -52,22 +54,22 @@ Scheme
 	{
 		// vgui_controls color specifications
 		Border.Bright					"UI_BG_Highlight"	// the lit side of a control
-		Border.Dark						"UI_BG_Highlight"		// the dark/unlit side of a control
-		Border.Selection				"White"			// the additional border color for displaying the default/selected button
+		Border.Dark						"UI_BG_Highlight"	// the dark/unlit side of a control
+		Border.Selection				"White"				// the additional border color for displaying the default/selected button
 
-		Button.TextColor			"UI_Tone_Default"
-		Button.BgColor				"Blank"
+		Button.TextColor				"UI_Tone_Default"
+		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"UI_Tone_Default"
-		Button.ArmedBgColor			"UI_BG_Highlight"
+		Button.ArmedBgColor				"UI_BG_Highlight"
 		Button.DepressedTextColor		"UI_Tone_Default"
 		Button.DepressedBgColor			"UI_BG_Highlight"
 		
 		CheckButton.TextColor			"UI_Tone_Default"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check			"White"				// color of the check itself
+		CheckButton.Border1				"Border.Dark" 		// the left checkbutton border
+		CheckButton.Border2				"Border.Bright"		// the right checkbutton border
+		CheckButton.Check				"White"				// color of the check itself
 
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
@@ -987,7 +989,7 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"	"resource/HALFLIFE2.ttf"
-		"2"	"resource/HUDfont.ttf"
+		"1"		"resource/HALFLIFE2.ttf"
+		"2"		"resource/HUDfont.ttf"
 	}
 }
