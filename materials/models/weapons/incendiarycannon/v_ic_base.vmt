@@ -8,6 +8,6 @@
 	"$normalmapalphaenvmapmask"	"1"
 	"$envmapcontrast" 		"1"
 	"$envmapsaturation" 		"1"
-	"$envmaptint" 			"[ 0.6 0.6 0.6 ]"
+	"$envmaptint" 			"[0.6 0.6 0.6]"
 //	"$halflambert"			"1"
 }

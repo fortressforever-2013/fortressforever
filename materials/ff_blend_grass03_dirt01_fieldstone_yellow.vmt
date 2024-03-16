@@ -7,6 +7,6 @@
 	"$detail" "overlays/macro01a"
 	"$detailscale" .1
 	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-        	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
-        	"%detailtype" "cctrees_n_scrubs"
+        "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "%detailtype" "cctrees_n_scrubs"
 }

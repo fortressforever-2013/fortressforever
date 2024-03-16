@@ -7,5 +7,5 @@
 	//Environment Mapping
 	"$envmap" 			"env_cubemap"
 	"$normalmapalphaenvmapmask" 	1
-	"$envmaptint" 			"[ .64 .64 .64 ]"
+	"$envmaptint" 			"[.64 .64 .64]"
 }

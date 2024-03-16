@@ -7,5 +7,5 @@
 //	"$normalmapalphaenvmapmask"	"1"
 	"$envmapcontrast" 		"1"
 	"$envmapsaturation" 		".7"
-	"$envmaptint" 			"[ 0.7 0.7 0.7 ]"
+	"$envmaptint" 			"[0.7 0.7 0.7]"
 }

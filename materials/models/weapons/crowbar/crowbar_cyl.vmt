@@ -2,7 +2,7 @@
 {
 	"$basetexture" "models/Weapons/crowbar/v_crowbar"
 	"$bumpmap" "models/Weapons/crowbar/v_crowbar_normal"
-	"$envmaptint" "[ .64 .64 .64 ]"
+	"$envmaptint" "[.64 .64 .64]"
 	"$envmap" "env_cubemap"
 	"$normalmapalphaenvmapmask" 1
 	"$selfillum"			"1"

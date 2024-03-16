@@ -5,7 +5,7 @@
 	"$envmap" "env_cubemap"
 	"$surfaceprop" "glass"
 	"$envmapmask" "glass/glasswindowbreak070a_mask"
-	"$envmaptint" "[ 0.3 0.3 0.3 ]"
+	"$envmaptint" "[0.3 0.3 0.3]"
 	"$translucent" 1
 	"$multipass" 1
 	"$nocull" 1

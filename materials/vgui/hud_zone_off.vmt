@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/hud_zone_off.vtf"
+	"$basetexture" "vgui/hud_zone_off"
 	"$translucent" 1
-      "$alpha" 1.0
+  	"$alpha" 1.0
 
 	"$sin_rotate" 0
 	"$null" 0

@@ -1,8 +1,8 @@
 "LightmappedGeneric"
 {
-    "%keywords" "FF"
-    "$basetexture" "ff_cornfield/ff_decal_editoro"
-    "$decal" 1
-    "$decalscale" 0.25
-    "$translucent" 1
+	"%keywords" "FF"
+	"$basetexture" "ff_cornfield/ff_decal_editoro"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
 }

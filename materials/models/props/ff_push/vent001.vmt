@@ -8,5 +8,5 @@
 	"$normalmapalphaenvmapmask" 1
 	"$envmapcontrast" 1
 	"$envmapsaturation" 1
-	"$envmaptint" "[ .42 .42 .42 ]"
+	"$envmaptint" "[.42 .42 .42]"
 }

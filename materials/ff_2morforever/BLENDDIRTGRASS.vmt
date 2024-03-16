@@ -1,5 +1,5 @@
 "WorldVertexTransition"
 {
-     "$BaseTexture" "ff/ff_ground_dirt02"
-     "$BaseTexture2" "ff/ff_ground_grass01"
+	"$BaseTexture" "ff/ff_ground_dirt02"
+	"$BaseTexture2" "ff/ff_ground_grass01"
 }

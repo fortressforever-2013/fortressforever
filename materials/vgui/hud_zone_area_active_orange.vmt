@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/hud_zone_area_active_orange.vtf"
+	"$basetexture" "vgui/hud_zone_area_active_orange"
 	"$translucent" 1
-      "$alpha" 1.0
+  	"$alpha" 1.0
 
 	// Inside these braces are where all the proxies go
 	"Proxies"

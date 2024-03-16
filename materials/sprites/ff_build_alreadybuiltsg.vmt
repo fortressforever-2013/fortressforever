@@ -3,7 +3,7 @@
 	"$basetexture" "sprites/ff_build_alreadybuilt"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
-	"$$alphatest" "1"
+	"$alphatest" "1"
 	"$ignorez"	"1"
 
 

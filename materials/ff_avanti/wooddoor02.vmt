@@ -1,5 +1,5 @@
 "lightmappedgeneric"
 {
-    "$basetexture" "ff_avanti/decalwooddoor02"
-    "$surfaceprop" "wood"
+	"$basetexture" "ff_avanti/decalwooddoor02"
+	"$surfaceprop" "wood"
 }

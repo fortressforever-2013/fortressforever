@@ -1,6 +1,6 @@
 "LightmappedGeneric" 
 { 
-      "$basetexture" "ff_aardvark/votf2" 
+ 	"$basetexture" "ff_aardvark/votf2" 
 	"$decal" 1
 	"$decalscale" 1
 	"$translucent" 1
