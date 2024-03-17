@@ -1,4 +1,3 @@
-
 -- base_turret handles some stuff for Respawn Turrets
 
 -- Custom target selection should be handled in your map's .lua

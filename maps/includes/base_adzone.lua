@@ -1,4 +1,3 @@
-
 -- base_adzone.lua
 -- Attack and Defend the Zone gametype 
 

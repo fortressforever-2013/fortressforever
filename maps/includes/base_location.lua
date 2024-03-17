@@ -1,4 +1,3 @@
-
 -- base_location.lua
 
 -----------------------------------------------------------------------------
@@ -219,4 +218,3 @@ location_commandpointthree = location_info:new({ text = "#FF_LOCATION_COMMAND_PO
 location_commandpointfour = location_info:new({ text = "#FF_LOCATION_COMMAND_POINT_FOUR", team = Team.kUnassigned })
 
 location_detpack_hole = location_info:new({ text = "#FF_LOCATION_DETPACK_HOLE", team = Team.kUnassigned })
-

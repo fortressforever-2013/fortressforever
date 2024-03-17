@@ -1,4 +1,3 @@
-
 -- base_idzone.lua
 -- Invade / Defend the Zone gametype 
 

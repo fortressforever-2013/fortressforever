@@ -1,4 +1,3 @@
-
 -- base_id_new.lua
 -- Invade / Defend gametype 
 -- New scoring system included

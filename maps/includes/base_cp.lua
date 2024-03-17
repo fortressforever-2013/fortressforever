@@ -1616,5 +1616,3 @@ red_teleporter_cp2 = cp_team2_teleporter_cp2
 red_teleporter_cp3 = cp_team2_teleporter_cp3
 red_teleporter_cp4 = cp_team2_teleporter_cp4
 red_teleporter_cp5 = cp_team2_teleporter_cp5
-
-

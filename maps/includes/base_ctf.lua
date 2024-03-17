@@ -1,4 +1,3 @@
-
 -- base_ctf.lua
 -- Capture the flag gametype
 

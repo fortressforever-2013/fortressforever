@@ -231,4 +231,3 @@ cap_resupply = {
 	gren1 = 2,
 	gren2 = 1
 }
-

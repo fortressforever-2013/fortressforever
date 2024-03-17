@@ -1,4 +1,3 @@
-
 -- base_id.lua
 -- Invade / Defend gametype 
 

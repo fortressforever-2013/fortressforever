@@ -1,4 +1,3 @@
-
 -- base_hunted.lua
 
 -----------------------------------------------------------------------------
@@ -468,4 +467,3 @@ end
 escape_door_button_left = base_escape_door_button
 escape_door_button_right = base_escape_door_button
 escape_door_button_inside = base_escape_door_button
-

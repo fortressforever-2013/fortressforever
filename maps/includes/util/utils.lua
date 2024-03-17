@@ -1,4 +1,3 @@
-
 function table.clear(tbl)
 	for k in pairs(tbl) do
 		tbl[k] = nil

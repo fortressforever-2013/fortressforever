@@ -98,4 +98,3 @@ goalie_sound_loop = "ff_waterpolo.psychotic_goalie"
 goalie_sound_idle = "NPC_BlackHeadcrab.Talk"
 goalie_sound_pain = "NPC_BlackHeadcrab.ImpactAngry"
 goalie_sound_kill = "NPC_BlackHeadcrab.Telegraph"
-

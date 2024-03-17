@@ -654,5 +654,3 @@ function training_classname(classId)
 	if classId == Player.kEngineer then return "Engineer" end
 	if classId == Player.kCivilian then return "Civilian" end
 end
-
-

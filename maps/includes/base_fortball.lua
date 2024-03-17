@@ -686,4 +686,3 @@ location_rainy_sky = location_info:new({ text = "Rainy Sky", team = Team.kUnassi
 location_death_hills = location_info:new({ text = "Death Hills", team = Team.kUnassigned })
 location_sideroom1 = location_info:new({ text = "Side Room 1", team = Team.kUnassigned })
 location_sideroom2 = location_info:new({ text = "Side Room 2", team = Team.kUnassigned })
-
