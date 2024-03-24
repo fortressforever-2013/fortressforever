@@ -7,11 +7,18 @@ screenshots
 user_custom
 
 cfg/server_blacklist.txt
+materials/temp
 crosshairs.vdf
+textwindow_temp.html
 
 *.tmp
 *.cache
 *.cfg
+
+# Exclude a few default config files
+!cfg/userconfig_default.cfg
+!cfg/config_default.cfg
+!cfg/classcfg_default.cfg
 
 # Add-ons (Sourcemod, Metamod: Source, etc)
 addons
