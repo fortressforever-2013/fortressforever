@@ -28,7 +28,7 @@
 	"menuitem1"
 	{
 		"label"		"#Valve_Close"	// name shown in game
-		"command"	"spec_menu 0"	// type data
+		"command"	"hidepanel specmenu"	// type data
 	}
 	
 	"menuitem2"
@@ -38,7 +38,7 @@
 		"menuitem21"
 		{
 			"label"		"#Valve_Chat_Messages"
-			"toggle"	"hud_saytext"
+			"toggle"	"cl_showtextmsg"
 		}
 		
 		"menuitem22"
