@@ -28,7 +28,7 @@
 [
 	model(studio) : "World Model"
 	skin(integer) : "Skin" : 0 : "Some models have multiple versions of their textures, called skins. Set this to a number other than 0 to use that skin instead of the default."
-	modelscale(foat) : "ModelScale" : "1.0" : "A multiplier for the size of the model."
+	modelscale(float) : "Model Scale" : "1.0" : "A multiplier for the size of the model."
 
 	disableshadows(choices) : "Disable Shadows" : 0 : "Used to disable dynamic shadows on this entity." =
 	[
@@ -214,8 +214,9 @@
 	globalname(string) : "Global Entity Name" : "" : "Name by which this entity is linked to another entity in a different map. When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map will have the previous map's state copied over their state."
 ]
 
+// Base class for env_global
 @BaseClass base(Targetname) = EnvGlobal : 
-	"An entity to control a global game state."
+	"An entity to control a global game state, with an optional associated counter, that persists across level transitions."
 [
 	initialstate(choices) : "Initial State" : 0 =
 	[
@@ -223,6 +224,9 @@
 		1 : "On"
 		2 : "Dead"
 	]
+	
+	counter(integer) : "Counter" : 0 : "An integer counter value associated with this global."
+
 	spawnflags(flags) =
 	[
 		1 : "Set Initial State" : 0
@@ -233,6 +237,12 @@
 	input TurnOff(void) : "Set state of global to OFF."
 	input Toggle(void) : "Toggles state of global between ON and OFF."
 	input Remove(void) : "Set state of global to DEAD."
+	input SetCounter(integer) : "Sets the counter value of this global."
+	input AddToCounter(integer) : "Adds to the counter value of this global. Negative numbers subtract."
+	input GetCounter(void) : "Causes the Counter output to be fired, passing the current counter value for this global."
+
+	// Outputs
+	output Counter(integer) : "Fired in response to the GetCounter input, passing the current value of the counter."
 ]
 
 @BaseClass = DamageFilter
@@ -483,6 +493,7 @@
 
 	// Inputs
 	input SetRelationship(string) : "Changes this entity's relationship with another entity or class. Format: <entityname/classname> <D_HT/D_FR/D_LI/D_NU> <priority>"
+	input SetEnemyFilter(string) : "Changes this NPC's enemy filter to the named filter."
 	input SetHealth(integer) : "Set this NPC's health."
 	input SetBodyGroup(integer) : "HACK: Sets this NPC's body group (from 0 - n). You'd better know what you are doing!"
 	input physdamagescale(float) : "Sets the value that scales damage energy when this character is hit by a physics object. NOTE: 0 means this feature is disabled for backwards compatibility."
@@ -599,6 +610,7 @@
 
 	// Inputs
 	input MoveTopSpeed(void) : "The helicopter will immediately move at top speed toward its current goal, or in its current orientation if it's on top of its goal."
+	input MoveSpecifiedSpeed(float): "The helicopter will immediately move at the specified speed (you provide this as parameter override in units per second) towards its current goal."
 	input ChangePathCorner(target_destination) : "Tell the helicopter to move to a path corner on a new path."
 	input SelfDestruct(void) : "Self Destruct."
 	input Activate(void) : "Activate. Use to wake up a helicopter that spawned with the 'Await Input' spawnflag on."
@@ -648,7 +660,7 @@
 	_quadratic_attn(string)	: "Quadratic" : "1"
 	_fifty_percent_distance(string) : "50 percent falloff distance" : "0": "Distance at which brightness should fall off to 50%. If set, overrides linear constant and quadratic paramaters."
 	_zero_percent_distance(string) : "0 percent falloff distance" : "0": "Distance at which brightness should fall off to negligible (1/256)%. Must set _fifty_percent_distance to use."
-	_hardfalloff(integer) : "hard falloff" : 0 : "If set, causes lights to fall to exactly zero beyond the zero percent distance. May cause unrealistic lighting if not used carefully."
+	_hardfalloff(integer) : "hard falloff" : 0 : "If set, causes lights to fall to exactly zero beyond the zero percent distance. May cause unrealistic lightijng if not used carefully."
 
 	// Inputs
 	input TurnOn(void) : "Turn the light on."
@@ -708,6 +720,7 @@
 		904: "Strider node"
 
 		950: "Player Ally: Push away destination"
+		951: "PLayer Ally: Fear withdrawal destination"
 
 		1000: "HL1 World: Machinery"
 		1001: "HL1 World: Blinking Light"
@@ -778,7 +791,7 @@
 		64: "Everything (not including physics debris)" : 0
 		512: "Only clients *not* in vehicles" : 0
 		1024: "Physics debris" : 0
-		2048: "Only NPCs in vehicles (respects player ally flag) : 0
+		2048: "Only NPCs in vehicles (respects player ally flag)" : 0
 		4096: "Disallow Bots": 0
 		8192: "FF Grenades" : 0
 		16384: "FF Buildables" : 0
@@ -1027,7 +1040,7 @@
 	PSName(string) : "Particle System Entity" : "" : "Set this to the name of the env_smokestack that you want this light to affect."
 ]
 
-@PointClass base(Angles) color(255 0 0) = env_sun : 
+@PointClass base(Targetname, Angles) color(255 0 0) = env_sun : 
 	"An entity to control & draw a sun effect in the sky."
 [
 	target(target_destination) : "Viewer entity" : : "Name of an entity used to determine where the sun is in the skybox. The sun should be lined up on a line from this entity to the env_sun entity."
@@ -1075,11 +1088,17 @@
 
 @PointClass base(Targetname) = game_gib_manager : "An entity to control the number of gibs in the world, for performance reasons." 
 [
-	maxpieces(integer)	: "Max Gib Count" : -1 : "Sets the max number of gib that can be spawned at a time. Set to -1 if you want to use the default value (func_break_max_pieces)."
-	input InputSetMaxPieces(integer)	: "Set the Max gibs Count."
+	maxpieces(integer)	: "Max Gib Count" : -1 : "Sets the max number of gib that can be spawned at a time. (-1=no limit)"
+	allownewgibs(choices)	: "Allow New Gibs To Spawn" : 0 : "If true, when the max gib count is reached, oldest gibs are removed as new gibs spawn. If false, new gibs will not be spawned once the gib limit is reached." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	input SetMaxPieces(integer)	: "Set the max gib count."
 ]
 
-@PointClass base(Parentname, Targetname, Angles) color(255 128 0) = env_lightglow : 
+@PointClass base(Parentname, Targetname, Angles) color(255 128 0) studio("models/editor/axis_helper_thick.mdl") = env_lightglow : 
 	"An entity that puts an additive glow in the world, mostly used over light sources."
 [
 	rendercolor(color255) : "Color (R G B)" : "255 255 255"
@@ -1310,6 +1329,10 @@
 		0 : "No"
 		1 : "Yes"
 	]
+
+	input Alpha(integer) : "Sets the brush's alpha value."
+	input SetExcluded(string) : "Change the NPC class excluded from collisions"
+	input SetInvert(integer) : "Set the state of invversion for NPC class exclusion (0 or 1)"
 ]
 
 //-------------------------------------------------------------------------
@@ -1333,6 +1356,46 @@
 @PointClass base(vgui_screen_base) size(-4 -4 -4, 4 4 4) = vgui_screen : 
 	"A VGUI screen. Useful for in-world monitors." 
 [
+]
+
+@PointClass base(Targetname, Angles, Parentname) studio("models/editor/axis_helper_thick.mdl") = vgui_slideshow_display : "Slideshow Display"
+[
+	displaytext(string) : "Display Text" : ""
+
+	directory(string) : "Image Directory (materials/vgui/...)" : "slideshow"
+
+	minslidetime(float) : "Min Slide Time" : "0.5" : "Minimum amount of random time that a slide is displayed."
+	maxslidetime(float) : "Max Slide Time" : "0.5" : "Maximum amount of random time that a slide is displayed."
+
+	cycletype(choices) : "Cycle Type" : 0 = 
+	[
+		0 : "Random"
+		1 : "Forward"
+		2 : "Backward"
+	]
+
+	nolistrepeat(choices) : "No List Repeat" : 0 = 
+	[
+		0 : "Allow List Repeats"
+		1 : "No List Repeats"
+	]
+
+	width(integer) : "Panel width" : 256 : "Width of the panel in units."
+	height(integer) : "Panel height" : 128 : "Height of the panel in units."
+
+	input Enable(void) : "Make slideshow visible."
+	input Disable(void) : "Make slideshow invisible."
+
+	input SetDisplayText(string) : "Sets the display text."
+
+	input RemoveAllSlides(void) : "Removes all slides from slideshow."
+	input AddSlides(string) : "Adds slides by keyword."
+
+	input SetMinSlideTime(float) : "Sets min random time between slides."
+	input SetMaxSlideTime(float) : "Sets max random time between slides."
+
+	input SetCycleType(integer) : "0 - random, 1 - forward, 2 - backward"
+	input SetNoListRepeat(bool) : "Sets if lists can be randomly picked twice in a row."
 ]
 
 //-------------------------------------------------------------------------
@@ -1389,6 +1452,7 @@
 [
 	renderamt(integer) : "Brightness (1 - 255)" : 100
 	rendercolor(color255) : "Beam Color (R G B)" : "255 255 255"
+	
 	Radius(integer) : "Radius" : 256 : "If the 'Random Strike' spawnflag is set, this radius determines the area within which the endpoints will randomly strike."
 	life(string) : "Life (seconds 0 = infinite)" : "1" : "Amount of time before the beam dies. Setting to zero will make the beam stay forever."
 	BoltWidth(float) : "Width of beam" : 2 : "Pixel width of the beam."
@@ -1437,6 +1501,9 @@
 	input StrikeOnce(void) : "Causes the beam to strike once. It will stay on for its set Life and then turn off (it will never turn off if Life is set to zero)."
 	input Alpha(integer) : "Sets the beam's alpha (0 - 255)."
 	input Color(color255) : "Sets the beam's render color (R G B)."
+	input ColorRedValue(float) : "Sets the red color channel's value (0 - 255)."
+	input ColorGreenValue(float) : "Sets the green color channel's value (0 - 255)."
+	input ColorBlueValue(float) : "Sets the blue color channel's value (0 - 255)."
 	input Amplitude(float) : "Set the amplitude of beam noise (0 - 255)."
 	input ScrollSpeed(float) : "Set the scroll speed in units per second (0 - 100)."
 	input Width(float) : "Set the width of the beam, in pixels."
@@ -1568,7 +1635,11 @@
 		1024: "No DLights" : 0
 		2048: "Don't clamp Min" : 0
 		4096: "Don't clamp Max" : 0
+		8192: "Damage above surface only" : 0
+		16384: "Generic damage" : 0
 	]
+
+	ignoredEntity(target_destination) : "Ignored Entity" : : "Do not harm or affect the named entity."
 
 	// Inputs
 	input Explode(void) : "Triggers the explosion."
@@ -1633,6 +1704,7 @@
 		1: "No fall-off" : 0
 		2: "Infinite Length" : 0
 		4: "Ignore Mass" : 0
+		8: "Ignore Surface Normal When Applying Force" : 1
 	]
 
 	// Inputs
@@ -1929,6 +2001,7 @@
 		8: "Physics" : 0	// shakes physically as well as the camera
 		16: "Ropes" : 0		// shakes ropes too.
 		32: "DON'T shake view (for shaking ropes or physics only)" : 0
+		64: "DON'T Rumble Controller" : 0
 	]
 
 	amplitude(float) : "Amplitude (0-16)" : "4" : "The amount of noise in the screen shake. Should be a range between 0 and 16."
@@ -2005,6 +2078,7 @@
 	]
 
 	gibgravityscale(float) : "Gib gravity scale" : "1" : "ONLY WORKS FOR POINT GIBS. This field allows you to scale gravity so that gibs fall faster, slower, or not at all."
+	massoverride(float) : "Mass override" : "0" : "EPISODIC ONLY. Specify an arbitrary mass for the gibs emitted by me."
 ]
 
 @PointClass base(gibshooterbase, RenderFields) iconsprite("editor/env_shooter.vmt") = env_rotorshooter : 
@@ -2132,6 +2206,35 @@
 	HDRColorScale(float) : "HDR color scale." : "1.0" : "float value to multiply sprite color by when running in HDR mode."
 	
 	// Inputs
+	input ColorRedValue(float) : "Sets the red color channel's value (0 - 255)."
+	input ColorGreenValue(float) : "Sets the green color channel's value (0 - 255)."
+	input ColorBlueValue(float) : "Sets the blue color channel's value (0 - 255)."
+	input SetScale(float) : "Set the sprite's scale (0 - 8.0)."
+	input HideSprite(void) : "Hide the sprite. Won't be drawn until the 'ShowSprite' input is received."
+	input ShowSprite(void) : "Show the sprite."
+	input ToggleSprite(void) : "Toggle the sprite between hidden and shown."
+]
+
+@PointClass base(env_sprite, Angles) = env_sprite_oriented :
+    "A env_sprite that allows orientation."
+[
+	framerate(string) : "Framerate" : "10.0" : "Rate at which the sprite should animate, if at all."
+	model(sprite) : "Sprite Name" : "sprites/glow01.spr" : "Material of the sprite to be drawn."
+	scale(string) : "Scale" : "" : "Scale multiplier of the sprite."
+	spawnflags(flags) =
+	[
+		1: "Start on" : 0
+		2: "Play Once" : 0
+	]
+
+	GlowProxySize(float) : "Size of Glow Proxy Geometry." : "2.0" : "Size of the glow to be rendered for visibility testing. Must be larger than the distance from the sprite center to empty space.  So if this glow is inside geometry (like a light bulb), set this value to be bigger than the bulb's radius. Any time a sphere of this radius would be visible (poking through any nearby geometry), the glow will be rendered."
+
+	HDRColorScale(float) : "HDR color scale." : "1.0" : "float value to multiply sprite color by when running in HDR mode."
+	
+	// Inputs
+	input ColorRedValue(float) : "Sets the red color channel's value (0 - 255)."
+	input ColorGreenValue(float) : "Sets the green color channel's value (0 - 255)."
+	input ColorBlueValue(float) : "Sets the blue color channel's value (0 - 255)."
 	input SetScale(float) : "Set the sprite's scale (0 - 8.0)."
 	input HideSprite(void) : "Hide the sprite. Won't be drawn until the 'ShowSprite' input is received."
 	input ShowSprite(void) : "Show the sprite."
@@ -2328,14 +2431,20 @@
 	input Disable(void) : "Stop displaying the message text."
 ]
 
-@PointClass base(Targetname, Parentname, RenderFields, Angles) studio("models/editor/axis_helper_thick.mdl") = point_spotlight : 
+@PointClass base(Targetname, Parentname, RenderFields, Angles, DXLevelChoice) studio("models/editor/cone_helper.mdl") = point_spotlight : 
 	"An entity to draw a spotlight. Will draw a beam when the player views it side on, and a halo when it's facing towards the player. "+
 	"Unless the 'No Dynamic Light' spawnflag is checked, it will also create a dynamic light wherever the end of the spotlight rests."
 [
 	spawnflags(Flags) = 
 	[
 		1 :  "Start On" : 1
-		2 :  "No Dynamic Light" : 0
+		2 :  "No Dynamic Light" : 1
+	]
+
+	IgnoreSolid(choices) : "Ignore Solid" : 0 : "If set, this spotlight won't trace for solids." =
+	[
+		0 : "No"
+		1 : "Yes"
 	]
 
 	spotlightlength(integer) : "Spotlight Length" : 500 : "Length of the spotlight beam."
@@ -2407,7 +2516,7 @@
 
 	// Inputs
 	input Deactivate(void) : "Return Player Control."
-	input Activate(void) : "Take Player Control."
+	input Activate(string) : "Take Player Control."
 
 	// Outputs
 	output PlayerOn(void) : "Fired whenever this entity starts controlling the player's input."
@@ -2418,6 +2527,12 @@
 	output PressedBack(void) : "Fired whenever the player presses the backward key."
 	output PressedAttack(void) : "Fired whenever the player presses the attack key."
 	output PressedAttack2(void) : "Fired whenever the player presses the secondary attack key."
+	output UnpressedMoveLeft(void) : "Fired whenever the player releases the moveleft key."
+	output UnpressedMoveRight(void) : "Fired whenever the player releases the moveright key."
+	output UnpressedForward(void) : "Fired whenever the player releases the forward key."
+	output UnpressedBack(void) : "Fired whenever the player releases the backward key."
+	output UnpressedAttack(void) : "Fired whenever the player releases the attack key."
+	output UnpressedAttack2(void) : "Fired whenever the player releases the secondary attack key."
 
 	output XAxis(string) : "An output that fires whenever the X axis of the player's input changes. i.e. -1 when the player has moveleft key down, 1 when the player has moveright key down, and 0 if neither."
 	output YAxis(string) : "An output that fires whenever the Y axis of the player's input changes. i.e. -1 when the player has backward key down, 1 when the player has forward key down, and 0 if neither."
@@ -2547,8 +2662,104 @@
 @PointClass base(Targetname, Parentname, Angles) iconsprite("editor/info_target.vmt")  = info_target : 
 	"An entity that does nothing. Very useful as a positioning entity for other entities to refer to (i.e. the endpoint of an env_beam)"
 [
-	input DispatchEffect(string) : "Dispatch an effect from this point. Unfinished."
+	spawnflags( Flags ) =
+	[
+		1 : "Transmit to client" : 0
+	]
 ]
+
+@PointClass base(Targetname, Parentname, Angles) studio("models/editor/cone_helper.mdl") line(255 255 255, targetname, cpoint1) line(255 255 255, targetname, cpoint2) line(255 255 255, targetname, cpoint3) line(255 255 255, targetname, cpoint4) line(255 255 255, targetname, cpoint5) line(255 255 255, targetname, cpoint6) line(255 255 255, targetname, cpoint7) line(255 255 255, targetname, cpoint8) line(255 255 255, targetname, cpoint9) line(255 255 255, targetname, cpoint10) line(255 255 255, targetname, cpoint11) line(255 255 255, targetname, cpoint12) line(255 255 255, targetname, cpoint13) line(255 255 255, targetname, cpoint14) line(255 255 255, targetname, cpoint15) line(255 255 255, targetname, cpoint16) line(255 255 255, targetname, cpoint17) line(255 255 255, targetname, cpoint18) line(255 255 255, targetname, cpoint19) line(255 255 255, targetname, cpoint20) line(255 255 255, targetname, cpoint21) line(255 255 255, targetname, cpoint22) line(255 255 255, targetname, cpoint23) line(255 255 255, targetname, cpoint24) line(255 255 255, targetname, cpoint25) line(255 255 255, targetname, cpoint26) line(255 255 255, targetname, cpoint27) line(255 255 255, targetname, cpoint28) line(255 255 255, targetname, cpoint29) line(255 255 255, targetname, cpoint30) line(255 255 255, targetname, cpoint31) line(255 255 255, targetname, cpoint32) line(255 255 255, targetname, cpoint33) line(255 255 255, targetname, cpoint34) line(255 255 255, targetname, cpoint35) line(255 255 255, targetname, cpoint36) line(255 255 255, targetname, cpoint37) line(255 255 255, targetname, cpoint38) line(255 255 255, targetname, cpoint39) line(255 255 255, targetname, cpoint40) line(255 255 255, targetname, cpoint41) line(255 255 255, targetname, cpoint42) line(255 255 255, targetname, cpoint43) line(255 255 255, targetname, cpoint44) line(255 255 255, targetname, cpoint45) line(255 255 255, targetname, cpoint46) line(255 255 255, targetname, cpoint47) line(255 255 255, targetname, cpoint48) line(255 255 255, targetname, cpoint49) line(255 255 255, targetname, cpoint50) line(255 255 255, targetname, cpoint51) line(255 255 255, targetname, cpoint52) line(255 255 255, targetname, cpoint53) line(255 255 255, targetname, cpoint54) line(255 255 255, targetname, cpoint55) line(255 255 255, targetname, cpoint56) line(255 255 255, targetname, cpoint57) line(255 255 255, targetname, cpoint58) line(255 255 255, targetname, cpoint59) line(255 255 255, targetname, cpoint60) line(255 255 255, targetname, cpoint61) line(255 255 255, targetname, cpoint62) line(255 255 255, targetname, cpoint63) = info_particle_system : 
+	"An entity that spawns a particle system built using the particle editor."
+[
+	effect_name(string) : "Particle System Name"
+	start_active(choices) : "Start Active?" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	flag_as_weather(choices) : "Flag as Weather?" : 0 : "Is this particle system going to be used as a weather effect?" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	cpoint1(target_destination) : "Control Point 1" : : "If set, control point 1 of the effect will be at this entity's location."
+	cpoint2(target_destination) : "Control Point 2" : : "If set, control point 2 of the effect will be at this entity's location. If control point 1 is not set, this will be ignored."
+	cpoint3(target_destination) : "Control Point 3" : : "If set, control point 3 of the effect will be at this entity's location. If control point 2 is not set, this will be ignored."
+	cpoint4(target_destination) : "Control Point 4" : : "If set, control point 4 of the effect will be at this entity's location. If control point 3 is not set, this will be ignored."
+	cpoint5(target_destination) : "Control Point 5" : : "If set, control point 5 of the effect will be at this entity's location. If control point 4 is not set, this will be ignored."
+	cpoint6(target_destination) : "Control Point 6" : : "If set, control point 6 of the effect will be at this entity's location. If control point 5 is not set, this will be ignored."
+	cpoint7(target_destination) : "Control Point 7" : : "If set, control point 7 of the effect will be at this entity's location. If control point 6 is not set, this will be ignored."
+	cpoint8(target_destination) : "Control Point 8" : : "If set, control point 8 of the effect will be at this entity's location. If control point 7 is not set, this will be ignored."
+	cpoint9(target_destination) : "Control Point 9" : : "If set, control point 9 of the effect will be at this entity's location. If control point 8 is not set, this will be ignored."
+	cpoint10(target_destination) : "Control Point 10" : : "If set, control point 10 of the effect will be at this entity's location. If control point 9 is not set, this will be ignored."
+	cpoint11(target_destination) : "Control Point 11" : : "If set, control point 11 of the effect will be at this entity's location. If control point 10 is not set, this will be ignored."
+	cpoint12(target_destination) : "Control Point 12" : : "If set, control point 12 of the effect will be at this entity's location. If control point 11 is not set, this will be ignored."
+	cpoint13(target_destination) : "Control Point 13" : : "If set, control point 13 of the effect will be at this entity's location. If control point 12 is not set, this will be ignored."
+	cpoint14(target_destination) : "Control Point 14" : : "If set, control point 14 of the effect will be at this entity's location. If control point 13 is not set, this will be ignored."
+	cpoint15(target_destination) : "Control Point 15" : : "If set, control point 15 of the effect will be at this entity's location. If control point 14 is not set, this will be ignored."
+	cpoint16(target_destination) : "Control Point 16" : : "If set, control point 16 of the effect will be at this entity's location. If control point 15 is not set, this will be ignored."
+	cpoint17(target_destination) : "Control Point 17" : : "If set, control point 17 of the effect will be at this entity's location. If control point 16 is not set, this will be ignored."
+	cpoint18(target_destination) : "Control Point 18" : : "If set, control point 18 of the effect will be at this entity's location. If control point 17 is not set, this will be ignored."
+	cpoint19(target_destination) : "Control Point 19" : : "If set, control point 19 of the effect will be at this entity's location. If control point 18 is not set, this will be ignored."
+	cpoint20(target_destination) : "Control Point 20" : : "If set, control point 20 of the effect will be at this entity's location. If control point 19 is not set, this will be ignored."
+	cpoint21(target_destination) : "Control Point 21" : : "If set, control point 21 of the effect will be at this entity's location. If control point 10 is not set, this will be ignored."
+	cpoint22(target_destination) : "Control Point 22" : : "If set, control point 22 of the effect will be at this entity's location. If control point 21 is not set, this will be ignored."
+	cpoint23(target_destination) : "Control Point 23" : : "If set, control point 23 of the effect will be at this entity's location. If control point 22 is not set, this will be ignored."
+	cpoint24(target_destination) : "Control Point 24" : : "If set, control point 24 of the effect will be at this entity's location. If control point 23 is not set, this will be ignored."
+	cpoint25(target_destination) : "Control Point 25" : : "If set, control point 25 of the effect will be at this entity's location. If control point 24 is not set, this will be ignored."
+	cpoint26(target_destination) : "Control Point 26" : : "If set, control point 26 of the effect will be at this entity's location. If control point 25 is not set, this will be ignored."
+	cpoint27(target_destination) : "Control Point 27" : : "If set, control point 27 of the effect will be at this entity's location. If control point 26 is not set, this will be ignored."
+	cpoint28(target_destination) : "Control Point 28" : : "If set, control point 28 of the effect will be at this entity's location. If control point 27 is not set, this will be ignored."
+	cpoint29(target_destination) : "Control Point 29" : : "If set, control point 29 of the effect will be at this entity's location. If control point 28 is not set, this will be ignored."
+	cpoint30(target_destination) : "Control Point 30" : : "If set, control point 30 of the effect will be at this entity's location. If control point 29 is not set, this will be ignored."
+	cpoint31(target_destination) : "Control Point 31" : : "If set, control point 31 of the effect will be at this entity's location. If control point 30 is not set, this will be ignored."
+	cpoint32(target_destination) : "Control Point 32" : : "If set, control point 32 of the effect will be at this entity's location. If control point 31 is not set, this will be ignored."
+	cpoint33(target_destination) : "Control Point 33" : : "If set, control point 33 of the effect will be at this entity's location. If control point 32 is not set, this will be ignored."
+	cpoint34(target_destination) : "Control Point 34" : : "If set, control point 34 of the effect will be at this entity's location. If control point 33 is not set, this will be ignored."
+	cpoint35(target_destination) : "Control Point 35" : : "If set, control point 35 of the effect will be at this entity's location. If control point 34 is not set, this will be ignored."
+	cpoint36(target_destination) : "Control Point 36" : : "If set, control point 36 of the effect will be at this entity's location. If control point 35 is not set, this will be ignored."
+	cpoint37(target_destination) : "Control Point 37" : : "If set, control point 37 of the effect will be at this entity's location. If control point 36 is not set, this will be ignored."
+	cpoint38(target_destination) : "Control Point 38" : : "If set, control point 38 of the effect will be at this entity's location. If control point 37 is not set, this will be ignored."
+	cpoint39(target_destination) : "Control Point 39" : : "If set, control point 39 of the effect will be at this entity's location. If control point 38 is not set, this will be ignored."
+	cpoint40(target_destination) : "Control Point 40" : : "If set, control point 40 of the effect will be at this entity's location. If control point 39 is not set, this will be ignored."
+	cpoint41(target_destination) : "Control Point 41" : : "If set, control point 41 of the effect will be at this entity's location. If control point 40 is not set, this will be ignored."
+	cpoint42(target_destination) : "Control Point 42" : : "If set, control point 42 of the effect will be at this entity's location. If control point 41 is not set, this will be ignored."
+	cpoint43(target_destination) : "Control Point 43" : : "If set, control point 43 of the effect will be at this entity's location. If control point 42 is not set, this will be ignored."
+	cpoint44(target_destination) : "Control Point 44" : : "If set, control point 44 of the effect will be at this entity's location. If control point 43 is not set, this will be ignored."
+	cpoint45(target_destination) : "Control Point 45" : : "If set, control point 45 of the effect will be at this entity's location. If control point 44 is not set, this will be ignored."
+	cpoint46(target_destination) : "Control Point 46" : : "If set, control point 46 of the effect will be at this entity's location. If control point 45 is not set, this will be ignored."
+	cpoint47(target_destination) : "Control Point 47" : : "If set, control point 47 of the effect will be at this entity's location. If control point 46 is not set, this will be ignored."
+	cpoint48(target_destination) : "Control Point 48" : : "If set, control point 48 of the effect will be at this entity's location. If control point 47 is not set, this will be ignored."
+	cpoint49(target_destination) : "Control Point 49" : : "If set, control point 49 of the effect will be at this entity's location. If control point 48 is not set, this will be ignored."
+	cpoint50(target_destination) : "Control Point 50" : : "If set, control point 50 of the effect will be at this entity's location. If control point 49 is not set, this will be ignored."
+	cpoint51(target_destination) : "Control Point 51" : : "If set, control point 51 of the effect will be at this entity's location. If control point 50 is not set, this will be ignored."
+	cpoint52(target_destination) : "Control Point 52" : : "If set, control point 52 of the effect will be at this entity's location. If control point 51 is not set, this will be ignored."
+	cpoint53(target_destination) : "Control Point 53" : : "If set, control point 53 of the effect will be at this entity's location. If control point 52 is not set, this will be ignored."
+	cpoint54(target_destination) : "Control Point 54" : : "If set, control point 54 of the effect will be at this entity's location. If control point 53 is not set, this will be ignored."
+	cpoint55(target_destination) : "Control Point 55" : : "If set, control point 55 of the effect will be at this entity's location. If control point 54 is not set, this will be ignored."
+	cpoint56(target_destination) : "Control Point 56" : : "If set, control point 56 of the effect will be at this entity's location. If control point 55 is not set, this will be ignored."
+	cpoint57(target_destination) : "Control Point 57" : : "If set, control point 57 of the effect will be at this entity's location. If control point 56 is not set, this will be ignored."
+	cpoint58(target_destination) : "Control Point 58" : : "If set, control point 58 of the effect will be at this entity's location. If control point 57 is not set, this will be ignored."
+	cpoint59(target_destination) : "Control Point 59" : : "If set, control point 59 of the effect will be at this entity's location. If control point 58 is not set, this will be ignored."
+	cpoint60(target_destination) : "Control Point 60" : : "If set, control point 60 of the effect will be at this entity's location. If control point 59 is not set, this will be ignored."
+	cpoint61(target_destination) : "Control Point 61" : : "If set, control point 61 of the effect will be at this entity's location. If control point 60 is not set, this will be ignored."
+	cpoint62(target_destination) : "Control Point 62" : : "If set, control point 62 of the effect will be at this entity's location. If control point 61 is not set, this will be ignored."
+	cpoint63(target_destination) : "Control Point 63" : : "If set, control point 63 of the effect will be at this entity's location. If control point 62 is not set, this will be ignored."
+	
+	cpoint1_parent(integer) : "Control Point 1's Parent" : 0 : "If set and nonzero, control point 1 of the effect will use this point for its parent."
+	cpoint2_parent(integer) : "Control Point 2's Parent" : 0 : "If set and nonzero, control point 2 of the effect will use this point for its parent."
+	cpoint3_parent(integer) : "Control Point 3's Parent" : 0 : "If set and nonzero, control point 3 of the effect will use this point for its parent."
+	cpoint4_parent(integer) : "Control Point 4's Parent" : 0 : "If set and nonzero, control point 4 of the effect will use this point for its parent."
+	cpoint5_parent(integer) : "Control Point 5's Parent" : 0 : "If set and nonzero, control point 5 of the effect will use this point for its parent."
+	cpoint6_parent(integer) : "Control Point 6's Parent" : 0 : "If set and nonzero, control point 6 of the effect will use this point for its parent."
+	cpoint7_parent(integer) : "Control Point 7's Parent" : 0 : "If set and nonzero, control point 7 of the effect will use this point for its parent."
+
+	// Inputs
+	input Start(void) : "Tell the particle system to start emitting."
+	input Stop(void) : "Tell the particle system to stop emitting."
+]
+
 
 @PointClass base(Targetname, EnableDisable, Parentname, Angles) iconsprite("editor/info_target.vmt") sphere(radius) = phys_ragdollmagnet : 
 	"An entity that acts like a magnet for ragdolls. Useful for crafting exaggerated ragdoll behavior (i.e. guys falling over rails on death). If the "+
@@ -2664,6 +2875,11 @@
 		8 : "Climb"
 	]
 	AllowUse(string) : "Allow Pass When Off" : : "Entity or class to allow passage even when node is off"
+	InvertAllow(choices) : "Invert exclusion rules" : 0 : "Allowed entity is the only entity NOT allowed when this is set to 'yes'" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
 
 	spawnflags( Flags ) =
 	[
@@ -2695,7 +2911,19 @@
 		0 : "Off"
 		1 : "On"
 	]
+	useairlinkradius(choices) : "Use Larger Radius (for air links)" : 0 : "Set this to 'Yes' if this controller is intended to control air links. "+
+		"Air links connect using a larger search radius so leaving this at 'No' might miss some air links." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
 	AllowUse(string) : "Allow Pass When Off" : : "Entity or class to allow passage even when node is off"
+	InvertAllow(choices) : "Invert exclusion rules" : 0 : "Allowed entity is the only entity NOT allowed when this is set to 'yes'" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
 
 	// Inputs
 	input TurnOn(void) : "Turn the link on."
@@ -2859,8 +3087,6 @@
 	maxweight(float)    : "Maximum Weight"		  : "1.0"  : "This is the maximum weight for this lookup"
 	filename(string)    : "Lookup Table Filename" : ""     : "This is the lookup table filename"
 
-	// Inputs
-	input filename(string) : "Set the lookup table filename."
 ]
 
 
@@ -3381,7 +3607,7 @@
 		0 : "Closed"
 		1 : "Open"
 	]
-	
+
 	spawnflags(flags) =
 	[
 		1 : "Starts Open - OBSOLETE, use 'Spawn Position' key instead" : 0
@@ -3727,8 +3953,7 @@
 	target(target_destination) : "Entity to Look At" : : "Name of the entity that the camera should point at and track while active."
 	targetattachment(string) : "Target Attachment Name" : : "If set, the camera will focus on the specified attachment on the 'Entity to Look At'."
 	wait(integer) : "Hold Time" : 10 : "The amount of time the camera should control the player's view for, after which it deactivates itself. If the camera should stay active until told to deactive, set the 'Infinite Hold Time' spawnflag."
-	moveto(target_destination) : "Path Corner" : : "The first path corner in a track that the camera should move along once it's activated. If not specified, the
-	camera won't move."
+	moveto(target_destination) : "Path Corner" : : "The first path corner in a track that the camera should move along once it's activated. If not specified, the camera won't move."
 	interpolatepositiontoplayer(choices) : "Interpolate Position To Player" : 0 : "Gradually interpolate player's position to here on start. (Episodic only)" =
 	[
 		0 : "No"
@@ -3995,6 +4220,9 @@
 	input UpperRandomBound(float) : "Set a new Maximum Random Interval."
 	input AddToTimer(float) : "Add time to the timer if it is currently enabled.  Does not change the Refire Interval."
 	input SubtractFromTimer(float) : "Subtract time from the timer if it is currently enabled.  Does not change the Refire Interval."
+	input SetHitMax(integer): "Set the upper bound of the counter and fire the OutValue output with the current value."
+	input SetHitMin(integer): "Set the lower bound of the counter and fire the OutValue output with the current value."
+	input GetValue(void): "Causes the counter fire its OnGetValue output with the current value of the counter. Used for polling the counter when you don't want constant updates from the OutValue output."
 
 	// Outputs
 	output OnTimer(void) : "Fired when the timer expires."
@@ -4385,7 +4613,9 @@
 	// Inputs
 	input Toggle(void) : "Toggle the sensor between enabled and disabled."
 	input Test(void) : "Check to see if the Target Entity is facing the Look At Entity within the specified tolerance, firing either the OnFacingLookat or OnNotFacingLookat output based on the result."
-	
+	input TestWithInterval(void) : "Checks to see if the Target Entity's angular velocity meets or exceeds the Threshold Velocity. Once the Fire Interval expires, " +
+		"fires the appropriate test result output if the result is stable throughout the Fire Interval."
+
 	// Outputs
 	output TargetDir(vector) : "Fired when the forward direction of the Target Entity changes. Passes the new forward direction as a parameter."
 	output OnFacingLookat(void) : "Fired when the Target Entity points at the Look At Entity for more than the specified Duration, or in response to a Test input."
@@ -4472,7 +4702,6 @@
 
 	// Inputs
 	input Teleport(void) : "Teleport the target entity."
-
 	input TestWithInterval(void) : "Checks to see if the Target Entity's angular velocity meets or exceeds the Threshold Velocity. Once the Fire Interval expires, " +
 		"fires the appropriate test result output if the result is stable throughout the Fire Interval."
 ]
@@ -5675,18 +5904,6 @@
 // Triggers
 //
 //-------------------------------------------------------------------------
-
-@SolidClass base(Targetname) = trigger_autosave : 
-	"A trigger volume that autosaves when the player touches it."
-[
-	master(string) : "Master" : : "Legacy support: The name of a master entity. If the master hasn't been activated, this entity will not activate."
-	NewLevelUnit(choices) : "Force New Level Unit" : 0 : "If set, the save will discard any savedata from previous levels, for the purpose of keeping savegame filesizes down. Can only be safely used if there is no way for the player to return to previous levels." =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
-	DangerousTimer(float) : "Dangerous Timer" : 0 : "The number of seconds the player must survive before this autosave takes effect."
-]
 
 @SolidClass base(EnableDisable) = trigger_changelevel : 
 	"An entity that triggers a level change.\n" +
