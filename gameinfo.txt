@@ -15,6 +15,7 @@
 		"test_hardware" 1
 		"ff_training" 1	// should only be accessible through "Training" from main menu
 	}
+	GameData "FortressForever.fgd"
 	supportsvr	0
 
 
