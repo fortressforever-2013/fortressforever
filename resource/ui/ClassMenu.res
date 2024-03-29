@@ -577,7 +577,7 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"			"randompc"
+		"Command"			"random"
 	}
 	"CancelButton"
 	{
