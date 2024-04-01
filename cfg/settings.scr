@@ -76,6 +76,19 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 
+	"mp_flashlight"
+	{
+		"Flashlights"
+		{ BOOL }
+		{ "1" }
+	}
+	"mp_allowspectators"
+	{
+		"Allow Spectators"
+		{ BOOL }
+		{ "1" }
+	}
+	
 	"sv_lan"
 	{
 		"sv_lan"
