@@ -1,26 +1,26 @@
 WeaponData
 {
 	// Weapon characteristics MELEE:
-	"CycleTime"	"0.4"	// Rate of fire
-	"Damage"	"30"		// Damage
-	"Range"	"32.0"	// Reach
+	"CycleTime"		"0.4"	// Rate of fire
+	"Damage"		"30"		// Damage
+	"Range"			"32.0"	// Reach
 
-	"MeleeWeapon"	"1"
+	"MeleeWeapon"		"1"
 
-	"ffencrypted"	"1" // required for the script to load
+	"ffencrypted"		"1" // required for the script to load
 
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"#FF_WPNHUD_UMBRELLA"
-	"viewmodel"	"models/weapons/umbrella/v_umbrella.mdl"
-	"playermodel"	"models/weapons/umbrella/w_umbrella.mdl"
-	"anim_prefix"	"anim"
+	"printname"		"#FF_WPNHUD_UMBRELLA"
+	"viewmodel"		"models/weapons/umbrella/v_umbrella.mdl"
+	"playermodel"		"models/weapons/umbrella/w_umbrella.mdl"
+	"anim_prefix"		"anim"
 	"PlayerAnimationExtension" "umbrella"
-	"bucket"	"0"
+	"bucket"		"0"
 	"bucket_position"	"4"
 	
 	// Misc
-	"weight"	"10"
-	"item_flags"	"0"
+	"weight"		"10"
+	"item_flags"		"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

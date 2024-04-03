@@ -6,20 +6,20 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"#HL2_Cubemap"
-	"viewmodel"	"models/shadertest/envballs.mdl"
-	"playermodel"	"models/shadertest/envballs.mdl"
-	"anim_prefix"	"envballs"
-	"bucket"	"0"
+	"printname"		"#HL2_Cubemap"
+	"viewmodel"		"models/shadertest/envballs.mdl"
+	"playermodel"		"models/shadertest/envballs.mdl"
+	"anim_prefix"		"envballs"
+	"bucket"		"0"
 	"bucket_position"	"2"
 
-	"clip_size"	"-1"
-	"clip2_size"	"-1"
+	"clip_size"		"-1"
+	"clip2_size"		"-1"
 
-	"default_clip"	"-1"
-	"default_clip2"	"-1"
+	"default_clip"		"-1"
+	"default_clip2"		"-1"
 
-	"primary_ammo"	"None"
+	"primary_ammo"		"None"
 	"secondary_ammo"	"None"
 
 	"weight"	"0"
