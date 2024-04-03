@@ -82,7 +82,7 @@
 	output OnOutput(void) : "Output to be fired when activated from the lua scripting environment."
 ]
 
-@SolidClass base(Targetname, RenderFields, Global) = trigger_ff_clip :
+@SolidClass base(Trigger, RenderFields, Global) = trigger_ff_clip :
 	"Lua clip brush."
 [
 ]
@@ -93,8 +93,8 @@
 	output OnOutput(void) : "Output to be fired when activated from the lua scripting environment."
 ]
 
-@PointClass base(Targetname, Angles) studio("models/editor/playerstart.mdl") = info_ff_teamspawn :
-	"Team Spawn. This entity is placed where players will be spawned. The scripting environment in Fortress Forever " +
+@PointClass base(Targetname, PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_ff_teamspawn :
+	"Team Spawn. Players will spawn from this entity's position. The scripting environment in Fortress Forever " +
 	"controls which players will be able to spawn here. See the documentation for more details."
 [
 ]
