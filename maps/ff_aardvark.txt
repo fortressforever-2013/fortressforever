@@ -1,0 +1,6 @@
+Steal the enemy flag while protecting your own
+[1] Take enemy flag
+[2] Bring to capture point in your base
+Deactivate enemy security to open up additional routes to the enemy flag
+SCORING: 10 points per flag capture
+Team with most points at end of round wins
