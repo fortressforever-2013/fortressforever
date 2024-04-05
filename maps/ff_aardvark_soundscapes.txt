@@ -1,0 +1,33 @@
+"aardvark_inside"
+{
+	"dsp"	"1"
+	"dsp_volume"	"0.5"
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"	"100"
+		"wave"	"ambient/push/inside_amb1.wav"
+	}
+}
+"aardvark_basement"
+{
+	"dsp"	"1"
+	"dsp_volume"	"0.5"
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"	"100"
+		"wave"	"ambient/water/drip_loop1.wav"
+	}
+}
+"aardvark_outside"
+{
+	"dsp"	"1"
+	"dsp_volume"	"0.4"
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"	"100"
+		"wave"	"ff_aardvark/exo_birds.wav"
+	}
+}
