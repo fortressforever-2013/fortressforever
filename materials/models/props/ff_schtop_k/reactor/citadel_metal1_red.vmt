@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "ff_schtop/citadel_metal1_red"
+	"$color" "[0.75 0.75 0.75]"
+	"$basealphaenvmapmask" 1
+	"$surfaceprop" "metal"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+}

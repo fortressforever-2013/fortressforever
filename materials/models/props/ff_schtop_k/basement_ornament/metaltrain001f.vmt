@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "ff_dropdown/metaltrain001f"
+	"$surfaceprop" "metal"
+}

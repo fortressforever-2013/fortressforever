@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"%keywords" "ff"
+	"$basetexture" "ff/ff_trim_concrete_07"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "ff/ff_trim_concrete_07_normspec"
+	"$normalmapalphaenvmapmask" 1
+}
