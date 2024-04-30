@@ -51,7 +51,7 @@ DESCRIPTION SERVER_OPTIONS
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
-		{ NUMBER 1 22 }
+		{ NUMBER 1 32 }
 		{ "16" }
 	}
 
@@ -91,91 +91,91 @@ DESCRIPTION SERVER_OPTIONS
 	
 	"sv_lan"
 	{
-		"sv_lan"
+		"#FF_LANGAME"
 		{ BOOL }
 		{ "0" }
 	}
 
 	"sv_alltalk"
 	{
-		"sv_alltalk"
+		"#FF_ALLOW_ALLTALK"
 		{ BOOL }
 		{ "0" }
 	}
 
 	"sv_cheats"
 	{
-		"sv_cheats"
+		"#FF_ALLOW_CHEATS"
 		{ BOOL }
 		{ "0" }
 	}
 
 	"cr_scout"
 	{
-		"cr_scout"
+		"#FF_NUMALLOWED_SCOUT"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_sniper"
 	{
-		"cr_sniper"
+		"#FF_NUMALLOWED_SNIPER"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_soldier"
 	{
-		"cr_soldier"
+		"#FF_NUMALLOWED_SOLDIER"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_demoman"
 	{
-		"cr_demoman"
+		"#FF_NUMALLOWED_DEMOMAN"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_medic"
 	{
-		"cr_medic"
+		"#FF_NUMALLOWED_MEDIC"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_hwguy"
 	{
-		"cr_hwguy"
+		"#FF_NUMALLOWED_HWGUY"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_pyro"
 	{
-		"cr_pyro"
+		"#FF_NUMALLOWED_PYRO"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_spy"
 	{
-		"cr_spy"
+		"#FF_NUMALLOWED_SPY"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_engineer"
 	{
-		"cr_engineer"
+		"#FF_NUMALLOWED_ENGINEER"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
 
 	"cr_civilian"
 	{
-		"cr_civilian"
+		"#FF_NUMALLOWED_CIVILIAN"
 		{ NUMBER -1 -1 }
 		{ "0" }
 	}
