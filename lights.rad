@@ -109,6 +109,9 @@ hdr: shadertest/gooinglass 149 49 15 25
 ldr: glass/glasswindow002e 189 233 247 425
 hdr: glass/glasswindow002e 189 233 247 212
 
+ldr: ff_hunted/ff_glasswindow005b 253 238 176 65
+hdr: ff_hunted/ff_glasswindow005b 253 238 176 32
+
 ldr: glass/glasswindow035a 145 222 172 100
 hdr: glass/glasswindow035a 145 222 172 50
 
@@ -137,8 +140,39 @@ hdr: lights/physgunlight 189 231 232 10
 
 noshadow tree_deciduous_01a_branches.vmt
 noshadow tree_deciduous_01a_leaves.vmt
+noshadow tree_deciduous_01a_leaves2.vmt
 noshadow tree_deciduous_01a_lod.vmt
 noshadow tree_deciduous_01a_lod-leaves.vmt
+noshadow ashbranch.vmt
+noshadow branches1024.vmt
+noshadow fullerleavesm.vmt
+noshadow tree1_carda.vmt
+noshadow tree1_cardb.vmt
+noshadow tree2_carda.vmt
+noshadow tree2_cardb.vmt
+noshadow tree3_carda.vmt
+noshadow tree3_cardb.vmt
+
+noshadow gras01.vmt
+noshadow h_plant02a.vmt
+noshadow h_plant02b.vmt
+noshadow plant09.vmt
+noshadow plant11.vmt
+noshadow plant12.vmt
+noshadow tree03a.vmt
+noshadow tree09a.vmt
+noshadow tree09c.vmt
+noshadow tree09d.vmt
+noshadow tree11.vmt
+noshadow tree11a.vmt
+noshadow treering.vmt
+noshadow baum01a.vmt
+noshadow baum01b.vmt
+noshadow baum01c.vmt
+noshadow baum01d.vmt
+noshadow baum01e.vmt
+noshadow baum01f.vmt
+noshadow baum01g.vmt
 
 forcetextureshadow props_wasteland/exterior_fence_notbarbed002a.mdl
 forcetextureshadow props_wasteland/exterior_fence_notbarbed002b.mdl
@@ -182,3 +216,40 @@ forcetextureshadow props_wasteland/interior_fence003e.mdl
 forcetextureshadow props_wasteland/interior_fence003f.mdl
 forcetextureshadow props_wasteland/interior_fence004a.mdl
 forcetextureshadow props_wasteland/interior_fence004b.mdl
+forcetextureshadow _outdoor/pflanzen/baum01.mdl
+forcetextureshadow _outdoor/pflanzen/baum02.mdl
+forcetextureshadow _outdoor/pflanzen/baum03.mdl
+forcetextureshadow _outdoor/pflanzen/baum04.mdl
+forcetextureshadow _outdoor/pflanzen/baum05.mdl
+forcetextureshadow _outdoor/pflanzen/baum06.mdl
+forcetextureshadow _outdoor/pflanzen/busch01.mdl
+forcetextureshadow _outdoor/pflanzen/busch02.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_baum01.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_baum02.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_baum03.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_baum04.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_baum05.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_busch01.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_busch02.mdl
+forcetextureshadow _outdoor/pflanzen/skybox_busch03.mdl
+forcetextureshadow cctrees/scrub01.mdl
+forcetextureshadow cctrees/scrub02.mdl
+forcetextureshadow cctrees/scrub03.mdl
+forcetextureshadow cctrees/tree1.mdl
+forcetextureshadow cctrees/tree2.mdl
+forcetextureshadow cctrees/tree3.mdl
+forcetextureshadow cctrees/tree4.mdl
+forcetextureshadow props/ff_cornfield/zo_cornrow.mdl
+forcetextureshadow props/ff_cornfield/zo_cornstalk.mdl
+forcetextureshadow props/ff_fusion/shrubbery_256.mdl
+forcetextureshadow props/ff_monkey/bodendecker.mdl
+forcetextureshadow props/ff_monkey/fence.mdl
+forcetextureshadow props/ff_monkey/gras01.mdl
+forcetextureshadow props/ff_monkey/gras02.mdl
+forcetextureshadow props/ff_monkey/gras03.mdl
+forcetextureshadow props/ff_monkey/plant01.mdl
+forcetextureshadow props/ff_monkey/plant02.mdl
+forcetextureshadow props/ff_monkey/plant03.mdl
+forcetextureshadow props/ff_monkey/plant04.mdl
+forcetextureshadow props/ff_monkey/plant05.mdl
+forcetextureshadow props/ff_monkey/tree01.mdl
