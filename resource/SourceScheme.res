@@ -382,6 +382,7 @@ Scheme
 			"1"
 			{
 				"name"		"Lucida Console"
+				"tall"		"14" [$LINUX]
 				"tall"		"10"
 				"weight"	"500"
 			}
@@ -991,5 +992,6 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HUDfont.ttf"
+		"3"		"resource/marlett.ttf"
 	}
 }
