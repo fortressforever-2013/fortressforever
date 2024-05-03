@@ -312,6 +312,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"tall"		"18" [$LINUX]
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -320,6 +321,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
+				"tall"		"21" [$LINUX]
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -328,6 +330,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
+				"tall"		"22" [$LINUX]
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -336,6 +339,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
+				"tall"		"25" [$LINUX]
 				"tall"		"17"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -344,6 +348,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
+				"tall"		"33" [$LINUX]
 				"tall"		"22"
 				"weight"	"700"
 				"yres"		"1200 10000"

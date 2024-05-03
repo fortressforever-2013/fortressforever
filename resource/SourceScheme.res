@@ -504,11 +504,12 @@ Scheme
 //			}
 		}
 
-		"DefaultFixedDropShadow"
+		"DefaultFixedDropShadow" // developer 1
 		{
 			"1"
 			{
 				"name"		"Lucida Console"
+				"tall"		"20" [$LINUX] // no it's not too big... it's perfect
 				"tall"		"10"
 				"weight"	"0"
 				"dropshadow" "1"

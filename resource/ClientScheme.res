@@ -307,6 +307,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"tall"		"13" [$LINUX]
 				"tall"		"9"
 				"weight"	"700"
 				"antialias"	"1"
@@ -316,6 +317,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
+				"tall"		"16" [$LINUX]
 				"tall"		"12"
 				"weight"	"700"
 				"antialias"	"1"
@@ -325,6 +327,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
+				"tall"		"18" [$LINUX]
 				"tall"		"14"
 				"weight"	"900"
 				"antialias"	"1"
@@ -334,6 +337,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
+				"tall"		"24" [$LINUX]
 				"tall"		"20"
 				"weight"	"900"
 				"antialias"	"1"
@@ -343,6 +347,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
+				"tall"		"28" [$LINUX]
 				"tall"		"24"
 				"weight"	"900"
 				"antialias"	"1"
@@ -356,6 +361,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"tall"		"13" [$LINUX]
 				"tall"		"9"
 				"weight"	"700"
 				"antialias"	"1"
@@ -366,6 +372,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
+				"tall"		"16" [$LINUX]
 				"tall"		"12"
 				"weight"	"700"
 				"antialias"	"1"
@@ -376,6 +383,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
+				"tall"		"18" [$LINUX]
 				"tall"		"14"
 				"weight"	"900"
 				"antialias"	"1"
@@ -386,6 +394,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
+				"tall"		"24" [$LINUX]
 				"tall"		"20"
 				"weight"	"900"
 				"antialias"	"1"
@@ -396,6 +405,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
+				"tall"		"28" [$LINUX]
 				"tall"		"24"
 				"weight"	"900"
 				"antialias"	"1"
@@ -988,7 +998,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"32"
 				"weight"	"1000"
 				"antialias"	"1"
 				"additive"	"1"
@@ -999,7 +1009,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"11"
+				"tall"		"32"
 				"weight"	"0"
 				"antialias"	"1"
 				"additive"	"1"
@@ -1203,49 +1213,7 @@ Scheme
 				"additive"	"1"
 			}
 		}
-		"ChatFont"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"	"12"
-				"weight"	"700"
-				"yres"	"480 599"
-				"dropshadow"	"1"
-		 	}
-			"2"
-			{
-				"name"	"Verdana"
-				"tall"	"13"
-				"weight"	"700"
-				"yres"	"600 767"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"	"Verdana"
-				"tall"	"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"	"Verdana"
-				"tall"	"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-				"dropshadow"	"1"
-			}
-			"5"
-			{
-				"name"	"Verdana"
-				"tall"	"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
+		
 		///////////////////////////NEW STUFF/////////////////////////////
 
 		
@@ -1447,22 +1415,24 @@ Scheme
 				"additive"	"0"
 			}
 		}	
-		"WeaponIcons"
+		"WeaponIcons" // selected weapon's foreground
 		{
 			"1"
 			{
 				"name"		"FortressForever - Item Glyphs"
+				"tall"		"46" [$LINUX]
 				"tall"		"64"
 				"weight"	"0"
 				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
-		"WeaponIconsSelected"
+		"WeaponIconsSelected" // selected weapon's background
 		{
 			"1"
 			{
 				"name"		"FortressForever - Item Glyphs"
+				"tall"		"46" [$LINUX]
 				"tall"		"64"
 				"weight"	"0"
 				"antialias"	"1"
@@ -1471,22 +1441,24 @@ Scheme
 				"additive"	"1"
 			}
 		}
-		"WeaponIconsClassSelect"
+		"WeaponIconsClassSelect" // weapon icons on class menu
 		{
 			"1"
 			{
 				"name"		"FortressForever - Item Glyphs"
+				"tall"		"40" [$LINUX]
 				"tall"		"50"
 				"weight"	"0"
 				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
-		"WeaponIconsHUD"
+		"WeaponIconsHUD" // weapon icon on the bottom right, over the hud glyph
 		{
 			"1"
 			{
 				"name"		"FortressForever - Item Glyphs"
+				"tall"		"30" [$LINUX]
 				"tall"		"38"
 				"weight"	"0"
 				"antialias"	"1"
@@ -1504,55 +1476,60 @@ Scheme
 				"additive"	"1"
 			}
 		}
-		"AmmoIconsSmall"
+		"AmmoIconsSmall" // ammo icons
 		{
 			"1"
 			{
 				"name"		"FortressForever - Item Glyphs"
+				"tall"		"12" [$LINUX]
 				"tall"		"16"
 				"weight"	"0"
 				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
-		"StatusGlyphs"
+		"StatusGlyphs" // status effect glyphs
 		{
 			"1"
 			{
 				"name"		"FortressForever - Status Glyphs"
+				"tall"		"36" [$LINUX]
 				"tall"		"48"
 				"weight"	"0" 
 				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
-		"StatusGlyphsSmall"
+		"StatusGlyphsSmall" // weapons that are *not* selected
 		{
 			"1"
 			{
 				"name"		"FortressForever - Status Glyphs"
+				"tall"		"12" [$LINUX]
 				"tall"		"20"
 				"weight"	"0"
 				"antialias"	"1"
 				"additive"	"1"
 			}
 		}
-		"GrenadeIcons"
+		"GrenadeIcons" // grenade icons
 		{
 			"1"
 			{
 				"name"		"FortressForever - Status Glyphs"
+				"tall"		"12" [$LINUX]
 				"tall"		"18"
 				"weight"	"0"
 				"antialias"	"1"
 				//"dropshadow" "1"
 			}
 		}
-		"GrenadeAmmoIcons"
+		"GrenadeAmmoIcons" // grenade ammo icons (show up when one picks up a grenade pack)
 		{
 			"1"
 			{
 				"name"		"FortressForever - Status Glyphs"
+				"tall"		"20" [$LINUX]
 				"tall"		"28"
 				"weight"	"0"
 				"antialias"	"1"
@@ -1564,6 +1541,7 @@ Scheme
 			"1"
 			{
 				"name"		"FortressForever - Hud Glyphs"
+				"tall"		"22" [$LINUX]
 				"tall"		"26"
 				"weight"	"0"
 				"antialias"	"1"
