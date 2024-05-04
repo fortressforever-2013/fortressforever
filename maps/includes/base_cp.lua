@@ -843,7 +843,7 @@ end
 -- triggers
 -----------------------------------------------------------------------------
 
-cp_base_trigger = trigger_ff_script:new({ team = Team.kUnassigned, failtouch_message = "" })
+cp_base_trigger = trigger_ff_script:new({ team = Team.kUnassigned, failtouch_message = "#FF_NOTALLOWEDDOOR", allowdisguised=true })
 
 function cp_base_trigger:allowed( allowed_entity )
 
@@ -851,6 +851,12 @@ function cp_base_trigger:allowed( allowed_entity )
 		local player = CastToPlayer( allowed_entity )
 		if player:GetTeamId() == self.team then
 			return EVENT_ALLOWED
+		end
+		
+		if self.allowdisguised then
+			if player:IsDisguised() and player:GetDisguisedTeam() == self.team then
+				return EVENT_ALLOWED
+			end
 		end
 	end
 	return EVENT_DISALLOWED
@@ -864,8 +870,8 @@ function cp_base_trigger:onfailtouch( touch_entity )
 	end
 end
 
-cp_team1_door_trigger = cp_base_trigger:new({ team = TEAM1 , failtouch_message = "#FF_NOTALLOWEDDOOR" })
-cp_team2_door_trigger = cp_base_trigger:new({ team = TEAM2 , failtouch_message = "#FF_NOTALLOWEDDOOR" })
+cp_team1_door_trigger = cp_base_trigger:new({ team = TEAM1 })
+cp_team2_door_trigger = cp_base_trigger:new({ team = TEAM2 })
 
 
 -----------------------------------------------------------------------------
