@@ -843,7 +843,7 @@ end
 -- triggers
 -----------------------------------------------------------------------------
 
-cp_base_trigger = trigger_ff_script:new({ team = Team.kUnassigned, allowdisguised=true })
+cp_base_trigger = trigger_ff_script:new({ team = Team.kUnassigned, failtouch_message="#FF_NOTALLOWEDDOOR", allowdisguised = true })
 
 function cp_base_trigger:allowed( allowed_entity )
 
@@ -866,7 +866,7 @@ function cp_base_trigger:onfailtouch( touch_entity )
 
 	if IsPlayer( touch_entity ) then
 		local player = CastToPlayer( touch_entity )
-		BroadCastMessageToPlayer( player, "#FF_NOTALLOWEDDOOR" )
+		BroadCastMessageToPlayer( player, self.failtouch_message )
 	end
 end
 
