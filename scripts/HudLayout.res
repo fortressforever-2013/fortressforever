@@ -767,16 +767,16 @@
 	{
 		"fieldName"		"HudBuildState"
 		"xpos"	"r210"
-		"ypos"	"380"
+		"ypos"	"360"
 		"wide"	"210"
-		"tall"	"40"
+		"tall"	"50"
 		"visible" "1"
 		"enabled" "1"
 
 		"text1_xpos" "24"
 		"text1_ypos" "3"
 		"text2_xpos" "24"
-		"text2_ypos" "22"
+		"text2_ypos" "29"
 		
 		"icon1_xpos" "0"
 		"icon1_ypos" "0"
@@ -784,7 +784,7 @@
 		"icon1_height" "20"
 		
 		"icon2_xpos" "0"
-		"icon2_ypos" "20"
+		"icon2_ypos" "25"
 		"icon2_width" "20"
 		"icon2_height" "20"
 	}
