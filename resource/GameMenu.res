@@ -32,6 +32,8 @@
 	{
 		"label" 	"#GameUI_GameMenu_Training"
 		"command" 	"engine ff_training"
+		"notmulti" "1"
+		"notsingle" "1"
 	}
 	"7"{
 		"label" ""
