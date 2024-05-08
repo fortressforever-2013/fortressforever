@@ -278,12 +278,13 @@ Scheme
 				"underline" "1"
 			}
 		}
-		"DefaultSmall"	// doesn't appear to be used
+		"DefaultSmall"	// server browser
 		{
 			"1"
 			{
 				
 				"name"		"Verdana"
+				"tall"		"16" [$LINUX]
 				"tall"		"12"
 				"weight"	"0"
 			}
