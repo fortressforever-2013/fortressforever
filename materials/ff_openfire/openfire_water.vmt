@@ -39,7 +39,7 @@
 	"$fogenable" 1
 	"$fogcolor" "{15 40 50}"
 	"$fogstart" "0"
-	"$fogend" "300"
+	"$fogend" "128"
 
 	"$bumpframe" "0"
 

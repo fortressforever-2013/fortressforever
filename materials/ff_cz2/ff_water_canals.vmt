@@ -36,9 +36,9 @@
 	"$scale" "[1 1]"
 
 	"$fogenable" "1"
-	"$fogcolor" "[.085 .080 .070]"
+	"$fogcolor" "{60 36 15}"
 	"$fogstart" "0"
-	"$fogend" "1024.00"
+	"$fogend" "192"
 
 	"$bumpframe" "0"
 
