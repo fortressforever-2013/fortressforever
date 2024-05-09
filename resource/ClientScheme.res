@@ -999,7 +999,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"13" [$LINUX]
+				"tall"		"12" [$LINUX]
 				"tall"		"9"
 				"weight"	"700"
 				"antialias"	"1"
@@ -1009,7 +1009,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"16" [$LINUX]
+				"tall"		"15" [$LINUX]
 				"tall"		"12"
 				"weight"	"700"
 				"antialias"	"1"
@@ -1019,7 +1019,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"18" [$LINUX]
+				"tall"		"17" [$LINUX]
 				"tall"		"14"
 				"weight"	"900"
 				"antialias"	"1"
@@ -1029,7 +1029,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"24" [$LINUX]
+				"tall"		"23" [$LINUX]
 				"tall"		"20"
 				"weight"	"900"
 				"antialias"	"1"
@@ -1039,7 +1039,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"28" [$LINUX]
+				"tall"		"27" [$LINUX]
 				"tall"		"24"
 				"weight"	"900"
 				"antialias"	"1"
