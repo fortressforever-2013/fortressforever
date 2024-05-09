@@ -603,6 +603,7 @@
 		"TextColor"		"HUD_Tone_Default"
 		"BGBoxColor"	"Dark"
 		
+		"HintTextFont" "HUD_HintText"
 
 		// The buttons
 		"B_wide"		"20"
