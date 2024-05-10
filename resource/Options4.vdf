@@ -4,19 +4,7 @@
 	{
 		"caption"	"#GameUI_OptimisationsHeading"
 	}
-
-	"ragdolls1"
-	{
-		"caption"	"#GameUI_RagdollLifetime"
-		"cvar"		"ragdoll_fadeaftertime"
-		"type"		"discrete"
-		"values"
-		{
-			"5.0"	"#GameUI_Normal"
-			"2.5"	"#GameUI_Short"
-			"0"		"#GameUI_None"
-		}
-	}
+	
 	"ragdolls2"
 	{
 		"caption"	"#GameUI_RagdollSleepAfterTime"
