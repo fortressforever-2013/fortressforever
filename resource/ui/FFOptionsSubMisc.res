@@ -6,7 +6,7 @@
 		"fieldName"		"MiscOptions"
 		"xpos"			"0"
 		"ypos"			"28"
-		"wide"			"496"
+		"wide"			"548"
 		"tall"			"314"
 		"autoResize"	"0"
 		"pinCorner"		"0"

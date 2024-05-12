@@ -6,7 +6,7 @@
 		"fieldName"		"CrosshairOptions"
 		"xpos"			"0"
 		"ypos"			"28"
-		"wide"			"496"
+		"wide"			"548"
 		"tall"			"314"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"InnerCharacter"
-		"xpos"				"78"
+		"xpos"				"100"
 		"ypos"				"28"
 		"wide"				"128"
 		"tall"				"20"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"OuterCharacter"
-		"xpos"				"78"
+		"xpos"				"100"
 		"ypos"				"181"
 		"wide"				"128"
 		"tall"				"20"
@@ -56,9 +56,9 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"InnerScale"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"52"
-		"wide"			"126"
+		"wide"			"128"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -68,9 +68,9 @@
 	}
 	"InnerScaleInput"
 	{
-		"ControlName"		"TextEntry"
+		"ControlName"		"ComboBox"
 		"fieldName"			"InnerScaleInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"52"
 		"wide"				"32"
 		"tall"				"20"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"OuterScale"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"205"
 		"wide"			"128"
 		"tall"			"20"
@@ -101,9 +101,9 @@
 	}
 	"OuterScaleInput"
 	{
-		"ControlName"		"TextEntry"
+		"ControlName"		"ComboBox"
 		"fieldName"			"OuterScaleInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"205"
 		"wide"				"32"
 		"tall"				"20"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"InnerRed"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"73"
 		"wide"			"128"
 		"tall"			"20"
@@ -136,7 +136,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"InnerRedInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"73"
 		"wide"				"32"
 		"tall"				"20"
@@ -155,7 +155,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"OuterRed"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"226"
 		"wide"			"128"
 		"tall"			"20"
@@ -169,7 +169,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"OuterRedInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"226"
 		"wide"				"32"
 		"tall"				"20"
@@ -188,7 +188,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"InnerGreen"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"94"
 		"wide"			"128"
 		"tall"			"20"
@@ -202,7 +202,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"InnerGreenInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"94"
 		"wide"				"32"
 		"tall"				"20"
@@ -221,7 +221,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"OuterGreen"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"247"
 		"wide"			"128"
 		"tall"			"20"
@@ -235,7 +235,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"OuterGreenInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"247"
 		"wide"				"32"
 		"tall"				"20"
@@ -254,7 +254,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"InnerBlue"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"115"
 		"wide"			"128"
 		"tall"			"20"
@@ -268,7 +268,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"InnerBlueInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"115"
 		"wide"				"32"
 		"tall"				"20"
@@ -287,7 +287,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"OuterBlue"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"268"
 		"wide"			"128"
 		"tall"			"20"
@@ -301,7 +301,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"OuterBlueInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"268"
 		"wide"				"32"
 		"tall"				"20"
@@ -320,7 +320,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"InnerAlpha"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"136"
 		"wide"			"128"
 		"tall"			"20"
@@ -334,7 +334,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"InnerAlphaInput"
-		"xpos"				"210"
+		"xpos"				"232"
 		"ypos"				"136"
 		"wide"				"32"
 		"tall"				"20"
@@ -353,7 +353,7 @@
 	{
 		"ControlName"	"CInputSlider"
 		"fieldName"		"OuterAlpha"
-		"xpos"			"78"
+		"xpos"			"100"
 		"ypos"			"289"
 		"wide"			"128"
 		"tall"			"20"
@@ -367,7 +367,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"OuterAlphaInput"
-		"xpos"				"211"
+		"xpos"				"233"
 		"ypos"				"289"
 		"wide"				"32"
 		"tall"				"20"
@@ -386,7 +386,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"			"InnerUseGlobal"
-		"xpos"				"130"
+		"xpos"				"152"
 		"ypos"				"5"
 		"wide"				"133"
 		"tall"				"20"
@@ -406,7 +406,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"			"OuterUseGlobal"
-		"xpos"				"130"
+		"xpos"				"152"
 		"ypos"				"158"
 		"wide"				"134"
 		"tall"				"20"
@@ -426,7 +426,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"			"UseGlobal"
-		"xpos"				"275"
+		"xpos"				"297"
 		"ypos"				"49"
 		"wide"				"185"
 		"tall"				"32"
@@ -446,7 +446,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"innerDisplay"
-		"xpos"				"280"
+		"xpos"				"304"
 		"ypos"				"100"
 		"zpos"				"2"
 		"wide"				"190"
@@ -467,7 +467,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"outerDisplay"
-		"xpos"				"280"
+		"xpos"				"304"
 		"ypos"				"100"
 		"zpos"				"1"
 		"wide"				"190"
@@ -487,7 +487,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CrosshairBackground"
-		"xpos"			"280"
+		"xpos"			"304"
 		"ypos"			"100"
 		"zpos"			"-1"
 		"wide"			"190"
@@ -504,7 +504,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"Crosshair"
-		"xpos"				"292"
+		"xpos"				"314"
 		"ypos"				"23"
 		"wide"				"150"
 		"tall"				"23"
@@ -523,7 +523,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label1"
-		"xpos"				"8"
+		"xpos"				"30"
 		"ypos"				"28"
 		"wide"				"64"
 		"tall"				"20"
@@ -542,7 +542,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label2"
-		"xpos"				"6"
+		"xpos"				"28"
 		"ypos"				"73"
 		"wide"				"64"
 		"tall"				"20"
@@ -561,7 +561,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label3"
-		"xpos"				"7"
+		"xpos"				"29"
 		"ypos"				"52"
 		"wide"				"64"
 		"tall"				"20"
@@ -580,7 +580,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label4"
-		"xpos"				"7"
+		"xpos"				"29"
 		"ypos"				"94"
 		"wide"				"64"
 		"tall"				"20"
@@ -599,7 +599,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label5"
-		"xpos"				"6"
+		"xpos"				"28"
 		"ypos"				"115"
 		"wide"				"64"
 		"tall"				"20"
@@ -618,7 +618,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label6"
-		"xpos"				"7"
+		"xpos"				"29"
 		"ypos"				"136"
 		"wide"				"64"
 		"tall"				"20"
@@ -637,7 +637,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label7"
-		"xpos"				"10"
+		"xpos"				"32"
 		"ypos"				"5"
 		"wide"				"113"
 		"tall"				"20"
@@ -656,7 +656,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label8"
-		"xpos"				"10"
+		"xpos"				"32"
 		"ypos"				"158"
 		"wide"				"121"
 		"tall"				"20"
@@ -675,7 +675,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label9"
-		"xpos"				"8"
+		"xpos"				"30"
 		"ypos"				"181"
 		"wide"				"64"
 		"tall"				"20"
@@ -694,7 +694,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label10"
-		"xpos"				"8"
+		"xpos"				"30"
 		"ypos"				"205"
 		"wide"				"64"
 		"tall"				"20"
@@ -713,7 +713,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label11"
-		"xpos"				"8"
+		"xpos"				"30"
 		"ypos"				"226"
 		"wide"				"64"
 		"tall"				"20"
@@ -732,7 +732,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label12"
-		"xpos"				"8"
+		"xpos"				"30"
 		"ypos"				"247"
 		"wide"				"64"
 		"tall"				"20"
@@ -751,7 +751,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label13"
-		"xpos"				"8"
+		"xpos"				"30"
 		"ypos"				"268"
 		"wide"				"64"
 		"tall"				"20"
@@ -770,7 +770,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Label14"
-		"xpos"				"8"
+		"xpos"				"30"
 		"ypos"				"289"
 		"wide"				"64"
 		"tall"				"20"
