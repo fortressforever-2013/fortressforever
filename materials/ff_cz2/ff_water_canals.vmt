@@ -36,7 +36,7 @@
 	"$scale" "[1 1]"
 
 	"$fogenable" "1"
-	"$fogcolor" "{60 36 15}"
+	"$fogcolor" "{40 30 20}"
 	"$fogstart" "0"
 	"$fogend" "192"
 
