@@ -264,3 +264,17 @@ function NormalizeInt(x)
 	if ( math.ceil( x ) - x ) > 0.5 then return math.floor( x )
 	else return math.ceil( x ) end
 end
+
+function GetActiveTeams()
+	local o = {}
+	
+	for i = Team.kUnassigned, Team.kGreen do
+		local team = GetTeam(i)
+		
+		if not team then return end
+		
+		if team:GetPlayerLimit() ~= -1 then table.insert(o, team) end
+	end
+	
+	return o
+end
