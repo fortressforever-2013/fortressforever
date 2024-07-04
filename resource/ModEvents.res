@@ -40,8 +40,10 @@
 		"attacker"		"short"
 		"weapon"		"string" 	// weapon name killer used 
 		"damagetype" 	"long"		// damage type
+		"customkill"	"long"
 		"killassister" 	"short"
 		"killersglevel"	"short"
+		"killedsglevel"	"short"
 	}
 	
 	// From here down are events necessary for bot support.
@@ -58,6 +60,16 @@
 	}
 
 	"build_sentrygun"
+	{
+		"userid"		"short"
+	}
+
+	"build_teleporter_entrance"
+	{
+		"userid"		"short"
+	}
+
+	"build_teleporter_exit"
 	{
 		"userid"		"short"
 	}

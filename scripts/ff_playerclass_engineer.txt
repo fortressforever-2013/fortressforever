@@ -31,9 +31,11 @@ PlayerClassData
 		"weapon"	"ff_weapon_supershotgun"
 		"weapon"	"ff_weapon_deploydispenser"
 		"weapon"	"ff_weapon_deploysentrygun"
+		"weapon"	"ff_weapon_deployteleporter"
 
 		"skill"	"dispenser"
 		"skill"	"sentrygun"
+		"skill" "teleporter"
 	}
 
 	"primary_classname"	"ff_grenade_normal"

@@ -300,3 +300,31 @@
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"buildable/jumppad/jumppad_explode.wav"
 	}
+
+//----------------
+//Teleporter
+//----------------
+
+	"Teleporter.Ready"
+	{
+		"channel"		"CHAN_STATIC"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"		")buildable/teleporter/teleporter_ready.wav"
+	}
+	
+	"Teleporter.TeleportIn"
+	{
+		"channel"		"CHAN_STATIC"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"		")buildable/teleporter/teleporter_in.wav"
+	}
+	
+	"Teleporter.TeleportOut"
+	{
+		"channel"		"CHAN_STATIC"
+		"volume"		"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"		")buildable/teleporter/teleporter_out.wav"
+	}
