@@ -767,27 +767,44 @@
 	HudBuildState
 	{
 		"fieldName"		"HudBuildState"
-		"xpos"	"r210"
-		"ypos"	"360"
-		"wide"	"210"
-		"tall"	"50"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"1280"
+		"tall"	"720"
 		"visible" "1"
 		"enabled" "1"
 
-		"text1_xpos" "24"
-		"text1_ypos" "3"
-		"text2_xpos" "24"
-		"text2_ypos" "29"
+		"text1_xpos" "625"
+		"text1_ypos" "375"
+		"text2_xpos" "625"
+		"text2_ypos" "400"
 		
-		"icon1_xpos" "0"
-		"icon1_ypos" "0"
+		"icon1_xpos" "600"
+		"icon1_ypos" "370"
 		"icon1_width" "20"
 		"icon1_height" "20"
 		
-		"icon2_xpos" "0"
-		"icon2_ypos" "25"
+		"icon2_xpos" "602"
+		"icon2_ypos" "395"
 		"icon2_width" "20"
 		"icon2_height" "20"
+		
+		// teleporters
+		// text3, text4, icon3 icon4
+		"text3_xpos" "270"
+		"text3_ypos" "460"
+		"text4_xpos" "444"
+		"text4_ypos" "460"
+		
+		"icon3_xpos" "246"
+		"icon3_ypos" "456"
+		"icon3_width" "20"
+		"icon3_height" "20"
+		
+		"icon4_xpos" "420"
+		"icon4_ypos" "456"
+		"icon4_width" "20"
+		"icon4_height" "20"
 	}
 
 
