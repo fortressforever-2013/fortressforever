@@ -120,6 +120,24 @@
 		"killersglevel"	"short"
 	}
 	
+	// teleporter entrance
+	"tpen_killed"
+	{
+		"userid"		"short" // owner
+		"attacker"		"short"
+		"weapon"		"string"
+		"killersglevel"	"short"
+	}
+	
+	// teleporter exit
+	"tpex_killed"
+	{
+		"userid"		"short" // owner
+		"attacker"		"short"
+		"weapon"		"string"
+		"killersglevel"	"short"
+	}
+	
 	"sentrygun_upgraded"
 	{
 		"userid"		"short" // upgrader
@@ -194,6 +212,15 @@
 	{
 		"userid"		"short" // owner
 		"saboteur"		"short" // who done it?
+	}
+	"teleporter_detonated"
+	{
+		"userid"		"short"
+	}
+	
+	"teleporter_dismantled"
+	{
+		"userid"		"short"
 	}
 	"player_additem"
 	{
