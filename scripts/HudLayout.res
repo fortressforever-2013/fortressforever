@@ -1340,6 +1340,13 @@
 		"icon_wide"	"24"
 
 		"text_xpos"	"26"
+		
+		"show_dead_icon" "1"
+		
+		"dead_xpos" "82"
+		"dead_ypos" "5"
+		"dead_tall" "16"
+		"dead_wide" "16"
 	}
 	HudRadio
 	{
