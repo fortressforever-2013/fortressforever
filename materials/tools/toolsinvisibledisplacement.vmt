@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	// From TF2: for displacement-based clip brushes
+	$basetexture "tools/toolsinvisibledisplacement"
+    $decal 1
+	$surfaceprop "dirt"
+	$alphatest 1
+	$vertexcolor 1
+	$vertexalpha 1
+	%tooltexture "tools/toolsinvisibledisplacement_tooltexture"
+	%keywords "tools"
+}

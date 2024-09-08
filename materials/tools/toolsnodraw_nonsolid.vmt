@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	// %compilenonsolid requires ALL faces to have %compilenonsolid for brush to actually be nonsolid
+	$basetexture "tools/toolsnodraw"
+	%compilenodraw 1
+	%compilenonsolid 1
+}
