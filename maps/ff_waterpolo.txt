@@ -1,17 +1,13 @@
 WATERPOLO
 
 GAME MODE: Push Variant
-Teams vie for control of the soccer ball. The ball carrier must enter the enemy's goal
-
-Teams: Red VS Blue
+Teams Red and Blue vie for control of the soccer ball. The ball carrier must enter the enemy's goal
 
 Objectives:
-- Take the enemy flag
-- Bring it to the enemy's goal
+- Take the enemy flag and bring it into the enemy's goal
 
 Scoring:
-- 10 points per goal
-- 10 points given to the enemy team per own goal
+- 10 points per goal; 10 points given to the enemy team per own goal
 - Team with most points at end of round wins
 
 Goalies:
@@ -23,3 +19,6 @@ Goalies:
 Notes:
 - Landing out-of-bounds returns the ball
 - Grenade packs can be found on the sides of the map
+
+CREDITS:
+Special thanks to Trepid Mapping for: original TFC map design

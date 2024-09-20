@@ -2,6 +2,8 @@ MONKEY - CAPTURE THE FLAG
 
 Grab the enemy flag and take it to your capture point to score.
 
-Original map designed by The Cheese
 
 Note: Not all Monkeys eat Bananas
+
+CREDITS:
+Mark "The Cheese" Hewitt - Original map design for TFC
