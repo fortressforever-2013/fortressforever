@@ -842,8 +842,7 @@ end
 -----------------------------------------------------------------------------
 -- triggers
 -----------------------------------------------------------------------------
-
-cp_base_trigger = trigger_ff_script:new({ team = Team.kUnassigned, failtouch_message="#FF_NOTALLOWEDDOOR", allowdisguised = true })
+cp_base_trigger = trigger_ff_script:new({ team = Team.kUnassigned, failtouch_message="#FF_NOTALLOWEDDOOR", allowdisguised = false })
 
 function cp_base_trigger:allowed( allowed_entity )
 
