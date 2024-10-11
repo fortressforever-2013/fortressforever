@@ -1,1 +1,11 @@
 * text=auto eol=lf
+
+*.cfg text
+*.fgd text
+*.lua text
+*.rad text
+*.rc text
+*.res text
+*.scr text
+*.vdf text
+*.vmt text
