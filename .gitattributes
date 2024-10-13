@@ -9,3 +9,12 @@
 *.scr text
 *.vdf text
 *.vmt text
+
+# These filetypes should be recognized as VDF, not ReScript
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
+
+# Do not export these files on download
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
