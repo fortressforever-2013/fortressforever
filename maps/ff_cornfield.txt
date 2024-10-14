@@ -3,3 +3,6 @@ CORNFIELD - INVADE AND DEFEND
 Objective: Blue team starts as the attacker. Red team starts as the defender.
 
 The attacking team must take control of the town by pushing through and capping the four Command Points sequentially. The defending team simply tries to hold out as long as they can. Once the attackers succeed, teams swap, and play begins again. Command Points are captured by taking the flag from the previous point and carrying it to the next. When a Command Point is secured, the flag required to capture the next Command Point appears on top of it. For example, the flag needed to capture Command Point 3 will always spawn at Command Point 2.
+
+CREDITS:
+Bryan "Zouave" Dillow - Original TFC design

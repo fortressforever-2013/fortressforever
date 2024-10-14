@@ -2,3 +2,7 @@ SCHTOP - CAPTURE THE FLAG
 Shut off the security devices protecting the enemy flag and steal it from their base. Capture it in your own base.
 
 Each capture is worth 10 points for your team. The team with the most points at the end of the round wins.
+
+
+CREDITS:
+Eat - Original TFC map design

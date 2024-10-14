@@ -4,3 +4,7 @@ Objectives:
 1. Temporarily de-activate the enemy team's security systems by making your way to the security generator room and touching the switch.
 2. Once the lasers are de-activated, enter the flag room and steal the enemy flag!
 3. Return the enemy flag to your base to capture. The capture point is in the middle of the battlements.
+
+
+CREDITS:
+Mark "The Cheese" Hewitt - Original TFC map
