@@ -804,6 +804,36 @@
 		"ypos"	"r172"
 		"wide"	"64"
 		"tall"	"64"
+		
+		forward_xpos "22"
+		forward_ypos "0"
+		forward_wide "20"
+		forward_tall "20"
+		
+		back_xpos "22"
+		back_ypos "22"
+		back_wide "20"
+		back_tall "20"
+		
+		left_xpos "0"
+		left_ypos "22"
+		left_wide "20"
+		left_tall "20"
+		
+		right_xpos "44"
+		right_ypos "22"
+		right_wide "20"
+		right_tall "20"
+		
+		jump_xpos "33"
+		jump_ypos "44"
+		jump_wide "31"
+		jump_tall "20"
+		
+		duck_xpos "0"
+		duck_ypos "44"
+		duck_wide "31"
+		duck_tall "20"
 	}
 
 	HudAmmoSecondary

@@ -4,6 +4,7 @@
 	title	"Fortress Forever 2013"
 	title2	""
 	type multiplayer_only
+	game	"resource/game"
 	
 	nomodels 0
 	nohimodel 1
