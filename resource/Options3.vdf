@@ -2,8 +2,8 @@
 {
 	"tchud"
 	{
-		"caption"	"#GameUI_TeamColorHUD"
-		"cvar"		"cl_teamcolourhud"
+		"caption"	"#GameUI_NewTeamColorHUD"
+		"cvar"		"hud_newteamcolors"
 	}
 	"hud_showweaponselect"
 	{
