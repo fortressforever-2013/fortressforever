@@ -313,14 +313,14 @@
 	
 		"MapNameFont"	"HUD_TextRoundInfo"
 		"MapNameColor"	"HUD_Tone_Default"
-		"MapNameX"	"32" //32
+		"MapNameX"	"30" //32
 		"MapNameY"	"3"
 		//"center_x"		"1"	// center text horizontally
 		//"RightJustify"	"1"
 
 		"TimerFont"		"HUD_TextRoundInfo"
 		"TimerColor"		"HUD_Tone_Default"
-		"TimerX"		"43" //45
+		"TimerX"		"46" //45
 		"TimerY"		"18"
 		
 		"ForegroundTexture"	"RoundInfoBoxFG"
