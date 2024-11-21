@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	$basetexture "tools/toolsviscluster"
-	$translucent 1
-	$decal 1 // reduce z-fighting in editor
-	%compiletrigger 1
-}
