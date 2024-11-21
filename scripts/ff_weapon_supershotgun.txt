@@ -30,6 +30,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_SUPERSHOTGUN"
 	"viewmodel"	"models/weapons/supershotgun/v_supershotgun.mdl"
+	"viewmodel_new"	"models/weapons/new/supershotgun/v_supershotgun.mdl"
 	"playermodel"	"models/weapons/supershotgun/w_supershotgun.mdl"
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "supershotgun"

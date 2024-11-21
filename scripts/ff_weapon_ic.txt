@@ -32,6 +32,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_IC"
 	"viewmodel"	"models/weapons/incendiarycannon/v_incendiarycannon.mdl"
+	"viewmodel_new"	"models/weapons/new/incendiarycannon/v_incendiarycannon.mdl"
 	"playermodel"	"models/weapons/incendiarycannon/w_incendiarycannon.mdl"
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "shotgun"
