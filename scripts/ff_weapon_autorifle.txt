@@ -33,6 +33,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_AUTORIFLE"
 	"viewmodel"	"models/weapons/autorifle/v_autorifle.mdl"
+	"viewmodel_new"	"models/weapons/new/autorifle/v_autorifle.mdl"
 	"playermodel"	"models/weapons/autorifle/w_autorifle.mdl"
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "autorifle"

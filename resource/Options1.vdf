@@ -10,6 +10,11 @@
 		"caption"	"#GameUI_ShowHelpfulHints"
 		"cvar"		"cl_hints"
 	}
+	"classicviewmodels"
+	{
+		"caption"	"#GameUI_ClassicViewmodels"
+		"cvar"		"cl_classic_viewmodels"
+	}
 	"autoreload"
 	{
 		"caption"	"#GameUI_AutoReloadGuns"

@@ -30,6 +30,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_RPG"
 	"viewmodel"	"models/weapons/rpg/v_rpg.mdl"
+	"viewmodel_new"	"models/weapons/new/rpg/v_rpg.mdl"
 	"playermodel"	"models/weapons/rpg/w_rpg.mdl"
 	"anim_prefix"	"rpg"
 	"PlayerAnimationExtension" "rpg"

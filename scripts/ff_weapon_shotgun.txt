@@ -30,6 +30,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_SHOTGUN"
 	"viewmodel"	"models/weapons/shotgun/v_shotgun.mdl"
+	"viewmodel_new" "models/weapons/new/shotgun/v_shotgun.mdl"
 	"playermodel"	"models/weapons/shotgun/w_shotgun.mdl"
 	"anim_prefix"	"anim"
 

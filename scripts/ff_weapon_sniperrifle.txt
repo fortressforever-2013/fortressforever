@@ -34,6 +34,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_SNIPERRIFLE"
 	"viewmodel"	"models/weapons/sniperrifle/v_sniperrifle.mdl"
+	"viewmodel_new"	"models/weapons/new/sniperrifle/v_sniperrifle.mdl"
 	"playermodel"	"models/weapons/sniperrifle/w_sniperrifle.mdl"
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "sniperrifle"
