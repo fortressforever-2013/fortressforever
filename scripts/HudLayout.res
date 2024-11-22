@@ -581,17 +581,17 @@
 		"visible"		"1"
 		"enabled"	"1"
 
-		"xpos"		"c-130"
-		"ypos"		"404"
+		"xpos"		"c-156"
+		"ypos"		"395"
 
-		"wide"		"260"
-		"tall"		"70"
+		"wide"		"318"
+		"tall"		"76"
 
-		"text1_xpos"		"34"
-		"text1_ypos"		"10"
+		"text1_xpos"		"33"
+		"text1_ypos"		"6"
 
-		"text1_wide"		"220"
-		"text1_tall"		"40"
+		"text1_wide"		"286"
+		"text1_tall"		"62"
 		
 		"image1_xpos"	"4"
 		"image1_ypos"	"8"
@@ -609,14 +609,14 @@
 		"B_wide"		"20"
 		"B_tall"			"10"
 		
-		"NextB_xpos"	"235"
-		"NextB_ypos"	"55"
+		"NextB_xpos"	"294"
+		"NextB_ypos"	"60"
 
 		"PrevB_xpos"	"5"
-		"PrevB_ypos"	"55"
+		"PrevB_ypos"	"60"
 		
 		// The hint index thingy
-		"index_xpos"		"9"
+		"index_xpos"		"8"
 		"index_ypos"		"45"
 		
 
