@@ -306,9 +306,9 @@
 		"enabled"	"1"
 		
 		"xpos"		"c-60" //256
-		"ypos"		"1"
+		"ypos"		"0"
 		"wide"		"120" //128, 120
-		"tall"		"128" //128
+		"tall"		"40" //128
 		
 	
 		"MapNameFont"	"HUD_TextRoundInfo"
@@ -322,9 +322,6 @@
 		"TimerColor"		"HUD_Tone_Default"
 		"TimerX"		"43" //45
 		"TimerY"		"18"
-		
-		"ForegroundTexture"	"RoundInfoBoxFG"
-		"BackgroundTexture"	"RoundInfoBoxBG"
 	}
 	
 	HudTeamScores
