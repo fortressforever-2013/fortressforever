@@ -306,9 +306,9 @@
 		"enabled"	"1"
 		
 		"xpos"		"c-60" //256
-		"ypos"		"0"
-		"wide"		"120" //128, 120
-		"tall"		"40" //128
+		"ypos"		"1"
+		"wide"		"119" //128, 120
+		"tall"		"35" //128
 		
 	
 		"MapNameFont"	"HUD_TextRoundInfo"

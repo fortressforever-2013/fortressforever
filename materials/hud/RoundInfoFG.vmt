@@ -1,9 +1,6 @@
 "UnlitGeneric"
 {
 	"$basetexture" 		"hud/RoundInfoFG"
-    "$translucent"   	"1"
-    "$translucency" 	"1"
 	"$vertexcolor"		"1"
-    "$ignorez" 			"1"
-	"$alpha"			"0.82"
+	"$vertexalpha"		"1"
 }
