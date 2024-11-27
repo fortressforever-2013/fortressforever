@@ -59,10 +59,10 @@
 		"xpos"		"3"
 		"ypos"		"438"
 		"wide"		"87"
-		"tall"		"34"
+		"tall"		"24"
 
 		"digit_xpos"	"44"
-		"digit_ypos"	"1"
+		"digit_ypos"	"2"
 
 		"NumberFont"	"HUD_NumLarge"
 		"NumberColor"	"HUD_Tone_Default"
@@ -304,8 +304,8 @@
 		
 		"xpos"		"c-60" //256
 		"ypos"		"1"
-		"wide"		"119" //128, 120
-		"tall"		"35" //128
+		"wide"		"118" //128, 120
+		"tall"		"31" //128
 		
 	
 		"MapNameFont"	"HUD_TextRoundInfo"
