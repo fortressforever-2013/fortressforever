@@ -28,25 +28,6 @@
 		
 		"TextFont"		"HUD_TextSmall_Shadow"
 		"TextColor"		"HUD_Tone_Default"	// Ignored: locations are colour coded
-		
-		"ForegroundTexture"	"locationBoxFG1"
-		"BackgroundTexture"	"locationBoxBG1"
-	}
-	HudLocation2
-	{
-		"fieldName"	"HudLocation2"
-		
-		"visible"		"1"
-		"enabled"	"1"		
-		"pinCorner"	"3"		
-
-		"xpos"		"85"	//85 x pos controlled by HudLocation
-		"ypos"		"447"
-		"wide"		"640"	//256
-		"tall"		"480"	//32
-		
-		"ForegroundTexture"	"locationBoxFG2"
-		"BackgroundTexture"	"locationBoxBG2"
 	}
 	
 	HudHealth
@@ -107,9 +88,6 @@
 
 		"NumberFont"	"HUD_NumSmall"
 		"NumberColor"	"HUD_Tone_Default"
-		
-		"ForegroundTexture"	"armourBoxFG"
-		"BackgroundTexture"	"armourBoxBG"
 	}
 	
 	HudPlayerAddArmor
@@ -129,10 +107,7 @@
 
 		"ArmorFont"		"HudAddHealth"
 		"TextColor"	"255 255 255 255" //black 
-		"ArmorFontBG"	"HudPlayerScoreBG" 
-		
-		"ForegroundTexture"	"playerScoreBoxFG1" 
-		"BackgroundTexture"	"playerScoreBoxBG1" 
+		"ArmorFontBG"	"HudPlayerScoreBG"
 	}
 	
 	// Added by AfterShock - for displaying weapon icon in bottom right
@@ -168,9 +143,9 @@
 		"enabled"	"1"
 		
 		"xpos"		"r124" //x pos controlled by HudAmmoInfo2
-		"ypos"		"447"
-		"wide"		"640" //128
-		"tall"		"480" //64
+		"ypos"		"c207"
+		"wide"		"122" //128
+		"tall"		"31" //64
 		
 		"text1_xpos"	"0"
 		"text1_ypos"	"0"
@@ -178,24 +153,6 @@
 		"TextFont"	"HudNumbers"
 		"TextColor"	"HUD_Tone_Default"
 		"IconFont"	"weaponglyphssmall"
-		
-		"ForegroundTexture"	"weaponBoxFG1"
-		"BackgroundTexture"	"weaponBoxBG1"
-	}
-	HudAmmoInfo2
-	{
-		"fieldName"	"HudAmmoInfo2"
-		
-		"visible"		"1"
-		"enabled"	"1"
-		
-		"xpos"		"r42" 
-		"ypos"		"447"
-		"wide"		"640" //128
-		"tall"		"480" //64
-		
-		"ForegroundTexture"	"weaponBoxFG2"
-		"BackgroundTexture"	"weaponBoxBG2"
 	}
 	
 	HudAmmo
@@ -205,12 +162,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"xpos"		"r152" //488
-		"ypos"		"447"
-		"wide"		"640" //128
-		"tall"		"480" //32
+		"xpos"		"r154" //488
+		"ypos"		"c224"
+		"wide"		"32" //128
+		"tall"		"14" //32
 		"digit_xpos"	"4"
-		"digit_ypos"	"19"
+		"digit_ypos"	"2"
 		
 		"NumberFont"	"HUD_NumSmall"
 		"NumberColor"	"HUD_Tone_Default"
@@ -226,13 +183,13 @@
 		"visible"		"1"
 		"enabled"	"1"
 		
-		"xpos"		"r149" //491
-		"ypos"		"430"
-		"wide"		"640" //128
-		"tall"		"480" //32
+		"xpos"		"r150" //491
+		"ypos"		"c198"
+		"wide"		"60" //128
+		"tall"		"24" //32
 
 		"digit_xpos"	"16"
-		"digit_ypos"	"8"
+		"digit_ypos"	"2"
 
 		"NumberFont"	"HUD_NumLarge"
 		"NumberColor"	"HUD_Tone_Default"
