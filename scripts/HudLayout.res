@@ -98,12 +98,12 @@
 		"enabled"	"1"
 
 		"xpos"		"87"
-		"ypos"		"431"
-		"wide"		"128"
-		"tall"		"32"
+		"ypos"		"448"
+		"wide"		"64"
+		"tall"		"14"
 
 		"digit_xpos"	"38"
-		"digit_ypos"	"18"
+		"digit_ypos"	"2"
 
 		"NumberFont"	"HUD_NumSmall"
 		"NumberColor"	"HUD_Tone_Default"
