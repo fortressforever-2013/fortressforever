@@ -19,12 +19,12 @@
 		"enabled" 	"1"
 		
 		"xpos"		"3"	
-		"ypos"		"447"
-		"wide"		"640"	//256
-		"tall"		"480"	//32
+		"ypos"		"464"
+		"wide"		"154"	//256
+		"tall"		"14"	//32
 		
 		"text1_xpos"	"4"
-		"text1_ypos"	"20" //19
+		"text1_ypos"	"3" //19
 		
 		"TextFont"		"HUD_TextSmall_Shadow"
 		"TextColor"		"HUD_Tone_Default"	// Ignored: locations are colour coded
