@@ -66,9 +66,6 @@
 
 		"NumberFont"	"HUD_NumLarge"
 		"NumberColor"	"HUD_Tone_Default"
-		
-		"ForegroundTexture"	"healthBoxFG"
-		"BackgroundTexture"	"healthBoxBG"
 	}
 	
 	HudPlayerAddHealth
