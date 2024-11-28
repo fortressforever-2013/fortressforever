@@ -109,31 +109,6 @@
 		"TextColor"	"255 255 255 255" //black 
 		"ArmorFontBG"	"HudPlayerScoreBG"
 	}
-	
-	// Added by AfterShock - for displaying weapon icon in bottom right
-	HudWeaponInfo 
-	{
-		"fieldName"	"HudWeaponInfo" 
-
-		"visible"		"1" 
-		"enabled"	"1" 
-
-		// xpos and ypos define where the top left corner of the panel will be 
-		"xpos"		"r124" //x pos controlled by HudAmmoInfo2
-		"ypos"		"447" 
-		"zpos"		"2"
-		"wide"		"640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
-		"tall"		"480" 
-
-		"ammo_xpos"	"5"	// Note that these positions are relative to the position of the panel 
-		"ammo_ypos"	"18"	// i.e. 0,0 is the top left corner of the panel 
-
-		"TextFont"	"HudNumbers" 
-		"TextColor"	"HUD_Tone_Default" 
-
-		"IconFont"	"WeaponIconsHUD"	// Defines which Font to look in for the icons 
-		"AmmoFont"	"AmmoIconsSmall"	// Defines which Font to look in for the icons 
-	}
 
 	HudAmmoInfo // should be weapon item glyphs in lower right
 	{
@@ -152,7 +127,15 @@
 
 		"TextFont"	"HudNumbers"
 		"TextColor"	"HUD_Tone_Default"
-		"IconFont"	"weaponglyphssmall"
+		
+		"IconFont"	"WeaponIconsHUD"	// Defines which Font to look in for the icons 
+		"AmmoFont"	"AmmoIconsSmall"	// Defines which Font to look in for the icons
+
+		"ammo_xpos"	"5"	// Note that these positions are relative to the position of the panel 
+		"ammo_ypos"	"18"	// i.e. 0,0 is the top left corner of the panel
+		
+		"weapon_xpos"	"45"	// Note that these positions are relative to the position of the panel 
+		"weapon_ypos"	"0"	// i.e. 0,0 is the top left corner of the panel
 	}
 	
 	HudAmmo
