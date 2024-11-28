@@ -206,15 +206,15 @@
 		"enabled"	"1"
 		
 		"xpos"		"r91" //549
-		"ypos"		"414"
-		"wide"		"640" //128
-		"tall"		"480" //32
+		"ypos"		"c190"
+		"wide"		"46" //128
+		"tall"		"16" //32
 
 		"digit_xpos"	"33"
-		"digit_ypos"	"18"
+		"digit_ypos"	"3"
 		
 		"icon_xpos"	"10"
-		"icon_ypos"	"25"
+		"icon_ypos"	"9"
 		"icon_font"	"StatusGlyphsSmall"
 		"icon_color"	"HUD_Tone_Default"
 		
@@ -233,15 +233,15 @@
 		"enabled"	"1"
 		
 		"xpos"		"r47" //593
-		"ypos"		"414"
-		"wide"		"640" //128
-		"tall"		"480" //32
+		"ypos"		"c190"
+		"wide"		"45" //128
+		"tall"		"16" //32
 
-		"digit_xpos"	"35"
-		"digit_ypos"	"18"
+		"digit_xpos"	"33"
+		"digit_ypos"	"3"
 		
 		"icon_xpos"	"10"
-		"icon_ypos"	"25"
+		"icon_ypos"	"10"
 		"icon_font"	"StatusGlyphsSmall"
 		"icon_color"	"HUD_Tone_Default"
 		
