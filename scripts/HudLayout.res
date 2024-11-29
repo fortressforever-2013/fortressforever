@@ -423,25 +423,26 @@
 
 		"xpos"		"3"
 		"ypos"		"404"
-		"wide"		"128"
-		"tall"		"128"
+		"wide"		"80"
+		"tall"		"32"
 
 		"text1_xpos"		"34"
 		"text1_ypos"		"12"
 		
-		"image1_xpos"	"3"
-		"image1_ypos"	"4"
+		"image1_xpos"	"4"
+		"image1_ypos"	"3"
 		
-		"bar_width"		"75"
-		"bar_height"		"24"
+		"bar_xpos"		"3"
+		"bar_ypos"		"3"
+		"bar_width"		"78"
+		"bar_height"	"27"
+		
+		"bar_color"		"HUD_Tone_Default"
 
 		"DisguiseFont"	"ClassGlyphs"
 
 		"TextFont"		"HUD_TextSmall"
 		"TextColor"		"HUD_Tone_Default" //overridden by teamcolor of disguise
-
-		"ForegroundTexture"	"CooldownBoxFG"
-		"BackgroundTexture"	"CooldownBoxBG"
 	}
 	
 	HudSpyDisguise2
@@ -453,33 +454,14 @@
 
 		"xpos"		"82"
 		"ypos"		"404"
-		"wide"		"128"
-		"tall"		"128"
+		"wide"		"68"
+		"tall"		"42"
 		
-		"image1_xpos"	"2"
-		"image1_ypos"	"4"
+		"image1_xpos"	"3"
+		"image1_ypos"	"5"
 
 		"WeaponFont"	"WeaponIconsHUD"
 		"WeaponColor"	"HUD_Tone_Default"
-
-		"ForegroundTexture"	"SpyDisguiseBoxFG2"
-		"BackgroundTexture"	"SpyDisguiseBoxBG2"
-	}
-	
-	HudSpyDisguise3
-	{
-		"fieldName"	"HudSpyDisguise3"
-		
-		"visible"		"1"
-		"enabled"	"1"
-
-		"xpos"		"82"
-		"ypos"		"431"
-		"wide"		"128"
-		"tall"		"128"
-
-		"ForegroundTexture"	"SpyDisguiseBoxFG3"
-		"BackgroundTexture"	"SpyDisguiseBoxBG3"
 	}
 
 	HudHintCenter
