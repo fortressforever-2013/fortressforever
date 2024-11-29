@@ -415,12 +415,12 @@
 
 		"xpos"		"3"
 		"ypos"		"404"
-		"wide"		"82"
+		"wide"		"80"
 		"tall"		"32"
 		
 		"bar_xpos"	"3"
 		"bar_ypos"	"3"
-		"bar_width"	"79"
+		"bar_width"	"77"
 		"bar_height" "29"
 	}
 
