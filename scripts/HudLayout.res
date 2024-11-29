@@ -569,7 +569,7 @@
 		"enabled" "1"
 
 		"xpos"	"c-68"
-		"ypos"	"414"
+		"ypos"	"c165"
 		"wide"	"134" // 122 + bar_xpos
 		"tall"	"16"		
 		
@@ -590,7 +590,7 @@
 		"enabled" "1"
 
 		"xpos"	"c-76"
-		"ypos"	"434"
+		"ypos"	"c200"
 		"wide"	"142"
 		"tall"	"16"
 
