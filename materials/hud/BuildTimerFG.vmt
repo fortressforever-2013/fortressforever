@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" 		"hud/Gren1TimerFG"
+	"$basetexture" 		"hud/BuildTimerFG"
 	"$vertexcolor"		"1"
 	"$vertexalpha"		"1"
 }
