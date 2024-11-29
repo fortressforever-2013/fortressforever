@@ -389,25 +389,21 @@
 		"enabled"		"1"
 
 		"xpos"			"r198"
-		"ypos"			"447"
-		"xpos"			"3"
-		"ypos"			"404"
-		"wide"			"128"
-		"tall"			"128"
-
-		"text_xpos"		"19"
-		"text_ypos"		"19"
-		
-		"image_xpos"		"3"
-		"image_ypos"		"18"
+		"ypos"			"464"
+		"wide"			"46"
+		"tall"			"14"
 
 		"IconFont"		"AmmoIconsSmall"
+		"IconColor"		"HUD_Tone_Default"
 
 		"TextFont"		"HUD_TextRoundInfo"
 		"TextColor"		"HUD_Tone_Default"
 
-		"ForegroundTexture"	"CellCountBoxFG"
-		"BackgroundTexture"	"CellCountBoxBG"
+		"text_xpos"		"20"
+		"text_ypos"		"2"
+		
+		"image_xpos"		"4"
+		"image_ypos"		"2"
 	}
 
 	HudJetpackFuelBar
