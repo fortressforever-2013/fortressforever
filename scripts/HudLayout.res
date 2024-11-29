@@ -591,7 +591,7 @@
 
 		"xpos"	"c-76"
 		"ypos"	"c200"
-		"wide"	"142"
+		"wide"	"142" // 122 + bar_xpos
 		"tall"	"16"
 
 		"bar_xpos" "20"
@@ -608,26 +608,23 @@
 	HudBuildTimer
 	{
 		"fieldName"	"HudBuildTimer"
-		"xpos"	"c-123"
-		"ypos"	"r132"
-		"wide"	"256"
-		"tall"	"32"
+		
 		"visible" "1"
 		"enabled" "1"
-
-		"text_xpos" "256"
-		"text_ypos" "0"
 		
-		"icon_xpos" "40"
-		"icon_ypos" "8"
+		"xpos"	"c-76"
+		"ypos"	"c130"
+		"wide"	"142"
+		"tall"	"16"
+		
+		"bar_xpos" "20"
+		"bar_ypos" "0"
+		
+		"icon_xpos" "0"
+		"icon_ypos" "0"
+		
 		"icon_width" "16"
 		"icon_height" "16"
-		
-		"bar_xpos" "64"
-		"bar_ypos" "8"
-		"bar_width" "128"
-		"bar_height" "16"
-		"bar_color" "HUD_Tone_Default"
 	}
 	
 	//HudGrenade1Timer
