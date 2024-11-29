@@ -568,24 +568,18 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"xpos"	"c-123"
+		"xpos"	"c-68"
 		"ypos"	"414"
-		"wide"	"256"
-		"tall"	"32"		
+		"wide"	"134" // 122 + bar_xpos
+		"tall"	"16"		
 		
-		"bar_xpos" "69"
-		"bar_ypos" "4"
-		"bar_width"	"118"
-		"bar_height"	"13"
-		"bar_color" 	"HUD_Tone_Default"
+		"bar_xpos" 		"12"
+		"bar_ypos"		"0"
 		
-		"icon_xpos"		"10"
-		"icon_ypos"		"25"
+		"icon_xpos"		"0"
+		"icon_ypos"		"-1"
 		
-		//"icon_color" 	"0 0 0 255"
-
-		"ForegroundTexture"	"Gren1TimerFGBox"
-		"BackgroundTexture"	"Gren1TimerBGBox"
+		"icon_color"	"HUD_Tone_Default"
 	}
 	
 	HudGrenade2Timer
@@ -595,24 +589,16 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"xpos"	"c-123"
+		"xpos"	"c-76"
 		"ypos"	"434"
-		"wide"	"256"
-		"tall"	"32"
+		"wide"	"142"
+		"tall"	"16"
 
-		"bar_xpos" "69"
-		"bar_ypos"	"16"
-		"bar_width"	"118"
-		"bar_height"	"13"
-		"bar_color" 	"HUD_Tone_Default"
+		"bar_xpos" "20"
+		"bar_ypos"	"0"
 		
-		"icon_xpos"			"8"
-		"icon_ypos"			"24"
-
-		//"icon_color" 	"0 0 0 255"
-		
-		"ForegroundTexture"	"Gren2TimerFGBox"
-		"BackgroundTexture"	"Gren2TimerBGBox"
+		"icon_xpos"			"2"
+		"icon_ypos"			"0"
 	}
 	
 	//
