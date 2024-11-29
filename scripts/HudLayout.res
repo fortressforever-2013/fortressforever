@@ -415,25 +415,13 @@
 
 		"xpos"		"3"
 		"ypos"		"404"
-		"wide"		"128"
-		"tall"		"128"
-
-		"text1_xpos"		"34"
-		"text1_ypos"		"12"
+		"wide"		"82"
+		"tall"		"32"
 		
-		"image1_xpos"	"3"
-		"image1_ypos"	"4"
-		
-		"bar_width"		"75"
-		"bar_height"		"24"
-
-		"DisguiseFont"	"ClassGlyphs"
-
-		"TextFont"		"HUD_TextSmall"
-		"TextColor"		"HUD_Tone_Default" //overridden by teamcolor of disguise
-
-		"ForegroundTexture"	"CooldownBoxFG"
-		"BackgroundTexture"	"CooldownBoxBG"
+		"bar_xpos"	"3"
+		"bar_ypos"	"3"
+		"bar_width"	"79"
+		"bar_height" "29"
 	}
 
 	HudSpyDisguise
