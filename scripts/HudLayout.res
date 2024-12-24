@@ -19,15 +19,34 @@
 		"enabled" 	"1"
 		
 		"xpos"		"3"	
-		"ypos"		"464"
-		"wide"		"154"	//256
-		"tall"		"14"	//32
+		"ypos"		"447"
+		"wide"		"640"	//256
+		"tall"		"480"	//32
 		
 		"text1_xpos"	"4"
-		"text1_ypos"	"3" //19
+		"text1_ypos"	"20" //19
 		
 		"TextFont"		"HUD_TextSmall_Shadow"
 		"TextColor"		"HUD_Tone_Default"	// Ignored: locations are colour coded
+		
+		"ForegroundTexture"	"locationBoxFG1"
+		"BackgroundTexture"	"locationBoxBG1"
+	}
+	HudLocation2
+	{
+		"fieldName"	"HudLocation2"
+		
+		"visible"		"1"
+		"enabled"	"1"		
+		"pinCorner"	"3"		
+
+		"xpos"		"85"	//85 x pos controlled by HudLocation
+		"ypos"		"447"
+		"wide"		"640"	//256
+		"tall"		"480"	//32
+		
+		"ForegroundTexture"	"locationBoxFG2"
+		"BackgroundTexture"	"locationBoxBG2"
 	}
 	
 	HudHealth
@@ -38,15 +57,18 @@
 		"enabled"	"1"
 
 		"xpos"		"3"
-		"ypos"		"438"
-		"wide"		"87"
-		"tall"		"24"
+		"ypos"		"431"
+		"wide"		"128"
+		"tall"		"32"
 
 		"digit_xpos"	"44"
-		"digit_ypos"	"2"
+		"digit_ypos"	"8"
 
 		"NumberFont"	"HUD_NumLarge"
 		"NumberColor"	"HUD_Tone_Default"
+		
+		"ForegroundTexture"	"healthBoxFG"
+		"BackgroundTexture"	"healthBoxBG"
 	}
 	
 	HudPlayerAddHealth
@@ -79,15 +101,18 @@
 		"enabled"	"1"
 
 		"xpos"		"87"
-		"ypos"		"448"
-		"wide"		"64"
-		"tall"		"14"
+		"ypos"		"431"
+		"wide"		"128"
+		"tall"		"32"
 
 		"digit_xpos"	"38"
-		"digit_ypos"	"2"
+		"digit_ypos"	"18"
 
 		"NumberFont"	"HUD_NumSmall"
 		"NumberColor"	"HUD_Tone_Default"
+		
+		"ForegroundTexture"	"armourBoxFG"
+		"BackgroundTexture"	"armourBoxBG"
 	}
 	
 	HudPlayerAddArmor
@@ -107,7 +132,35 @@
 
 		"ArmorFont"		"HudAddHealth"
 		"TextColor"	"255 255 255 255" //black 
-		"ArmorFontBG"	"HudPlayerScoreBG"
+		"ArmorFontBG"	"HudPlayerScoreBG" 
+		
+		"ForegroundTexture"	"playerScoreBoxFG1" 
+		"BackgroundTexture"	"playerScoreBoxBG1" 
+	}
+	
+	// Added by AfterShock - for displaying weapon icon in bottom right
+	HudWeaponInfo 
+	{
+		"fieldName"	"HudWeaponInfo" 
+
+		"visible"		"1" 
+		"enabled"	"1" 
+
+		// xpos and ypos define where the top left corner of the panel will be 
+		"xpos"		"r124" //x pos controlled by HudAmmoInfo2
+		"ypos"		"447" 
+		"zpos"		"2"
+		"wide"		"640" // This stuff is proportional, so 640x480 is actually the size of the whole screen at any resolution.  Unless, that is, you have a non-4:3 monitor.  Vgui is a pain in the ass to get right then. 
+		"tall"		"480" 
+
+		"ammo_xpos"	"5"	// Note that these positions are relative to the position of the panel 
+		"ammo_ypos"	"18"	// i.e. 0,0 is the top left corner of the panel 
+
+		"TextFont"	"HudNumbers" 
+		"TextColor"	"HUD_Tone_Default" 
+
+		"IconFont"	"WeaponIconsHUD"	// Defines which Font to look in for the icons 
+		"AmmoFont"	"AmmoIconsSmall"	// Defines which Font to look in for the icons 
 	}
 
 	HudAmmoInfo // should be weapon item glyphs in lower right
@@ -118,24 +171,34 @@
 		"enabled"	"1"
 		
 		"xpos"		"r124" //x pos controlled by HudAmmoInfo2
-		"ypos"		"c207"
-		"wide"		"122" //128
-		"tall"		"31" //64
+		"ypos"		"447"
+		"wide"		"640" //128
+		"tall"		"480" //64
 		
 		"text1_xpos"	"0"
 		"text1_ypos"	"0"
 
 		"TextFont"	"HudNumbers"
 		"TextColor"	"HUD_Tone_Default"
+		"IconFont"	"weaponglyphssmall"
 		
-		"IconFont"	"WeaponIconsHUD"	// Defines which Font to look in for the icons 
-		"AmmoFont"	"AmmoIconsSmall"	// Defines which Font to look in for the icons
-
-		"ammo_xpos"	"5"	// Note that these positions are relative to the position of the panel 
-		"ammo_ypos"	"18"	// i.e. 0,0 is the top left corner of the panel
+		"ForegroundTexture"	"weaponBoxFG1"
+		"BackgroundTexture"	"weaponBoxBG1"
+	}
+	HudAmmoInfo2
+	{
+		"fieldName"	"HudAmmoInfo2"
 		
-		"weapon_xpos"	"45"	// Note that these positions are relative to the position of the panel 
-		"weapon_ypos"	"0"	// i.e. 0,0 is the top left corner of the panel
+		"visible"		"1"
+		"enabled"	"1"
+		
+		"xpos"		"r42" 
+		"ypos"		"447"
+		"wide"		"640" //128
+		"tall"		"480" //64
+		
+		"ForegroundTexture"	"weaponBoxFG2"
+		"BackgroundTexture"	"weaponBoxBG2"
 	}
 	
 	HudAmmo
@@ -145,12 +208,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"xpos"		"r154" //488
-		"ypos"		"c224"
-		"wide"		"32" //128
-		"tall"		"14" //32
+		"xpos"		"r152" //488
+		"ypos"		"447"
+		"wide"		"640" //128
+		"tall"		"480" //32
 		"digit_xpos"	"4"
-		"digit_ypos"	"2"
+		"digit_ypos"	"19"
 		
 		"NumberFont"	"HUD_NumSmall"
 		"NumberColor"	"HUD_Tone_Default"
@@ -166,13 +229,13 @@
 		"visible"		"1"
 		"enabled"	"1"
 		
-		"xpos"		"r150" //491
-		"ypos"		"c198"
-		"wide"		"60" //128
-		"tall"		"24" //32
+		"xpos"		"r149" //491
+		"ypos"		"430"
+		"wide"		"640" //128
+		"tall"		"480" //32
 
 		"digit_xpos"	"16"
-		"digit_ypos"	"2"
+		"digit_ypos"	"8"
 
 		"NumberFont"	"HUD_NumLarge"
 		"NumberColor"	"HUD_Tone_Default"
@@ -189,15 +252,15 @@
 		"enabled"	"1"
 		
 		"xpos"		"r91" //549
-		"ypos"		"c190"
-		"wide"		"46" //128
-		"tall"		"16" //32
+		"ypos"		"414"
+		"wide"		"640" //128
+		"tall"		"480" //32
 
 		"digit_xpos"	"33"
-		"digit_ypos"	"3"
+		"digit_ypos"	"18"
 		
 		"icon_xpos"	"10"
-		"icon_ypos"	"9"
+		"icon_ypos"	"25"
 		"icon_font"	"StatusGlyphsSmall"
 		"icon_color"	"HUD_Tone_Default"
 		
@@ -216,15 +279,15 @@
 		"enabled"	"1"
 		
 		"xpos"		"r47" //593
-		"ypos"		"c190"
-		"wide"		"45" //128
-		"tall"		"16" //32
+		"ypos"		"414"
+		"wide"		"640" //128
+		"tall"		"480" //32
 
-		"digit_xpos"	"33"
-		"digit_ypos"	"3"
+		"digit_xpos"	"35"
+		"digit_ypos"	"18"
 		
 		"icon_xpos"	"10"
-		"icon_ypos"	"10"
+		"icon_ypos"	"25"
 		"icon_font"	"StatusGlyphsSmall"
 		"icon_color"	"HUD_Tone_Default"
 		
@@ -244,8 +307,8 @@
 		
 		"xpos"		"c-60" //256
 		"ypos"		"1"
-		"wide"		"118" //128, 120
-		"tall"		"31" //128
+		"wide"		"120" //128, 120
+		"tall"		"128" //128
 		
 	
 		"MapNameFont"	"HUD_TextRoundInfo"
@@ -259,6 +322,9 @@
 		"TimerColor"		"HUD_Tone_Default"
 		"TimerX"		"43" //45
 		"TimerY"		"18"
+		
+		"ForegroundTexture"	"RoundInfoBoxFG"
+		"BackgroundTexture"	"RoundInfoBoxBG"
 	}
 	
 	HudTeamScores
@@ -362,13 +428,23 @@
 
 		"xpos"		"3"
 		"ypos"		"404"
-		"wide"		"80"
-		"tall"		"32"
+		"wide"		"128"
+		"tall"		"128"
+
+		"text1_xpos"		"34"
+		"text1_ypos"		"12"
 		
-		"bar_xpos"	"3"
-		"bar_ypos"	"3"
-		"bar_width"	"77"
-		"bar_height" "29"
+		"image1_xpos"	"3"
+		"image1_ypos"	"4"
+		
+		"bar_width"		"75"
+		"bar_height"		"24"
+
+		"TextFont"		"HUD_TextSmall"
+		"TextColor"		"HUD_Tone_Default" //overridden by teamcolor of disguise
+
+		"ForegroundTexture"	"CooldownBoxFG"
+		"BackgroundTexture"	"CooldownBoxBG"
 	}
 	
 	HudCellCount
@@ -379,21 +455,25 @@
 		"enabled"		"1"
 
 		"xpos"			"r198"
-		"ypos"			"464"
-		"wide"			"46"
-		"tall"			"14"
+		"ypos"			"447"
+		"xpos"			"3"
+		"ypos"			"404"
+		"wide"			"128"
+		"tall"			"128"
+
+		"text_xpos"		"19"
+		"text_ypos"		"19"
+		
+		"image_xpos"		"3"
+		"image_ypos"		"18"
 
 		"IconFont"		"AmmoIconsSmall"
-		"IconColor"		"HUD_Tone_Default"
 
 		"TextFont"		"HUD_TextRoundInfo"
 		"TextColor"		"HUD_Tone_Default"
 
-		"text_xpos"		"20"
-		"text_ypos"		"2"
-		
-		"image_xpos"		"4"
-		"image_ypos"		"2"
+		"ForegroundTexture"	"CellCountBoxFG"
+		"BackgroundTexture"	"CellCountBoxBG"
 	}
 
 	HudJetpackFuelBar
@@ -405,13 +485,25 @@
 
 		"xpos"		"3"
 		"ypos"		"404"
-		"wide"		"80"
-		"tall"		"32"
+		"wide"		"128"
+		"tall"		"128"
+
+		"text1_xpos"		"34"
+		"text1_ypos"		"12"
 		
-		"bar_xpos"	"3"
-		"bar_ypos"	"3"
-		"bar_width"	"77"
-		"bar_height" "29"
+		"image1_xpos"	"3"
+		"image1_ypos"	"4"
+		
+		"bar_width"		"75"
+		"bar_height"		"24"
+
+		"DisguiseFont"	"ClassGlyphs"
+
+		"TextFont"		"HUD_TextSmall"
+		"TextColor"		"HUD_Tone_Default" //overridden by teamcolor of disguise
+
+		"ForegroundTexture"	"CooldownBoxFG"
+		"BackgroundTexture"	"CooldownBoxBG"
 	}
 
 	HudSpyDisguise
@@ -423,26 +515,25 @@
 
 		"xpos"		"3"
 		"ypos"		"404"
-		"wide"		"80"
-		"tall"		"32"
+		"wide"		"128"
+		"tall"		"128"
 
 		"text1_xpos"		"34"
 		"text1_ypos"		"12"
 		
-		"image1_xpos"	"4"
-		"image1_ypos"	"3"
+		"image1_xpos"	"3"
+		"image1_ypos"	"4"
 		
-		"bar_xpos"		"3"
-		"bar_ypos"		"3"
-		"bar_width"		"78"
-		"bar_height"	"27"
-		
-		"bar_color"		"HUD_Tone_Default"
+		"bar_width"		"75"
+		"bar_height"		"24"
 
 		"DisguiseFont"	"ClassGlyphs"
 
 		"TextFont"		"HUD_TextSmall"
 		"TextColor"		"HUD_Tone_Default" //overridden by teamcolor of disguise
+
+		"ForegroundTexture"	"CooldownBoxFG"
+		"BackgroundTexture"	"CooldownBoxBG"
 	}
 	
 	HudSpyDisguise2
@@ -454,14 +545,33 @@
 
 		"xpos"		"82"
 		"ypos"		"404"
-		"wide"		"68"
-		"tall"		"42"
+		"wide"		"128"
+		"tall"		"128"
 		
-		"image1_xpos"	"3"
-		"image1_ypos"	"5"
+		"image1_xpos"	"2"
+		"image1_ypos"	"4"
 
 		"WeaponFont"	"WeaponIconsHUD"
 		"WeaponColor"	"HUD_Tone_Default"
+
+		"ForegroundTexture"	"SpyDisguiseBoxFG2"
+		"BackgroundTexture"	"SpyDisguiseBoxBG2"
+	}
+	
+	HudSpyDisguise3
+	{
+		"fieldName"	"HudSpyDisguise3"
+		
+		"visible"		"1"
+		"enabled"	"1"
+
+		"xpos"		"82"
+		"ypos"		"431"
+		"wide"		"128"
+		"tall"		"128"
+
+		"ForegroundTexture"	"SpyDisguiseBoxFG3"
+		"BackgroundTexture"	"SpyDisguiseBoxBG3"
 	}
 
 	HudHintCenter
@@ -528,18 +638,24 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"xpos"	"c-68"
-		"ypos"	"c165"
-		"wide"	"134" // 122 + bar_xpos
-		"tall"	"16"		
+		"xpos"	"c-123"
+		"ypos"	"414"
+		"wide"	"256"
+		"tall"	"32"		
 		
-		"bar_xpos" 		"12"
-		"bar_ypos"		"0"
+		"bar_xpos" "69"
+		"bar_ypos" "4"
+		"bar_width"	"118"
+		"bar_height"	"13"
+		"bar_color" 	"HUD_Tone_Default"
 		
-		"icon_xpos"		"0"
-		"icon_ypos"		"-1"
+		"icon_xpos"		"10"
+		"icon_ypos"		"25"
 		
-		"icon_color"	"HUD_Tone_Default"
+		//"icon_color" 	"0 0 0 255"
+
+		"ForegroundTexture"	"Gren1TimerFGBox"
+		"BackgroundTexture"	"Gren1TimerBGBox"
 	}
 	
 	HudGrenade2Timer
@@ -549,16 +665,24 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"xpos"	"c-76"
-		"ypos"	"c200"
-		"wide"	"142" // 122 + bar_xpos
-		"tall"	"16"
+		"xpos"	"c-123"
+		"ypos"	"434"
+		"wide"	"256"
+		"tall"	"32"
 
-		"bar_xpos" "20"
-		"bar_ypos"	"0"
+		"bar_xpos" "69"
+		"bar_ypos"	"16"
+		"bar_width"	"118"
+		"bar_height"	"13"
+		"bar_color" 	"HUD_Tone_Default"
 		
-		"icon_xpos"			"2"
-		"icon_ypos"			"0"
+		"icon_xpos"			"8"
+		"icon_ypos"			"24"
+
+		//"icon_color" 	"0 0 0 255"
+		
+		"ForegroundTexture"	"Gren2TimerFGBox"
+		"BackgroundTexture"	"Gren2TimerBGBox"
 	}
 	
 	//
@@ -568,23 +692,26 @@
 	HudBuildTimer
 	{
 		"fieldName"	"HudBuildTimer"
-		
+		"xpos"	"c-123"
+		"ypos"	"r132"
+		"wide"	"256"
+		"tall"	"32"
 		"visible" "1"
 		"enabled" "1"
+
+		"text_xpos" "256"
+		"text_ypos" "0"
 		
-		"xpos"	"c-76"
-		"ypos"	"c130"
-		"wide"	"142"
-		"tall"	"16"
-		
-		"bar_xpos" "20"
-		"bar_ypos" "0"
-		
-		"icon_xpos" "0"
-		"icon_ypos" "0"
-		
+		"icon_xpos" "40"
+		"icon_ypos" "8"
 		"icon_width" "16"
 		"icon_height" "16"
+		
+		"bar_xpos" "64"
+		"bar_ypos" "8"
+		"bar_width" "128"
+		"bar_height" "16"
+		"bar_color" "HUD_Tone_Default"
 	}
 	
 	//HudGrenade1Timer
