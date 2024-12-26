@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" 		"hud/HudLocationFG"
+	"$basetexture" 		"hud/LocationFG"
 	"$vertexcolor"		"1"
 	"$vertexalpha"		"1"
 }
