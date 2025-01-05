@@ -30,4 +30,9 @@
 		"caption"	"#GameUI_RagdollDeathView"
 		"cvar"		"cl_ragdoll_deathview"
 	}
+	"twotapnades"
+	{
+		"caption"	"#GameUI_UseTwoTapGrenades"
+		"cvar"		"cl_togglegrenades"
+	}
 }
