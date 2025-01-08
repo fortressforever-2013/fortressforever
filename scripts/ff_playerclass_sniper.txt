@@ -12,6 +12,7 @@ PlayerClassData
 
 	// Model
 	"model"			"models/player/sniper/sniper.mdl"
+	"arm_model"			"models/player/arms/sniper_arms.mdl"
 
 	// Health & Armour
 	"max_armour"		"50"

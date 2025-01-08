@@ -12,6 +12,7 @@ PlayerClassData
 
 	// Model
 	"model"			"models/player/spy/spy.mdl"
+	"arm_model"			"models/player/arms/spy_arms.mdl"
 
 	// Health & Armour
 	"max_armour"		"100"

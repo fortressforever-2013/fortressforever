@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/player/sniper/sniper_body_blue"
+	//"$bumpmap" 			"models/player/sniper/sniper_body_normal"
+	"$model" 			1
+
+	//Environment Mapping
+//	"$envmap" 			"env_cubemap"
+	//"$normalmapalphaenvmapmask" 	1
+//	"$envmaptint" 			"[0.3 0.3 0.3]"
+}
