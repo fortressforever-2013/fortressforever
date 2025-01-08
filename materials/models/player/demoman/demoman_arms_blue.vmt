@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/player/demoman/demoman_body_blue"
+	"$bumpmap" 			"models/player/demoman/demoman_body_normal"
+		//Environment Mapping
+	
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	1
+	"$envmapsaturation" 		.4
+	"$envmapcontrast" 		.7
+	
+	//Phong
+	"$phong" "1"
+
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[1 3 8]"
+	"$phongexponenttexture" "models/player/demoman/demoman_body_exp"
+	"$phongalbedotint" "1"
+}

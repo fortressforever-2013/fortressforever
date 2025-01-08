@@ -34,6 +34,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_FLAMETHROWER"
 	"viewmodel"	"models/weapons/flamethrower/v_flamethrower.mdl"
+	"viewmodel_new"	"models/weapons/new/flamethrower/v_flamethrower.mdl"
 	"playermodel"	"models/weapons/flamethrower/w_flamethrower.mdl"
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "flamethrower"

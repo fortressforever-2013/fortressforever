@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/player/spy/spy_body_red"
+	$halflambert 1
+	"$bumpmap" 			"models/player/spy/spy_body_normal"
+	"$model" 			1
+	
+	//Phong
+	"$phong" "1"
+	"$phongfresnelranges"	"[1 2 5]"
+	"$phongexponenttexture" "models/player/spy/spy_body_exp"
+	"$phongboost" 2
+}

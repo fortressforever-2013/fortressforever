@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/HealthBG"
+	"$vertexcolor" 		"1"
+	"$vertexalpha" 		"1"
+}

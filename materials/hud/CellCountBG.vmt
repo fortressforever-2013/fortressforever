@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/CellCountBG"
+	"$vertexcolor" 		"1"
+	"$vertexalpha" 		"1"
+}

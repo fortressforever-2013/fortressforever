@@ -4,7 +4,24 @@
 	{
 		"caption"	"#GameUI_GraphicalEffectsHeading"
 	}
-
+	"classicviewmodels"
+	{
+		"caption"	"#GameUI_ClassicViewmodels"
+		"cvar"		"cl_classic_viewmodels"
+	}
+	"cl_hand_viewmodel_mode"
+	{
+		"caption"	"#GameUI_NewArmsMode"
+		"cvar"		"cl_hand_viewmodel_mode"
+		"type"		"discrete"
+		"values"
+		{
+			"0"		"#GameUI_NewArmsMode_New"
+			"1"		"#GameUI_NewArmsMode_Classic"
+			"2"		"#GameUI_NewArmsMode_Invisible"
+		}
+	}
+	
 	"mblur"
 	{
 		"caption"	"#GameUI_EnableBlurredVision"

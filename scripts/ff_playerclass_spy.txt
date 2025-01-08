@@ -12,6 +12,7 @@ PlayerClassData
 
 	// Model
 	"model"			"models/player/spy/spy.mdl"
+	"arm_model"			"models/player/arms/spy_arms.mdl"
 
 	// Health & Armour
 	"max_armour"		"100"
@@ -42,8 +43,8 @@ PlayerClassData
 	"primary_max"		"4"
 
 	"secondary_classname"	"None"
-	"secondary_initial"		"0"
-	"secondary_max"		"0"
+	"secondary_initial"		"-1"
+	"secondary_max"		"-1"
 
 	// Ammo amounts for the player
 	AmmoData

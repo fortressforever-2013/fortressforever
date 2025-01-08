@@ -10,8 +10,8 @@ WeaponData
 	"viewmodel"		"models/shadertest/envballs.mdl"
 	"playermodel"		"models/shadertest/envballs.mdl"
 	"anim_prefix"		"envballs"
-	"bucket"		"0"
-	"bucket_position"	"2"
+	"bucket"		"5"
+	"bucket_position"	"19"
 
 	"clip_size"		"-1"
 	"clip2_size"		"-1"

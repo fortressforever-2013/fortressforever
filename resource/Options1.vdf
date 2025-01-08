@@ -4,16 +4,15 @@
 	{
 		"caption"	"#GameUI_GameplayHeading"
 	}
-
+	"twotapnades"
+	{
+		"caption"	"#GameUI_UseTwoTapGrenades"
+		"cvar"		"cl_togglegrenades"
+	}
 	"hints"
 	{
 		"caption"	"#GameUI_ShowHelpfulHints"
 		"cvar"		"cl_hints"
-	}
-	"classicviewmodels"
-	{
-		"caption"	"#GameUI_ClassicViewmodels"
-		"cvar"		"cl_classic_viewmodels"
 	}
 	"autoreload"
 	{

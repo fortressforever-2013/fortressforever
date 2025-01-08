@@ -17,7 +17,7 @@ WeaponData
 
 	"PreReloadTime"	"0.5"	// Time taken for the weapon to move to reload state
 	"ReloadTime"	"0.35"	// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"	"0.7"	// Time taken to move weapon back to firing state
+	"PostReloadTime"	"1"	// Time taken to move weapon back to firing state
 
 	"SpinTime"	"-1"		// For AC
 

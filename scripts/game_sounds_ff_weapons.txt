@@ -40,7 +40,90 @@
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"common/null.wav"
 	}
-
+	"Weapon.Reload1_Mag_Out"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/generic/reload1_mag_out.wav"
+	}
+	"Weapon.Reload1_Mag_In"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/generic/reload1_mag_in.wav"
+	}
+	"Weapon.Reload2_Lock"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/generic/reload2_lock.wav"
+	}
+	"Weapon.Reload2_Mag_Out"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/generic/reload2_mag_out.wav"
+	}
+	"Weapon.Reload2_Mag_In"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/generic/reload2_mag_in.wav"
+	}
+	"Weapon.Reload2_Bolt_Back"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/generic/reload2_bolt_back.wav"
+	}
+	"Weapon.Reload2_Bolt_Forward"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/generic/reload2_bolt_forward.wav"
+	}
+	"Weapon.Handle_Soft"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.3"
+		"CompatibilityAttenuation"	"1.0"
+		"rndwave"
+		{
+			"wave"	"physics\metal\weapon_footstep1.wav"
+			"wave"	"physics\metal\weapon_footstep2.wav"
+		}
+	}
+	"Weapon.Handle_Hard"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.3"
+		"CompatibilityAttenuation"	"1.0"
+		"rndwave"
+		{
+			"wave"	"physics\metal\weapon_impact_soft1.wav"
+			"wave"	"physics\metal\weapon_impact_soft2.wav"
+			"wave"	"physics\metal\weapon_impact_soft3.wav"
+		}
+	}
+	"Weapon.Mag_Drop"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.3"
+		"CompatibilityAttenuation"	"1.0"
+		"rndwave"
+		{
+			"wave"	"physics\metal\weapon_impact_hard1.wav"
+			"wave"	"physics\metal\weapon_impact_hard2.wav"
+			"wave"	"physics\metal\weapon_impact_hard3.wav"
+		}
+	}
 //----------------
 //Projectiles, things that go whizzzzzzzzzz-THUDszzz!
 //----------------
@@ -221,6 +304,31 @@
 		{
 			"wave"	"weapons/crowbar/crowbar_miss1.wav"
 			"wave"	"weapons/crowbar/crowbar_miss2.wav"
+		}
+	}
+	"crowbar.hit"
+	{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"rndwave"
+		{
+			"wave"	"weapons/fx/impacts/flesh/crowbar_hit1.wav"
+			"wave"	"weapons/fx/impacts/flesh/crowbar_hit2.wav"
+			"wave"	"weapons/fx/impacts/flesh/crowbar_hit3.wav"
+		}
+	}
+	"crowbar.miss"
+	{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"0.5"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"rndwave"
+		{
+			"wave"	"weapons\crowbar\crowbar_impact1.wav"
+			"wave"	"weapons\crowbar\crowbar_impact2"
 		}
 	}
 //----------------
@@ -513,70 +621,6 @@
 		"pitch"	"PITCH_NORM"
 		"wave"	"weapons/rpg/rpg_reload.wav"
 	}
-//	"rpg.reload1"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume"	"1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
-//	"rpg.reload2"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume"	"1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
-//	"rpg.reload3"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume"	"1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
-//	"rpg.reload4"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume"	"1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
-//	"rpg.slide1"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume"	"1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
-//	"rpg.slide2"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume" "1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
-//	"rpg.slide3"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume"	"1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
-//	"rpg.slide4"
-//	{
-//		"channel"	"CHAN_WEAPON"
-//		"volume"	"1.0"
-//		"CompatibilityAttenuation"	"1.0"
-//		"pitch"	"PITCH_NORM"
-//		"wave"	"weapons/rpg/rpg_reload.wav"
-//	}
 
 //----------------
 //Incendiary Cannon, I love the smell of Napalm in the morning
@@ -596,6 +640,22 @@
 		"CompatibilityAttenuation"	"1.0"
 		"pitch"	"95,105"
 		"wave"	"weapons/incendiarycannon/ic_reload01.wav"
+	}
+	"ic.cock_back"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"wave"	"weapons/incendiarycannon/ic_cock_back.wav"
+	}
+	"ic.cock_forward"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"wave"	"weapons/incendiarycannon/ic_cock_forward.wav"
 	}
 	"ic.empty"
 	{
@@ -651,6 +711,20 @@
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"weapons/supershotgun/supershotgun_cock.wav"
 	}
+	"pelletgun.cock_back"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/shotgun/pellet_cock_back.wav"
+	}
+	"pelletgun.cock_forward"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/shotgun/pellet_cock_forward.wav"
+	}
 //----------------
 //SuperShotgun, to the rescue
 //----------------
@@ -675,6 +749,20 @@
 		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"weapons/shotgun/shotgun_cock.wav"
+	}
+	"SuperShotgun.cock_back"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/supershotgun/supershotgun_cock_back.wav"
+	}
+	"SuperShotgun.cock_forward"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/supershotgun/supershotgun_cock_forward.wav"
 	}
 //----------------
 //Sniper Rifle, Let's see some Pink Mist.
@@ -794,7 +882,20 @@
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"weapons/tranq/tranq_cock.wav"
 	}
-
+	"Tranq.cock_back"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/tranq/tranq_cock_back.wav"
+	}
+	"Tranq.cock_forward"
+	{
+		"channel"	"CHAN_ITEM"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"wave"	"weapons/tranq/tranq_cock_forward.wav"
+	}
 //----------------
 //Umbrella, take the fight back to them Winston!
 //----------------
@@ -805,4 +906,12 @@
 		"CompatibilityAttenuation"	"1.0"
 		"pitch"	"95,105"
 		"wave"	"weapons/umbrella/umbrella_miss.wav"
+	}
+	"umbrella.hit"
+	{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"wave"	"\npc\zombie\zombie_hit.wav"
 	}
