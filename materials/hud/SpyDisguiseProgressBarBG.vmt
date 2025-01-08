@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" 		"hud/SpyDisguiseProgressBarBG"
+	"$vertexcolor"		"1"
+	"$vertexalpha"		"1"
+}

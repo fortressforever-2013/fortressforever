@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" 		"hud/AmmoClipFG"
+	"$vertexcolor"		"1"
+	"$vertexalpha"		"1"
+}
