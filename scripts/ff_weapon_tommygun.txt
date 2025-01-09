@@ -31,6 +31,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_TOMMYGUN"
 	"viewmodel"	"models/weapons/tommygun/v_tommygun.mdl"
+	"viewmodel_new"	"models/weapons/new/tommygun/v_tommygun.mdl"
 	"playermodel"	"models/weapons/tommygun/w_tommygun.mdl"
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "autorifle"

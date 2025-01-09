@@ -3,245 +3,300 @@ HudData
 	TextureData
 	{
 		/////////////// BACKGROUND LAYER ///////////////
-		"playerScoreBoxBG1"
+		"locationBoxBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"c"
-		}
-		"locationBoxBG1"
-		{
-			"font"	"HUD_BackGround"
-			"character"	"a"
-		}
-		"locationBoxBG2"
-		{
-			"font"	"HUD_BackGround"
-			"character"	"y"
+			"file"	"hud/LocationBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"1024"
+			"height"	"128"
 		}
 		"healthBoxBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"c"
+			"file"	"hud/HealthBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"128"
 		}
-		"armourBoxBG"
+		"armorBoxBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"e"
+			"file"	"hud/ArmorBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"128"
 		}
-		"weaponBoxBG1"
+		"AmmoBG" // the glyph which has current weapon icon and its ammo type icon
 		{
-			"font"	"HUD_BackGround"
-			"character"	"g"
+			"file"	"hud/AmmoBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"weaponBoxBG2"
+		"AmmoInfoBG" // shows how much ammo the player has apart from the clip (or total ammo for "non-clip weapons", e.g - assault cannon, auto-rifle, etc)
 		{
-			"font"	"HUD_BackGround"
-			"character"	"w"
+			"file"	"hud/AmmoInfoBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"1024"
+			"height"	"256"
 		}
-		"ammoCarriedBoxBG"
+		"AmmoClipBG" // shows ammo loaded into the current clip
 		{
-			"font"	"HUD_BackGround"
-			"character"	"i"
-		}
-		"ammoLoadedBoxBG"
-		{
-			"font"	"HUD_BackGround"
-			"character"	"k"
+			"file"	"hud/AmmoClipBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"grenPrimaryBoxBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"m"
+			"file"	"hud/Gren1BG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"grenSecondaryBoxBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"o"
+			"file"	"hud/Gren2BG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"CellCountBoxBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"m"
+			"file"	"hud/CellCountBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"CooldownBoxBG"
+		"JetpackFuelBarBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"s"
+			"file"	"hud/JetpackFuelBarBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"SpyDisguiseBoxBG"
+		"OverpressureBarBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	">"
+			"file"	"hud/OverpressureBarBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"SpyDisguiseBoxBG2"
+		"SpyDisguiseBarBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"]"
+			"file"	"hud/SpyDisguiseProgressBarBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"SpyDisguiseBoxBG3"
+		"SpyDisguiseDetailsBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	","
+			"file"	"hud/SpyDisguiseBoxBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"RoundInfoBoxBG"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"q"
+			"file"	"hud/RoundInfoBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"128"
 		}
 		"Gren1TimerBGBox"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"u"
+			"file"	"hud/Gren1TimerBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"64"
 		}
 		"Gren2TimerBGBox"
 		{
-			"font"	"HUD_BackGround"
-			"character"	"u"
+			"file"	"hud/Gren2TimerBG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"64"
+		}
+		"BuildTimerBGBox"
+		{
+			"file" "hud/BuildTimerBG"
+			"x" "0"
+			"y" "0"
+			"width" "512"
+			"height" "64"
 		}
 		
 		/////////////// FOREGROUND LAYER ///////////////
 		
-		"playerScoreBoxFG1"
+		"locationBoxFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"d"
-		}
-		"locationBoxFG1"
-		{
-			"font"	"HUD_ForeGround"
-			"character"	"b"
-		}
-		"locationBoxFG2"
-		{
-			"font"	"HUD_BackGround"
-			"character"	"z"
+			"file"	"hud/LocationFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"1024"
+			"height"	"128"
 		}
 		"healthBoxFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"K"
+			"file"	"hud/HealthFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"128"
 		}
-		"armourBoxFG"
+		"armorBoxFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"L"
+			"file"	"hud/ArmorFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"128"
 		}
-		"weaponBoxFG1"
+		"AmmoFG" // the glyph which has current weapon icon and its ammo type icon
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"h"
+			"file"	"hud/AmmoFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"weaponBoxFG2"
+		"AmmoInfoFG" // shows how much ammo the player has apart from the clip (or total ammo for "non-clip weapons", e.g - assault cannon, auto-rifle, etc)
 		{
-			"font"	"HUD_BackGround"
-			"character"	"x"
+			"file"	"hud/AmmoInfoFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"1024"
+			"height"	"256"
 		}
-		"ammoCarriedBoxFG"
+		"AmmoClipFG" // shows ammo loaded into the current clip
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"j"
-		}
-		"ammoLoadedBoxFG"
-		{
-			"font"	"HUD_ForeGround"
-			"character"	"l"
+			"file"	"hud/AmmoClipFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"grenPrimaryBoxFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"n"
+			"file"	"hud/Gren1FG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"grenSecondaryBoxFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"p"
+			"file"	"hud/Gren2FG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"CellCountBoxFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"n"
+			"file"	"hud/CellCountFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"CooldownBoxFG"
+		"JetpackFuelBarFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"t"
+			"file"	"hud/JetpackFuelBarFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"SpyDisguiseBoxFG"
+		"OverpressureBarFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"<"
+			"file"	"hud/OverpressureBarFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"SpyDisguiseBoxFG2"
+		"SpyDisguiseBarFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"["
+			"file"	"hud/SpyDisguiseProgressBarFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"SpyDisguiseBoxFG3"
+		"SpyDisguiseDetailsFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	";"
+			"file"	"hud/SpyDisguiseBoxFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		"RoundInfoBoxFG"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"r"
+			"file"	"hud/RoundInfoFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"128"
 		}
 		"Gren1TimerFGBox"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"v"
+			"file"	"hud/Gren1TimerFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"64"
 		}
 		"Gren2TimerFGBox"
 		{
-			"font"	"HUD_ForeGround"
-			"character"	"v"
+			"file"	"hud/Gren2TimerFG"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"64"
+		}
+		"BuildTimerFGBox"
+		{
+			"file" "hud/BuildTimerFG"
+			"x" "0"
+			"y" "0"
+			"width" "512"
+			"height" "64"
 		}
 		
-		/////////////// OLD STUFF ///////////////
-		"Health"
+		/////////// e ////////////
+		
+		"JetpackFuelBarProgress"
 		{
-			"font"	"WeaponIconsSelected"
-			"character"	"f"
+			"file"	"hud/JetpackFuelBarProgress"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
-		"Armor"
+		
+		"OverpressureBarProgress"
 		{
-			"font"	"WeaponIconsSelected"
-			"character"	"f"
-		}
-		"Location"
-		{
-			"font"	"WeaponIconsSelected"
-			"character"	"f"
-		}
-		"Gren1"
-		{
-			"font"	"WeaponIconsSelected"
-			"character"	"f"
-		}
-		"Gren2"
-		{
-			"font"	"WeaponIconsSelected"
-			"character"	"f"
-		}
-		"Ammo"
-		{
-			"font"	"WeaponIconsSelected"
-			"character"	"f"
-		}
-		"BuildTimer"
-		{
-			"font"	"WeaponIconSelected"
-			"character"	"f"
-		}
-		"Gren1Timer"
-		{
-			"font"	"WeaponIconSelected"
-			"character"	"f"
-		}
-		"Gren2Timer"
-		{
-			"font"	"WeaponIconSelected"
-			"character"	"f"
+			"file"	"hud/OverpressureBarProgress"
+			"x"	"0"
+			"y"	"0"
+			"width"	"512"
+			"height"	"256"
 		}
 		
 		/////////// Temporarily here until a home found for it

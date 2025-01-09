@@ -12,6 +12,7 @@ PlayerClassData
 
 	// Model
 	"model"				"models/player/pyro/pyro.mdl"
+	"arm_model"			"models/player/arms/pyro_arms.mdl"
 
 	// Health & Armour
 	"max_armour"			"150"

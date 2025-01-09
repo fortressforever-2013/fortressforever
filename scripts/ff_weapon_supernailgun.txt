@@ -16,9 +16,9 @@ WeaponData
 	"Bullets"	"-1"		// Bullets to shoot
 	"BulletSpread"	"-1"		// Spread of projectiles
 
-	"PreReloadTime"	"1.50"	// Time taken for the weapon to move to reload state--minimum .66 Increase this one to make the reload take longer
-	"ReloadTime"	"0.33"		// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"	"0.33"	// Time taken to move weapon back to firing state
+	"PreReloadTime"	"2.17"	// Time taken for the weapon to move to reload state--minimum .66 Increase this one to make the reload take longer
+	"ReloadTime"	"0"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"	"0"	// Time taken to move weapon back to firing state
 
 	"SpinTime"	"-1"		// For AC
 
@@ -34,6 +34,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#FF_WPNHUD_SUPERNAILGUN"
 	"viewmodel"	"models/weapons/supernailgun/v_supernailgun.mdl"
+	"viewmodel_new"	"models/weapons/new/supernailgun/v_supernailgun.mdl"
 	"playermodel"	"models/weapons/supernailgun/w_supernailgun.mdl"
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "supernailgun"

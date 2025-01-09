@@ -12,6 +12,7 @@ PlayerClassData
 
 	// Model
 	"model"			"models/player/soldier/soldier.mdl"
+	"arm_model"			"models/player/arms/soldier_arms.mdl"
 
 	// Health & Armour
 	"max_armour"		"200"

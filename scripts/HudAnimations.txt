@@ -151,8 +151,8 @@ event NewAddArmor
 	Animate HudPlayerAddArmor	FgColor	"FgColor"			Linear	0.0	0.0	
 	Animate HudPlayerAddArmor	FgColor	"255 128 50 255"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddArmor Position	"87 406"			Linear	0.0	0.0
-	Animate HudPlayerAddArmor Position	"87 376"			Linear	0.0	4.5
+	Animate HudPlayerAddArmor Position	"114 424"			Linear	0.0	0.0
+	Animate HudPlayerAddArmor Position	"114 394"			Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
 	Animate HudPlayerAddArmor	FgColor	"0 0 0 0"			Linear	2.0	0.5
@@ -166,8 +166,8 @@ event NewSubtractArmor
 	Animate HudPlayerAddArmor	FgColor	"FgColor"			Linear	0.0	0.0	
 	Animate HudPlayerAddArmor	FgColor	"ArmorLowColor"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddArmor	Position	"87 406"			Linear	0.0	0.0
-	Animate HudPlayerAddArmor	Position	"87 376"			Linear	0.0	4.5
+	Animate HudPlayerAddArmor	Position	"114 424"			Linear	0.0	0.0
+	Animate HudPlayerAddArmor	Position	"114 394"			Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
 	Animate HudPlayerAddArmor	FgColor	"0 0 0 0"			Linear	2.0	0.5
@@ -232,8 +232,8 @@ event NewAddHealth
 	Animate HudPlayerAddHealth	FgColor	"FgColor"		Linear	0.0	0.0	
 	Animate HudPlayerAddHealth	FgColor	"0 210 0 255"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddHealth	Position	"3 406"		Linear	0.0	0.0
-	Animate HudPlayerAddHealth	Position	"3 376"		Linear	0.0	4.5
+	Animate HudPlayerAddHealth	Position	"40 414"		Linear	0.0	0.0
+	Animate HudPlayerAddHealth	Position	"40 384"		Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
 	Animate HudPlayerAddHealth	FgColor	"0 0 0 0"		Linear	2.0	0.5
@@ -247,8 +247,8 @@ event NewSubtractHealth
 	Animate HudPlayerAddHealth	FgColor	"FgColor"			Linear	0.0	0.0	
 	Animate HudPlayerAddHealth	FgColor	"HealthLowColor"	Deaccel	0.0	0.3
 
-	Animate HudPlayerAddHealth	Position	"3 406"			Linear	0.0	0.0
-	Animate HudPlayerAddHealth	Position	"3 376"			Linear	0.0	4.5
+	Animate HudPlayerAddHealth	Position	"40 414"		Linear	0.0	0.0
+	Animate HudPlayerAddHealth	Position	"40 384"		Linear	0.0	4.5
 	
 // change the number after Linear here for however long you want the +/- armor to stay on screen before fading
 	Animate HudPlayerAddHealth	FgColor	"0 0 0 0"	Linear	2.0	0.5

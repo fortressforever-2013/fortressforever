@@ -12,6 +12,7 @@ PlayerClassData
 
 	// Model
 	"model"			"models/player/demoman/demoman.mdl"
+	"arm_model"			"models/player/arms/demoman_arms.mdl"
 
 	// Health & Armour
 	"max_armour"		"120"
