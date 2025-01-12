@@ -16,6 +16,8 @@
 "+reload"	"#Valve_Reload_Weapon"
 "+gren1"	"#FF_Gren1"
 "+gren2"	"#FF_Gren2"
+"+togglegren1" "#FF_ToggleGren1"
+"+togglegren2" "#FF_ToggleGren2"
 "invprev"	"#Valve_Previous_Weapon"
 "invnext"	"#Valve_Next_Weapon"
 "lastinv"	"#Valve_Last_Weapon_Used"

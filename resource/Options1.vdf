@@ -4,11 +4,6 @@
 	{
 		"caption"	"#GameUI_GameplayHeading"
 	}
-	"twotapnades"
-	{
-		"caption"	"#GameUI_UseTwoTapGrenades"
-		"cvar"		"cl_togglegrenades"
-	}
 	"hints"
 	{
 		"caption"	"#GameUI_ShowHelpfulHints"
