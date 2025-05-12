@@ -4,6 +4,7 @@
 -- includes
 -----------------------------------------------------------------------------
 IncludeScript("base_shutdown");
+PrecacheSound( "HL2Player.TrainUse" )
 
 SECURITY_LENGTH = 60
 
