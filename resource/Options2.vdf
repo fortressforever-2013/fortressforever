@@ -52,6 +52,11 @@
 		"caption"	"#GameUI_UseConcRefractSphere"
 		"cvar"		"cl_conc_refract"
 	}
+	"r_classic_blood"
+	{
+		"caption"	"#GameUI_ClassicBloodEffects"
+		"cvar"	"r_classic_blood"
+	}
 	"effectdetail"
 	{
 		"caption"	"#GameUI_LevelOfEffectsDetail"
