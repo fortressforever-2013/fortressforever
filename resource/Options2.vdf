@@ -56,6 +56,13 @@
 	{
 		"caption"	"#GameUI_ClassicBloodEffects"
 		"cvar"	"r_classic_blood"
+		"type"	"discrete"
+		"values"
+		{
+			"2"	"#GameUI_RetailBlood"
+			"1"	"#GameUI_GoldSrcBlood"
+			"0"	"#GameUI_ParticleBlood"
+		}
 	}
 	"effectdetail"
 	{
