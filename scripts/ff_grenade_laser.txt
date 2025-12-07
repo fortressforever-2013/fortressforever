@@ -20,5 +20,5 @@ WeaponData
 			"character"	","
 		}
 	}
-	"printname" 	"#FF_WPNHUD_LASERGREN"
+	"printname" 	"#FF_WPNHUD_LASERGREN"	//was #FF_WPNHUD_NAILGREN
 }
