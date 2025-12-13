@@ -33,8 +33,8 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"special1"	"Spanner.HitSG"
-		"special2"	"Spanner.HitDispenser"
+		"special1"	"Spanner.Hit"
+		"special2"	"Spanner.HitBuilding"
 		"special3"	"Spanner.SpecialHit"
 		"single_shot"	"Spanner.Single_Shot"
 	}
