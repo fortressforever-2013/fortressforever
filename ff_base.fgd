@@ -6473,3 +6473,18 @@
 
 	input ApplyImpulse(void)  : "Apply impulse to touching entities"
 ]
+
+@SolidClass base(Origin) = func_null : "An alias for info_null. Useful for invisible texlights, such as those appearing to be cast by props or which accentuate the light coming in through a window." 
+[
+	targetname(target_source) : "Name" : : "Name other entities refer to this entity as. Allows this entity to be used as a prop_static's lighting origin or a spotlight's target."
+	vrad_brush_cast_shadows(choices) : "Cast Lightmap Shadows" : "" : "Set this if this brush casts lightmap shadows." =
+	[
+		"" : "No"
+		1 : "Yes"
+	]
+	vbsp_nobevel(choices) : "No Bevel (VBSP++ only)" : 1 : "If set, bevel faces aren't emitted on angled geometry. This reduces brushsides at the cost of less accurate collision on corners." =
+	[
+		"" : "Create bevels"
+		1 : "No bevels"
+	]
+]
