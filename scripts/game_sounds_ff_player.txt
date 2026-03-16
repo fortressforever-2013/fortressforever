@@ -19,6 +19,18 @@
 			"wave"	"player/footsteps/movement/jump3.wav"
 		}
 	}
+	"Player.JumpLanding"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.55"
+		"soundlevel" "SNDLVL_85dB"
+		"pitch"	"95,105"
+		"rndwave"
+		{
+			"wave"	"player/footsteps/movement/land1.wav"
+			"wave"	"player/footsteps/movement/land2.wav"
+		}
+	}
 	"Player.ClientJump"
 	{
 		"channel"	"CHAN_BODY"
