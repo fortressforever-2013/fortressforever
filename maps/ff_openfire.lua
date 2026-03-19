@@ -14,6 +14,16 @@ POINTS_PER_CAPTURE = 10;
 FLAG_RETURN_TIME = 60;
 SECURITY_LENGTH = 30;
 
+local openfire_startup = startup
+
+function startup()
+	if HasGameStarted() then
+		OutputEvent("teltoilet", "Disable")
+	end
+	
+	openfire_startup()
+end
+
 -----------------------------------------------------------------------------
 -- unique openfire locations
 -----------------------------------------------------------------------------
