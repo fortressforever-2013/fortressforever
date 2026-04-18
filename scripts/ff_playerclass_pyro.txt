@@ -58,7 +58,7 @@ PlayerClassData
 		"AMMO_SHELLS"		"40"
 		"AMMO_NAILS"		"50"
 		"AMMO_CELLS"		"200"
-		"AMMO_ROCKETS"		"25"
+		"AMMO_ROCKETS"		"20"
 		"AMMO_DETPACK"		"0"
 		"AMMO_MANCANNON"	"0"
 	}

@@ -2,7 +2,7 @@ WeaponData
 {
 	// Weapon characteristics:
 	"CycleTime"	"0.1"		// Rate of fire
-	"CycleDecrement"	"1"	// Number of bullets fired per cycle
+	"CycleDecrement"	"2"	// Number of bullets fired per cycle
 	"ReloadClip"	"1"	// Reload entire clip at once?
 
 	"Damage"	"12"		// Damage per burst
@@ -22,9 +22,9 @@ WeaponData
 
 	"SpinTime"	"-1"		// For AC
 
-	"clip_size"	"50"
+	"clip_size"	"100"
 	"clip2_size"	"-1"
-	"default_clip"	"60"
+	"default_clip"	"100"
 	"default_clip2"	"-1"
 	"primary_ammo"	"AMMO_NAILS"
 	"secondary_ammo"	"None"

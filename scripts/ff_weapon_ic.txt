@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"	"0.6"		// Rate of fire
+	"CycleTime"	"0.8"		// Rate of fire
 	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 	"DeployDelay"	"0.2"		// Delay before you can shoot when you first pull the weapon out
 	

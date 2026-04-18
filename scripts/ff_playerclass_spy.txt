@@ -15,7 +15,7 @@ PlayerClassData
 	"arm_model"			"models/player/arms/spy_arms.mdl"
 
 	// Health & Armour
-	"max_armour"		"100"
+	"max_armour"		"70"
 	"initial_armour"		"25"
 	"armour_type"		"6" // this means 0.6
 	"health"			"90"
