@@ -17,13 +17,13 @@ WeaponData
 	"Bullets"	"-1"		// Bullets to shoot
 	"BulletSpread"	"-1"		// Spread of projectiles
 
-	"PreReloadTime"	"0.1"	// Time taken for the weapon to move to reload state
+	"PreReloadTime"	"0.3"	// Time taken for the weapon to move to reload state
 	"ReloadTime"	"0.65"	// Time taken to reload a shell/rocket/etc
 	"PostReloadTime"	"0.2"	// Time taken to move weapon back to firing state
 
 	"SpinTime"	"-1"		// For AC
 
-	"clip_size"	"5"
+	"clip_size"	"4"
 	"primary_ammo"	"AMMO_ROCKETS"
 	"secondary_ammo"	"None"
 
