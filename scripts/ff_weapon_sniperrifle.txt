@@ -7,7 +7,7 @@ WeaponData
 	"Damage"	"45"		// Damage per burst
 
 	// for the sniper rifle, this is multiplied by the charge time (1 to 7 seconds)
-	"RecoilAmount"	"0"	// Amount of recoil
+	"RecoilAmount"	"1.0"	// Amount of recoil
 
 	// Projectile weapons
 	"Speed"	"-1"		// Speed for projectile to travel at
