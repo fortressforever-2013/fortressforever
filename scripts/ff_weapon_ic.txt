@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"	"0.8"		// Rate of fire
+	"CycleTime"	"0.25"		// Rate of fire
 	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 	"DeployDelay"	"0.2"		// Delay before you can shoot when you first pull the weapon out
 	
@@ -23,7 +23,7 @@ WeaponData
 
 	"SpinTime"	"-1"		// For AC
 
-	"clip_size"	"4"
+	"clip_size"	"1"
 	"primary_ammo"	"AMMO_ROCKETS"
 	"secondary_ammo"	"None"
 
