@@ -54,7 +54,7 @@
 	}
 	"r_classic_blood"
 	{
-		"caption"	"#GameUI_ClassicBloodEffects"
+		"caption"	"#GameUI_BloodEffects"
 		"cvar"	"r_classic_blood"
 		"type"	"discrete"
 		"values"
