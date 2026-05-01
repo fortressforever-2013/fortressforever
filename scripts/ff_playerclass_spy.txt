@@ -43,8 +43,8 @@ PlayerClassData
 	"primary_max"		"4"
 
 	"secondary_classname"	"ff_grenade_gas"
-	"secondary_initial"		"2"
-	"secondary_max"		"4"
+	"secondary_initial"		"1"
+	"secondary_max"		"2"
 
 	// Ammo amounts for the player
 	AmmoData
