@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"	"0.8"		// Rate of fire
+	"CycleTime"	"1.5"		// Rate of fire
 	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 	"DeployDelay"	"0.2"		// Delay before you can shoot when you first pull the weapon out
 	
@@ -17,13 +17,13 @@ WeaponData
 	"Bullets"	"-1"		// Bullets to shoot
 	"BulletSpread"	"-1"		// Spread of projectiles
 
-	"PreReloadTime"	"0.3"	// Time taken for the weapon to move to reload state
-	"ReloadTime"	"0.65"	// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"	"0.2"	// Time taken to move weapon back to firing state
+	"PreReloadTime"	"-1"	// Time taken for the weapon to move to reload state
+	"ReloadTime"	"-1"	// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"	"-1"	// Time taken to move weapon back to firing state
 
 	"SpinTime"	"-1"		// For AC
 
-	"clip_size"	"4"
+	"clip_size"	"-1"
 	"primary_ammo"	"AMMO_ROCKETS"
 	"secondary_ammo"	"None"
 
