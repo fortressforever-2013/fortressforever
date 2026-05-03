@@ -54,8 +54,8 @@ WeaponData
 		}
 		"ammo"
 		{
-			"font"	"CSTypeDeath"
-			"character"	"R"
+			"font"	"WeaponIconsSmall"
+			"character"	"6"
 		}
 		"crosshair"
 		{
