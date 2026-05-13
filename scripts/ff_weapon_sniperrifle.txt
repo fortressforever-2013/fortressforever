@@ -4,7 +4,7 @@ WeaponData
 	"CycleTime"	"1.5"		// Rate of fire
 	"CycleDecrement"	"5"	// Number of bullets fired per cycle
 
-	"Damage"	"45"		// Damage per burst
+	"Damage"	"25"		// Damage per burst
 
 	// for the sniper rifle, this is multiplied by the charge time (1 to 7 seconds)
 	"RecoilAmount"	"1.0"	// Amount of recoil
