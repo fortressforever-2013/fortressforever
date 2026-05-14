@@ -39,7 +39,7 @@ WeaponData
 	"anim_prefix"	"anim"
 	"PlayerAnimationExtension" "sniperrifle"
 	"bucket"	"1"
-	"bucket_position"	"1"
+	"bucket_position"	"1"	// Logically this would be 4, but it is what it is.
 
 	"weight"	"50"
 	"item_flags"	"0"
