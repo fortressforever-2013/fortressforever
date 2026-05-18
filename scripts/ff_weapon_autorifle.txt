@@ -4,7 +4,7 @@ WeaponData
 	"CycleTime"	"0.1"		// Rate of fire
 	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 
-	"Damage"	"7"		// Damage per burst
+	"Damage"	"5"		// Damage per burst
 
 	"RecoilAmount"	"0.4"		// Amount of recoil
 
