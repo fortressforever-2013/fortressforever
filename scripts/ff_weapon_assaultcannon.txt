@@ -4,7 +4,7 @@ WeaponData
 	"CycleTime"	"0.1"		// Rate of fire
 	"CycleDecrement"	"2"	// Number of bullets fired per cycle
 
-	"Damage"	"12"		// Damage from burst
+	"Damage"	"24"		// Damage from burst
 
 	"RecoilAmount"	"0.4"		// Amount of recoil
 
@@ -12,14 +12,14 @@ WeaponData
 	"Speed"	"-1"		// Speed for projectile to travel at
 	
 	// Hitscan weapons
-	"Bullets"	"2"		// Bullets to shoot
+	"Bullets"	"8"		// Bullets to shoot
 	"BulletSpread"	"0.08"	// Spread of projectiles
 
 	"PreReloadTime"	"-1"	// Time taken for the weapon to move to reload state
 	"ReloadTime"	"-1"		// Time taken to reload a shell/rocket/etc
 	"PostReloadTime"	"-1"	// Time taken to move weapon back to firing state
 
-	"SpinTime"	"0.7"		// For AC
+	"SpinTime"	"0.5"		// For AC
 
 	"clip_size"	"-1"
 	"clip2_size"	"-1"
