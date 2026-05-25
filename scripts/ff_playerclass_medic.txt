@@ -38,7 +38,7 @@ PlayerClassData
 
 	"secondary_classname"	"ff_grenade_concussion"
 	"secondary_initial"		"2"
-	"secondary_max"		"3"
+	"secondary_max"		"2"
 
 	// Ammo amounts for the player
 	AmmoData
