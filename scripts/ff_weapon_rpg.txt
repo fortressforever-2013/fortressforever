@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"	"0.7"		// was .8 Rate of fire
+	"CycleTime"	"0.8"
 	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 
 	"Damage"	"102"		// Damage per burst
