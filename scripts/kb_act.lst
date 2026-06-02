@@ -35,7 +35,7 @@
 "+hintcenter"	"#FF_HintCenter"
 "+mapshot"	"#FF_MapShot"
 "+use"	"#Valve_Use_Items"
-"discard"	"#FF_DiscardAmmo"
+"+discardmenu"	"#FF_DiscardAmmo"
 "dropitems"	"#FF_DropItems"
 "flaginfo"	"#FF_FlagInfo"
 "impulse 100"	"#Valve_Flashlight"
