@@ -30,8 +30,8 @@ PlayerClassData
 	{
 		"weapon"	"ff_weapon_crowbar"
 		"weapon"	"ff_weapon_shotgun"
-		"weapon"	"ff_weapon_ic"
 		"weapon"	"ff_weapon_flamethrower"
+		"weapon"	"ff_weapon_ic"
 	}
 
 	"primary_classname"		"ff_grenade_normal"
