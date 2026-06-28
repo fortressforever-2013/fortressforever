@@ -37,8 +37,7 @@ training_spawn = info_ff_script:new({
 	name="Trainer",
 	model="",
 	botteam=Team.kYellow,
-	botclass=0,
-	botgoaltype=Bot.kTrainerSpawn,
+	botclass=0
 })
 
 function training_spawn:spawn()

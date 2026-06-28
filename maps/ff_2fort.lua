@@ -79,8 +79,7 @@ ff_2fort_genericpack = genericbackpack:new({
 	respawntime = 2,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 function ff_2fort_genericpack:dropatspawn() return false end
 blue_2fort_genericpack = ff_2fort_genericpack:new({ touchflags = { AllowFlags.kOnlyPlayers, AllowFlags.kBlue } })
@@ -105,8 +104,7 @@ ff_2fort_grenpack = genericbackpack:new({
 	respawntime = 15,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 function ff_2fort_grenpack:dropatspawn() return false end
 blue_2fort_grenpack = ff_2fort_grenpack:new({ touchflags = { AllowFlags.kOnlyPlayers, AllowFlags.kBlue } })
@@ -131,8 +129,7 @@ ff_2fort_waterpack = genericbackpack:new({
 	respawntime = 30,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 function ff_2fort_waterpack:dropatspawn() return false end
 blue_2fort_waterpack = ff_2fort_waterpack:new({})
@@ -158,8 +155,7 @@ ff_2fort_spiralpack = genericbackpack:new({
 	respawntime = 20,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 function ff_2fort_spiralpack:dropatspawn() return false end
 blue_2fort_spiralpack = ff_2fort_spiralpack:new({ touchflags = { AllowFlags.kOnlyPlayers, AllowFlags.kBlue } })

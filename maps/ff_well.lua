@@ -134,8 +134,7 @@ wellpackgeneric = genericbackpack:new({
 	respawntime = 35,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 function wellpackgeneric:dropatspawn() return false end

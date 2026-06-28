@@ -216,8 +216,7 @@ healthkit = genericbackpack:new({
 	model = "models/items/healthkit.mdl",
 	materializesound = "Item.Materialize",
 	respawntime = 20,
-	touchsound = "HealthKit.Touch",
-	botgoaltype = Bot.kBackPack_Health
+	touchsound = "HealthKit.Touch"
 })
 
 function healthkit:dropatspawn() return true end
@@ -230,8 +229,7 @@ armorkit = genericbackpack:new({
 	cells = 150,					-- mirv: armour in 2fort/rock2/etc gives 150 cells too
 	model = "models/items/armour/armour.mdl",
 	materializesound = "Item.Materialize",	
-	touchsound = "ArmorKit.Touch",
-	botgoaltype = Bot.kBackPack_Armor
+	touchsound = "ArmorKit.Touch"
 })
 
 function armorkit:dropatspawn() return true end
@@ -247,8 +245,7 @@ ammobackpack = genericbackpack:new({
 	cells = 70,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 function ammobackpack:dropatspawn() return false end
@@ -266,8 +263,7 @@ bigpack = genericbackpack:new({
 	cells = 200,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 function bigpack:dropatspawn() return false end
@@ -282,8 +278,7 @@ grenadebackpack = genericbackpack:new({
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
 	respawntime = 30,
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Grenades
+	touchsound = "Backpack.Touch"
 })
 
 function grenadebackpack:dropatspawn() return false end
@@ -376,8 +371,7 @@ basecap = trigger_ff_script:new({
 	-- teampoints and fortpoints are defined as functions here for backwards compatibility (to always get the current value of the global variable)
 	-- when defining capture points that inherit from basecap, teampoints and fortpoints can be set to numbers instead
 	teampoints = function(cap, team) return POINTS_PER_CAPTURE end, 
-	fortpoints = function(cap, player) return FORTPOINTS_PER_CAPTURE end, 
-	botgoaltype = Bot.kFlagCap,
+	fortpoints = function(cap, player) return FORTPOINTS_PER_CAPTURE end
 })
 
 bluerspawn = info_ff_script:new()
@@ -501,7 +495,6 @@ baseflag = info_ff_script:new({
 	modelskin = 1,
 	dropnotouchtime = 2,
 	capnotouchtime = 2,
-	botgoaltype = Bot.kFlag,
 	status = 0,
 	hudicon = "",
 	hudx = 5,

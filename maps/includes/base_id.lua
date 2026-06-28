@@ -41,8 +41,7 @@ basecap = trigger_ff_script:new({
 	gren1 = 0,
 	gren2 = 0,
 	item = "",
-	team = 0,
-	botgoaltype = Bot.kFlagCap,
+	team = 0
 })
 
 function basecap:allowed ( allowed_entity )

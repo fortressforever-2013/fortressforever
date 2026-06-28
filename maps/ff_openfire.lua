@@ -121,8 +121,7 @@ aardvarkpack = genericbackpack:new({
 	respawntime = 8,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 function aardvarkpack:dropatspawn() return false end

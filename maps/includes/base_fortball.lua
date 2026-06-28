@@ -298,7 +298,6 @@ base_ball = info_ff_script:new({
 	hudstatusiconbluealign = 2,
 	hudstatusiconredalign = 3,
 	touchflags = {AllowFlags.kOnlyPlayers,AllowFlags.kBlue, AllowFlags.kRed},
-	botgoaltype = Bot.kFlag,
 	status = 0
 })
 
@@ -496,8 +495,7 @@ function base_ball:onreturn()
 end
 
 ball = base_ball:new({
-	touchflags = {AllowFlags.kOnlyPlayers,AllowFlags.kBlue, AllowFlags.kRed},
-	botgoaltype = Bot.kFlag
+	touchflags = {AllowFlags.kOnlyPlayers,AllowFlags.kBlue, AllowFlags.kRed}
 })
 
 
@@ -517,8 +515,7 @@ base_goal = trigger_ff_script:new({
 	gren1 = 0,
 	gren2 = 0,
 	item = "",
-	team = 0,
-	botgoaltype = Bot.kFlagCap
+	team = 0
 })
 
 function base_goal:spawn()

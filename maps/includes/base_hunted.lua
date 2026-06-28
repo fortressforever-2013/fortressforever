@@ -382,7 +382,6 @@ end
 
 -- escape portal entrance
 hunted_escape = trigger_ff_script:new({
-	botgoaltype = Bot.kHuntedEscape,
 	team = Team.kBlue
 })
 
