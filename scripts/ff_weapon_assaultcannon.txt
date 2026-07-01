@@ -6,7 +6,7 @@ WeaponData
 
 	"Damage"	"32"		// Damage from burst
 
-	"RecoilAmount"	"0.4"		// Amount of recoil
+	"RecoilAmount"	"0.2"		// Amount of recoil
 
 	// Projectile weapons
 	"Speed"	"-1"		// Speed for projectile to travel at
