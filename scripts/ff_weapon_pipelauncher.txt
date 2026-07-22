@@ -9,7 +9,7 @@ WeaponData
 	"RecoilAmount"	"1"	// Amount of recoil
 
 	// Projectile weapons
-	"Speed"	"625"		// Speed for projectile to travel at
+	"Speed"	"900"		// Speed for projectile to travel at (formerly 625, and before that, 630)
 	
 	// Hitscan weapons
 	"Bullets"	"-1"		// Bullets to shoot
