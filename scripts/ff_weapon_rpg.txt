@@ -9,7 +9,7 @@ WeaponData
 	"RecoilAmount"	"1"	// Amount of recoil
 
 	// Projectile weapons
-	"Speed"	"1000"		// 900 Speed for projectile to travel at, possibly wrong. Old FF value = 800.
+	"Speed"	"1100"		// 900 Speed for projectile to travel at, possibly wrong. Old FF value = 800.
 	
 	// Hitscan weapons
 	"Bullets"	"-1"		// Bullets to shoot
