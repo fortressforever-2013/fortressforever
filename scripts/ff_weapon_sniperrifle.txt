@@ -2,7 +2,7 @@ WeaponData
 {
 	// Weapon characteristics:
 	"CycleTime"	"1.5"		// Rate of fire
-	"CycleDecrement"	"5"	// Number of bullets fired per cycle
+	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 
 	"Damage"	"25"		// Damage per burst
 
@@ -24,9 +24,9 @@ WeaponData
 
 	"clip_size"	"-1"
 	"clip2_size"	"-1"
-	"default_clip"	"60"
+	"default_clip"	"20"
 	"default_clip2"	"-1"
-	"primary_ammo"	"AMMO_SHELLS"
+	"primary_ammo"	"AMMO_CELLS"
 	"secondary_ammo"	"None"
 
 	"ffencrypted"	"1" // required for the script to load
