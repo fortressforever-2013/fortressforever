@@ -33,8 +33,8 @@ PlayerClassData
 		"weapon"	"ff_weapon_nailgun"
 		"weapon"	"ff_weapon_deploymancannon"
 
-		//"skill"		"radar"
-		"skill"		"mancannon"
+		"skill"		"radar"
+		//"skill"		"mancannon"
 	}
 
 	//"primary_classname"	"ff_grenade_caltrop"
