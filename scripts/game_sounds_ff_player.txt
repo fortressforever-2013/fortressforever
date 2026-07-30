@@ -256,3 +256,25 @@
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"player/rampslide4.wav"
 	}
+	"Player.Cloak"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM" 
+
+		"rndwave"
+		{
+			"wave"	"player/cloak.wav"
+		}
+	}
+	"Player.CloakEnd"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM" 
+
+		"rndwave"
+		{
+			"wave"	"player/cloak_end.wav"
+		}
+	}
