@@ -3,7 +3,7 @@ WeaponData
 	// Weapon characteristics:
 	"CycleTime"	"0.1"		// Rate of fire
 	"CycleDecrement"	"2"	// Number of bullets fired per cycle
-	"DeployDelay"	"0.75"
+	"DeployDelay"	"0"
 
 	"Damage"	"32"		// Damage from burst
 
