@@ -3,8 +3,8 @@ WeaponData
 	// Weapon characteristics MELEE:
 	"CycleTime"	"0.4"		// Rate of fire
 	"Damage"	"30"		// Damage
-	"Range"	"32.0"		// Reach
-	"DeployDelay"	"0.15"	// Delay before you can shoot when you first pull the weapon out
+	"Range"	"72.0"		// Reach
+	"DeployDelay"	"0"	// Delay before you can shoot when you first pull the weapon out
 
 	"MeleeWeapon"	"1"
 
