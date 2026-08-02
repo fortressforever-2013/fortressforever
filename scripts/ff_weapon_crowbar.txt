@@ -3,8 +3,9 @@ WeaponData
 	// Weapon characteristics MELEE:
 	"CycleTime"	"0.4"	// Rate of fire
 	"Damage"	"30"		// Damage
-	"Range"	"32.0"	// Reach
+	"Range"	"72.0"	// Reach
 	"MeleeWeapon"	"1"
+	"DeployDelay"	"0"
 
 	"ffencrypted"	"1" // required for the script to load
 
