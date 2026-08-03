@@ -6,6 +6,7 @@ WeaponData
 	"default_clip2"	"-1"
 	"primary_ammo"	"AMMO_CELLS"
 	"secondary_ammo"	"None"
+	"DeployDelay"	"0"		// Delay before you can shoot when you first pull the weapon out
 
 	"ffencrypted"	"1" // required for the script to load
 	
