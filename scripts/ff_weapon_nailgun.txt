@@ -4,7 +4,6 @@ WeaponData
 	"CycleTime"	"0.1"	// Rate of fire
 	"CycleDecrement"	"1"	// Number of bullets fired per cycle
 	"ReloadClip"	"1"	// Reload entire clip at once?
-	"DeployDelay"	"0.25"
 
 	"Damage"	"9"		// Damage per burst
 
