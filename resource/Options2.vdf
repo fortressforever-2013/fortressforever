@@ -52,11 +52,6 @@
 		"caption"	"#GameUI_UseConcRefractSphere"
 		"cvar"		"cl_conc_refract"
 	}
-	"hud_damagenumbers"
-	{
-		"caption"	"#GameUI_DamageNumbers"
-		"cvar"		"hud_damagenumbers"
-	}
 	"r_classic_blood"
 	{
 		"caption"	"#GameUI_BloodEffects"

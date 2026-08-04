@@ -24,4 +24,9 @@
 		"caption"	"#GameUI_RagdollDeathView"
 		"cvar"		"cl_ragdoll_deathview"
 	}
+	"hud_damagenumbers"
+	{
+		"caption"	"#GameUI_DamageNumbers"
+		"cvar"		"hud_damagenumbers"
+	}
 }
