@@ -78,13 +78,19 @@ DESCRIPTION SERVER_OPTIONS
 
 	"mp_flashlight"
 	{
-		"Flashlights"
+		"#FF_Flashlights"
 		{ BOOL }
 		{ "1" }
 	}
 	"mp_allowspectators"
 	{
-		"Allow Spectators"
+		"#FF_AllowSpectators"
+		{ BOOL }
+		{ "1" }
+	}
+	"sv_speedcaps"
+	{
+		"#FF_SpeedCaps"
 		{ BOOL }
 		{ "1" }
 	}
