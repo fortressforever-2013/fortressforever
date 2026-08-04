@@ -20,7 +20,7 @@ PlayerClassData
 	"armour_type"		"3" // this means 0.3
 	"health"			"90"
 
-	"speed"			"300" //boosted 5% was 315
+	"speed"			"280" //formerly 300
 	
 	"firepower"		"90" // from 1 to 100
 	
