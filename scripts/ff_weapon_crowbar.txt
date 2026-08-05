@@ -5,7 +5,6 @@ WeaponData
 	"Damage"	"30"		// Damage
 	"Range"	"72.0"	// Reach
 	"MeleeWeapon"	"1"
-	"DeployDelay"	"0"
 
 	"ffencrypted"	"1" // required for the script to load
 
