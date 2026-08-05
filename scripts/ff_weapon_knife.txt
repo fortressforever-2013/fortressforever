@@ -4,7 +4,6 @@ WeaponData
 	"CycleTime"	"0.4"	// Rate of fire
 	"Damage"	"50"		// Damage
 	"Range"	"72.0"	// Reach
-	"DeployDelay"	"0"
 
 	"MeleeWeapon"	"1"
 
