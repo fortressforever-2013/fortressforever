@@ -1,11 +1,11 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"	"0.1"		// Rate of fire
+	"CycleTime"	"0.05"		// Rate of fire
 	"CycleDecrement"	"2"	// Number of bullets fired per cycle
 	"DeployDelay"	"0"
 
-	"Damage"	"32"		// Damage from burst
+	"Damage"	"16"		// Damage from burst
 
 	"RecoilAmount"	"0.2"		// Amount of recoil
 
@@ -13,7 +13,7 @@ WeaponData
 	"Speed"	"-1"		// Speed for projectile to travel at
 	
 	// Hitscan weapons
-	"Bullets"	"8"		// Bullets to shoot
+	"Bullets"	"2"		// Bullets to shoot
 	"BulletSpread"	"0.08"	// Spread of projectiles
 
 	"PreReloadTime"	"-1"	// Time taken for the weapon to move to reload state
