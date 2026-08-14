@@ -2,364 +2,74 @@
 {
 	"class"
 	{
-		"ControlName"	"CClassMenu"
-		"fieldName"		"classmenu"
-		"xpos"			"c-320"	// 0
-		"ypos"			"0"
-		"wide"			"640" 	// 640
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		ControlName	"CClassMenu"
+		fieldName	"class"
+		xpos	"76"
+		ypos	"0"
+		wide	"552"
+		tall	"448"
+		autoResize	"0"
+		pinCorner	"0"
+		visible	"1"
+		enabled	"1"
+		tabPosition	"0"
 	}
-	"SysMenu"
+
+	"joinClass"
 	{
-		"ControlName"	"Menu"
-		"fieldName"		"SysMenu"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"64"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
+		ControlName	"Label"
+		fieldName	"joinClass"
+		xpos	"8"
+		ypos	"72"
+		wide	"160"
+		tall	"24"
+		autoResize	"0"
+		pinCorner	"0"
+		visible	"1"
+		enabled	"1"
+		labelText	"#FF_CHANGECLASS"
+		textAlignment	"west"
+		dulltext	"0"
+		brighttext	"1"
+		"font"		"MenuTitle"
 	}
-	"ClassPreview"
+
+	"classInfoLabel"
 	{
-		"ControlName"	"ModelPanel"
-		"fieldName"		"ClassPreview"
-		"xpos"			"c"
-		"ypos"			"60"
-		"wide"			"316"
-		"tall"			"350"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		ControlName	"Label"
+		fieldName	"classInfoLabel"
+		xpos	"168"
+		ypos	"72"
+		wide	"180"
+		tall	"24"
+		autoResize	"0"
+		pinCorner	"0"
+		visible	"0"
+		enabled	"1"
+		labelText	"#Valve_Class_Info"
+		textAlignment	"west"
+		dulltext	"0"
+		brighttext	"1"
 	}
-	"FullSection"
+
+	"ClassInfo"
 	{
-		"ControlName"	"Section"
-		"fieldName"		"FullSection"
-		"xpos"			"0" 	// 12
-		"ypos"			"0"
-		"wide"			"640" 	// 616
-		"tall"			"480"	// 75
-		"autoResize"	"0" 	// 0
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"TeamMenuTitles_small"
-		"titleText"		""
+		ControlName	"Panel"
+		fieldName	"ClassInfo"
+		xpos	"168"
+		ypos	"116"
+		wide	"400"
+		tall	"380"
+		autoResize	"3"
+		pinCorner	"0"
+		visible	"0"
+		enabled	"0"
+		tabPosition	"0"
 	}
-	"ChangeClassSection"
-	{
-		"ControlName"	"Section"
-		"fieldName"		"ChangeClassSection"
-		"xpos"			"62" 	// 12
-		"ypos"			"73"
-		"wide"			"180" 	// 616
-		"tall"			"270"	// 75
-		"autoResize"	"0" 	// 0
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"TeamMenuTitles_small"
-		"titleText"		""
-	}
-	"WeaponsSection"
-	{
-		"ControlName"	"Section"
-		"fieldName"		"WeaponsSection"
-		"xpos"			"246" 	// 12
-		"ypos"			"73"
-		"wide"			"125" 	// 616
-		"tall"			"270"	// 75
-		"autoResize"	"0" 	// 0
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"MenuTitle"
-		"titleText"		"Weapons"
-	}
-		"WepSlot1"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"WepSlot1"
-			"xpos"			"246" 	// 12
-			"ypos"			"93"
-			"wide"			"125" 	// 616
-			"tall"			"30"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"WepSlot2"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"WepSlot2"
-			"xpos"			"246" 	// 12
-			"ypos"			"133"
-			"wide"			"125" 	// 616
-			"tall"			"30"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"WepSlot3"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"WepSlot3"
-			"xpos"			"246" 	// 12
-			"ypos"			"173"
-			"wide"			"125" 	// 616
-			"tall"			"30"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"WepSlot4"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"WepSlot4"
-			"xpos"			"246" 	// 12
-			"ypos"			"213"
-			"wide"			"125" 	// 616
-			"tall"			"30"	// 75
-			"autoResize"	"0"		// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"WepSlot5"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"WepSlot5"
-			"xpos"			"246" 	// 12
-			"ypos"			"253"
-			"wide"			"125" 	// 616
-			"tall"			"30"	// 75
-			"autoResize"	"0"		// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"WepSlot6"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"WepSlot6"
-			"xpos"			"246" 	// 12
-			"ypos"			"293"
-			"wide"			"125" 	// 616
-			"tall"			"30"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"WepSlot7"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"WepSlot6"
-			"xpos"			"246" 	// 12
-			"ypos"			"333"
-			"wide"			"125" 	// 616
-			"tall"			"30"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-	"GrenadesSection"
-	{
-		"ControlName"	"Section"
-		"fieldName"		"GrenadesSection"
-		"xpos"			"375" 	// 12
-		"ypos"			"73"
-		"wide"			"175" 	// 616
-		"tall"			"80"	// 75
-		"autoResize"	"0" 	// 0
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"MenuTitle"
-		"titleText"		"Grenades"
-	}
-		"PrimaryGren"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"PrimaryGren"
-			"xpos"			"385" 	// 12
-			"ypos"			"103"
-			"wide"			"70" 	// 616
-			"tall"			"40"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"SecondaryGren"
-		{
-			"ControlName"	"LoadoutLabel"
-			"fieldName"		"SecondaryGren"
-			"xpos"			"465" 	// 12
-			"ypos"			"103"
-			"wide"			"70" 	// 616
-			"tall"			"40"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-	"ClassInfoSection"
-	{
-		"ControlName"	"Section"
-		"fieldName"		"ClassInfoSection"
-		"xpos"			"62" 	// 12
-		"ypos"			"347"
-		"wide"			"309" 	// 616
-		"tall"			"80"	// 75
-		"autoResize"	"0" 	// 0
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"ClassMenu"
-		"titleText"		"Class Information"
-	}
-		"ClassInfo"
-		{
-			"ControlName"	"RichText"
-			"fieldName"		"ClassInfo"
-			"xpos"			"232" 	// 12
-			"ypos"			"367"
-			"wide"			"130" 	// 616
-			"tall"			"52"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"text"			"Special Abilities: Test
-Second Line: Test word wrap word wrap word wrap word wrap"
-			"border" 		"0"
-		}
-		"SpeedLabel"
-		{
-			"ControlName"	"ClassPropertiesLabel"
-			"fieldName"		"SpeedLabel"
-			"xpos"			"72" 	// 12
-			"ypos"			"367"
-			"wide"			"150" 	// 616
-			"tall"			"16"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"FirepowerLabel"
-		{
-			"ControlName"	"ClassPropertiesLabel"
-			"fieldName"		"FirepowerLabel"
-			"xpos"			"72" 	// 12
-			"ypos"			"385"
-			"wide"			"150" 	// 616
-			"tall"			"16"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-		"HealthLabel"
-		{
-			"ControlName"	"ClassPropertiesLabel"
-			"fieldName"		"HealthLabel"
-			"xpos"			"72"	// 12
-			"ypos"			"403"
-			"wide"			"150" 	// 616
-			"tall"			"16"	// 75
-			"autoResize"	"0" 	// 0
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-		}
-	"ClassRoleSection"
-	{
-		"ControlName"	"Section"
-		"fieldName"		"ClassRoleSection"
-		"xpos"			"375" 	// 12
-		"ypos"			"397"
-		"wide"			"175"	// 616
-		"tall"			"30"	// 75
-		"autoResize"	"0" 	// 0
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-	}
-		"ClassRole"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"ClassRole"
-			"xpos"				"375"
-			"ypos"				"397"
-			"wide"				"175"
-			"tall"				"30"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"center"
-			"dulltext"			"0"
-			"brighttext"		"0"
-			"font"				"MenuTitle"
-		}
-		
-	"changeclass"
-	{
-		"ControlName"		"Label"
-		"fieldName"			"changeclass"
-		"xpos"				"76"
-		"ypos"				"70"
-		"wide"				"450"
-		"tall"				"48"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"#FF_CHANGECLASS"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"font"				"MenuTitle"
-	}
+
 	"ScoutButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"ScoutButton"
 		"xpos"				"76"
 		"ypos"				"116"
@@ -375,11 +85,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"command"			"scout"
+		"command"			"class scout"
 	}
 	"SniperButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"SniperButton"
 		"xpos"				"156"
 		"ypos"				"116"
@@ -395,12 +105,12 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"command"			"sniper"
+		"command"			"class sniper"
 	}
 
 	"SoldierButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"SoldierButton"
 		"xpos"				"76"
 		"ypos"				"148"
@@ -416,12 +126,12 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"command"			"soldier"
+		"command"			"class soldier"
 	}
 	
 	"DemomanButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"DemomanButton"
 		"xpos"				"156"
 		"ypos"				"148"
@@ -437,11 +147,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"command"			"demoman"
+		"command"			"class demoman"
 	}
 	"MedicButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"MedicButton"
 		"xpos"				"76"
 		"ypos"				"180"
@@ -457,11 +167,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"command"			"medic"
+		"command"			"class medic"
 	}
 	"HwguyButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"HwguyButton"
 		"xpos"				"156"
 		"ypos"				"180"
@@ -477,11 +187,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"			"hwguy"
+		"Command"			"class hwguy"
 	}
 	"PyroButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"PyroButton"
 		"xpos"				"76"
 		"ypos"				"212"
@@ -497,11 +207,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"			"pyro"
+		"Command"			"class pyro"
 	}
 	"SpyButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"SpyButton"
 		"xpos"				"156"
 		"ypos"				"212"
@@ -517,11 +227,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"			"spy"
+		"Command"			"class spy"
 	}
 	"EngineerButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"EngineerButton"
 		"xpos"				"76"
 		"ypos"				"244"
@@ -537,11 +247,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"			"engineer"
+		"Command"			"class engineer"
 	}
 	"CivilianButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"CivilianButton"
 		"xpos"				"156"
 		"ypos"				"244"
@@ -557,11 +267,11 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"			"civilian"
+		"Command"			"class civilian"
 	}
 	"RandomButton"
 	{
-		"ControlName"		"MouseOverButton"
+		"ControlName"		"Button"
 		"fieldName"			"RandomButton"
 		"xpos"				"76"
 		"ypos"				"276"
@@ -577,26 +287,25 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"			"random"
+		"Command"			"class random"
 	}
 	"CancelButton"
 	{
-		"ControlName"		"FFButton"
-		"fieldName"			"CancelButton"
-		"xpos"				"76"
-		"ypos"				"308"
-		"wide"				"68"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#FF_MENU_CANCEL"
-		"font"				"ClassMenu"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"Command"			"cancel"
+		ControlName	"Button"
+		fieldName	"CancelButton"
+		xpos	"0"
+		ypos	"308"
+		wide	"148"
+		tall	"20"
+		autoResize	"0"
+		pinCorner	"2"
+		visible	"1"
+		enabled	"1"
+		tabPosition	"0"
+		labelText	"#FF_MENU_CANCEL"
+		textAlignment	"west"
+		dulltext	"0"
+		brighttext	"0"
+		Command	"vguicancel"
 	}
 }
