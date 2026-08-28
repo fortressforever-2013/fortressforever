@@ -22,6 +22,12 @@
 		}
 	}
 	
+	"cl_wpn_sway_follow"
+	{
+		"caption"	"#GameUI_WpnSwayFollow"
+		"cvar"		"cl_wpn_sway_follow"
+	}
+	
 	"mblur"
 	{
 		"caption"	"#GameUI_EnableBlurredVision"
