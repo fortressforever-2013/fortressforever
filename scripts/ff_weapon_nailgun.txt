@@ -16,9 +16,9 @@ WeaponData
 	"Bullets"	"-1"		// Bullets to shoot
 	"BulletSpread"	"-1"		// Spread of projectiles
 
-	"PreReloadTime"	"1.00"	// Time taken for the weapon to move to reload state
-	"ReloadTime"	"0.23"		// Time taken to reload a shell/rocket/etc
-	"PostReloadTime"	"0.26"	// Time taken to move weapon back to firing state
+	"PreReloadTime"	"0"	// Time taken for the weapon to move to reload state
+	"ReloadTime"	"1.23"		// Time taken to reload a shell/rocket/etc
+	"PostReloadTime"	"0"	// Time taken to move weapon back to firing state
 
 	"SpinTime"	"-1"		// For AC
 
