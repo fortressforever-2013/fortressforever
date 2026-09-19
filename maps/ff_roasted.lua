@@ -20,8 +20,7 @@ roasted_fr = genericbackpack:new({
 	respawntime = 30,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 roasted_upper = genericbackpack:new({
@@ -37,8 +36,7 @@ roasted_upper = genericbackpack:new({
 	respawntime = 15,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 roasted_top = genericbackpack:new({
@@ -54,8 +52,7 @@ roasted_top = genericbackpack:new({
 	respawntime = 20,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 roasted_resup = genericbackpack:new({
@@ -71,8 +68,7 @@ roasted_resup = genericbackpack:new({
 	respawntime = 2,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 function roasted_fr:dropatspawn() return false end
