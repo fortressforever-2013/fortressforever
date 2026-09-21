@@ -34,7 +34,7 @@ PlayerClassData
 
 	"primary_classname"	"ff_grenade_normal"
 	"primary_initial"		"2"
-	"primary_max"			"4"
+	"primary_max"			"3"
 
 	"secondary_classname"	"ff_grenade_concussion"
 	"secondary_initial"		"2"
