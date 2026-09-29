@@ -21,7 +21,7 @@ PlayerClassData
 	"health"			"100"
 
 	// Speed
-	"speed"				"300" //5% boost was 315
+	"speed"				"290" //formerly 300
 	
 	"firepower"			"65" // from 1 to 100
 	
