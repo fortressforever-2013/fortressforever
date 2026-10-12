@@ -43,7 +43,25 @@
 		"killassister" 	"short"
 		"killersglevel"	"short"
 	}
-	
+
+	"teamplay_round_start"	// round restart
+	{
+		"full_reset"	"bool"	// is this a full reset of the map
+	}
+
+	"weapon_equipped"
+	{
+		"class"			"string"
+		"entindex"		"long"
+		"owner_entindex"		"long"
+	}
+	"ammo_pickup"
+	{
+		"ammo_index"	"long"
+		"amount"	"long"
+		"total"	"long"
+	}
+
 	// From here down are events necessary for bot support.
 	"player_changeclass"
 	{		
