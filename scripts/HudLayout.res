@@ -1383,4 +1383,32 @@
 		"wide"		"f60"	[$X360]
 		"tall"		"100"
 	}
+	
+	HudBuildableDispenser
+	{
+	}
+	
+	HudBuildableManCannon
+	{
+	}
+	
+	HudBuildableSentry
+	{
+	}
+	
+	HudResourceMedpacks
+	{
+	}
+	
+	HudResourcePipeTrap
+	{
+	}
+	
+	HudTimerBuild
+	{
+	}
+	
+	HudTimerDetpack
+	{
+	}
 }

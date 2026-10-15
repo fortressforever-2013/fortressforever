@@ -36,8 +36,8 @@ Scheme
 		
 		/////////////// VGUI Colours ///////////////
 		"UI_Tone_Default"		"199 219 255 255"
-		"UI_Tone_Dim"			"109 124 142 115"
-		"UI_Tone_Dark"			"75 85 95 115"
+		"UI_Tone_Dim"			"60 70 80 240"
+		"UI_Tone_Dark"			"40 50 60 220"
 		
 		"UI_BG_Highlight"		"225 235 255 45"
 		"UI_BG_Dim"				"100 110 128 165"
