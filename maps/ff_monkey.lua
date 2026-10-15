@@ -51,8 +51,7 @@ monkeypackgeneric = genericbackpack:new({
 	respawntime = 35,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 function monkeypackgeneric:dropatspawn() return false end
@@ -69,8 +68,7 @@ redmonkeypack = genericbackpack:new({
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
 	touchsound = "Backpack.Touch",
-	touchflags = {AllowFlags.kRed},
-	botgoaltype = Bot.kBackPack_Ammo
+	touchflags = {AllowFlags.kRed}
 })
 
 function redmonkeypack:dropatspawn() return false end
@@ -87,8 +85,7 @@ redmonkeypacktoo = genericbackpack:new({
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
 	touchsound = "Backpack.Touch",
-	touchflags = {AllowFlags.kRed},
-	botgoaltype = Bot.kBackPack_Ammo
+	touchflags = {AllowFlags.kRed}
 })
 
 function redmonkeypacktoo:dropatspawn() return false end
@@ -105,8 +102,7 @@ bluemonkeypack = genericbackpack:new({
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
 	touchsound = "Backpack.Touch",
-	touchflags = {AllowFlags.kBlue},
-	botgoaltype = Bot.kBackPack_Ammo
+	touchflags = {AllowFlags.kBlue}
 })
 
 function bluemonkeypack:dropatspawn() return false end
@@ -123,8 +119,7 @@ bluemonkeypacktoo = genericbackpack:new({
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
 	touchsound = "Backpack.Touch",
-	touchflags = {AllowFlags.kBlue},
-	botgoaltype = Bot.kBackPack_Ammo
+	touchflags = {AllowFlags.kBlue}
 })
 
 function bluemonkeypacktoo:dropatspawn() return false end
@@ -138,8 +133,7 @@ redmonkeygrenades = genericbackpack:new({
 	materializesound = "Item.Materialize",
 	touchsound = "Backpack.Touch",
 	touchflags = {AllowFlags.kRed},
-	respawntime = 30,
-	botgoaltype = Bot.kBackPack_Ammo
+	respawntime = 30
 })
 
 function redmonkeygrenades:dropatspawn() return false end
@@ -153,8 +147,7 @@ bluemonkeygrenades = genericbackpack:new({
 	materializesound = "Item.Materialize",
 	touchsound = "Backpack.Touch",
 	touchflags = {AllowFlags.kBlue},
-	respawntime = 30,
-	botgoaltype = Bot.kBackPack_Ammo
+	respawntime = 30
 })
 
 function bluemonkeygrenades:dropatspawn() return false end

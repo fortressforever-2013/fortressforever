@@ -15,7 +15,7 @@ PlayerClassData
 	"arm_model"			"models/player/arms/scout_arms.mdl"
 
 	// Health & Armour
-	"max_armour"		"50"
+	"max_armour"		"30"
 	"initial_armour"		"25"
 	"armour_type"		"3" // this means 0.3
 	"health"			"75"
@@ -33,8 +33,8 @@ PlayerClassData
 		"weapon"	"ff_weapon_nailgun"
 		"weapon"	"ff_weapon_deploymancannon"
 
-		//"skill"		"radar"
-		"skill"		"mancannon"
+		"skill"		"radar"
+		//"skill"		"mancannon"
 	}
 
 	//"primary_classname"	"ff_grenade_caltrop"
@@ -58,7 +58,7 @@ PlayerClassData
 
 	MaxAmmoData
 	{
-		"AMMO_SHELLS"		"50"
+		"AMMO_SHELLS"		"40"
 		"AMMO_NAILS"		"100" //changed from 200..
 		"AMMO_CELLS"		"30"
 		"AMMO_ROCKETS"	"25"

@@ -1,0 +1,4 @@
+PUSH SCORING
+
+Objective:  Grab the ball from the centre warehouse and then run it to the enemy company's loading zone!  Capture it on the raised platform.
+The team with the most captures at the end of the game wins!

@@ -154,11 +154,11 @@ function trigger_ff_script:spawn()
 	
 	-- notify the bot if this is a goal type
 	local info = CastToTriggerScript(entity)
-	if(info ~= nil) then
+--[[	if(info ~= nil) then
 		if self.botgoaltype and self.team then
 		   info:SetBotGoalInfo(self.botgoaltype, self.team)
 		end		
-	end
+	end --]]
 end
 
 
@@ -232,12 +232,12 @@ function info_ff_script:spawn()
 	if self.disallowtouchflags ~= nil then info:SetDisallowTouchFlags(self.disallowtouchflags) end
 
 	-- notify the bot if this is a goal type
-	if(info ~= nil) then
+--[[	if(info ~= nil) then
 		if self.botgoaltype then
 		   info:SetBotGoalInfo(self.botgoaltype)
 		end
 	end
-	
+--]]	
 	if self.renderfx ~= nil then
 		info:SetRenderFx(self.renderfx)
 	end

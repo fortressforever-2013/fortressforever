@@ -21,7 +21,7 @@ PlayerClassData
 	"health"			"100"
 
 	// Speed
-	"speed"				"300" //5% boost was 315
+	"speed"				"290" //formerly 300
 	
 	"firepower"			"65" // from 1 to 100
 	
@@ -30,13 +30,13 @@ PlayerClassData
 	{
 		"weapon"	"ff_weapon_crowbar"
 		"weapon"	"ff_weapon_shotgun"
-		"weapon"	"ff_weapon_ic"
 		"weapon"	"ff_weapon_flamethrower"
+		"weapon"	"ff_weapon_ic"
 	}
 
 	"primary_classname"		"ff_grenade_normal"
 	"primary_initial"		"2"
-	"primary_max"			"4"
+	"primary_max"			"3"
 
 	"secondary_classname"		"ff_grenade_napalm"
 	"secondary_initial"		"1"
@@ -58,7 +58,7 @@ PlayerClassData
 		"AMMO_SHELLS"		"40"
 		"AMMO_NAILS"		"50"
 		"AMMO_CELLS"		"200"
-		"AMMO_ROCKETS"		"25"
+		"AMMO_ROCKETS"		"20"
 		"AMMO_DETPACK"		"0"
 		"AMMO_MANCANNON"	"0"
 	}

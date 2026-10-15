@@ -22,6 +22,12 @@
 		}
 	}
 	
+	"cl_wpn_sway_follow"
+	{
+		"caption"	"#GameUI_WpnSwayFollow"
+		"cvar"		"cl_wpn_sway_follow"
+	}
+	
 	"mblur"
 	{
 		"caption"	"#GameUI_EnableBlurredVision"
@@ -51,6 +57,18 @@
 	{
 		"caption"	"#GameUI_UseConcRefractSphere"
 		"cvar"		"cl_conc_refract"
+	}
+	"r_classic_blood"
+	{
+		"caption"	"#GameUI_BloodEffects"
+		"cvar"	"r_classic_blood"
+		"type"	"discrete"
+		"values"
+		{
+			"2"	"#GameUI_RetailBlood"
+			"1"	"#GameUI_GoldSrcBlood"
+			"0"	"#GameUI_ParticleBlood"
+		}
 	}
 	"effectdetail"
 	{

@@ -39,7 +39,7 @@ PlayerClassData
 
 	"primary_classname"	"ff_grenade_normal"
 	"primary_initial"		"2"
-	"primary_max"		"4"
+	"primary_max"		"2"
 
 	"secondary_classname"	"ff_grenade_emp"
 	"secondary_initial"		"1"
@@ -59,7 +59,7 @@ PlayerClassData
 	MaxAmmoData
 	{
 		"AMMO_SHELLS"		"50"
-		"AMMO_NAILS"		"50"
+		"AMMO_NAILS"		"30"
 		"AMMO_CELLS"		"200"
 		"AMMO_ROCKETS"	"30"
 		"AMMO_DETPACK"	"0"

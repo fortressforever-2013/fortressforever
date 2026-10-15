@@ -319,18 +319,6 @@
 			"wave"	"weapons/fx/impacts/flesh/crowbar_hit3.wav"
 		}
 	}
-	"crowbar.miss"
-	{
-		"channel"	"CHAN_WEAPON"
-		"volume"	"0.5"
-		"CompatibilityAttenuation"	"1.0"
-		"pitch"	"95,105"
-		"rndwave"
-		{
-			"wave"	"weapons\crowbar\crowbar_impact1.wav"
-			"wave"	"weapons\crowbar\crowbar_impact2"
-		}
-	}
 //----------------
 //Flamethrower, whooooosshhhhh
 //----------------
@@ -834,15 +822,7 @@
 			"wave"	"weapons/spanner/spanner_swing2.wav"
 		}
 	}
-	"Spanner.HitSG"
-	{
-		"channel"	"CHAN_WEAPON"
-		"volume"	"1.0"
-		"CompatibilityAttenuation"	"0.7"
-		"pitch"	"95,105"
-		"wave"	"weapons/spanner/spanner_sg1.wav"
-	}
-	"Spanner.HitDispenser"
+	"Spanner.HitBuilding"
 	{
 		"channel"	"CHAN_WEAPON"
 		"volume"	"1.0"
@@ -863,6 +843,19 @@
 		"volume"	"1.0"
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"weapons/spanner/spanner_specialhit.wav"
+	}
+	"Spanner.hit"
+	{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"1.0"
+		"pitch"	"95,105"
+		"rndwave"
+		{
+			"wave"	"weapons/fx/impacts/flesh/spanner_hit1.wav"
+			"wave"	"weapons/fx/impacts/flesh/spanner_hit2.wav"
+			"wave"	"weapons/fx/impacts/flesh/spanner_hit3.wav"
+		}
 	}
 //----------------
 //Tranquilizer, go most useless Team Fortress gun!

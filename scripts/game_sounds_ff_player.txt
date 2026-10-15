@@ -19,6 +19,18 @@
 			"wave"	"player/footsteps/movement/jump3.wav"
 		}
 	}
+	"Player.JumpLanding"
+	{
+		"channel"	"CHAN_STATIC"
+		"volume"	"0.55"
+		"soundlevel" "SNDLVL_85dB"
+		"pitch"	"95,105"
+		"rndwave"
+		{
+			"wave"	"player/footsteps/movement/land1.wav"
+			"wave"	"player/footsteps/movement/land2.wav"
+		}
+	}
 	"Player.ClientJump"
 	{
 		"channel"	"CHAN_BODY"
@@ -243,4 +255,26 @@
 		"volume"	"0.5"
 		"CompatibilityAttenuation"	"1.0"
 		"wave"	"player/rampslide4.wav"
+	}
+	"Player.Cloak"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM" 
+
+		"rndwave"
+		{
+			"wave"	"player/cloak.wav"
+		}
+	}
+	"Player.CloakEnd"
+	{
+		"channel"	"CHAN_AUTO"
+		"volume"	"1.0"
+		"soundlevel"	"SNDLVL_NORM" 
+
+		"rndwave"
+		{
+			"wave"	"player/cloak_end.wav"
+		}
 	}

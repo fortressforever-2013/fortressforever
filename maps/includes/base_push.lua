@@ -60,8 +60,7 @@ push_backpack = genericbackpack:new({
 	armor = 50,
 	touchsound = "ArmorKit.Touch",
 	respawntime = 10,
-	model = "models/items/backpack/backpack.mdl",
-	botgoaltype = Bot.kBackPack_Health
+	model = "models/items/backpack/backpack.mdl"
 })
 
 function push_backpack:dropatspawn() return false end
@@ -94,8 +93,7 @@ base_ball = info_ff_script:new({
 	hudstatusiconbluealign = 2,
 	hudstatusiconredalign = 3,
 
-	touchflags = {AllowFlags.kOnlyPlayers, AllowFlags.kBlue, AllowFlags.kRed, AllowFlags.kYellow, AllowFlags.kGreen},
-	botgoaltype = Bot.kFlag
+	touchflags = {AllowFlags.kOnlyPlayers, AllowFlags.kBlue, AllowFlags.kRed, AllowFlags.kYellow, AllowFlags.kGreen}
 })
 
 function base_ball:hasanimation() return true end
@@ -268,8 +266,7 @@ pushcap = trigger_ff_script:new({
 	gren1 = 0,
 	gren2 = 0,
 	item = "",
-	team = Team.kUnassigned,
-	botgoaltype = Bot.kFlagCap
+	team = Team.kUnassigned
 })
 
 function pushcap:allowed ( allowed_entity )

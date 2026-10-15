@@ -1,12 +1,13 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"CycleTime"	"0.1"		// Rate of fire
+	"CycleTime"	"0.05"		// Rate of fire
 	"CycleDecrement"	"2"	// Number of bullets fired per cycle
+	"DeployDelay"	"0"
 
-	"Damage"	"12"		// Damage from burst
+	"Damage"	"16"		// Damage from burst
 
-	"RecoilAmount"	"0.4"		// Amount of recoil
+	"RecoilAmount"	"0.2"		// Amount of recoil
 
 	// Projectile weapons
 	"Speed"	"-1"		// Speed for projectile to travel at
@@ -19,7 +20,7 @@ WeaponData
 	"ReloadTime"	"-1"		// Time taken to reload a shell/rocket/etc
 	"PostReloadTime"	"-1"	// Time taken to move weapon back to firing state
 
-	"SpinTime"	"0.7"		// For AC
+	"SpinTime"	"0.5"		// For AC
 
 	"clip_size"	"-1"
 	"clip2_size"	"-1"

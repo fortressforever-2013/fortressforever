@@ -998,8 +998,7 @@ cp_base_pack = genericbackpack:new({
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
 	touchsound = "Backpack.Touch",
-	cp_number = 0,
-	botgoaltype = Bot.kBackPack_Ammo,
+	cp_number = 0
 })
 
 function cp_base_pack:dropatspawn() return false end
@@ -1029,8 +1028,7 @@ cp_base_grenade_pack = cp_base_pack:new({
 	gren1 = 4,
 	gren2 = 4,
 	respawntime = 15,
-	touchflags = team_info[Team.kUnassigned].touchflags,
-	botgoaltype = Bot.kBackPack_Grenades,
+	touchflags = team_info[Team.kUnassigned].touchflags
 })
 
 cp_team1_grenade_pack = cp_base_grenade_pack:new( { touchflags = team_info[TEAM1].touchflags } )
@@ -1044,8 +1042,7 @@ cp_team2_grenade_pack = cp_base_grenade_pack:new( { touchflags = team_info[TEAM2
 cp_base_cp_zone = trigger_ff_script:new({
 	item = "",
 	team = 0,
-	botgoaltype = Bot.kFlagCap,
-	cp_number = 0,
+	cp_number = 0
 })
 
 function cp_base_cp_zone:ontrigger( trigger_entity )
@@ -1114,8 +1111,7 @@ cp_cp5_cp_zone = cp_base_cp_zone:new({ cp_number = 5 })
 cp_base_cp_trigger = trigger_ff_script:new({
 	item = "",
 	team = 0,
-	botgoaltype = Bot.kFlagCap,
-	cp_number = 0,
+	cp_number = 0
 })
 
 function cp_base_cp_trigger:ontrigger( trigger_entity )
@@ -1193,7 +1189,6 @@ cp_base_flag = info_ff_script:new({
 	modelskin = 0,
 	dropnotouchtime = 2,
 	capnotouchtime = 2,
-	botgoaltype = Bot.kFlag,
 	hudicon = "",
 	hudx = 5,
 	hudy = 180,
@@ -1320,7 +1315,6 @@ cp_base_flag_dispenser = trigger_ff_script:new({
 	name = "Base Flag Dispenser",
 	team = Team.kUnassigned,
 	dropnotouchtime = 2,
-	botgoaltype = Bot.kFlag,
 	hudicon = "",
 	hudx = 5,
 	hudy = 180,

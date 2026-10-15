@@ -34,11 +34,11 @@ PlayerClassData
 
 	"primary_classname"	"ff_grenade_normal"
 	"primary_initial"		"2"
-	"primary_max"			"4"
+	"primary_max"			"3"
 
 	"secondary_classname"	"ff_grenade_concussion"
 	"secondary_initial"		"2"
-	"secondary_max"		"3"
+	"secondary_max"		"2"
 
 	// Ammo amounts for the player
 	AmmoData
@@ -53,8 +53,8 @@ PlayerClassData
 
 	MaxAmmoData
 	{
-		"AMMO_SHELLS"		"75"
-		"AMMO_NAILS"		"150"
+		"AMMO_SHELLS"		"50"
+		"AMMO_NAILS"		"100"
 		"AMMO_CELLS"		"50"
 		"AMMO_ROCKETS"	"25"
 		"AMMO_DETPACK"	"0"

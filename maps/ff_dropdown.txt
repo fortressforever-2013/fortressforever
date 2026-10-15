@@ -1,0 +1,6 @@
+CAPTURE THE FLAG
+# Temporarily open the trap on the upper floor and the flag room door by activating the "Control Center" switch on the middle floor.  
+# Once the trap is open, drop down the cage from the upper floor and grab the enemy flag!  Return it to your capture point for 10 team points.
+# Destroying the generator with a detpack will shut down security lasers and enable new paths for the attacking team.  The generator room is hidden on the upper floor behind a concrete wall that can be breached by a detpack.
+# The engineer can repair the generator once the fire is out by hitting it 5 times in a row with his spanner.
+# Water access is protected by a grate that can be blown up with a detpack.

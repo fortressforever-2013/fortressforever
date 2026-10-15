@@ -1,0 +1,11 @@
+ATTACK OR DEFEND
+
+Objective: Yellow team must take their flag to
+Blue team's Headquarters to win the game. 
+There are two command points on the way 
+which must be secured in order.
+
+Other Notes: When a capture point is secured, 
+spawn points are revised and a new flag 
+appears. Rounds last 24 minutes.  MGD is cold 
+filtered.

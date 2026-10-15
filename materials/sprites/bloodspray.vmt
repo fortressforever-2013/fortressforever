@@ -1,0 +1,17 @@
+UnlitGeneric
+{
+	$basetexture "sprites/bloodspray"
+	$vertexalpha 1
+	$vertexcolor 1
+	$translucent 1
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar $basetexture
+			animatedtextureframenumvar $frame
+			animatedtextureframerate 30
+			animationNoWrap 1
+		}
+	}
+}

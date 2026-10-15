@@ -1,0 +1,6 @@
+CAPTURE THE FLAG
+
+Fight your way through the enemy base and bring back the flag to your own.  The flag is located at the bottom of the pit.
+The capture point is located in your own base, at the back of the middle-level platform.
+
+Original TFC map by: Drakir (www.drakir.tk)

@@ -117,8 +117,7 @@ aardvarkpack_fr = genericbackpack:new({
 	respawntime = 20,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 aardvarkpack_ramp = genericbackpack:new({
@@ -134,8 +133,7 @@ aardvarkpack_ramp = genericbackpack:new({
 	respawntime = 15,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 aardvarkpack_sec = genericbackpack:new({
@@ -151,8 +149,7 @@ aardvarkpack_sec = genericbackpack:new({
 	respawntime = 20,
 	model = "models/items/backpack/backpack.mdl",
 	materializesound = "Item.Materialize",
-	touchsound = "Backpack.Touch",
-	botgoaltype = Bot.kBackPack_Ammo
+	touchsound = "Backpack.Touch"
 })
 
 function aardvarkpack_fr:dropatspawn() return false end
