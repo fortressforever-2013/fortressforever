@@ -52,11 +52,6 @@
 	}
 	"10"
 	{
-		"label" "#GameUI_GameMenu_FFCustomHudOptions"
-		"command" "engine ff_customhudoptions"
-	}
-	"11"
-	{
 		"label" 	"#GameUI_GameMenu_Quit"
 		"command" 	"Quit"
 	}
