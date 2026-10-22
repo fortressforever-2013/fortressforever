@@ -1384,34 +1384,6 @@
 		"tall"		"100"
 	}
 	
-	HudBuildableDispenser
-	{
-	}
-	
-	HudBuildableManCannon
-	{
-	}
-	
-	HudBuildableSentry
-	{
-	}
-	
-	HudResourceMedpacks
-	{
-	}
-	
-	HudResourcePipeTrap
-	{
-	}
-	
-	HudTimerBuild
-	{
-	}
-	
-	HudTimerDetpack
-	{
-	}
-	
 	HudDamageNumber
 	{
 	}
