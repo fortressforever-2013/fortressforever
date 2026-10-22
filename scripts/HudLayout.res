@@ -245,8 +245,7 @@
 		"ypos"		"1"
 		"wide"		"118" //128, 120
 		"tall"		"31" //128
-		
-	
+
 		"MapNameFont"	"HUD_TextRoundInfo"
 		"MapNameColor"	"HUD_Tone_Default"
 		"MapNameX"	"32" //32
@@ -516,7 +515,6 @@
 		// The hint index thingy
 		"index_xpos"		"8"
 		"index_ypos"		"45"
-		
 
 		"SmallBoxSize" "36"	//32
 		"LargeBoxWide" "112"
@@ -527,7 +525,6 @@
 		"SelectionGrowTime"	"0.4"
 		"TextYPos" "64"
 	}
-
 
 	HudGrenade1Timer
 	{
@@ -685,7 +682,6 @@
 		"icon2_width" "20"
 		"icon2_height" "20"
 	}
-
 
 	HudBuildStateSentry
 	{
@@ -1227,7 +1223,6 @@
 
 		"PaintBackgroundType"	"2"
 
-		
 		"text_xpos" "8"
 		"text_ypos" "20"
 		"digit_xpos" "50"
@@ -1383,8 +1378,89 @@
 		"wide"		"f60"	[$X360]
 		"tall"		"100"
 	}
-	
+
 	HudDamageNumber
+	{
+	}
+	
+	// Crosshair information
+	CHudCrosshairInfoPlayer
+	{
+	}
+
+	CHudCrosshairInfoSentry
+	{
+	}
+
+	CHudCrosshairInfoDispenser
+	{
+	}
+
+	CHudCrosshairInfoManCannon
+	{
+	}
+
+	// Buildables
+	HudBuildableDetpack
+	{
+	}
+
+	HudBuildableDispenser
+	{
+	}
+
+	HudBuildableManCannon
+	{
+	}
+
+	HudBuildableSentry
+	{
+	}
+
+	// Resources
+	HudResourceJetpackFuel
+	{
+	}
+
+	HudResourceRadar
+	{
+	}
+
+	HudResourceMedpacks
+	{
+	}
+
+	HudResourcePipeTrap
+	{
+	}
+
+	CHudResourceAssaultCannonCharge
+	{
+	}
+
+	CHudResourceJumpgunCharge
+	{
+	}
+
+	CHudResourceSniperCharge
+	{
+	}
+
+	// Timers
+	HudTimerBuild
+	{
+	}
+
+	HudTimerCloak
+	{
+	}
+
+	HudTimerOverpressure
+	{
+	}
+
+	// Other HUD elements
+	HudMiscSpeedometer
 	{
 	}
 }
