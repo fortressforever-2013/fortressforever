@@ -15,11 +15,6 @@
 		"caption"	"#GameUI_FastSwitch"
 		"cvar"		"hud_fastswitch"
 	}
-	"hud_centerid"
-	{
-		"caption"	"#GameUI_CenterPlayerInfo"
-		"cvar"		"hud_centerid"
-	}
 	"hud_takesshots"
 	{
 		"caption"	"#GameUI_TakeEndRoundScreenshots"
