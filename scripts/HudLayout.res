@@ -1383,8 +1383,85 @@
 		"wide"		"f60"	[$X360]
 		"tall"		"100"
 	}
-	
+
 	HudDamageNumber
+	{
+	}
+	
+	// Crosshair information
+	CHudCrosshairInfoPlayer
+	{
+	}
+
+	CHudCrosshairInfoSentry
+	{
+	}
+
+	CHudCrosshairInfoDispenser
+	{
+	}
+
+	CHudCrosshairInfoManCannon
+	{
+	}
+
+	// Buildables
+	HudBuildableDetpack
+	{
+	}
+
+	HudBuildableDispenser
+	{
+	}
+
+	HudBuildableManCannon
+	{
+	}
+
+	HudBuildableSentry
+	{
+	}
+
+	// Resources
+	HudResourceJetpackFuel
+	{
+	}
+
+	HudResourceMedpacks
+	{
+	}
+
+	HudResourcePipeTrap
+	{
+	}
+
+	CHudResourceAssaultCannonCharge
+	{
+	}
+
+	CHudResourceJumpgunCharge
+	{
+	}
+
+	CHudResourceSniperCharge
+	{
+	}
+
+	// Timers
+	HudTimerBuild
+	{
+	}
+
+	HudTimerCloak
+	{
+	}
+
+	HudTimerOverpressure
+	{
+	}
+
+	// Other HUD elements
+	HudMiscSpeedometer
 	{
 	}
 }
