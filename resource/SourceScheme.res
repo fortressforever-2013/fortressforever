@@ -65,6 +65,7 @@ Scheme
 		Button.DepressedBgColor			"UI_BG_Highlight"
 		
 		CheckButton.TextColor			"UI_Tone_Default"
+		CheckButton.HighlightFgColor		"UI_Tone_Default"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
 		CheckButton.Border1				"Border.Dark" 		// the left checkbutton border
