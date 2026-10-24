@@ -37,9 +37,9 @@ PlayerClassData
 		//"skill"		"mancannon"
 	}
 
-	//"primary_classname"	"ff_grenade_caltrop"
-	//"primary_initial"		"0"
-	//"primary_max"		"0"
+	"primary_classname"	"ff_grenade_caltrop"
+	"primary_initial"		"1"
+	"primary_max"		"2"
 
 	"secondary_classname"	"ff_grenade_concussion"
 	"secondary_initial"		"3"
