@@ -1411,4 +1411,8 @@
 	HudTimerDetpack
 	{
 	}
+	
+	HudDamageNumber
+	{
+	}
 }
