@@ -202,3 +202,15 @@
 		"CompatibilityAttenuation"	"0.8"
 		"wave"	"grenades/bounce.wav"
 	}
+
+//----------------
+//Flare Grenade, mark the enemies
+//----------------
+	"FlareGrenade.Explode"
+	{
+		"channel"	"CHAN_WEAPON"
+		"volume"	"1.0"
+		"CompatibilityAttenuation"	"0.6"
+		"pitch"	"PITCH_NORM"
+		"wave"	"grenades/gas/flare_burn.wav"
+	}
