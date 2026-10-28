@@ -208,9 +208,9 @@
 //----------------
 	"FlareGrenade.Explode"
 	{
-		"channel"	"CHAN_WEAPON"
+		"channel"	"CHAN_ITEM"
 		"volume"	"1.0"
-		"CompatibilityAttenuation"	"0.6"
+		"soundlevel"	"SNDLVL_140dB"
 		"pitch"	"PITCH_NORM"
 		"wave"	"grenades/gas/flare_burn.wav"
 	}
