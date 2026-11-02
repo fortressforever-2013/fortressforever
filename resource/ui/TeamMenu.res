@@ -237,6 +237,6 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"cancel"
+		"Command"		"vguicancel"
 	}
 }
