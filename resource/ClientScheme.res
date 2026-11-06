@@ -121,7 +121,7 @@ Scheme
 		Border.Selection		"Blank"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor			"UI_Tone_Default"
-		Button.BgColor				"Blank"
+		Button.BgColor				"UI_BG_Dim"
 		Button.ArmedTextColor		"UI_Tone_Default"
 		Button.ArmedBgColor			"UI_BG_Highlight"
 		Button.DepressedTextColor	"UI_Tone_Default"
@@ -201,9 +201,9 @@ Scheme
 		RadioButton.SelectedTextColor	"UI_Tone_Default"
 
 		RichText.TextColor				"UI_Tone_Default"
-		RichText.BgColor				"Blank"
+		RichText.BgColor				"UI_BG_Dim"
 		RichText.SelectedTextColor		"UI_Tone_Default"
-		RichText.SelectedBgColor		"Blank"
+		RichText.SelectedBgColor		"UI_BG_Dim"
 
 		ScrollBarButton.FgColor				"UI_Tone_Default"
 		ScrollBarButton.BgColor				"Blank"
@@ -250,6 +250,8 @@ Scheme
 		TreeView.BgColor			"UI_BG_Dim"
 
 		WizardSubPanel.BgColor		"Blank"
+
+		"MapDescriptionText"	"UI_Tone_Default"	// the text used in the map description window
 
 		// Top-left corner of the main screen title
 		"Main.Title1.X"				"76" //76

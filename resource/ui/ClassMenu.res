@@ -54,17 +54,18 @@
 
 	"ClassInfo"
 	{
-		ControlName	"Panel"
+		ControlName	"RichText"
 		fieldName	"ClassInfo"
 		xpos	"168"
 		ypos	"116"
 		wide	"400"
 		tall	"380"
-		autoResize	"3"
+		autoResize	"0"
 		pinCorner	"0"
 		visible	"0"
 		enabled	"0"
 		tabPosition	"0"
+		border	"0"
 	}
 
 	"ScoutButton"
@@ -260,7 +261,7 @@
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
-		"enabled"			"1"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"#FF_MENU_CIVILIAN"
 		"font"				"ClassMenu"

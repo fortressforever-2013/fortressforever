@@ -34,14 +34,15 @@
 		"fieldName"		"MapInfo"
 		"xpos"			"244"
 		"ypos"			"116"
-		"wide"			"316"
-		"tall"			"286"
+		"wide"			"390"
+		"tall"			"290"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
+
 	"joinTeam"
 	{
 		"ControlName"	"Label"
