@@ -230,14 +230,16 @@ spawn_red_offence = function(self,player)
 	return ((player:GetTeamId() == Team.kRed)
 	and ((player:GetClass() == Player.kScout)
 	or (player:GetClass() == Player.kMedic)
-	or (player:GetClass() == Player.kSpy)))
+	or (player:GetClass() == Player.kSpy)
+	or (player:GetClass() == Player.kPyro)))
 end
 
 spawn_red_defence = function(self,player)
 	return ((player:GetTeamId() == Team.kRed)
 	and (((player:GetClass() == Player.kScout) == false)
 	and ((player:GetClass() == Player.kMedic) == false)
-	and ((player:GetClass() == Player.kSpy) == false)))
+	and ((player:GetClass() == Player.kSpy) == false)
+	and ((player:GetClass() == Player.kPyro) == false)))
 end
 
 
@@ -245,14 +247,16 @@ spawn_blue_offence = function(self,player)
 	return ((player:GetTeamId() == Team.kBlue)
 	and ((player:GetClass() == Player.kScout)
 	or (player:GetClass() == Player.kMedic)
-	or (player:GetClass() == Player.kSpy)))
+	or (player:GetClass() == Player.kSpy)
+	or (player:GetClass() == Player.kPyro)))
 end
 
 spawn_blue_defence = function(self,player)
 	return ((player:GetTeamId() == Team.kBlue)
 	and (((player:GetClass() == Player.kScout) == false)
 	and ((player:GetClass() == Player.kMedic) == false)
-	and ((player:GetClass() == Player.kSpy) == false)))
+	and ((player:GetClass() == Player.kSpy) == false)
+	and ((player:GetClass() == Player.kPyro) == false)))
 end
 
 bluespawn_offence = { validspawn = spawn_blue_offence }
