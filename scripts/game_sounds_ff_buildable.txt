@@ -295,8 +295,8 @@
 	{
 		"channel"	"CHAN_WEAPON"
 		"volume"	"1.0"
-		"soundlevel"	"SNDLVL_180dB"
+		"soundlevel"	"SNDLVL_140dB"
 		"pitch"	"PITCH_NORM"
 		"CompatibilityAttenuation"	"1.0"
-		"wave"	"buildable/jumppad/jumppad_explode.wav"
+		"wave"	")buildable/jumppad/jumppad_explode.wav"
 	}
