@@ -164,13 +164,13 @@ red_2fort_spiralpack = ff_2fort_spiralpack:new({ touchflags = { AllowFlags.kOnly
 -----------------------------------------------------------------------------
 -- SPAWNS
 -----------------------------------------------------------------------------
-red_spiral = function(self,player) return ((player:GetTeamId() == Team.kRed) and ((player:GetClass() == Player.kScout) or (player:GetClass() == Player.kMedic) or (player:GetClass() == Player.kSniper) or (player:GetClass() == Player.kSpy))) end
+red_spiral = function(self,player) return ((player:GetTeamId() == Team.kRed) and ((player:GetClass() == Player.kScout) or (player:GetClass() == Player.kMedic) or (player:GetClass() == Player.kSniper) or (player:GetClass() == Player.kSpy) or (player:GetClass() == Player.kPyro))) end
 red_balc = function(self,player) return ((player:GetTeamId() == Team.kRed) and ((player:GetClass() == Player.kScout) or (player:GetClass() == Player.kMedic) or (player:GetClass() == Player.kSniper) or (player:GetClass() == Player.kSpy) or (player:GetClass() == Player.kSoldier) or (player:GetClass() == Player.kHwguy) or (player:GetClass() == Player.kDemoman) or (player:GetClass() == Player.kPyro) or (player:GetClass() == Player.kEngineer))) end
 
 red_spiralspawn = { validspawn = red_spiral }
 red_balcspawn = { validspawn = red_balc }
 
-blue_spiral = function(self,player) return ((player:GetTeamId() == Team.kBlue) and ((player:GetClass() == Player.kScout) or (player:GetClass() == Player.kMedic) or (player:GetClass() == Player.kSniper) or (player:GetClass() == Player.kSpy))) end
+blue_spiral = function(self,player) return ((player:GetTeamId() == Team.kBlue) and ((player:GetClass() == Player.kScout) or (player:GetClass() == Player.kMedic) or (player:GetClass() == Player.kSniper) or (player:GetClass() == Player.kSpy) or (player:GetClass() == Player.kPyro))) end
 blue_balc = function(self,player) return ((player:GetTeamId() == Team.kBlue) and ((player:GetClass() == Player.kScout) or (player:GetClass() == Player.kMedic) or (player:GetClass() == Player.kSniper) or (player:GetClass() == Player.kSpy) or (player:GetClass() == Player.kSoldier) or (player:GetClass() == Player.kHwguy) or (player:GetClass() == Player.kDemoman) or (player:GetClass() == Player.kPyro) or (player:GetClass() == Player.kEngineer))) end
 
 blue_spiralspawn = { validspawn = blue_spiral }
