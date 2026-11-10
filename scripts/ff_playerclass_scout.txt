@@ -38,7 +38,7 @@ PlayerClassData
 	}
 
 	"primary_classname"	"ff_grenade_caltrop"
-	"primary_initial"		"1"
+	"primary_initial"		"2"
 	"primary_max"		"2"
 
 	"secondary_classname"	"ff_grenade_concussion"
