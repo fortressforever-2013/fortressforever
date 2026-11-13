@@ -28,7 +28,6 @@ PlayerClassData
 	ArmamentsData
 	{
 		"weapon"	"ff_weapon_crowbar"
-		"weapon"	"ff_weapon_shotgun"
 		"weapon"	"ff_weapon_supershotgun"
 		"weapon"	"ff_weapon_rpg"
 	}
