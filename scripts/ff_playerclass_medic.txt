@@ -43,7 +43,7 @@ PlayerClassData
 	// Ammo amounts for the player
 	AmmoData
 	{
-		"AMMO_SHELLS"		"48" // Formerly 50
+		"AMMO_SHELLS"		"40" // Formerly 50
 		"AMMO_NAILS"		"50"
 		"AMMO_CELLS"		"0"
 		"AMMO_ROCKETS"	"0"
