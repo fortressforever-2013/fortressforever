@@ -58,7 +58,7 @@ PlayerClassData
 
 	MaxAmmoData
 	{
-		"AMMO_SHELLS"		"50"
+		"AMMO_SHELLS"		"48"
 		"AMMO_NAILS"		"30"
 		"AMMO_CELLS"		"200"
 		"AMMO_ROCKETS"	"30"
