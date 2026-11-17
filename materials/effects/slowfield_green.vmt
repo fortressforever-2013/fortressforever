@@ -1,9 +1,11 @@
+// Source 2013: sRGB-compensated ring; linear tint boost 1.85x, blue 2.15x, yellow 1.98x.
 "Refract"
 {
 	"Refract_dx80"
 	{
 		"$fallbackmaterial" "effects/slowfield_dx60"
 	}
+
 	"Refract_dx70"
 	{
 		"$fallbackmaterial" "effects/slowfield_dx60"
@@ -18,7 +20,7 @@
  	"$bluramount" "1"
 	"$scale" "[.25 .25]"
 	"$refracttinttexture" "effects/slowring"
-	"$refracttint" "[.6 .9 .56]"
+	"$refracttint" "[1.110 1.665 1.036]"
 	"$dudvmap" "effects/cloak_dudv"
  	"$normalmap" "effects/cloak_normal"
  	"$surfaceprop" "water"

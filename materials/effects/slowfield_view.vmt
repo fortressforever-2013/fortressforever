@@ -1,5 +1,9 @@
 "Refract"
 {
+    // Fullscreen overlays have no meaningful world-space silhouette or depth.
+    "$fadeoutonsilhouette" "0"
+    "$ignorez" "1"
+    "$nowritez" "1"
  	//"$model" 1
 
 	"Refract_DX60"
@@ -15,6 +19,7 @@
  	"$bluramount" ".2"
 	"$scale" "[1 1]"
 	"$refracttint" "[.6 .55 .37]"
+    "$basetint" "[.6 .55 .37]"
 	"$dudvmap" "effects/cloak_dudv"
  	"$normalmap" "effects/cloak_normal"
  	"$surfaceprop" "no_decal"
@@ -22,7 +27,7 @@
 	"$bumpframe" "0"
 	"$suppress_decals" "1"	
 	"$slowamount" "0"
-	"$baserefract" "0.2"
+	"$baserefract" "0.18"
 	"Proxies"
 	{
 		"SlowfieldSlow"
@@ -38,7 +43,7 @@
 		}
 		"Multiply"
 		{
-			"srcVar1" "$refracttint"
+			"srcVar1" "$basetint"
 			"srcVar2" "$slowamount"
 			"resultVar" "$refracttint"
 		}
