@@ -32,8 +32,8 @@
 	{
 		"ControlName"	"RichText"
 		"fieldName"		"MapInfo"
-		"xpos"			"244"
-		"ypos"			"116"
+		"xpos"			"238"
+		"ypos"			"136"
 		"wide"			"390"
 		"tall"			"290"
 		"autoResize"		"0"
@@ -42,25 +42,62 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
-
-	"joinTeam"
+	"MapDescription"	// Objectives
 	{
-		"ControlName"	"Label"
-		"fieldName"		"joinTeam"
-		"xpos"		"76"
-		"ypos"		"22"
-		"wide"		"450"
-		"tall"		"48"
+		"ControlName"	"Section"
+		"fieldName"		"MapDescription"
+		"xpos"			"230" 	// 212
+		"ypos"			"108" 	// 342
+		"wide"			"408" 	// 416
+		"tall"			"330" 	// 125
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"font"			"TeamMenuTitles_small"
+		"titleText"		"#TITLE_MAPDESCRIPTION"
+	}
+
+	"ServerInfoButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"			"ServerInfoButton"
+		"xpos"				"345"
+		"ypos"				"50"
+		"wide"				"188"	
+		"tall"				"48"
 		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"3"
+		"font"				"TeamMenuTitles_large"
+		"labelText"			"#TITLE_SERVERINFO"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"command"			"serverinfo"
+		"default"			"1"
+	}
+
+	"TeamSelection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"TeamSelection"
+		"xpos"			"72" 	// 12
+		"ypos"			"108"
+		"wide"			"156" 	// 616
+		"tall"			"330"
+		"autoResize"	"0" 	// 0
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TITLE_TEAMSELECTION"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"tabPosition"	"0"
 		"font"			"TeamMenuTitles_large"
+		"titleText"		"#TITLE_TEAMSELECTION"
 	}
+
 	"mapname"
 	{
 		"ControlName"	"Label"
@@ -83,7 +120,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"BlueTeamButton"
 		"xpos"			"76"
-		"ypos"			"116"
+		"ypos"			"130"
 		"wide"			"148"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -103,7 +140,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"RedTeamButton"
 		"xpos"			"76"
-		"ypos"			"148"
+		"ypos"			"162"
 		"wide"			"148"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -123,7 +160,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"YellowTeamButton"
 		"xpos"			"76"
-		"ypos"			"180"
+		"ypos"			"194"
 		"wide"			"148"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -143,7 +180,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"GreenTeamButton"
 		"xpos"			"76"
-		"ypos"			"212"
+		"ypos"			"226"
 		"wide"			"148"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -163,7 +200,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"AutoAssignButton"
 		"xpos"			"76"
-		"ypos"			"244"
+		"ypos"			"258"
 		"wide"			"148"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -185,7 +222,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"SpectateButton"
 		"xpos"			"76"
-		"ypos"			"276"
+		"ypos"			"290"
 		"wide"			"148"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -204,8 +241,8 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"FlythroughButton"
-		"xpos"			"76"
-		"ypos"			"308"
+		"xpos"			"96"
+		"ypos"			"322"
 		"wide"			"96"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -226,7 +263,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"CancelButton"
 		"xpos"			"76"
-		"ypos"			"340"
+		"ypos"			"354"
 		"wide"			"148"
 		"tall"			"20"
 		"autoResize"		"0"

@@ -15,12 +15,160 @@
 		tabPosition	"0"
 	}
 
+	"ClassPreview"
+	{
+		"ControlName"	"ModelPanel"
+		"fieldName"		"ClassPreview"
+		"xpos"			"c"
+		"ypos"			"60"
+		"wide"			"316"
+		"tall"			"350"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"model"	"models/error.mdl"
+	}
+	"FullSection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"FullSection"
+		"xpos"			"0" 	// 12
+		"ypos"			"0"
+		"wide"			"640" 	// 616
+		"tall"			"480"	// 75
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"TeamMenuTitles_small"
+		"titleText"		""
+	}
+	"ChangeClassSection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"ChangeClassSection"
+		"xpos"			"18" 	// 12
+		"ypos"			"73"
+		"wide"			"180" 	// 616
+		"tall"			"270"	// 75
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"TeamMenuTitles_small"
+		"titleText"		""
+	}
+	"WeaponsSection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"WeaponsSection"
+		"xpos"			"202" 	// 12
+		"ypos"			"73"
+		"wide"			"125" 	// 616
+		"tall"			"270"	// 75
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"MenuTitle"
+		"titleText"		"Weapons"
+	}
+	"GrenadesSection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"GrenadesSection"
+		"xpos"			"331" 	// 12
+		"ypos"			"73"
+		"wide"			"205" 	// 616
+		"tall"			"80"	// 75
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"MenuTitle"
+		"titleText"		"Grenades"
+	}
+
+	"ClassInfoSection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"ClassInfoSection"
+		"xpos"			"18" 	// 12
+		"ypos"			"347"
+		"wide"			"309" 	// 616
+		"tall"			"80"	// 75
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"ClassMenu"
+		"titleText"		"Class Information"
+	}
+
+	"ClassInfo"
+	{
+		"ControlName"	"RichText"
+		"fieldName"		"ClassInfo"
+		"xpos"			"178" 	// 12
+		"ypos"			"367"
+		"wide"			"130" 	// 616
+		"tall"			"52"	// 75
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"text"			"Special Abilities: Test
+Second Line: Test word wrap word wrap word wrap word wrap"
+		"border" 		"0"
+	}
+
+	"ClassRoleSection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"ClassRoleSection"
+		"xpos"			"331" 	// 12
+		"ypos"			"397"
+		"wide"			"205"	// 616
+		"tall"			"30"	// 75
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+	}
+
+	"ClassRole"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"ClassRole"
+		"xpos"				"331"
+		"ypos"				"397"
+		"wide"				"205"
+		"tall"				"30"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"font"				"MenuTitle"
+	}
+
 	"joinClass"
 	{
 		ControlName	"Label"
 		fieldName	"joinClass"
-		xpos	"8"
-		ypos	"72"
+		xpos	"28"
+		ypos	"76"
 		wide	"160"
 		tall	"24"
 		autoResize	"0"
@@ -34,29 +182,26 @@
 		"font"		"MenuTitle"
 	}
 
-	"classInfoLabel"
+	"ClassPreview"
 	{
-		ControlName	"Label"
-		fieldName	"classInfoLabel"
-		xpos	"168"
-		ypos	"72"
-		wide	"180"
-		tall	"24"
-		autoResize	"0"
-		pinCorner	"0"
-		visible	"0"
-		enabled	"1"
-		labelText	"#Valve_Class_Info"
-		textAlignment	"west"
-		dulltext	"0"
-		brighttext	"1"
+		"ControlName"	"ModelPanel"
+		"fieldName"		"ClassPreview"
+		"xpos"			"c+6"
+		"ypos"			"60"
+		"wide"			"316"
+		"tall"			"350"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"model"	"error.mdl"
 	}
-
 	"ClassInfo"
 	{
 		ControlName	"RichText"
 		fieldName	"ClassInfo"
-		xpos	"168"
+		xpos	"174"
 		ypos	"116"
 		wide	"400"
 		tall	"380"
@@ -72,7 +217,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"ScoutButton"
-		"xpos"				"76"
+		"xpos"				"32"
 		"ypos"				"116"
 		"wide"				"68"
 		"tall"				"20"
@@ -92,7 +237,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"SniperButton"
-		"xpos"				"156"
+		"xpos"				"112"
 		"ypos"				"116"
 		"wide"				"68"
 		"tall"				"20"
@@ -113,7 +258,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"SoldierButton"
-		"xpos"				"76"
+		"xpos"				"32"
 		"ypos"				"148"
 		"wide"				"68"
 		"tall"				"20"
@@ -134,7 +279,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"DemomanButton"
-		"xpos"				"156"
+		"xpos"				"112"
 		"ypos"				"148"
 		"wide"				"68"
 		"tall"				"20"
@@ -154,7 +299,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"MedicButton"
-		"xpos"				"76"
+		"xpos"				"32"
 		"ypos"				"180"
 		"wide"				"68"
 		"tall"				"20"
@@ -174,7 +319,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"HwguyButton"
-		"xpos"				"156"
+		"xpos"				"112"
 		"ypos"				"180"
 		"wide"				"68"
 		"tall"				"20"
@@ -194,7 +339,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"PyroButton"
-		"xpos"				"76"
+		"xpos"				"32"
 		"ypos"				"212"
 		"wide"				"68"
 		"tall"				"20"
@@ -214,7 +359,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"SpyButton"
-		"xpos"				"156"
+		"xpos"				"112"
 		"ypos"				"212"
 		"wide"				"68"
 		"tall"				"20"
@@ -234,7 +379,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"EngineerButton"
-		"xpos"				"76"
+		"xpos"				"32"
 		"ypos"				"244"
 		"wide"				"68"
 		"tall"				"20"
@@ -254,7 +399,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"CivilianButton"
-		"xpos"				"156"
+		"xpos"				"112"
 		"ypos"				"244"
 		"wide"				"68"
 		"tall"				"20"
@@ -274,7 +419,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"RandomButton"
-		"xpos"				"76"
+		"xpos"				"32"
 		"ypos"				"276"
 		"wide"				"148"
 		"tall"				"20"
@@ -294,7 +439,7 @@
 	{
 		ControlName	"Button"
 		fieldName	"CancelButton"
-		xpos	"0"
+		xpos	"32"
 		ypos	"308"
 		wide	"148"
 		tall	"20"

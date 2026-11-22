@@ -487,7 +487,7 @@
 		"text1_xpos"		"33"
 		"text1_ypos"		"6"
 
-		"text1_wide"		"286"
+		"text1_wide"		"280"
 		"text1_tall"		"62"
 		
 		"image1_xpos"	"4"
@@ -509,7 +509,7 @@
 		"NextB_xpos"	"294"
 		"NextB_ypos"	"60"
 
-		"PrevB_xpos"	"5"
+		"PrevB_xpos"	"10"
 		"PrevB_ypos"	"60"
 		
 		// The hint index thingy
