@@ -6,7 +6,7 @@
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"640"
+		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -28,6 +28,46 @@
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
+
+	"TeamSelection"
+	{
+		"ControlName"	"Section"
+		"fieldName"		"TeamSelection"
+		"xpos"			"72" 	// 12
+		"ypos"			"108"
+		"wide"			"156" 	// 616
+		"tall"			"330"
+		"autoResize"	"0" 	// 0
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"TeamMenuTitles_large"
+		"titleText"		"#TITLE_TEAMSELECTION"
+	}
+
+	"ServerInfoButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"			"ServerInfoButton"
+		"xpos"				"345"
+		"ypos"				"50"
+		"wide"				"188"	
+		"tall"				"48"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"3"
+		"font"				"TeamMenuTitles_large"
+		"labelText"			"#TITLE_SERVERINFO"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"command"			"serverinfo"
+		"default"			"1"
+	}
+
 	"MapInfo"
 	{
 		"ControlName"	"RichText"
@@ -59,45 +99,6 @@
 		"titleText"		"#TITLE_MAPDESCRIPTION"
 	}
 
-	"ServerInfoButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"			"ServerInfoButton"
-		"xpos"				"345"
-		"ypos"				"50"
-		"wide"				"188"	
-		"tall"				"48"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"3"
-		"font"				"TeamMenuTitles_large"
-		"labelText"			"#TITLE_SERVERINFO"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"command"			"serverinfo"
-		"default"			"1"
-	}
-
-	"TeamSelection"
-	{
-		"ControlName"	"Section"
-		"fieldName"		"TeamSelection"
-		"xpos"			"72" 	// 12
-		"ypos"			"108"
-		"wide"			"156" 	// 616
-		"tall"			"330"
-		"autoResize"	"0" 	// 0
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"TeamMenuTitles_large"
-		"titleText"		"#TITLE_TEAMSELECTION"
-	}
-
 	"mapname"
 	{
 		"ControlName"	"Label"
@@ -115,6 +116,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 	}
+
 	"BlueTeamButton"
 	{
 		"ControlName"	"Button"
