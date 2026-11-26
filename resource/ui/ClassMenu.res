@@ -2,25 +2,38 @@
 {
 	"class"
 	{
-		ControlName	"CClassMenu"
-		fieldName	"class"
-		xpos	"0"
-		ypos	"0"
-		wide	"f0"
-		tall		"480"
-		autoResize	"0"
-		pinCorner	"0"
-		visible	"1"
-		enabled	"1"
-		tabPosition	"0"
+		"ControlName"	"CClassMenu"
+		"fieldName"		"class"
+		"xpos"			"c-320"	// 0
+		"ypos"			"0"
+		"wide"			"640" 	// 640
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
 	}
-
+	"SysMenu"
+	{
+		"ControlName"	"Menu"
+		"fieldName"		"SysMenu"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"64"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+	}
 	"ClassPreview"
 	{
 		"ControlName"	"ModelPanel"
 		"fieldName"		"ClassPreview"
-		"xpos"			"c+20"
-		"ypos"			"150"
+		"xpos"			"320"
+		"ypos"			"44"
 		"wide"			"316"
 		"tall"			"350"
 		"autoResize"	"0"
@@ -29,46 +42,47 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-
 	"FullSection"
 	{
 		"ControlName"	"Section"
 		"fieldName"		"FullSection"
-		"xpos"			"64"	// 12
+		"xpos"			"0" 	// 12
 		"ypos"			"0"
-		"wide"			"616"	// 616
-		"tall"			"75"	// 75
-		"autoResize"	"0"		// 0
+		"wide"			"640" 	// 616
+		"tall"			"480"	// 75
+		"autoResize"	"0" 	// 0
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"TeamMenuTitles_small"
+		"titleText"		""
 	}
 	"ChangeClassSection"
 	{
 		"ControlName"	"Section"
 		"fieldName"		"ChangeClassSection"
-		"xpos"			"96"	// 12
+		"xpos"			"62" 	// 12
 		"ypos"			"73"
-		"wide"			"180"	// 616
+		"wide"			"180" 	// 616
 		"tall"			"270"	// 75
-		"autoResize"	"0"	// 0
+		"autoResize"	"0" 	// 0
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"TeamMenuTitles_small"
+		"titleText"		""
 	}
 	"WeaponsSection"
 	{
 		"ControlName"	"Section"
 		"fieldName"		"WeaponsSection"
-		"xpos"			"280"	// 12
+		"xpos"			"246" 	// 12
 		"ypos"			"73"
-		"wide"			"125"	// 616
+		"wide"			"125" 	// 616
 		"tall"			"270"	// 75
-		"autoResize"	"0"		// 0
+		"autoResize"	"0" 	// 0
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -76,15 +90,127 @@
 		"font"			"MenuTitle"
 		"titleText"		"Weapons"
 	}
+	"WepSlot1"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot1"
+		"xpos" "246"
+		"ypos" "93"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"WepSlot2"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot2"
+		"xpos" "246"
+		"ypos" "123"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"WepSlot3"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot3"
+		"xpos" "246"
+		"ypos" "153"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"WepSlot4"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot4"
+		"xpos" "246"
+		"ypos" "183"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"WepSlot5"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot5"
+		"xpos" "246"
+		"ypos" "213"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"WepSlot6"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot6"
+		"xpos" "246"
+		"ypos" "243"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"WepSlot7"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot7"
+		"xpos" "246"
+		"ypos" "273"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"WepSlot8"
+	{
+		"ControlName" "LoadoutLabel"
+		"fieldName" "WepSlot8"
+		"xpos" "246"
+		"ypos" "303"
+		"wide" "125"
+		"tall" "30"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
 	"GrenadesSection"
 	{
 		"ControlName"	"Section"
 		"fieldName"		"GrenadesSection"
-		"xpos"			"409"	// 12
+		"xpos"			"375" 	// 12
 		"ypos"			"73"
-		"wide"			"205"	// 616
+		"wide"			"175" 	// 616
 		"tall"			"80"	// 75
-		"autoResize"	"0"		// 0
+		"autoResize"	"0" 	// 0
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -92,16 +218,43 @@
 		"font"			"MenuTitle"
 		"titleText"		"Grenades"
 	}
-
+		"PrimaryGren"
+		{
+			"ControlName"	"LoadoutLabel"
+			"fieldName"		"PrimaryGren"
+			"xpos"			"385" 	// 12
+			"ypos"			"103"
+			"wide"			"70" 	// 616
+			"tall"			"40"	// 75
+			"autoResize"	"0" 	// 0
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+		}
+		"SecondaryGren"
+		{
+			"ControlName"	"LoadoutLabel"
+			"fieldName"		"SecondaryGren"
+			"xpos"			"465" 	// 12
+			"ypos"			"103"
+			"wide"			"70" 	// 616
+			"tall"			"40"	// 75
+			"autoResize"	"0" 	// 0
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+		}
 	"ClassInfoSection"
 	{
 		"ControlName"	"Section"
 		"fieldName"		"ClassInfoSection"
-		"xpos"			"96"	// 12
+		"xpos"			"62" 	// 12
 		"ypos"			"347"
-		"wide"			"309"	// 616
+		"wide"			"309" 	// 616
 		"tall"			"80"	// 75
-		"autoResize"	"0"	// 0
+		"autoResize"	"0" 	// 0
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -109,81 +262,120 @@
 		"font"			"ClassMenu"
 		"titleText"		"Class Information"
 	}
-
-	"ClassInfo"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"ClassInfo"
-		"xpos"			"128"
-		"ypos"			"116"
-		"wide"			"400"
-		"tall"			"380"
-		"autoResize"	"3"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"text"		"Special Abilities: Test
+		"ClassInfo"
+		{
+			"ControlName"	"RichText"
+			"fieldName"		"ClassInfo"
+			"xpos"			"232" 	// 12
+			"ypos"			"367"
+			"wide"			"130" 	// 616
+			"tall"			"52"	// 75
+			"autoResize"	"0" 	// 0
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"text"			"Special Abilities: Test
 Second Line: Test word wrap word wrap word wrap word wrap"
-	}
-
+			"border" 		"0"
+		}
+		"SpeedLabel"
+		{
+			"ControlName"	"ClassPropertiesLabel"
+			"fieldName"		"SpeedLabel"
+			"xpos"			"72" 	// 12
+			"ypos"			"367"
+			"wide"			"150" 	// 616
+			"tall"			"16"	// 75
+			"autoResize"	"0" 	// 0
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+		}
+		"FirepowerLabel"
+		{
+			"ControlName"	"ClassPropertiesLabel"
+			"fieldName"		"FirepowerLabel"
+			"xpos"			"72" 	// 12
+			"ypos"			"385"
+			"wide"			"150" 	// 616
+			"tall"			"16"	// 75
+			"autoResize"	"0" 	// 0
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+		}
+		"HealthLabel"
+		{
+			"ControlName"	"ClassPropertiesLabel"
+			"fieldName"		"HealthLabel"
+			"xpos"			"72"	// 12
+			"ypos"			"403"
+			"wide"			"150" 	// 616
+			"tall"			"16"	// 75
+			"autoResize"	"0" 	// 0
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+		}
 	"ClassRoleSection"
 	{
 		"ControlName"	"Section"
 		"fieldName"		"ClassRoleSection"
-		"xpos"			"409"	// 12
+		"xpos"			"375" 	// 12
 		"ypos"			"397"
-		"wide"			"205"	// 616
+		"wide"			"175"	// 616
 		"tall"			"30"	// 75
-		"autoResize"	"0"	// 0
+		"autoResize"	"0" 	// 0
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+		"ClassRole"
+		{
+			"ControlName"		"Label"
+			"fieldName"			"ClassRole"
+			"xpos"				"375"
+			"ypos"				"397"
+			"wide"				"175"
+			"tall"				"30"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"center"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"font"				"MenuTitle"
+		}
 
-	"ClassRole"
+	"changeclass"
 	{
 		"ControlName"		"Label"
-		"fieldName"			"ClassRole"
-		"xpos"				"409"
-		"ypos"				"397"
-		"wide"				"205"
-		"tall"				"30"
+		"fieldName"			"changeclass"
+		"xpos"				"76"
+		"ypos"				"70"
+		"wide"				"450"
+		"tall"				"48"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"center"
+		"labelText"			"#FF_CHANGECLASS"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"MenuTitle"
 	}
-
-	"joinClass"
+	"ScoutButton"
 	{
-		ControlName	"Label"
-		fieldName	"joinClass"
-		xpos	"108"
-		ypos	"76"
-		wide	"160"
-		tall	"24"
-		autoResize	"0"
-		pinCorner	"0"
-		visible	"1"
-		enabled	"1"
-		labelText	"#FF_CHANGECLASS"
-		textAlignment	"west"
-		dulltext	"0"
-		brighttext	"1"
-		"font"		"MenuTitle"
-	}
-
-	"scout"
-	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"ScoutButton"
-		"xpos"				"116"
+		"xpos"				"76"
 		"ypos"				"116"
 		"wide"				"68"
 		"tall"				"20"
@@ -201,9 +393,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 	}
 	"SniperButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"SniperButton"
-		"xpos"				"196"
+		"xpos"				"156"
 		"ypos"				"116"
 		"wide"				"68"
 		"tall"				"20"
@@ -222,9 +414,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 
 	"SoldierButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"SoldierButton"
-		"xpos"				"116"
+		"xpos"				"76"
 		"ypos"				"148"
 		"wide"				"68"
 		"tall"				"20"
@@ -240,12 +432,12 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"brighttext"		"0"
 		"command"			"class soldier"
 	}
-	
+
 	"DemomanButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"DemomanButton"
-		"xpos"				"196"
+		"xpos"				"156"
 		"ypos"				"148"
 		"wide"				"68"
 		"tall"				"20"
@@ -263,9 +455,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 	}
 	"MedicButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"MedicButton"
-		"xpos"				"116"
+		"xpos"				"76"
 		"ypos"				"180"
 		"wide"				"68"
 		"tall"				"20"
@@ -283,9 +475,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 	}
 	"HwguyButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"HwguyButton"
-		"xpos"				"196"
+		"xpos"				"156"
 		"ypos"				"180"
 		"wide"				"68"
 		"tall"				"20"
@@ -303,9 +495,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 	}
 	"PyroButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"PyroButton"
-		"xpos"				"116"
+		"xpos"				"76"
 		"ypos"				"212"
 		"wide"				"68"
 		"tall"				"20"
@@ -323,9 +515,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 	}
 	"SpyButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"SpyButton"
-		"xpos"				"196"
+		"xpos"				"156"
 		"ypos"				"212"
 		"wide"				"68"
 		"tall"				"20"
@@ -343,9 +535,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 	}
 	"EngineerButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"EngineerButton"
-		"xpos"				"116"
+		"xpos"				"76"
 		"ypos"				"244"
 		"wide"				"68"
 		"tall"				"20"
@@ -363,9 +555,9 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 	}
 	"CivilianButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"FFClassMenuButton"
 		"fieldName"			"CivilianButton"
-		"xpos"				"196"
+		"xpos"				"156"
 		"ypos"				"244"
 		"wide"				"68"
 		"tall"				"20"
@@ -381,44 +573,44 @@ Second Line: Test word wrap word wrap word wrap word wrap"
 		"brighttext"		"0"
 		"Command"			"class civilian"
 	}
-
 	"RandomButton"
 	{
-		"ControlName"	"Button"
-		"fieldName"		"RandomButton"
-		"xpos"			"116"
-		"ypos"			"276"
-		"wide"			"148"
-		"tall"			"20"
+		"ControlName"		"FFClassMenuButton"
+		"fieldName"			"RandomButton"
+		"xpos"				"76"
+		"ypos"				"276"
+		"wide"				"148"
+		"tall"				"20"
 		"autoResize"		"0"
-		"pinCorner"		"2"
+		"pinCorner"			"2"
 		"visible"			"1"
-		"enabled"		"1"
+		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"		"#FF_MENU_RANDOM"
-		"font"			"ClassMenu"
-		"textAlignment"	"west"
-		"dulltext"		"0"
+		"labelText"			"#FF_MENU_RANDOM"
+		"font"				"ClassMenu"
+		"textAlignment"		"west"
+		"dulltext"			"0"
 		"brighttext"		"0"
-		"Command"		"class random"
+		"Command"			"class random"
 	}
 	"CancelButton"
 	{
-		ControlName		"Button"
-		fieldName		"CancelButton"
-		xpos			"116"
-		ypos			"308"
-		wide			"148"
-		tall				"20"
-		autoResize		"0"
-		pinCorner		"2"
-		visible		"1"
-		enabled		"1"
-		tabPosition	"0"
-		labelText	"#FF_MENU_CANCEL"
-		textAlignment	"west"
-		dulltext		"0"
-		brighttext	"0"
-		Command	"vguicancel"
+		"ControlName"		"FFButton"
+		"fieldName"			"CancelButton"
+		"xpos"				"76"
+		"ypos"				"308"
+		"wide"				"68"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#FF_MENU_CANCEL"
+		"font"				"ClassMenu"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"Command"			"vguicancel"
 	}
 }
